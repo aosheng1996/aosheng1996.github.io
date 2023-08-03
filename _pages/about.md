@@ -18,6 +18,8 @@ ________________________________________________________________________________
 </h3>
 <div class="mini">
   <ul>
+  <li> <strong>[Jul 2023]</strong> One paper about multi-modal unsupervised domain adaptation semantic segmentation is accepted by ACMMM 2023!</li>
+  <li> <strong>[Jul 2023]</strong> Four papers about multi-modal learning, ANN2SNN, and AI ChoreoMaster are accepted by ICCV 2023!</li>
   <li> <strong>[Apr 2023]</strong> One paper about zero-shot learning is accepted by IJCAI 2023!</li>
   <li> <strong>[Mar 2023]</strong> One paper about camouflaged object detection is accepted by CVPR 2023!</li>
   <li> <strong>[Feb 2023]</strong> One paper about long-tailed learning is accepted by ICASSP 2023!</li>
