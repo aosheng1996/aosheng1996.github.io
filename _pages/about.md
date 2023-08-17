@@ -141,8 +141,8 @@ ________________________________________________________________________________
                     <br>
                     <em>Thirty-Seventh AAAI Conference on Artificial Intelligence, 2023(AAAI 2023)</em>
                     <br>
-                    [<a Paper available soon</a>][<a href="https://github.com/Yachao-Zhang/DoubleConsistency">Code</a>]
-                    </td>
+                    [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/25205">Paper</a>][<a href="https://github.com/Yachao-Zhang/DoubleConsistency">Code</a>]
+                    </td>  
                </tr>
                     </tbody>
            </table>
