@@ -119,7 +119,7 @@ ________________________________________________________________________________
                     <td>
                             <b>Learning All-In Collaborative Multiview Binary Representation for Clustering</b>
                     <br>
-                    <strong>Yachao Zhang*</strong>, Yuan Xie*, Zongze Wu, Cuihua Li, Yanyun Qu. 
+                    <strong>Yachao Zhang*</strong>, Yuan Xie, Zongze Wu, Cuihua Li, Yanyun Qu. 
                     <br>
                             (* indicates equal contribution)
                     <br>
@@ -135,7 +135,7 @@ ________________________________________________________________________________
                     <td>
                             <b>Weakly Supervised 3D Segmentation via Receptive-driven Pseudo Label Consistency and Structural Consistency</b>
                     <br>
-                    <strong>Yuxiang Lan, Yachao Zhang*</strong>, Yanyun Qu, Cong Wang, Yuan Xie, Zongze Wu. 
+                    Yuxiang Lan*, <strong>Yachao Zhang*</strong>, Yanyun Qu, Cong Wang, Yuan Xie, Zongze Wu. 
                     <br>
                             (* indicates equal contribution)
                     <br>
