@@ -151,7 +151,7 @@ ________________________________________________________________________________
                     <td>
                             <b>BEV-DG: Cross-Modal Learning under Bird’s-Eye View for Domain Generalization of 3D Semantic Segmentation</b>
                     <br>
-                    Miaoyu Li, <strong>Yachao Zhang \dagger </strong>, Xu Ma, Yanyun Qu, Yun Fu.
+                    Miaoyu Li, <strong>Yachao Zhang</strong> \dagger, Xu Ma, Yanyun Qu, Yun Fu.
                     <br>
                     <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
                     <br>
