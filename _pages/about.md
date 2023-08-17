@@ -103,7 +103,7 @@ ________________________________________________________________________________
                     <td>
                             <b>Cross-Domain and Cross-Modal Knowledge Distillation in Domain Adaptation for 3D Semantic Segmentation</b>
                     <br>
-                    Miaoyu Li1️⃣,<strong>Yachao Zhang1️⃣</strong>,Miaoyu Li, Yuan Xie, Zhizhong Zhang, Cuihua Li, Yanyun Qu. 
+                    Miaoyu Li<strong>1️⃣</strong>,<strong>Yachao Zhang1️⃣</strong>,Miaoyu Li, Yuan Xie, Zhizhong Zhang, Cuihua Li, Yanyun Qu. 
                     <br>
                     <em>ACM International Conference on Multimedia (MM 2022)</em>
                     <br>
@@ -131,7 +131,7 @@ ________________________________________________________________________________
                     <td>
                             <b>Weakly Supervised 3D Segmentation via Receptive-driven Pseudo Label Consistency and Structural Consistency</b>
                     <br>
-                    Yuxiang Lan1️⃣, <strong>Yachao Zhang1️⃣</strong>, Yanyun Qu, Cong Wang, Yuan Xie, Zongze Wu. 
+                    Yuxiang Lan<strong>1️⃣</strong>, <strong>Yachao Zhang1️⃣</strong>, Yanyun Qu, Cong Wang, Yuan Xie, Zongze Wu. 
                     <br>
                     <em>Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI 2023)</em>
                     <br>
@@ -187,7 +187,7 @@ ________________________________________________________________________________
                     <td>
                             <b>Dual Pseudo-Labels Interactive Self-Training for Semi-Supervised Visible-Infrared Person Re-Identification</b>
                     <br>
-                     Jiangming Shi1️⃣, <strong>Yachao Zhang1️⃣</strong>, Xiangbo Yin, Yuan Xie, Zhizhong Zhang, Jianping Fan, zhongchao shi, Yanyun Qu.
+                     Jiangming Shi<strong>1️⃣</strong>, <strong>Yachao Zhang1️⃣</strong>, Xiangbo Yin, Yuan Xie, Zhizhong Zhang, Jianping Fan, zhongchao shi, Yanyun Qu.
                     <br>
                     <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
                     <br>
