@@ -48,7 +48,7 @@ table, th, td {
 _______________________________________________________________________________________________________
 
 <h3>
-  <a name="Publications"></a> Selected Publications (* Equal contribution, &#9993 Corresponding author)
+  <a name="Publications"></a> Selected Publications (1️⃣ Equal contribution, ✉️ Corresponding author)
 </h3>
 
 <font face="helvetica, ariel, &#39;sans serif&#39;">
@@ -103,7 +103,7 @@ ________________________________________________________________________________
                     <td>
                             <b>Cross-Domain and Cross-Modal Knowledge Distillation in Domain Adaptation for 3D Semantic Segmentation</b>
                     <br>
-                    Miaoyu Li*,<strong>Yachao Zhang*</strong>,Miaoyu Li, Yuan Xie, Zhizhong Zhang, Cuihua Li, Yanyun Qu. 
+                    Miaoyu Li1️⃣,<strong>Yachao Zhang1️⃣</strong>,Miaoyu Li, Yuan Xie, Zhizhong Zhang, Cuihua Li, Yanyun Qu. 
                     <br>
                     <em>ACM International Conference on Multimedia (MM 2022)</em>
                     <br>
@@ -117,7 +117,7 @@ ________________________________________________________________________________
                     <td>
                             <b>Learning All-In Collaborative Multiview Binary Representation for Clustering</b>
                     <br>
-                    <strong>Yachao Zhang*</strong>, Yuan Xie, Zongze Wu, Cuihua Li, Yanyun Qu. 
+                    <strong>Yachao Zhang</strong>, Yuan Xie, Zongze Wu, Cuihua Li, Yanyun Qu. 
                     <br>
                     <em>Transactions on Neural Networks and Learning Systems (TNNLS 2022)</em>
                     <br>
@@ -131,7 +131,7 @@ ________________________________________________________________________________
                     <td>
                             <b>Weakly Supervised 3D Segmentation via Receptive-driven Pseudo Label Consistency and Structural Consistency</b>
                     <br>
-                    Yuxiang Lan*, <strong>Yachao Zhang*</strong>, Yanyun Qu, Cong Wang, Yuan Xie, Zongze Wu. 
+                    Yuxiang Lan1️⃣, <strong>Yachao Zhang1️⃣</strong>, Yanyun Qu, Cong Wang, Yuan Xie, Zongze Wu. 
                     <br>
                     <em>Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI 2023)</em>
                     <br>
@@ -145,7 +145,7 @@ ________________________________________________________________________________
                     <td>
                             <b>VS-Boost: Boosting Visual-Semantic Association for Generalized Zero-Shot Learning</b>
                     <br>
-                    Xiaofan Li, <strong>Yachao Zhang</strong> &#9993, Shiran Bian, Yanyun Qu, Yuan Xie, Zhongchao Shi, Jianping Fan.
+                    Xiaofan Li, <strong>Yachao Zhang</strong> ✉️, Shiran Bian, Yanyun Qu, Yuan Xie, Zhongchao Shi, Jianping Fan.
                     <br>
                     <em>International Joint Conference on Artificial Intelligence (IJCAI 2023)</em>
                     <br>
@@ -159,7 +159,7 @@ ________________________________________________________________________________
                     <td>
                             <b>BEV-DG: Cross-Modal Learning under Bird’s-Eye View for Domain Generalization of 3D Semantic Segmentation</b>
                     <br>
-                    Miaoyu Li, <strong>Yachao Zhang</strong> &#9993, Xu Ma, Yanyun Qu, Yun Fu.
+                    Miaoyu Li, <strong>Yachao Zhang</strong> ✉️, Xu Ma, Yanyun Qu, Yun Fu.
                     <br>
                     <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
                     <br>
@@ -173,7 +173,7 @@ ________________________________________________________________________________
                     <td>
                             <b>Efficient Converted Spiking Neural Network for 3D and 2D Classification</b>
                     <br>
-                    Yuxiang Lan, <strong>Yachao Zhang</strong> &#9993, Xu Ma, Yanyun Qu, Yun Fu.
+                    Yuxiang Lan, <strong>Yachao Zhang</strong> ✉️, Xu Ma, Yanyun Qu, Yun Fu.
                     <br>
                     <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
                     <br>
@@ -187,7 +187,7 @@ ________________________________________________________________________________
                     <td>
                             <b>Dual Pseudo-Labels Interactive Self-Training for Semi-Supervised Visible-Infrared Person Re-Identification</b>
                     <br>
-                     Jiangming Shi*, <strong>Yachao Zhang*</strong>, Xiangbo Yin, Yuan Xie, Zhizhong Zhang, Jianping Fan, zhongchao shi, Yanyun Qu.
+                     Jiangming Shi1️⃣, <strong>Yachao Zhang1️⃣</strong>, Xiangbo Yin, Yuan Xie, Zhizhong Zhang, Jianping Fan, zhongchao shi, Yanyun Qu.
                     <br>
                     <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
                     <br>
