@@ -144,6 +144,22 @@ ________________________________________________________________________________
                     [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/25205">Paper</a>][<a href="https://github.com/Yachao-Zhang/DoubleConsistency">Code</a>]
                     </td>  
                </tr>
+
+                <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/BEV-DG.png" border="0">
+                            </td>
+                    <td>
+                            <b>BEV-DG: Cross-Modal Learning under Bird’s-Eye View for Domain Generalization of 3D Semantic Segmentation</b>
+                    <br>
+                    Miaoyu Li, <strong>Yachao Zhang \dagger </strong>, Xu Ma, Yanyun Qu, Yun Fu.
+                    <br>
+                    <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
+                    <br>
+                   [<a href="https://arxiv.org/pdf/2308.06530.pdf">Paper</a>]
+                    </td>
+               </tr>
+             
                     </tbody>
            </table>
 </font>
