@@ -63,7 +63,7 @@ ________________________________________________________________________________
                       <br>
                       <strong>Yachao Zhang</strong>, Yanyun Qu, Zhonghao Li, Shanshan Zheng, Cuihua Li. 
                       <br>
-                      <em>IEEE Conference on International Conference on Computer Vision, (ICCV 2021)</em>
+                      <em>IEEE Conference on International Conference on Computer Vision (ICCV 2021)</em>
                       <br>
                       [<a href="https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Perturbed_Self-Distillation_Weakly_Supervised_Large-Scale_Point_Cloud_Semantic_Segmentation_ICCV_2021_paper.html">Paper</a>][<a href="https://github.com/Yachao-Zhang/PSD">Code</a>]
               </td>
@@ -77,7 +77,7 @@ ________________________________________________________________________________
                     <br>
                     <strong>Yachao Zhang</strong>, Zonghao Li, Yuan Xie, Yanyun Qu, Cuihua Li, Tao Mei. 
                     <br>
-                    <em>Thirty-Fifth AAAI Conference on Artificial Intelligence, 2021(AAAI 2021)</em>
+                    <em>Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI 2021)</em>
                     <br>
                     [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/16455">Paper</a>][<a href="https://github.com/Yachao-Zhang/WS3">Code</a>]
                     </td>
@@ -123,7 +123,7 @@ ________________________________________________________________________________
                     <br>
                             (* indicates equal contribution)
                     <br>
-                    <em>Transactions on Neural Networks and Learning Systems</em>
+                    <em>Transactions on Neural Networks and Learning Systems (TNNLS 2022)</em>
                     <br>
                     [<a href="https://ieeexplore.ieee.org/document/9882008/">Paper</a>][<a href="https://github.com/Yachao-Zhang/All_In_Learning">Code</a>]
                     </td>
@@ -139,10 +139,24 @@ ________________________________________________________________________________
                     <br>
                             (* indicates equal contribution)
                     <br>
-                    <em>Thirty-Seventh AAAI Conference on Artificial Intelligence, 2023(AAAI 2023)</em>
+                    <em>Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI 2023)</em>
                     <br>
                     [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/25205">Paper</a>][<a href="https://github.com/Yachao-Zhang/DoubleConsistency">Code</a>]
                     </td>  
+               </tr>
+                   <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/vsboost.jpg" border="0">
+                            </td>
+                    <td>
+                            <b>VS-Boost: Boosting Visual-Semantic Association for Generalized Zero-Shot Learning</b>
+                    <br>
+                    Xiaofan Li, <strong>Yachao Zhang</strong> &#9993, Shiran Bian, Yanyun Qu, Yuan Xie, Zhongchao Shi, Jianping Fan.
+                    <br>
+                    <em>International Joint Conference on Artificial Intelligence (IJCAI 2023)</em>
+                    <br>
+                   [<a href="https://www.ijcai.org/proceedings/2023/0123.pdf">Paper</a>]
+                    </td>
                </tr>
                     <tr>
                     <td width="40%">
@@ -151,11 +165,41 @@ ________________________________________________________________________________
                     <td>
                             <b>BEV-DG: Cross-Modal Learning under Bird’s-Eye View for Domain Generalization of 3D Semantic Segmentation</b>
                     <br>
-                    Miaoyu Li, <strong>Yachao Zhang</strong> \dagger, Xu Ma, Yanyun Qu, Yun Fu.
+                    Miaoyu Li, <strong>Yachao Zhang</strong> &#9993, Xu Ma, Yanyun Qu, Yun Fu.
                     <br>
                     <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
                     <br>
                    [<a href="https://arxiv.org/pdf/2308.06530.pdf">Paper</a>]
+                    </td>
+               </tr>
+                     <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/ann2snn.jpg" border="0">
+                            </td>
+                    <td>
+                            <b>Efficient Converted Spiking Neural Network for 3D and 2D Classification</b>
+                    <br>
+                    Yuxiang Lan, <strong>Yachao Zhang</strong> &#9993, Xu Ma, Yanyun Qu, Yun Fu.
+                    <br>
+                    <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
+                    <br>
+                   [Paper</a>][<a href="https://github.com/Yachao-Zhang">Code</a>]
+                    </td>
+               </tr>
+               <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/dist.jpg" border="0">
+                            </td>
+                    <td>
+                            <b>Dual Pseudo-Labels Interactive Self-Training for Semi-Supervised Visible-Infrared Person Re-Identification</b>
+                    <br>
+                     Jiangming Shi*, <strong>Yachao Zhang</strong> *, Xiangbo Yin, Yuan Xie, Zhizhong Zhang, Jianping Fan, zhongchao shi, Yanyun Qu.
+                      <br>
+                            (* indicates equal contribution)
+                    <br>
+                    <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
+                    <br>
+                   [Paper</a>][<a href="https://github.com/Yachao-Zhang">Code</a>]
                     </td>
                </tr>
                     </tbody>
