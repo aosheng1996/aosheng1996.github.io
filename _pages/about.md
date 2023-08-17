@@ -48,7 +48,7 @@ table, th, td {
 _______________________________________________________________________________________________________
 
 <h3>
-  <a name="Publications"></a> Selected Publications
+  <a name="Publications"></a> Selected Publications (* Equal contribution, &#9993 Corresponding author)
 </h3>
 
 <font face="helvetica, ariel, &#39;sans serif&#39;">
@@ -105,8 +105,6 @@ ________________________________________________________________________________
                     <br>
                     Miaoyu Li*,<strong>Yachao Zhang*</strong>,Miaoyu Li, Yuan Xie, Zhizhong Zhang, Cuihua Li, Yanyun Qu. 
                     <br>
-                            (* indicates equal contribution)
-                    <br>
                     <em>ACM International Conference on Multimedia (MM 2022)</em>
                     <br>
                    [<a href="https://dl.acm.org/doi/10.1145/3503161.3547990">Paper</a>][<a href="https://github.com/Yachao-Zhang/Dual-Cross">Code</a>]
@@ -121,8 +119,6 @@ ________________________________________________________________________________
                     <br>
                     <strong>Yachao Zhang*</strong>, Yuan Xie, Zongze Wu, Cuihua Li, Yanyun Qu. 
                     <br>
-                            (* indicates equal contribution)
-                    <br>
                     <em>Transactions on Neural Networks and Learning Systems (TNNLS 2022)</em>
                     <br>
                     [<a href="https://ieeexplore.ieee.org/document/9882008/">Paper</a>][<a href="https://github.com/Yachao-Zhang/All_In_Learning">Code</a>]
@@ -136,8 +132,6 @@ ________________________________________________________________________________
                             <b>Weakly Supervised 3D Segmentation via Receptive-driven Pseudo Label Consistency and Structural Consistency</b>
                     <br>
                     Yuxiang Lan*, <strong>Yachao Zhang*</strong>, Yanyun Qu, Cong Wang, Yuan Xie, Zongze Wu. 
-                    <br>
-                            (* indicates equal contribution)
                     <br>
                     <em>Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI 2023)</em>
                     <br>
@@ -193,9 +187,7 @@ ________________________________________________________________________________
                     <td>
                             <b>Dual Pseudo-Labels Interactive Self-Training for Semi-Supervised Visible-Infrared Person Re-Identification</b>
                     <br>
-                     Jiangming Shi*, <strong>Yachao Zhang</strong> *, Xiangbo Yin, Yuan Xie, Zhizhong Zhang, Jianping Fan, zhongchao shi, Yanyun Qu.
-                      <br>
-                            (* indicates equal contribution)
+                     Jiangming Shi*, <strong>Yachao Zhang*</strong>, Xiangbo Yin, Yuan Xie, Zhizhong Zhang, Jianping Fan, zhongchao shi, Yanyun Qu.
                     <br>
                     <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
                     <br>
