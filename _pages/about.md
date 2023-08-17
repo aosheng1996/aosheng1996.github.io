@@ -144,8 +144,7 @@ ________________________________________________________________________________
                     [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/25205">Paper</a>][<a href="https://github.com/Yachao-Zhang/DoubleConsistency">Code</a>]
                     </td>  
                </tr>
-
-                <tr>
+                    <tr>
                     <td width="40%">
                         <img width="320" src="../images/BEV-DG.png" border="0">
                             </td>
@@ -159,7 +158,6 @@ ________________________________________________________________________________
                    [<a href="https://arxiv.org/pdf/2308.06530.pdf">Paper</a>]
                     </td>
                </tr>
-             
                     </tbody>
            </table>
 </font>
