@@ -48,7 +48,7 @@ table, th, td {
 _______________________________________________________________________________________________________
 
 <h3>
-  <a name="Publications"></a> Selected Publications (1️⃣ Equal contribution, ✉️ Corresponding author)
+  <a name="Publications"></a> Selected Publications (1️⃣ Equal contribution, 📧 Corresponding author)
 </h3>
 
 <font face="helvetica, ariel, &#39;sans serif&#39;">
@@ -145,7 +145,7 @@ ________________________________________________________________________________
                     <td>
                             <b>VS-Boost: Boosting Visual-Semantic Association for Generalized Zero-Shot Learning</b>
                     <br>
-                    Xiaofan Li, <strong>Yachao Zhang</strong> ✉️, Shiran Bian, Yanyun Qu, Yuan Xie, Zhongchao Shi, Jianping Fan.
+                    Xiaofan Li, <strong>Yachao Zhang</strong> 📧, Shiran Bian, Yanyun Qu, Yuan Xie, Zhongchao Shi, Jianping Fan.
                     <br>
                     <em>International Joint Conference on Artificial Intelligence (IJCAI 2023)</em>
                     <br>
@@ -159,7 +159,7 @@ ________________________________________________________________________________
                     <td>
                             <b>BEV-DG: Cross-Modal Learning under Bird’s-Eye View for Domain Generalization of 3D Semantic Segmentation</b>
                     <br>
-                    Miaoyu Li, <strong>Yachao Zhang</strong> ✉️, Xu Ma, Yanyun Qu, Yun Fu.
+                    Miaoyu Li, <strong>Yachao Zhang</strong> 📧, Xu Ma, Yanyun Qu, Yun Fu.
                     <br>
                     <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
                     <br>
@@ -173,7 +173,7 @@ ________________________________________________________________________________
                     <td>
                             <b>Efficient Converted Spiking Neural Network for 3D and 2D Classification</b>
                     <br>
-                    Yuxiang Lan, <strong>Yachao Zhang</strong> ✉️, Xu Ma, Yanyun Qu, Yun Fu.
+                    Yuxiang Lan, <strong>Yachao Zhang</strong> 📧, Xu Ma, Yanyun Qu, Yun Fu.
                     <br>
                     <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
                     <br>
