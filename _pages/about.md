@@ -8,13 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoctoral researcher at Intelligent Computing Lab, SIGS of Tsinghua University, working with Prof. Xiu Li(李秀教授). Previously, I did my Ph.D. from September 2018 to June 2022 at the School of Informatics, in Xiamen University, China, supervised by Professor Cuihua Li(李翠华教授) and co-supervised by Professor Yanyun Qu (曲延云教授). I received the M.S. degree in Control Theory and Control Engineering from Lanzhou University of Technology, China, in 2018, supervised by Professor Ce Li(李策教授).
+🌈I am a postdoctoral researcher at Intelligent Computing Lab, SIGS of Tsinghua University, working with Prof. Xiu Li(李秀教授). Previously, I did my Ph.D. from September 2018 to June 2022 at the School of Informatics, in Xiamen University, China, supervised by Professor Cuihua Li(李翠华教授) and co-supervised by Professor Yanyun Qu (曲延云教授). I received the M.S. degree in Control Theory and Control Engineering from Lanzhou University of Technology, China, in 2018, supervised by Professor Ce Li(李策教授).
 
-My research interests include, but are not limited to: **Computer Vision** (3D computer vision, point cloud semantic segmentation), **Machine Learning** (weakly-supervised learning, unsupervised learning, transfer learning). Recently, I also focus on digital human avatar, including 3D human pose reconstruction, multimodality-driven 3D human motion generation. If you are interested in my research or have any use cases that you want to share, feel free to contact me!
+🏳️‍🌈My research interests include, but are not limited to: **Computer Vision** (3D computer vision, point cloud semantic segmentation), **Machine Learning** (weakly-supervised learning, unsupervised learning, transfer learning). Recently, I also focus on digital human avatar, including 3D human pose reconstruction, multimodality-driven 3D human motion generation. If you are interested in my research or have any use cases that you want to share, feel free to contact me!
 
 _______________________________________________________________________________________________________
 <h3>
-  <a name="news"></a> News
+  <a name="news"></a> News✍
 </h3>
 <div class="mini">
   <ul>
@@ -48,7 +48,7 @@ table, th, td {
 _______________________________________________________________________________________________________
 
 <h3>
-  <a name="Publications"></a> Selected Publications (1️⃣ Equal contribution, 📧 Corresponding author)
+  <a name="Publications"></a> 📚Selected Publications (1️⃣ Equal contribution, 📧 Corresponding author)
 </h3>
 
 <font face="helvetica, ariel, &#39;sans serif&#39;">
@@ -204,7 +204,7 @@ ________________________________________________________________________________
 _______________________________________________________________________________________________________
 
 <h3>
-  <a name="services"></a> Academic Services
+  <a name="services"></a> 📠Academic Services
 </h3>
 <div class="mini">
   <ul>
@@ -216,7 +216,7 @@ ________________________________________________________________________________
 _______________________________________________________________________________________________________
 
 <h3>
-  <a name="services"></a> Hobby
+  <a name="services"></a> 🧐Hobby
 </h3>
 <div class="mini">
  <td width="30%">
