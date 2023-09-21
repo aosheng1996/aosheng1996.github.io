@@ -20,7 +20,7 @@ ________________________________________________________________________________
   <ul>
   <li> <strong>[Aug 2023]</strong> My application of the National Natural Science Foundation of China is approved!</li>
   <li> <strong>[Jul 2023]</strong> One paper about multi-modal unsupervised domain adaptation semantic segmentation is accepted by ACMMM 2023!</li>
-  <li> <strong>[Jul 2023]</strong> Four papers about multi-modal learning, ANN2SNN, and AI ChoreoMaster are accepted by ICCV 2023!</li>
+  <li> <strong>[Jul 2023]</strong> Four papers about multi-modal learning, ANN2SNN, and  <a href="https://li-ronghui.github.io/finedance.html">AI ChoreoMaster</a> are accepted by ICCV 2023!</li>
   <li> <strong>[Jun 2023]</strong> My application of the China Postdoctoral Science Foundation is approved!</li>
   <li> <strong>[Apr 2023]</strong> One paper about zero-shot learning is accepted by IJCAI 2023!</li>
   <li> <strong>[Mar 2023]</strong> One paper about camouflaged object detection is accepted by CVPR 2023!</li>
