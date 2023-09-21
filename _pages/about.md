@@ -18,6 +18,7 @@ ________________________________________________________________________________
 </h3>
 <div class="mini">
   <ul>
+  <li> <strong>[Aug 2023]</strong> My application of the National Natural Science Foundation of China is approved!</li>
   <li> <strong>[Jul 2023]</strong> One paper about multi-modal unsupervised domain adaptation semantic segmentation is accepted by ACMMM 2023!</li>
   <li> <strong>[Jul 2023]</strong> Four papers about multi-modal learning, ANN2SNN, and AI ChoreoMaster are accepted by ICCV 2023!</li>
   <li> <strong>[Jun 2023]</strong> My application of the China Postdoctoral Science Foundation is approved!</li>
