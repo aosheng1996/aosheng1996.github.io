@@ -7,10 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
+🎏 I am looking for a teaching and research position at the university. I am a highly motivated, well-achievement individual with experience in teaching, research mentoring, and project implementation.
 
-🌈I am a postdoctoral researcher at Intelligent Computing Lab, SIGS of Tsinghua University, working with Prof. Xiu Li(李秀教授). Previously, I did my Ph.D. from September 2018 to June 2022 at the School of Informatics, in Xiamen University, China, supervised by Professor Cuihua Li(李翠华教授) and co-supervised by Professor Yanyun Qu (曲延云教授). I received the M.S. degree in Control Theory and Control Engineering from Lanzhou University of Technology, China, in 2018, supervised by Professor Ce Li(李策教授).
+🌈 I am a postdoctoral researcher at the Intelligent Computing Lab, SIGS of Tsinghua University, working with Prof. Xiu Li (李秀教授). Previously, I did my Ph.D. from September 2018 to June 2022 at the School of Informatics, at Xiamen University, China, supervised by Professor Cuihua Li (李翠华教授) and co-supervised by Professor Yanyun Qu (曲延云教授). I received the M.S. degree in Control Theory and Control Engineering from Lanzhou University of Technology, China, in 2018, supervised by Professor Ce Li (李策教授).
 
-🏳️‍🌈My research interests include, but are not limited to: **Computer Vision** (3D computer vision, point cloud semantic segmentation), **Machine Learning** (weakly-supervised learning, unsupervised learning, transfer learning). Recently, I also focus on digital human avatar, including 3D human pose reconstruction, multimodality-driven 3D human motion generation. If you are interested in my research or have any use cases that you want to share, feel free to contact me!
+🏳️‍🌈 My research interests include, but are not limited to: **Computer Vision** (3D computer vision, point cloud semantic segmentation), **Machine Learning** (weakly-supervised learning, unsupervised learning, transfer learning). Recently, I also focus on digital human avatar, including 3D human pose reconstruction, multimodality-driven 3D human motion generation. If you are interested in my research or have any use cases that you want to share, feel free to contact me!
 
 _______________________________________________________________________________________________________
 <h3>
@@ -18,6 +19,7 @@ ________________________________________________________________________________
 </h3>
 <div class="mini">
   <ul>
+  <li> <strong>[Sep 2023]</strong> One paper about weakly supervised learning is accepted by NeruIPS 2023!</li>
   <li> <strong>[Aug 2023]</strong> My application of the National Natural Science Foundation of China is approved!</li>
   <li> <strong>[Jul 2023]</strong> One paper about multi-modal unsupervised domain adaptation semantic segmentation is accepted by ACMMM 2023!</li>
   <li> <strong>[Jul 2023]</strong> Four papers about multi-modal learning, ANN2SNN, and  <a href="https://li-ronghui.github.io/finedance.html">AI ChoreoMaster</a> are accepted by ICCV 2023!</li>
@@ -217,7 +219,7 @@ ________________________________________________________________________________
 _______________________________________________________________________________________________________
 
 <h3>
-  <a name="services"></a> 🧐Hobby
+  <a name="services"></a> ✨Hobby
 </h3>
 <div class="mini">
  <td width="30%">
