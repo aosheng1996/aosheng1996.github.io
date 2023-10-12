@@ -19,6 +19,7 @@ ________________________________________________________________________________
 </h3>
 <div class="mini">
   <ul>
+  <li> <strong>[Oct 2023]</strong> Our paper about Semi-Supervised Defect Segmentation is accepted by TNNLS!</li>
   <li> <strong>[Sep 2023]</strong> One paper about weakly supervised learning is accepted by NeruIPS 2023!</li>
   <li> <strong>[Aug 2023]</strong> My application of the National Natural Science Foundation of China is approved!</li>
   <li> <strong>[Jul 2023]</strong> One paper about multi-modal unsupervised domain adaptation semantic segmentation is accepted by ACMMM 2023!</li>
