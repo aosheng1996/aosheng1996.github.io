@@ -20,7 +20,7 @@ ________________________________________________________________________________
 <div class="mini">
   <ul>
   <li> <strong>[Oct 2023]</strong> Our paper about Semi-Supervised Defect Segmentation is accepted by TNNLS!</li>
-  <li> <strong>[Sep 2023]</strong> One paper about weakly supervised learning is accepted by NeruIPS 2023!</li>
+  <li> <strong>[Sep 2023]</strong> One paper about weakly supervised learning is accepted by NeurIPS 2023!</li>
   <li> <strong>[Aug 2023]</strong> My application of the National Natural Science Foundation of China is approved!</li>
   <li> <strong>[Jul 2023]</strong> One paper about multi-modal unsupervised domain adaptation semantic segmentation is accepted by ACMMM 2023!</li>
   <li> <strong>[Jul 2023]</strong> Four papers about multi-modal learning, ANN2SNN, and  <a href="https://li-ronghui.github.io/finedance.html">AI ChoreoMaster</a> are accepted by ICCV 2023!</li>
@@ -95,7 +95,7 @@ ________________________________________________________________________________
                     <br>
                     <strong>Yachao Zhang</strong>,Miaoyu Li, Yuan Xie, Zhizhong Zhang, Cuihua Li, Yanyun Qu.
                     <br>
-                    <em>ACM International Conference on Multimedia (MM 2022)</em>
+                    <em>ACM International Conference on Multimedia (ACMMM 2022)</em>
                     <br>
                     [<a href="https://doi.org/10.1145/3503161.3547987">Paper</a>][<a href="https://github.com/Yachao-Zhang/SSE-xMUDA">Code</a>]
                     </td>
@@ -109,7 +109,7 @@ ________________________________________________________________________________
                     <br>
                     Miaoyu Li<strong>1️⃣</strong>,<strong>Yachao Zhang1️⃣</strong>,Miaoyu Li, Yuan Xie, Zhizhong Zhang, Cuihua Li, Yanyun Qu. 
                     <br>
-                    <em>ACM International Conference on Multimedia (MM 2022)</em>
+                    <em>ACM International Conference on Multimedia (ACMMM 2022)</em>
                     <br>
                    [<a href="https://dl.acm.org/doi/10.1145/3503161.3547990">Paper</a>][<a href="https://github.com/Yachao-Zhang/Dual-Cross">Code</a>]
                     </td>
@@ -167,7 +167,7 @@ ________________________________________________________________________________
                     <br>
                     <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
                     <br>
-                   [<a href="https://arxiv.org/pdf/2308.06530.pdf">Paper</a>][<a href="https://github.com/Yachao-Zhang">Code coming soon!</a>]
+                   [<a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Li_BEV-DG_Cross-Modal_Learning_under_Birds-Eye_View_for_Domain_Generalization_of_ICCV_2023_paper.pdf">Paper</a>][<a href="https://github.com/Yachao-Zhang">Code coming soon!</a>]
                     </td>
                </tr>
                      <tr>
@@ -181,7 +181,7 @@ ________________________________________________________________________________
                     <br>
                     <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
                     <br>
-                   [Paper</a>][<a href="https://github.com/Yachao-Zhang">Code coming soon!</a>]
+                    [<a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Lan_Efficient_Converted_Spiking_Neural_Network_for_3D_and_2D_Classification_ICCV_2023_paper.pdf">Paper</a>][<a href="https://github.com/Yachao-Zhang">Code coming soon!</a>]
                     </td>
                </tr>
                <tr>
@@ -195,7 +195,7 @@ ________________________________________________________________________________
                     <br>
                     <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
                     <br>
-                   [Paper</a>][<a href="https://github.com/Yachao-Zhang">Code coming soon!</a>]
+                   [<a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Shi_Dual_Pseudo-Labels_Interactive_Self-Training_for_Semi-Supervised_Visible-Infrared_Person_Re-Identification_ICCV_2023_paper.pdf">Paper</a>][<a href="https://github.com/Yachao-Zhang">Code coming soon!</a>]
                     </td>
                </tr>
                     </tbody>
