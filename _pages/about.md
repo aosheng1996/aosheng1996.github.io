@@ -212,7 +212,7 @@ ________________________________________________________________________________
 </h3>
 <div class="mini">
   <ul>
-  <li> <strong>Conference Reviewer</strong>: CVPR, ICML, NeruIPS, AAAI, ICCV, ACMMM </li>
+  <li> <strong>Conference Reviewer</strong>: CVPR, ICML, NeurIPS, AAAI, ICCV, ACMMM </li>
   <li> <strong>Journal Reviewer</strong>: IEEE Transactions on Neural Networks and Learning Systems, IEEE Transactions on Intelligent Transportation Systems, IEEE Transactions on Artificial Intelligence, IEEE Transactions on Image Processing</li>
   </ul>
 </div>
