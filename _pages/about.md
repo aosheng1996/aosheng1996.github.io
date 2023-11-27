@@ -195,7 +195,7 @@ ________________________________________________________________________________
                     <br>
                     <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
                     <br>
-                   [<a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Shi_Dual_Pseudo-Labels_Interactive_Self-Training_for_Semi-Supervised_Visible-Infrared_Person_Re-Identification_ICCV_2023_paper.pdf">Paper</a>][<a href="https://github.com/Yachao-Zhang">Code coming soon!</a>]
+                   [<a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Shi_Dual_Pseudo-Labels_Interactive_Self-Training_for_Semi-Supervised_Visible-Infrared_Person_Re-Identification_ICCV_2023_paper.pdf">Paper</a>][<a href="https://github.com/XiangboYin/DPIS_USVLReID">Code</a>]
                     </td>
                </tr>
                     </tbody>
