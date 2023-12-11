@@ -19,6 +19,7 @@ ________________________________________________________________________________
 </h3>
 <div class="mini">
   <ul>
+  <li> <strong>[Dec 2023]</strong> Two papers about multi-modal understanding and multi-modal gestures generation accepted by AAAI 2024!</li>
   <li> <strong>[Oct 2023]</strong> Our paper about Semi-Supervised Defect Segmentation is accepted by TNNLS!</li>
   <li> <strong>[Sep 2023]</strong> One paper about weakly supervised learning is accepted by NeurIPS 2023!</li>
   <li> <strong>[Aug 2023]</strong> My application of the National Natural Science Foundation of China is approved!</li>
@@ -196,6 +197,34 @@ ________________________________________________________________________________
                     <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
                     <br>
                    [<a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Shi_Dual_Pseudo-Labels_Interactive_Self-Training_for_Semi-Supervised_Visible-Infrared_Person_Re-Identification_ICCV_2023_paper.pdf">Paper</a>][<a href="https://github.com/XiangboYin/DPIS_USVLReID">Code</a>]
+                    </td>
+               </tr>
+                <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/xmatch.jpg" border="0">
+                            </td>
+                    <td>
+                            <b>Cross-Modal Match for Language Conditioned 3D Object Grounding</b>
+                    <br>
+                    <strong>Yachao Zhang</strong>1️⃣, Runze Hu, Ronghui Li, Yanyun Qu, Yuan Xie, Xiu Li📧.
+                    <br>
+                    <em>Association for the Advance of Artificial Intelligence (AAAI 2024)</em>
+                    <br>
+                    [<a Paper</a>][<a href="https://github.com/Yachao-Zhang">Code coming soon!</a>]
+                    </td>
+               </tr>
+               <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/gesture.jpg" border="0">
+                            </td>
+                    <td>
+                            <b>Chain of Generation: Multi-Modal Gesture Synthesis via Cascaded Conditional Control</b>
+                    <br>
+                     Zunnan Xu，<strong>Yachao Zhang</strong>📧，Sicheng Yang，Ronghui Li，Xiu Li📧.
+                    <br>
+                    <em>Association for the Advance of Artificial Intelligence (AAAI 2024)</em>
+                    <br>
+                   [<a Paper</a>][<a href="https://github.com/Yachao-Zhang">Code coming soon!</a>]
                     </td>
                </tr>
                     </tbody>
