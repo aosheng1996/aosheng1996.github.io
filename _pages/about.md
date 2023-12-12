@@ -19,6 +19,7 @@ ________________________________________________________________________________
 </h3>
 <div class="mini">
   <ul>
+  <li> <strong>[Dec 2023]</strong> Three papers about digital human avatar and cross-modal zero-shot learning accepted by ICASSP 2024!</li>
   <li> <strong>[Dec 2023]</strong> Two papers about multi-modal understanding and multi-modal gestures generation accepted by AAAI 2024!</li>
   <li> <strong>[Oct 2023]</strong> Our paper about Semi-Supervised Defect Segmentation is accepted by TNNLS!</li>
   <li> <strong>[Sep 2023]</strong> One paper about weakly supervised learning is accepted by NeurIPS 2023!</li>
