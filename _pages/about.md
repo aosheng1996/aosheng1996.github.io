@@ -207,7 +207,7 @@ ________________________________________________________________________________
                     <td>
                             <b>Cross-Modal Match for Language Conditioned 3D Object Grounding</b>
                     <br>
-                    <strong>Yachao Zhang</strong>1️⃣, Runze Hu, Ronghui Li, Yanyun Qu, Yuan Xie, Xiu Li📧.
+                    <strong>Yachao Zhang</strong>, Runze Hu, Ronghui Li, Yanyun Qu, Yuan Xie, Xiu Li📧.
                     <br>
                     <em>Association for the Advance of Artificial Intelligence (AAAI 2024)</em>
                     <br>
