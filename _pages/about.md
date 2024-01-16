@@ -225,7 +225,7 @@ ________________________________________________________________________________
                     <br>
                     <em>Association for the Advance of Artificial Intelligence (AAAI 2024)</em>
                     <br>
-                   [<a \Paper</a>][<a href="https://github.com/Yachao-Zhang">Code coming soon!</a>]
+                   [<a href="https://arxiv.org/abs/2312.15900">Paper</a>][<a href="https://github.com/Yachao-Zhang">Code coming soon!</a>]
                     </td>
                </tr>
                     </tbody>
