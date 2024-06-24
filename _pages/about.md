@@ -18,7 +18,7 @@ ________________________________________________________________________________
 </h3>
 <div class="mini">
   <ul>
-  <li> <strong>[June 2024]</strong> One paper about Object Detection is accepted by TNNLS!</li>
+  <li> <strong>[Jun 2024]</strong> One paper about Object Detection is accepted by TNNLS!</li>
   <li> <strong>[Feb 2024]</strong> One paper about AI ChoreoMaster is accepted by CVPR 2024!</li>
   <li> <strong>[Jan 2024]</strong> One papers about about camouflaged object detection is accepted by ICLR 2024!</li>
   <li> <strong>[Dec 2023]</strong> Three papers about digital human avatar and cross-modal zero-shot learning are accepted by ICASSP 2024!</li>
