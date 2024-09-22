@@ -271,4 +271,7 @@ ________________________________________________________________________________
 </td>
 </div>
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=tt&d=98_BFEoYzSdAzuQlix1byDK2Noo--bfKmAca799xwpE'></script>
+ 
+_______________________________________________________________________________________________________
+
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=ve6F6SS11iG4uIguoTWVRUjvilkuBNsM2hxvFs-6aos&cl=ffffff&w=a"></script>
