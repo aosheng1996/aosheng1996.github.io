@@ -86,6 +86,20 @@ ________________________________________________________________________________
 <font face="helvetica, ariel, &#39;sans serif&#39;">
         <table cellspacing="0" cellpadding="0" class="noBorder">
            <tbody>
+               <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/mabbatalk.jpg" border="0">
+                            </td>
+                    <td>
+                            <b>MambaTalk: Efficient Holistic Gesture Synthesis with Selective State Space Models</b>
+                    <br>
+                     Zunnan Xu, Yukang Lin，Haonan Han, Sicheng Yang, Ronghui Li, <strong>Yachao Zhang</strong>📧，Xiu Li📧. 
+                    <br>
+                    <em>Annual Conference on Neural Information Processing Systems (NeurIPS 2024)</em>
+                    <br>
+                   [<a href="https://arxiv.org/pdf/2403.09471">Paper</a>]
+                    </td>
+               </tr>
             <tr>
                     <td width="40%">
                         <img width="320" src="../images/4.png" border="0">
