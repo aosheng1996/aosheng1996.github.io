@@ -83,7 +83,6 @@ ________________________________________________________________________________
 <h3>
   <a name="Publications"></a> 📚Selected Publications (1️⃣ Equal contribution, 📧 Corresponding author)
 </h3>
-
 <font face="helvetica, ariel, &#39;sans serif&#39;">
         <table cellspacing="0" cellpadding="0" class="noBorder">
            <tbody>
@@ -255,20 +254,10 @@ ________________________________________________________________________________
                     [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/16455">Paper</a>][<a href="https://github.com/Yachao-Zhang/WS3">Code</a>]
                     </td>
              </tr>
-      
-                   
-                   
-                    
-  
-              
-                
-
            </tbody>
            </table>
 </font>
-
 [Please visit [my google scholar profile](https://scholar.google.com/citations?user=a-I8c8EAAAAJ&hl=en) for the full publication list.]
-
 _______________________________________________________________________________________________________
 
 <h3>
