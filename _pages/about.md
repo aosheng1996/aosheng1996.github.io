@@ -21,7 +21,7 @@ ________________________________________________________________________________
 <title>News滚动展示</title>
 <style>
   .scroll-container {
-    max-height: 300px; /* 设置最大高度 */
+    max-height: 600px; /* 设置最大高度 */
     overflow-y: auto; /* 添加垂直滚动条 */
     border: 1px solid #ccc; /* 可选：添加边框 */
     padding: 10px; /* 可选：添加内边距 */
