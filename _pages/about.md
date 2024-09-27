@@ -18,6 +18,7 @@ ________________________________________________________________________________
 </h3>
 <div class="mini">
   <ul>
+  <li> <strong>[Sep 2024]</strong> Three papers about multi-modal learning are accepted by NeurIPS 2024!</li>
   <li> <strong>[Aug 2024]</strong> Three papers about multi-modal learning are accepted by ACMMM 2024!</li>
   <li> <strong>[Jul 2024]</strong> One paper about multi-modal label efficient learning is accepted by ECCV 2024!</li>
   <li> <strong>[Jun 2024]</strong> One paper about Object Detection is accepted by TNNLS!</li>
