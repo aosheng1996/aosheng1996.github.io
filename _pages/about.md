@@ -87,8 +87,34 @@ ________________________________________________________________________________
 <div class="scroll-container">
   <div class="mini">
     <ul>
-      <!-- 新闻列表内容 -->
-      <!-- ...（省略了具体的新闻列表项，这里应该包含上述Markdown中的内容）... -->
+  <li> <strong>[Sep 2024]</strong> Three papers about multi-modal learning are accepted by NeurIPS 2024!</li>
+  <li> <strong>[Aug 2024]</strong> Three papers about multi-modal learning are accepted by ACMMM 2024!</li>
+  <li> <strong>[Jul 2024]</strong> One paper about multi-modal label efficient learning is accepted by ECCV 2024!</li>
+  <li> <strong>[Jun 2024]</strong> One paper about Object Detection is accepted by TNNLS!</li>
+  <li> <strong>[Feb 2024]</strong> One paper about AI ChoreoMaster is accepted by CVPR 2024!</li>
+  <li> <strong>[Jan 2024]</strong> One papers about about camouflaged object detection is accepted by ICLR 2024!</li>
+  <li> <strong>[Dec 2023]</strong> Three papers about digital human avatar and cross-modal zero-shot learning are accepted by ICASSP 2024!</li>
+  <li> <strong>[Dec 2023]</strong> Two papers about multi-modal understanding and multi-modal gestures generation are accepted by AAAI 2024!</li>
+  <li> <strong>[Oct 2023]</strong> Our paper about Semi-Supervised Defect Segmentation is accepted by TNNLS!</li>
+  <li> <strong>[Sep 2023]</strong> One paper about weakly supervised learning is accepted by NeurIPS 2023!</li>
+  <li> <strong>[Aug 2023]</strong> My application of the National Natural Science Foundation of China is approved!</li>
+  <li> <strong>[Jul 2023]</strong> One paper about multi-modal unsupervised domain adaptation semantic segmentation is accepted by ACMMM 2023!</li>
+  <li> <strong>[Jul 2023]</strong> Four papers about multi-modal learning, ANN2SNN, and  <a href="https://li-ronghui.github.io/finedance.html">AI ChoreoMaster</a> are accepted by ICCV 2023!</li>
+  <li> <strong>[Jun 2023]</strong> My application of the China Postdoctoral Science Foundation is approved!</li>
+  <li> <strong>[Apr 2023]</strong> One paper about zero-shot learning is accepted by IJCAI 2023!</li>
+  <li> <strong>[Mar 2023]</strong> One paper about camouflaged object detection is accepted by CVPR 2023!</li>
+  <li> <strong>[Feb 2023]</strong> One paper about long-tailed learning is accepted by ICASSP 2023!</li>
+  <li> <strong>[Nov 2022]</strong> One paper about weakly-supervised point cloud semantic segmentation is accepted by AAAI 2023!</li>
+  <li> <strong>[Aug 2022]</strong> One paper about binary multi-view cluster is accepted by TNNLS!</li>
+  <li> <strong>[Jul 2022]</strong> Two papers about multi-modal unsupervised domain adaptation semantic segmentation are accepted by ACMMM 2022!</li>
+  <li> <strong>[Jun 2022]</strong> I am the winner of the title of "Outstanding Graduate" of Xiamen University!</li>
+  <li> <strong>[Jun 2022]</strong> I successfully defended my PhD thesis!</li>
+  <li> <strong>[Mar 2022]</strong> I am the winner of Xiamen University Liu Yubin Youth Science and Technology Scholarship!</li>
+  <li> <strong>[Nov 2021]</strong> I am the winner of the title of "Outstanding Student" of Xiamen University!</li>
+  <li> <strong>[Dec 2021]</strong> I am the winner of the first prize of the 2021 Excellent Paper Award of Fujian Computer Society!</li>
+  <li> <strong>[Jul 2021]</strong> One paper about weakly-supervised point cloud  semantic segmentation is accepted by ICCV 2021!</li>
+  <li> <strong>[Mar 2021]</strong> One paper about PolSAR Image Classification is accepted by Remote Sensing!</li>
+  <li> <strong>[Dec 2020]</strong> One paper about weakly-supervised large scale point cloud semantic segmentation is accepted by AAAI 2021!</li>
     </ul>
   </div>
 </div>
