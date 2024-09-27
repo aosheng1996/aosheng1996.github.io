@@ -84,20 +84,28 @@ ________________________________________________________________________________
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>News滚动展示</title>
+<title>Selected Publications</title>
 <style>
   .scroll-container {
-    max-height: 800px; /* 设置最大高度 */
+    max-height: 400px; /* 设置最大高度 */
     overflow-y: auto; /* 添加垂直滚动条 */
     border: 1px solid #ccc; /* 可选：添加边框 */
     padding: 10px; /* 可选：添加内边距 */
   }
-  .mini ul {
-    list-style-type: none;
-    padding: 0;
+  table.noBorder {
+    width: 100%;
+    border-collapse: collapse;
   }
-  .mini li {
-    margin-bottom: 5px; /* 添加列表项之间的间距 */
+  table.noBorder td {
+    border: none;
+    padding: 5px;
+  }
+  img {
+    width: 320px;
+    border: 0;
+  }
+  a {
+    text-decoration: none;
   }
 </style>
 </head>
