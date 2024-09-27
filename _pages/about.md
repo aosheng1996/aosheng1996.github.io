@@ -57,6 +57,46 @@ table, th, td {
 </style>
 
 _______________________________________________________________________________________________________
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News滚动展示</title>
+<style>
+  .scroll-container {
+    max-height: 300px; /* 设置最大高度 */
+    overflow-y: auto; /* 添加垂直滚动条 */
+    border: 1px solid #ccc; /* 可选：添加边框 */
+    padding: 10px; /* 可选：添加内边距 */
+  }
+  .mini ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .mini li {
+    margin-bottom: 5px; /* 添加列表项之间的间距 */
+  }
+</style>
+</head>
+<body>
+
+<h3>
+  <a name="news"></a> ✍News
+</h3>
+<div class="scroll-container">
+  <div class="mini">
+    <ul>
+      <!-- 新闻列表内容 -->
+      <!-- ...（省略了具体的新闻列表项，这里应该包含上述Markdown中的内容）... -->
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
+
+
 
 <h3>
   <a name="Publications"></a> 📚Selected Publications (1️⃣ Equal contribution, 📧 Corresponding author)
