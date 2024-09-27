@@ -86,6 +86,20 @@ ________________________________________________________________________________
 <font face="helvetica, ariel, &#39;sans serif&#39;">
         <table cellspacing="0" cellpadding="0" class="noBorder">
            <tbody>
+            <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/4.png" border="0">
+                            </td>
+                    <td>
+                            <b>Consistent123: One image to highly consistent 3d asset using case-aware diffusion priors</b>
+                    <br>
+                     Yukang Lin，Haonan Han, Chaoqun Gong, Zunnan Xu, <strong>Yachao Zhang</strong>📧，Xiu Li📧.
+                    <br>
+                    <em>ACM International Conference on Multimedia (ACMMM 2024)</em>
+                    <br>
+                   [<a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=a-I8c8EAAAAJ&citation_for_view=a-I8c8EAAAAJ:0EnyYjriUFMC">Paper</a>][<a href="https://consistent123.github.io/">Project</a>]
+                    </td>
+               </tr>
            <tr>
                     <td width="40%">
                         <img width="320" src="../images/gesture.jpg" border="0">
