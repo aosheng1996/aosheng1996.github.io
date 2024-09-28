@@ -21,7 +21,7 @@ ________________________________________________________________________________
 <title>News滚动展示</title>
 <style>
   .scroll-container {
-    max-height: 600px; /* 设置最大高度 */
+    max-height: 500px; /* 设置最大高度 */
     overflow-y: auto; /* 添加垂直滚动条 */
     border: 1px solid #ccc; /* 可选：添加边框 */
     padding: 10px; /* 可选：添加内边距 */
@@ -102,7 +102,7 @@ ________________________________________________________________________________
                </tr>
             <tr>
                     <td width="40%">
-                        <img width="320" src="../images/4.png" border="0">
+                        <img width="220" src="../images/4.png" border="0">
                             </td>
                     <td>
                             <b>Consistent123: One image to highly consistent 3d asset using case-aware diffusion priors</b>
