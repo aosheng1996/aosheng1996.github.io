@@ -86,6 +86,20 @@ ________________________________________________________________________________
 <font face="helvetica, ariel, &#39;sans serif&#39;">
         <table cellspacing="0" cellpadding="0" class="noBorder">
            <tbody>
+      <tr>
+      <td width="40%">
+          <img width="220" src="../images/nips24.png" border="0">
+              </td>
+      <td>
+              <b>UniDSeg: Unified Cross-Domain 3D Semantic Segmentation via Visual Foundation Models Prior</b>
+      <br>
+       Yao Wu, Mingwei Xing,  <strong>Yachao Zhang</strong>📧, Xiaotong Luo, Yuan Xie, Yanyun Qu📧
+      <br>
+      <em>Annual Conference on Neural Information Processing Systems (NeurIPS 2024)</em>
+      <br>
+     [<a href="https://neurips.cc/virtual/2024/poster/94354">Paper</a>][<a href="https://anonymous.4open.science/r/UniDSeg-4BC1/">Code</a>]
+      </td>
+ </tr>
                <tr>
                     <td width="40%">
                         <img width="320" src="../images/mabbatalk.jpg" border="0">
