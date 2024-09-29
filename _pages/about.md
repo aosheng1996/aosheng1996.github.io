@@ -88,7 +88,7 @@ ________________________________________________________________________________
            <tbody>
       <tr>
       <td width="40%">
-          <img width="220" src="../images/nips24.png" border="0">
+          <img width="320" src="../images/nips24.png" border="0">
               </td>
       <td>
               <b>UniDSeg: Unified Cross-Domain 3D Semantic Segmentation via Visual Foundation Models Prior</b>
