@@ -13,13 +13,13 @@ redirect_from:
 
 🤡**I am actively recruiting self-motivated master students.** 🤝
 
-<li> I plan to admit 3 master students in 2025. I am not concerned about the level of your undergraduate institution; I require a down-to-earth attitude, the drive to improve, a strong sense of self-motivation, and compliance with the laboratory’s unified management. <\li> 
+<li> I plan to admit 3 master students in 2025. I am not concerned about the level of your undergraduate institution; I require a down-to-earth attitude, the drive to improve, a strong sense of self-motivation, and compliance with the laboratory’s unified management.
 
-For master students who aspire to work in the industry, I will focus on cultivating their practical skills. 
+<li> For master students who aspire to work in the industry, I will focus on cultivating their practical skills. 
 
-For master students who wish to further their academic studies, I will train them to the standard of PhD students, equipping them with the ability to conduct independent research.  
+<li> For master students who wish to further their academic studies, I will train them to the standard of PhD students, equipping them with the ability to conduct independent research.  
 
-Additionally, I am also recruiting several high-year undergraduate interns. The recruitment is aimed at students majoring in computer science, automation, mathematics, and related fields.
+<li> I am also recruiting several high-year undergraduate interns. The recruitment is aimed at students majoring in computer science, automation, mathematics, and related fields.
 _______________________________________________________________________________________________________
 
 <html lang="en">
