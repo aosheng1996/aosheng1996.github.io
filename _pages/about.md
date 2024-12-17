@@ -13,7 +13,7 @@ redirect_from:
 
 🤡**I am actively recruiting self-motivated master students.** 🤝
 
-I plan to admit 3 master students in 2025. I am not concerned about the level of your undergraduate institution; I require a down-to-earth attitude, the drive to improve, a strong sense of self-motivation, and compliance with the laboratory’s unified management. 
+<li> I plan to admit 3 master students in 2025. I am not concerned about the level of your undergraduate institution; I require a down-to-earth attitude, the drive to improve, a strong sense of self-motivation, and compliance with the laboratory’s unified management. <\li> 
 
 For master students who aspire to work in the industry, I will focus on cultivating their practical skills. 
 
