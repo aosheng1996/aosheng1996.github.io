@@ -7,10 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
+🌈 I am an Assistant Professor at School of Informatics, Xiamen University in Xiamen, Fujian, China.  Previously, I worked as a postdoctoral researcher at the Intelligent Computing Lab, SIGS of Tsinghua University, working with Prof. Xiu Li. 
 
-🌈 I am a postdoctoral researcher at the Intelligent Computing Lab, SIGS of Tsinghua University, working with Prof. Xiu Li (李秀教授). Previously, I did my Ph.D. from September 2018 to June 2022 at the School of Informatics, at Xiamen University, China, supervised by Professor Cuihua Li (李翠华教授) and co-supervised by Professor Yanyun Qu (曲延云教授). I received the M.S. degree in Control Theory and Control Engineering from Lanzhou University of Technology, China, in 2018, supervised by Professor Ce Li (李策教授).
+/* I did my Ph.D. from September 2018 to June 2022 at the School of Informatics, at Xiamen University, China, supervised by Professor Cuihua Li and co-supervised by Professor Yanyun Qu. I received the M.S. degree in Control Theory and Control Engineering from Lanzhou University of Technology, China, in 2018, supervised by Professor Ce Li (李策教授).*/
 
-🏳️‍🌈 My research interests include, but are not limited to: **Computer Vision** (3D computer vision, point cloud semantic segmentation), **Machine Learning** (weakly-supervised learning, unsupervised learning, transfer learning). Recently, I also focus on digital human avatar, including 3D human pose reconstruction, multimodality-driven 3D human motion generation. If you are interested in my research or have any use cases that you want to share, feel free to contact me!
+🏳️‍🌈 My research interests include, but are not limited to: **3D Computer Vision** (3D computer vision, 3D digital human avatar), **Machine Learning** (weakly-supervised learning, unsupervised learning, transfer learning). If you are interested in my research or have any use cases that you want to share, feel free to contact me!
 
 _______________________________________________________________________________________________________
 
@@ -36,13 +37,13 @@ ________________________________________________________________________________
 </style>
 </head>
 <body>
-
 <h3>
   <a name="news"></a> ✍News
 </h3>
 <div class="scroll-container">
   <div class="mini">
     <ul>
+  <li> <strong>[Dec 2024]</strong> One paper about multi-modal learning are accepted by AAAI 2025!</li>
   <li> <strong>[Sep 2024]</strong> Three papers about multi-modal learning are accepted by NeurIPS 2024!</li>
   <li> <strong>[Aug 2024]</strong> Three papers about multi-modal learning are accepted by ACMMM 2024!</li>
   <li> <strong>[Jul 2024]</strong> One paper about multi-modal label efficient learning is accepted by ECCV 2024!</li>
