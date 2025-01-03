@@ -50,6 +50,7 @@ ________________________________________________________________________________
 <div class="scroll-container">
   <div class="mini">
     <ul>
+  <li> <strong>[Jan 2025]</strong> One paper about weakly-supervised point cloud  semantic segmentation is accepted by TNNLS!</li>
   <li> <strong>[Dec 2024]</strong> One paper about multi-modal learning are accepted by AAAI 2025!</li>
   <li> <strong>[Sep 2024]</strong> Three papers about multi-modal learning are accepted by NeurIPS 2024!</li>
   <li> <strong>[Aug 2024]</strong> Three papers about multi-modal learning are accepted by ACMMM 2024!</li>
@@ -94,20 +95,35 @@ ________________________________________________________________________________
 <font face="helvetica, ariel, &#39;sans serif&#39;">
         <table cellspacing="0" cellpadding="0" class="noBorder">
            <tbody>
-      <tr>
-      <td width="40%">
-          <img width="320" src="../images/nips24.png" border="0">
-              </td>
-      <td>
-              <b>UniDSeg: Unified Cross-Domain 3D Semantic Segmentation via Visual Foundation Models Prior</b>
-      <br>
-       Yao Wu, Mingwei Xing,  <strong>Yachao Zhang</strong>📧, Xiaotong Luo, Yuan Xie, Yanyun Qu📧
-      <br>
-      <em>Annual Conference on Neural Information Processing Systems (NeurIPS 2024)</em>
-      <br>
-     [<a href="https://neurips.cc/virtual/2024/poster/94354">Paper</a>][<a href="https://anonymous.4open.science/r/UniDSeg-4BC1/">Code</a>]
-      </td>
- </tr>
+               <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/C3.png" border="0">
+                            </td>
+                    <td>
+                            <b>Cross-Cloud Consistency for Weakly Supervised Point Cloud Semantic Segmentation</b>
+                    <br>
+                    <strong>Yachao Zhang</strong>, Yuxiang Lan; Yuan Xie; Cuihua Li; Yanyun Qu📧. 
+                    <br>
+                    <em>IEEE Transactions on Neural Networks and Learning Systems (TNNLS, 2025)</em>
+                    <br>
+                   [<a href="">Paper</a>][<a href="https://github.com/Yachao-Zhang/Cross-Cloud-Consistency">Code</a>]
+                    </td>
+               </tr>
+             
+                    <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/nips24.png" border="0">
+                            </td>
+                    <td>
+                            <b>UniDSeg: Unified Cross-Domain 3D Semantic Segmentation via Visual Foundation Models Prior</b>
+                    <br>
+                     Yao Wu, Mingwei Xing,  <strong>Yachao Zhang</strong>📧, Xiaotong Luo, Yuan Xie, Yanyun Qu📧
+                    <br>
+                    <em>Annual Conference on Neural Information Processing Systems (NeurIPS 2024)</em>
+                    <br>
+                   [<a href="https://neurips.cc/virtual/2024/poster/94354">Paper</a>][<a href="https://anonymous.4open.science/r/UniDSeg-4BC1/">Code</a>]
+                    </td>
+               </tr>
                <tr>
                     <td width="40%">
                         <img width="320" src="../images/mabbatalk.jpg" border="0">
@@ -257,7 +273,7 @@ ________________________________________________________________________________
                     <br>
                     <strong>Yachao Zhang</strong>, Yuan Xie, Zongze Wu, Cuihua Li, Yanyun Qu. 
                     <br>
-                    <em>Transactions on Neural Networks and Learning Systems (TNNLS 2022)</em>
+                    <em>IEEE Transactions on Neural Networks and Learning Systems (TNNLS 2022)</em>
                     <br>
                     [<a href="https://ieeexplore.ieee.org/document/9882008/">Paper</a>][<a href="https://github.com/Yachao-Zhang/All_In_Learning">Code</a>]
                     </td>
