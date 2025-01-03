@@ -102,7 +102,7 @@ ________________________________________________________________________________
                     <td>
                             <b>Cross-Cloud Consistency for Weakly Supervised Point Cloud Semantic Segmentation</b>
                     <br>
-                    <strong>Yachao Zhang</strong>, Yuxiang Lan; Yuan Xie; Cuihua Li; Yanyun Qu📧. 
+                    <strong>Yachao Zhang</strong>, Yuxiang Lan, Yuan Xie, Cuihua Li, Yanyun Qu📧. 
                     <br>
                     <em>IEEE Transactions on Neural Networks and Learning Systems (TNNLS, 2025)</em>
                     <br>
