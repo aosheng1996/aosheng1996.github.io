@@ -97,7 +97,7 @@ ________________________________________________________________________________
            <tbody>
                <tr>
                     <td width="40%">
-                        <img width="320" src="../talkmap/C3.png" border="0">
+                        <img width="320" src="../images/C3.png" border="0">
                             </td>
                     <td>
                             <b>Cross-Cloud Consistency for Weakly Supervised Point Cloud Semantic Segmentation</b>
