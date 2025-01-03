@@ -50,7 +50,7 @@ ________________________________________________________________________________
 <div class="scroll-container">
   <div class="mini">
     <ul>
-  <li> <strong>[Jan 2025]</strong> One paper about weakly-supervised point cloud  semantic segmentation is accepted by TNNLS!</li>
+  <li> <strong>[Jan 2025]</strong> One paper about weakly-supervised point cloud semantic segmentation is accepted by TNNLS!</li>
   <li> <strong>[Dec 2024]</strong> One paper about multi-modal learning are accepted by AAAI 2025!</li>
   <li> <strong>[Sep 2024]</strong> Three papers about multi-modal learning are accepted by NeurIPS 2024!</li>
   <li> <strong>[Aug 2024]</strong> Three papers about multi-modal learning are accepted by ACMMM 2024!</li>
@@ -97,7 +97,7 @@ ________________________________________________________________________________
            <tbody>
                <tr>
                     <td width="40%">
-                        <img width="320" src="../images/C3.png" border="0">
+                        <img width="320" src="../talkmap/C3.png" border="0">
                             </td>
                     <td>
                             <b>Cross-Cloud Consistency for Weakly Supervised Point Cloud Semantic Segmentation</b>
