@@ -106,7 +106,7 @@ ________________________________________________________________________________
                     <br>
                     <em>IEEE Transactions on Neural Networks and Learning Systems (TNNLS, 2025)</em>
                     <br>
-                   [<a href="">Paper</a>][<a href="https://github.com/Yachao-Zhang/Cross-Cloud-Consistency">Code</a>]
+                   [<a href="https://ieeexplore.ieee.org/abstract/document/10843141">Paper</a>][<a href="https://github.com/Yachao-Zhang/Cross-Cloud-Consistency">Code</a>]
                     </td>
                </tr>
              
