@@ -111,7 +111,6 @@ ________________________________________________________________________________
                    [<a href="https://arxiv.org/abs/2411.18654">Paper</a>][<a href="https://atom-motion.github.io/">Project Page</a>]
                     </td>
                </tr>
-             
                <tr>
                     <td width="40%">
                         <img width="320" src="../images/C3.png" border="0">
@@ -126,7 +125,6 @@ ________________________________________________________________________________
                    [<a href="https://ieeexplore.ieee.org/abstract/document/10843141">Paper</a>][<a href="https://github.com/Yachao-Zhang/Cross-Cloud-Consistency">Code</a>]
                     </td>
                </tr>
-             
                     <tr>
                     <td width="40%">
                         <img width="320" src="../images/nips24.png" border="0">
