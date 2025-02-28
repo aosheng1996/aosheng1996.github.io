@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-🌈 I am an Assistant Professor at School of Informatics, Xiamen University in Xiamen, Fujian, China.  Previously, I worked as a postdoctoral researcher at the Intelligent Computing Lab, SIGS of Tsinghua University, working with Prof. Xiu Li. 
+🌈 I am an Assistant Professor at School of Informatics, Xiamen University in Xiamen, Fujian, China.  Previously, I worked as a postdoctoral researcher at the Intelligent Computing Lab, SIGS of Tsinghua University. 
 
 🏳️‍🌈 My research interests include, but are not limited to: **3D Computer Vision** (3D computer vision, 3D digital human avatar), **Machine Learning** (weakly-supervised learning, unsupervised learning, transfer learning). If you are interested in my research or have any use cases that you want to share, feel free to contact me!
 
