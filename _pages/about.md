@@ -50,6 +50,8 @@ ________________________________________________________________________________
 <div class="scroll-container">
   <div class="mini">
     <ul>
+  <li> <strong>[Feb 2025]</strong> One paper about Text-to-Motion Generation with GPT-4Vision Reward is accepted by CVPR 2025!</li>
+  <li> <strong>[Feb 2025]</strong> One paper about cross-modal 3D semantic segmentation is accepted by TCSVT!</li>
   <li> <strong>[Jan 2025]</strong> One paper about weakly-supervised point cloud semantic segmentation is accepted by TNNLS!</li>
   <li> <strong>[Dec 2024]</strong> One paper about multi-modal learning are accepted by AAAI 2025!</li>
   <li> <strong>[Sep 2024]</strong> Three papers about multi-modal learning are accepted by NeurIPS 2024!</li>
@@ -95,6 +97,21 @@ ________________________________________________________________________________
 <font face="helvetica, ariel, &#39;sans serif&#39;">
         <table cellspacing="0" cellpadding="0" class="noBorder">
            <tbody>
+               <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/t2m.png" border="0">
+                            </td>
+                    <td>
+                            <b>AToM: Aligning Text-to-Motion Model at Event-Level with GPT-4Vision Reward</b>
+                    <br>
+                    Haonan Han, Xiangzuo Wu, Huan Liao, Zunnan Xu, Zhongyuan Hu, Ronghui Li, <strong>Yachao Zhang</strong>📧, Xiu Li📧. 
+                    <br>
+                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, 2025)</em>
+                    <br>
+                   [<a href="https://arxiv.org/abs/2411.18654">Paper</a>][<a href="https://atom-motion.github.io/">Project Page</a>]
+                    </td>
+               </tr>
+             
                <tr>
                     <td width="40%">
                         <img width="320" src="../images/C3.png" border="0">
