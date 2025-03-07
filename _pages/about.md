@@ -68,246 +68,23 @@ ________________________________________________________________________________
            <tbody>
                <tr>
                     <td width="40%">
-                        <img width="320" src="../images/t2m.png" border="0">
+                        <img width="320" src="../images/Regor.png" border="0">
                             </td>
                     <td>
                             <b>Progressive Correspondence Regenerator for Robust 3D Registration</b>
                     <br>
-                    Guiyu Zhao, <strong>Sheng Ao1️⃣<strong>, Ye Zhang, Kai Xu, Yulan Guo📧. 
+                    Guiyu Zhao1️⃣, <strong>Sheng Ao1️⃣<strong>, Ye Zhang, Kai Xu, Yulan Guo📧. 
                     <br>
                     <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, 2025)</em>
                     <br>
                    [<a href="https://arxiv.org/abs/2411.18654">Paper</a>][<a href="https://atom-motion.github.io/">Project Page</a>]
                     </td>
                </tr>
-               <tr>
-                    <td width="40%">
-                        <img width="320" src="../images/Regor.jpg" border="0">
-                            </td>
-                    <td>
-                            <b>Cross-Cloud Consistency for Weakly Supervised Point Cloud Semantic Segmentation</b>
-                    <br>
-                    <strong>Yachao Zhang</strong>, Yuxiang Lan, Yuan Xie, Cuihua Li, Yanyun Qu📧. 
-                    <br>
-                    <em>IEEE Transactions on Neural Networks and Learning Systems (TNNLS, 2025)</em>
-                    <br>
-                   [<a href="https://ieeexplore.ieee.org/abstract/document/10843141">Paper</a>][<a href="https://github.com/Yachao-Zhang/Cross-Cloud-Consistency">Code</a>]
-                    </td>
-               </tr>
-                    <tr>
-                    <td width="40%">
-                        <img width="320" src="../images/nips24.png" border="0">
-                            </td>
-                    <td>
-                            <b>UniDSeg: Unified Cross-Domain 3D Semantic Segmentation via Visual Foundation Models Prior</b>
-                    <br>
-                     Yao Wu, Mingwei Xing,  <strong>Yachao Zhang</strong>📧, Xiaotong Luo, Yuan Xie, Yanyun Qu📧
-                    <br>
-                    <em>Annual Conference on Neural Information Processing Systems (NeurIPS 2024)</em>
-                    <br>
-                   [<a href="https://neurips.cc/virtual/2024/poster/94354">Paper</a>][<a href="https://anonymous.4open.science/r/UniDSeg-4BC1/">Code</a>]
-                    </td>
-               </tr>
-               <tr>
-                    <td width="40%">
-                        <img width="320" src="../images/mabbatalk.jpg" border="0">
-                            </td>
-                    <td>
-                            <b>MambaTalk: Efficient Holistic Gesture Synthesis with Selective State Space Models</b>
-                    <br>
-                     Zunnan Xu, Yukang Lin，Haonan Han, Sicheng Yang, Ronghui Li, <strong>Yachao Zhang</strong>📧，Xiu Li📧. 
-                    <br>
-                    <em>Annual Conference on Neural Information Processing Systems (NeurIPS 2024)</em>
-                    <br>
-                   [<a href="https://arxiv.org/pdf/2403.09471">Paper</a>][<a href="https://github.com/kkakkkka/MambaTalk">Code</a>][<a href="https://kkakkkka.github.io/MambaTalk/">Project</a>]
-                    </td>
-               </tr>
-            <tr>
-                    <td width="40%">
-                        <img width="220" src="../images/4.png" border="0">
-                            </td>
-                    <td>
-                            <b>Consistent123: One image to highly consistent 3d asset using case-aware diffusion priors</b>
-                    <br>
-                     Yukang Lin，Haonan Han, Chaoqun Gong, Zunnan Xu, <strong>Yachao Zhang</strong>📧，Xiu Li📧.
-                    <br>
-                    <em>ACM International Conference on Multimedia (ACMMM 2024)</em>
-                    <br>
-                   [<a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=a-I8c8EAAAAJ&citation_for_view=a-I8c8EAAAAJ:0EnyYjriUFMC">Paper</a>][<a href="https://consistent123.github.io/">Project</a>]
-                    </td>
-               </tr>
-           <tr>
-                    <td width="40%">
-                        <img width="320" src="../images/gesture.jpg" border="0">
-                            </td>
-                    <td>
-                            <b>Chain of Generation: Multi-Modal Gesture Synthesis via Cascaded Conditional Control</b>
-                    <br>
-                     Zunnan Xu，<strong>Yachao Zhang</strong>📧，Sicheng Yang，Ronghui Li，Xiu Li📧.
-                    <br>
-                    <em>Association for the Advance of Artificial Intelligence (AAAI 2024)</em>
-                    <br>
-                   [<a href="https://arxiv.org/abs/2312.15900">Paper</a>][<a href="https://github.com/Yachao-Zhang">Code coming soon!</a>]
-                    </td>
-               </tr>
-             <tr>
-                    <td width="40%">
-                        <img width="320" src="../images/xmatch.jpg" border="0">
-                            </td>
-                    <td>
-                            <b>Cross-Modal Match for Language Conditioned 3D Object Grounding</b>
-                    <br>
-                    <strong>Yachao Zhang</strong>, Runze Hu, Ronghui Li, Yanyun Qu, Yuan Xie, Xiu Li📧.
-                    <br>
-                    <em>Association for the Advance of Artificial Intelligence (AAAI 2024)</em>
-                    <br>
-                    [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/28566">Paper</a>][<a href="https://github.com/Yachao-Zhang">Code coming soon!</a>]
-                    </td>
-               </tr>
-         <tr>
-                    <td width="40%">
-                        <img width="320" src="../images/dist.jpg" border="0">
-                            </td>
-                    <td>
-                            <b>Dual Pseudo-Labels Interactive Self-Training for Semi-Supervised Visible-Infrared Person Re-Identification</b>
-                    <br>
-                     Jiangming Shi<strong>1️⃣</strong>, <strong>Yachao Zhang1️⃣</strong>, Xiangbo Yin, Yuan Xie, Zhizhong Zhang, Jianping Fan, zhongchao shi, Yanyun Qu.
-                    <br>
-                    <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
-                    <br>
-                   [<a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Shi_Dual_Pseudo-Labels_Interactive_Self-Training_for_Semi-Supervised_Visible-Infrared_Person_Re-Identification_ICCV_2023_paper.pdf">Paper</a>][<a href="https://github.com/XiangboYin/DPIS_USVLReID">Code</a>]
-                    </td>
-               </tr>
-             <tr>
-                    <td width="40%">
-                        <img width="320" src="../images/ann2snn.jpg" border="0">
-                            </td>
-                    <td>
-                            <b>Efficient Converted Spiking Neural Network for 3D and 2D Classification</b>
-                    <br>
-                    Yuxiang Lan, <strong>Yachao Zhang</strong> 📧, Xu Ma, Yanyun Qu, Yun Fu.
-                    <br>
-                    <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
-                    <br>
-                    [<a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Lan_Efficient_Converted_Spiking_Neural_Network_for_3D_and_2D_Classification_ICCV_2023_paper.pdf">Paper</a>]
-                    </td>
-               </tr>
-              <tr>
-                    <td width="40%">
-                        <img width="320" src="../images/BEV-DG.png" border="0">
-                            </td>
-                    <td>
-                      <b>BEV-DG: Cross-Modal Learning under Bird’s-Eye View for Domain Generalization of 3D Semantic Segmentation</b>
-                    <br>
-                    Miaoyu Li, <strong>Yachao Zhang</strong> 📧, Xu Ma, Yanyun Qu, Yun Fu.
-                    <br>
-                    <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
-                    <br>
-                   [<a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Li_BEV-DG_Cross-Modal_Learning_under_Birds-Eye_View_for_Domain_Generalization_of_ICCV_2023_paper.pdf">Paper</a>]
-                    </td>
-               </tr>
-          <tr>
-                    <td width="40%">
-                        <img width="320" src="../images/DoubleConsistency.png" border="0">
-                            </td>
-                    <td>
-                            <b>Weakly Supervised 3D Segmentation via Receptive-driven Pseudo Label Consistency and Structural Consistency</b>
-                    <br>
-                    Yuxiang Lan<strong>1️⃣</strong>, <strong>Yachao Zhang1️⃣</strong>, Yanyun Qu, Cong Wang, Yuan Xie, Zongze Wu. 
-                    <br>
-                    <em>Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI 2023)</em>
-                    <br>
-                    [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/25205">Paper</a>][<a href="https://github.com/Yachao-Zhang/DoubleConsistency">Code</a>]
-                    </td>  
-               </tr>
-                   <tr>
-                    <td width="40%">
-                        <img width="320" src="../images/vsboost.jpg" border="0">
-                            </td>
-                    <td>
-                            <b>VS-Boost: Boosting Visual-Semantic Association for Generalized Zero-Shot Learning</b>
-                    <br>
-                    Xiaofan Li, <strong>Yachao Zhang</strong> 📧, Shiran Bian, Yanyun Qu, Yuan Xie, Zhongchao Shi, Jianping Fan.
-                    <br>
-                    <em>International Joint Conference on Artificial Intelligence (IJCAI 2023)</em>
-                    <br>
-                   [<a href="https://www.ijcai.org/proceedings/2023/0123.pdf">Paper</a>]
-                    </td>
-               </tr>
-               <tr>
-                    <td width="40%">
-                        <img width="320" src="../images/dual-cross.jpg" border="0">
-                            </td>
-                    <td>
-                            <b>Cross-Domain and Cross-Modal Knowledge Distillation in Domain Adaptation for 3D Semantic Segmentation</b>
-                    <br>
-                    Miaoyu Li<strong>1️⃣</strong>,<strong>Yachao Zhang1️⃣</strong>,Miaoyu Li, Yuan Xie, Zhizhong Zhang, Cuihua Li, Yanyun Qu. 
-                    <br>
-                    <em>ACM International Conference on Multimedia (ACMMM 2022)</em>
-                    <br>
-                   [<a href="https://dl.acm.org/doi/10.1145/3503161.3547990">Paper</a>][<a href="https://github.com/Yachao-Zhang/Dual-Cross">Code</a>]
-                    </td>
-               </tr>
-                    <tr>
-                    <td width="40%">
-                        <img width="320" src="../images/all-in.png" border="0">
-                            </td>
-                    <td>
-                            <b>Learning All-In Collaborative Multiview Binary Representation for Clustering</b>
-                    <br>
-                    <strong>Yachao Zhang</strong>, Yuan Xie, Zongze Wu, Cuihua Li, Yanyun Qu. 
-                    <br>
-                    <em>IEEE Transactions on Neural Networks and Learning Systems (TNNLS 2022)</em>
-                    <br>
-                    [<a href="https://ieeexplore.ieee.org/document/9882008/">Paper</a>][<a href="https://github.com/Yachao-Zhang/All_In_Learning">Code</a>]
-                    </td>
-               </tr>  
-                    <tr>
-                    <td width="40%">
-                        <img width="320" src="../images/SSE-xMUDA.jpg" border="0">
-                            </td>
-                    <td>
-                    <b>SSE-xMUDA: Self-supervised Exclusive Learning for 3D Segmentation in Cross-Modal Unsupervised Domain Adaptation </b>
-                    <br>
-                    <strong>Yachao Zhang</strong>,Miaoyu Li, Yuan Xie, Zhizhong Zhang, Cuihua Li, Yanyun Qu.
-                    <br>
-                    <em>ACM International Conference on Multimedia (ACMMM 2022)</em>
-                    <br>
-                    [<a href="https://doi.org/10.1145/3503161.3547987">Paper</a>][<a href="https://github.com/Yachao-Zhang/SSE-xMUDA">Code</a>]
-                    </td>
-                </tr>  
-            <tr>
-                    <td class="noBorder" width="40%">
-                        <img width="320" src="../images/PSD.jpg" border="0">
-                            </td>
-                    <td>
-                      <b>Perturbed Self-Distillation: Weakly Supervised Large-Scale Point Cloud Semantic Segmentation </b>
-                      <br>
-                      <strong>Yachao Zhang</strong>, Yanyun Qu, Zhonghao Li, Shanshan Zheng, Cuihua Li. 
-                      <br>
-                      <em>IEEE Conference on International Conference on Computer Vision (ICCV 2021)</em>
-                      <br>
-                      [<a href="https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Perturbed_Self-Distillation_Weakly_Supervised_Large-Scale_Point_Cloud_Semantic_Segmentation_ICCV_2021_paper.html">Paper</a>][<a href="https://github.com/Yachao-Zhang/PSD">Code</a>]
-              </td>
-           </tr>
-           <tr>
-                    <td class="noBorder" width="40%">
-                        <img width="320" src="../images/WS3.jpg" border="0">
-                            </td>
-                    <td>
-                    <b>Weakly supervised semantic segmentation for large-scale point cloud </b>
-                    <br>
-                    <strong>Yachao Zhang</strong>, Zonghao Li, Yuan Xie, Yanyun Qu, Cuihua Li, Tao Mei. 
-                    <br>
-                    <em>Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI 2021)</em>
-                    <br>
-                    [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/16455">Paper</a>][<a href="https://github.com/Yachao-Zhang/WS3">Code</a>]
-                    </td>
-             </tr>
+
            </tbody>
            </table>
 </font>
-[Please visit [my google scholar profile](https://scholar.google.com/citations?user=a-I8c8EAAAAJ&hl=en) for the full publication list.]
+[Please visit [my google scholar profile](https://scholar.google.com.hk/citations?user=cvS1yuMAAAAJ&hl=zh-CN&oi=sra) for the full publication list.]
 _______________________________________________________________________________________________________
 
 <h3>
@@ -315,8 +92,8 @@ ________________________________________________________________________________
 </h3>
 <div class="mini">
   <ul>
-  <li> <strong>Conference Reviewer</strong>: CVPR, ICML, NeurIPS, AAAI, ICCV, ACMMM, ICLR </li>
-  <li> <strong>Journal Reviewer</strong>: IEEE Transactions on Neural Networks and Learning Systems, IEEE Transactions on Intelligent Transportation Systems, IEEE Transactions on Artificial Intelligence, IEEE Transactions on Image Processing</li>
+  <li> <strong>Conference Reviewer</strong>: CVPR, ICCV, ECCV, ICLR </li>
+  <li> <strong>Journal Reviewer</strong>: IEEE TPAMI, IJCV, IEEE TIP, IEEE TVCG, IEEE TGRS</li>
   </ul>
 </div>
  
