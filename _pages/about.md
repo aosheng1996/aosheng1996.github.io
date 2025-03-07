@@ -338,7 +338,8 @@ ________________________________________________________________________________
            </tbody>
            </table>
 </font>
-[Please visit [my google scholar profile](https://scholar.google.com/citations?user=a-I8c8EAAAAJ&hl=en) for the full publication list.]
+
+Please visit [my google scholar profile](https://scholar.google.com/citations?user=a-I8c8EAAAAJ&hl=en) for the full publication list.
 _______________________________________________________________________________________________________
 
 <h3>
