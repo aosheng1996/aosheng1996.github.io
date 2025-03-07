@@ -13,7 +13,7 @@ redirect_from:
   
 <li> My research interests focus on 3D deep learning, particularly on 3D feature learning, registration and localization.
 
-🤡**I am actively recruiting self-motivated master students.** 🤝
+👨‍🎓**I am actively recruiting self-motivated master students.** 
 
 <li> I plan to admit 2 master students in 2026. I am not concerned about the level of your undergraduate institution; I require a down-to-earth attitude, the drive to improve, a strong sense of self-motivation, and compliance with the laboratory’s unified management.
 
@@ -48,7 +48,7 @@ ________________________________________________________________________________
 </head>
 <body>
 <h3>
-  <a name="news"></a> ✍News
+  <a name="news"></a> 🎉News
 </h3>
 <div class="scroll-container">
   <div class="mini">
@@ -65,7 +65,7 @@ ________________________________________________________________________________
 _______________________________________________________________________________________________________
 
 <h3>
-  <a name="Publications"></a> 📚Selected Publications (1️⃣ Equal contribution, ✉️ Corresponding author)
+  <a name="Publications"></a> 📃Selected Publications (1️⃣ Equal contribution, ✉️ Corresponding author)
 </h3>
 <font face="helvetica, ariel, &#39;sans serif&#39;">
         <table cellspacing="0" cellpadding="0" class="noBorder">
@@ -91,7 +91,7 @@ ________________________________________________________________________________
 _______________________________________________________________________________________________________
 
 <h3>
-  <a name="services"></a> 📠Academic Services
+  <a name="services"></a> Academic Services
 </h3>
 <div class="mini">
   <ul>
@@ -106,7 +106,7 @@ ________________________________________________________________________________
   <a name="services"></a> ✨Hobby
 </h3>
 <div class="mini">
-  ⚽
+  ⚽🏸
 </div>
 
 _______________________________________________________________________________________________________
