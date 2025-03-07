@@ -9,41 +9,338 @@ redirect_from:
 
 I am an Assistant Professor working with Prof. [Cheng Wang](https://scholar.google.com.hk/citations?user=kAnv3SkAAAAJ&hl=zh-CN&oi=ao) at School of Informatics, Xiamen University in Xiamen, Fujian, China. I received the Ph.D. degree from Sun Yat-Sen University (SYSU) in 2024, supervised by Prof. [Yulan Guo](https://scholar.google.com.hk/citations?user=WQRNvdsAAAAJ&hl=zh-CN&oi=ao). My research interests focus on 3D deep learning, particularly on 3D feature learning, registration and localization.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+🤡**I am actively recruiting self-motivated master students.** 🤝
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+<li> I plan to admit 2 master students in 2026. I am not concerned about the level of your undergraduate institution; I require a down-to-earth attitude, the drive to improve, a strong sense of self-motivation, and compliance with the laboratory’s unified management.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+<li> For master students who aspire to work in the industry, I will focus on cultivating their practical skills. 
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<li> For master students who wish to further their academic studies, I will train them to the standard of PhD students, equipping them with the ability to conduct independent research.  
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+<li> I am also recruiting several high-year undergraduate interns. The recruitment is aimed at students majoring in computer science, automation, mathematics, and related fields.
+_______________________________________________________________________________________________________
 
-**Markdown generator**
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News滚动展示</title>
+<style>
+  .scroll-container {
+    max-height: 500px; /* 设置最大高度 */
+    overflow-y: auto; /* 添加垂直滚动条 */
+    border: 1px solid #ccc; /* 可选：添加边框 */
+    padding: 10px; /* 可选：添加内边距 */
+  }
+  .mini ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .mini li {
+    margin-bottom: 5px; /* 添加列表项之间的间距 */
+  }
+</style>
+</head>
+<body>
+<h3>
+  <a name="news"></a> ✍News
+</h3>
+<div class="scroll-container">
+  <div class="mini">
+    <ul>
+  <li> <strong>[Feb 2025]</strong> Three paper are accepted by CVPR 2025!</li>
+  <li> <strong>[Jun 2025]</strong> One paper is accepted by ICRA!</li>
+    </ul>
+  </div>
+</div>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+</body>
+</html>
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+_______________________________________________________________________________________________________
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<h3>
+  <a name="Publications"></a> 📚Selected Publications (1️⃣ Equal contribution, 📧 Corresponding author)
+</h3>
+<font face="helvetica, ariel, &#39;sans serif&#39;">
+        <table cellspacing="0" cellpadding="0" class="noBorder">
+           <tbody>
+               <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/t2m.png" border="0">
+                            </td>
+                    <td>
+                            <b>Progressive Correspondence Regenerator for Robust 3D Registration</b>
+                    <br>
+                    Guiyu Zhao, <strong>Sheng Ao1️⃣<strong>, Ye Zhang, Kai Xu, Yulan Guo📧. 
+                    <br>
+                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, 2025)</em>
+                    <br>
+                   [<a href="https://arxiv.org/abs/2411.18654">Paper</a>][<a href="https://atom-motion.github.io/">Project Page</a>]
+                    </td>
+               </tr>
+               <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/Regor.jpg" border="0">
+                            </td>
+                    <td>
+                            <b>Cross-Cloud Consistency for Weakly Supervised Point Cloud Semantic Segmentation</b>
+                    <br>
+                    <strong>Yachao Zhang</strong>, Yuxiang Lan, Yuan Xie, Cuihua Li, Yanyun Qu📧. 
+                    <br>
+                    <em>IEEE Transactions on Neural Networks and Learning Systems (TNNLS, 2025)</em>
+                    <br>
+                   [<a href="https://ieeexplore.ieee.org/abstract/document/10843141">Paper</a>][<a href="https://github.com/Yachao-Zhang/Cross-Cloud-Consistency">Code</a>]
+                    </td>
+               </tr>
+                    <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/nips24.png" border="0">
+                            </td>
+                    <td>
+                            <b>UniDSeg: Unified Cross-Domain 3D Semantic Segmentation via Visual Foundation Models Prior</b>
+                    <br>
+                     Yao Wu, Mingwei Xing,  <strong>Yachao Zhang</strong>📧, Xiaotong Luo, Yuan Xie, Yanyun Qu📧
+                    <br>
+                    <em>Annual Conference on Neural Information Processing Systems (NeurIPS 2024)</em>
+                    <br>
+                   [<a href="https://neurips.cc/virtual/2024/poster/94354">Paper</a>][<a href="https://anonymous.4open.science/r/UniDSeg-4BC1/">Code</a>]
+                    </td>
+               </tr>
+               <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/mabbatalk.jpg" border="0">
+                            </td>
+                    <td>
+                            <b>MambaTalk: Efficient Holistic Gesture Synthesis with Selective State Space Models</b>
+                    <br>
+                     Zunnan Xu, Yukang Lin，Haonan Han, Sicheng Yang, Ronghui Li, <strong>Yachao Zhang</strong>📧，Xiu Li📧. 
+                    <br>
+                    <em>Annual Conference on Neural Information Processing Systems (NeurIPS 2024)</em>
+                    <br>
+                   [<a href="https://arxiv.org/pdf/2403.09471">Paper</a>][<a href="https://github.com/kkakkkka/MambaTalk">Code</a>][<a href="https://kkakkkka.github.io/MambaTalk/">Project</a>]
+                    </td>
+               </tr>
+            <tr>
+                    <td width="40%">
+                        <img width="220" src="../images/4.png" border="0">
+                            </td>
+                    <td>
+                            <b>Consistent123: One image to highly consistent 3d asset using case-aware diffusion priors</b>
+                    <br>
+                     Yukang Lin，Haonan Han, Chaoqun Gong, Zunnan Xu, <strong>Yachao Zhang</strong>📧，Xiu Li📧.
+                    <br>
+                    <em>ACM International Conference on Multimedia (ACMMM 2024)</em>
+                    <br>
+                   [<a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=a-I8c8EAAAAJ&citation_for_view=a-I8c8EAAAAJ:0EnyYjriUFMC">Paper</a>][<a href="https://consistent123.github.io/">Project</a>]
+                    </td>
+               </tr>
+           <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/gesture.jpg" border="0">
+                            </td>
+                    <td>
+                            <b>Chain of Generation: Multi-Modal Gesture Synthesis via Cascaded Conditional Control</b>
+                    <br>
+                     Zunnan Xu，<strong>Yachao Zhang</strong>📧，Sicheng Yang，Ronghui Li，Xiu Li📧.
+                    <br>
+                    <em>Association for the Advance of Artificial Intelligence (AAAI 2024)</em>
+                    <br>
+                   [<a href="https://arxiv.org/abs/2312.15900">Paper</a>][<a href="https://github.com/Yachao-Zhang">Code coming soon!</a>]
+                    </td>
+               </tr>
+             <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/xmatch.jpg" border="0">
+                            </td>
+                    <td>
+                            <b>Cross-Modal Match for Language Conditioned 3D Object Grounding</b>
+                    <br>
+                    <strong>Yachao Zhang</strong>, Runze Hu, Ronghui Li, Yanyun Qu, Yuan Xie, Xiu Li📧.
+                    <br>
+                    <em>Association for the Advance of Artificial Intelligence (AAAI 2024)</em>
+                    <br>
+                    [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/28566">Paper</a>][<a href="https://github.com/Yachao-Zhang">Code coming soon!</a>]
+                    </td>
+               </tr>
+         <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/dist.jpg" border="0">
+                            </td>
+                    <td>
+                            <b>Dual Pseudo-Labels Interactive Self-Training for Semi-Supervised Visible-Infrared Person Re-Identification</b>
+                    <br>
+                     Jiangming Shi<strong>1️⃣</strong>, <strong>Yachao Zhang1️⃣</strong>, Xiangbo Yin, Yuan Xie, Zhizhong Zhang, Jianping Fan, zhongchao shi, Yanyun Qu.
+                    <br>
+                    <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
+                    <br>
+                   [<a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Shi_Dual_Pseudo-Labels_Interactive_Self-Training_for_Semi-Supervised_Visible-Infrared_Person_Re-Identification_ICCV_2023_paper.pdf">Paper</a>][<a href="https://github.com/XiangboYin/DPIS_USVLReID">Code</a>]
+                    </td>
+               </tr>
+             <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/ann2snn.jpg" border="0">
+                            </td>
+                    <td>
+                            <b>Efficient Converted Spiking Neural Network for 3D and 2D Classification</b>
+                    <br>
+                    Yuxiang Lan, <strong>Yachao Zhang</strong> 📧, Xu Ma, Yanyun Qu, Yun Fu.
+                    <br>
+                    <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
+                    <br>
+                    [<a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Lan_Efficient_Converted_Spiking_Neural_Network_for_3D_and_2D_Classification_ICCV_2023_paper.pdf">Paper</a>]
+                    </td>
+               </tr>
+              <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/BEV-DG.png" border="0">
+                            </td>
+                    <td>
+                      <b>BEV-DG: Cross-Modal Learning under Bird’s-Eye View for Domain Generalization of 3D Semantic Segmentation</b>
+                    <br>
+                    Miaoyu Li, <strong>Yachao Zhang</strong> 📧, Xu Ma, Yanyun Qu, Yun Fu.
+                    <br>
+                    <em>IEEE/CVF International Conference on Computer Vision (ICCV 2023)</em>
+                    <br>
+                   [<a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Li_BEV-DG_Cross-Modal_Learning_under_Birds-Eye_View_for_Domain_Generalization_of_ICCV_2023_paper.pdf">Paper</a>]
+                    </td>
+               </tr>
+          <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/DoubleConsistency.png" border="0">
+                            </td>
+                    <td>
+                            <b>Weakly Supervised 3D Segmentation via Receptive-driven Pseudo Label Consistency and Structural Consistency</b>
+                    <br>
+                    Yuxiang Lan<strong>1️⃣</strong>, <strong>Yachao Zhang1️⃣</strong>, Yanyun Qu, Cong Wang, Yuan Xie, Zongze Wu. 
+                    <br>
+                    <em>Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI 2023)</em>
+                    <br>
+                    [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/25205">Paper</a>][<a href="https://github.com/Yachao-Zhang/DoubleConsistency">Code</a>]
+                    </td>  
+               </tr>
+                   <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/vsboost.jpg" border="0">
+                            </td>
+                    <td>
+                            <b>VS-Boost: Boosting Visual-Semantic Association for Generalized Zero-Shot Learning</b>
+                    <br>
+                    Xiaofan Li, <strong>Yachao Zhang</strong> 📧, Shiran Bian, Yanyun Qu, Yuan Xie, Zhongchao Shi, Jianping Fan.
+                    <br>
+                    <em>International Joint Conference on Artificial Intelligence (IJCAI 2023)</em>
+                    <br>
+                   [<a href="https://www.ijcai.org/proceedings/2023/0123.pdf">Paper</a>]
+                    </td>
+               </tr>
+               <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/dual-cross.jpg" border="0">
+                            </td>
+                    <td>
+                            <b>Cross-Domain and Cross-Modal Knowledge Distillation in Domain Adaptation for 3D Semantic Segmentation</b>
+                    <br>
+                    Miaoyu Li<strong>1️⃣</strong>,<strong>Yachao Zhang1️⃣</strong>,Miaoyu Li, Yuan Xie, Zhizhong Zhang, Cuihua Li, Yanyun Qu. 
+                    <br>
+                    <em>ACM International Conference on Multimedia (ACMMM 2022)</em>
+                    <br>
+                   [<a href="https://dl.acm.org/doi/10.1145/3503161.3547990">Paper</a>][<a href="https://github.com/Yachao-Zhang/Dual-Cross">Code</a>]
+                    </td>
+               </tr>
+                    <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/all-in.png" border="0">
+                            </td>
+                    <td>
+                            <b>Learning All-In Collaborative Multiview Binary Representation for Clustering</b>
+                    <br>
+                    <strong>Yachao Zhang</strong>, Yuan Xie, Zongze Wu, Cuihua Li, Yanyun Qu. 
+                    <br>
+                    <em>IEEE Transactions on Neural Networks and Learning Systems (TNNLS 2022)</em>
+                    <br>
+                    [<a href="https://ieeexplore.ieee.org/document/9882008/">Paper</a>][<a href="https://github.com/Yachao-Zhang/All_In_Learning">Code</a>]
+                    </td>
+               </tr>  
+                    <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/SSE-xMUDA.jpg" border="0">
+                            </td>
+                    <td>
+                    <b>SSE-xMUDA: Self-supervised Exclusive Learning for 3D Segmentation in Cross-Modal Unsupervised Domain Adaptation </b>
+                    <br>
+                    <strong>Yachao Zhang</strong>,Miaoyu Li, Yuan Xie, Zhizhong Zhang, Cuihua Li, Yanyun Qu.
+                    <br>
+                    <em>ACM International Conference on Multimedia (ACMMM 2022)</em>
+                    <br>
+                    [<a href="https://doi.org/10.1145/3503161.3547987">Paper</a>][<a href="https://github.com/Yachao-Zhang/SSE-xMUDA">Code</a>]
+                    </td>
+                </tr>  
+            <tr>
+                    <td class="noBorder" width="40%">
+                        <img width="320" src="../images/PSD.jpg" border="0">
+                            </td>
+                    <td>
+                      <b>Perturbed Self-Distillation: Weakly Supervised Large-Scale Point Cloud Semantic Segmentation </b>
+                      <br>
+                      <strong>Yachao Zhang</strong>, Yanyun Qu, Zhonghao Li, Shanshan Zheng, Cuihua Li. 
+                      <br>
+                      <em>IEEE Conference on International Conference on Computer Vision (ICCV 2021)</em>
+                      <br>
+                      [<a href="https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Perturbed_Self-Distillation_Weakly_Supervised_Large-Scale_Point_Cloud_Semantic_Segmentation_ICCV_2021_paper.html">Paper</a>][<a href="https://github.com/Yachao-Zhang/PSD">Code</a>]
+              </td>
+           </tr>
+           <tr>
+                    <td class="noBorder" width="40%">
+                        <img width="320" src="../images/WS3.jpg" border="0">
+                            </td>
+                    <td>
+                    <b>Weakly supervised semantic segmentation for large-scale point cloud </b>
+                    <br>
+                    <strong>Yachao Zhang</strong>, Zonghao Li, Yuan Xie, Yanyun Qu, Cuihua Li, Tao Mei. 
+                    <br>
+                    <em>Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI 2021)</em>
+                    <br>
+                    [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/16455">Paper</a>][<a href="https://github.com/Yachao-Zhang/WS3">Code</a>]
+                    </td>
+             </tr>
+           </tbody>
+           </table>
+</font>
+[Please visit [my google scholar profile](https://scholar.google.com/citations?user=a-I8c8EAAAAJ&hl=en) for the full publication list.]
+_______________________________________________________________________________________________________
+
+<h3>
+  <a name="services"></a> 📠Academic Services
+</h3>
+<div class="mini">
+  <ul>
+  <li> <strong>Conference Reviewer</strong>: CVPR, ICML, NeurIPS, AAAI, ICCV, ACMMM, ICLR </li>
+  <li> <strong>Journal Reviewer</strong>: IEEE Transactions on Neural Networks and Learning Systems, IEEE Transactions on Intelligent Transportation Systems, IEEE Transactions on Artificial Intelligence, IEEE Transactions on Image Processing</li>
+  </ul>
+</div>
+ 
+_______________________________________________________________________________________________________
+
+<h3>
+  <a name="services"></a> ✨Hobby
+</h3>
+<div class="mini">
+ <td width="30%">
+ <img width="60" src="../images/ball.jpg" border="0">
+</td>
+   <td width="30%">
+ <img width="60" src="../images/reading.jpg" border="0">
+</td>
+   <td width="30%">
+ <img width="60" src="../images/riding.jpg" border="0">
+</td>
+   <td width="30%">
+ <img width="60" src="../images/tubu.jpg" border="0">
+</td>
+</div>
+
+ 
+_______________________________________________________________________________________________________
+
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=ve6F6SS11iG4uIguoTWVRUjvilkuBNsM2hxvFs-6aos&cl=ffffff&w=a"></script>
