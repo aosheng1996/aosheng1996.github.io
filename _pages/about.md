@@ -65,7 +65,7 @@ ________________________________________________________________________________
 _______________________________________________________________________________________________________
 
 <h3>
-  <a name="Publications"></a> 📃Selected Publications (1️⃣ Equal contribution, ✉️ Corresponding author)
+  <a name="Publications"></a> 📗 Selected Publications (1️⃣ Equal contribution, 📧 Corresponding author)
 </h3>
 <font face="helvetica, ariel, &#39;sans serif&#39;">
         <table cellspacing="0" cellpadding="0" class="noBorder">
@@ -77,7 +77,7 @@ ________________________________________________________________________________
                     <td>
                             <b>Progressive Correspondence Regenerator for Robust 3D Registration</b>
                     <br>
-                    Guiyu Zhao1️⃣, <strong>Sheng Ao1️⃣</strong>, Ye Zhang, Kai Xu, Yulan Guo✉️. 
+                    Guiyu Zhao1️⃣, <strong>Sheng Ao1️⃣</strong>, Ye Zhang, Kai Xu, Yulan Guo📧. 
                     <br>
                     <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, 2025)</em>
                     <br>
@@ -91,7 +91,7 @@ ________________________________________________________________________________
                     <td>
                             <b>DiffLO: Semantic-Aware LiDAR Odometry with Diffusion-Based Refinement</b>
                     <br>
-                    Yongshu Huang, Chen Liu, Minghang Zhu, <strong>Sheng Ao✉️</strong>, Chenglu Wen, Cheng Wang✉️. 
+                    Yongshu Huang, Chen Liu, Minghang Zhu, <strong>Sheng Ao📧</strong>, Chenglu Wen, Cheng Wang📧. 
                     <br>
                     <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, 2025)</em>
                     <br>
