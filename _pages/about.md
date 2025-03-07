@@ -154,7 +154,7 @@ ________________________________________________________________________________
            </table>
 </font>
 
-<strong>Please visit [my google scholar profile](https://scholar.google.com.hk/citations?user=cvS1yuMAAAAJ&hl=zh-CN&oi=sra) for the full publication list<\strong>.
+<strong>Please visit [my google scholar profile](https://scholar.google.com.hk/citations?user=cvS1yuMAAAAJ&hl=zh-CN&oi=sra) for the full publication list.
 _______________________________________________________________________________________________________
 
 <h3>
