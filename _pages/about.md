@@ -77,7 +77,7 @@ ________________________________________________________________________________
                     <td>
                             <b>Progressive Correspondence Regenerator for Robust 3D Registration</b>
                     <br>
-                    Guiyu Zhao1️⃣, <strong>Sheng Ao1️⃣<strong>, Ye Zhang, Kai Xu, Yulan Guo📧. 
+                    Guiyu Zhao1️⃣, <strong>Sheng Ao1️⃣</strong>strong>, Ye Zhang, Kai Xu, Yulan Guo📧. 
                     <br>
                     <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, 2025)</em>
                     <br>
