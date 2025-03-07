@@ -84,7 +84,6 @@ ________________________________________________________________________________
                    [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
                     </td>
                </tr>
-
                <tr>
                     <td width="40%">
                         <img width="320" src="../images/DIFFLO.png" border="0">
@@ -99,7 +98,6 @@ ________________________________________________________________________________
                    [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
                     </td>
                </tr>
-              
                <tr>
                     <td width="40%">
                         <img width="320" src="../images/U2Frame.png" border="0">
@@ -114,7 +112,6 @@ ________________________________________________________________________________
                    [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
                     </td>
                </tr>
-
                <tr>
                     <td width="40%">
                         <img width="320" src="../images/BUFFER.png" border="0">
@@ -129,7 +126,6 @@ ________________________________________________________________________________
                    [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
                     </td>
                </tr>
-
                <tr>
                     <td width="40%">
                         <img width="320" src="../images/SpinNet-TPAMI.png" border="0">
@@ -144,7 +140,6 @@ ________________________________________________________________________________
                    [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
                     </td>
                </tr>
-
                <tr>
                     <td width="40%">
                         <img width="320" src="../images/SpinNet-CVPR.png" border="0">
@@ -159,7 +154,6 @@ ________________________________________________________________________________
                    [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
                     </td>
                </tr>
-              
            </tbody>
            </table>
 </font>
