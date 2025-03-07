@@ -7,7 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Professor working with Prof. [Cheng Wang](https://scholar.google.com.hk/citations?user=kAnv3SkAAAAJ&hl=zh-CN&oi=ao) at School of Informatics, Xiamen University in Xiamen, Fujian, China. I received the Ph.D. degree from Sun Yat-Sen University (SYSU) in 2024, supervised by Prof. [Yulan Guo](https://scholar.google.com.hk/citations?user=WQRNvdsAAAAJ&hl=zh-CN&oi=ao). My research interests focus on 3D deep learning, particularly on 3D feature learning, registration and localization.
+<li> I am an Assistant Professor working with Prof. [Cheng Wang](https://scholar.google.com.hk/citations?user=kAnv3SkAAAAJ&hl=zh-CN&oi=ao) at School of Informatics, Xiamen University in Xiamen, Fujian, China. 
+  
+<li> I received the Ph.D. degree from Sun Yat-Sen University (SYSU) in 2024, supervised by Prof. [Yulan Guo](https://scholar.google.com.hk/citations?user=WQRNvdsAAAAJ&hl=zh-CN&oi=ao). 
+  
+<li> My research interests focus on 3D deep learning, particularly on 3D feature learning, registration and localization.
 
 🤡**I am actively recruiting self-motivated master students.** 🤝
 
@@ -104,15 +108,6 @@ ________________________________________________________________________________
 <div class="mini">
  <td width="30%">
  <img width="60" src="../images/ball.jpg" border="0">
-</td>
-   <td width="30%">
- <img width="60" src="../images/reading.jpg" border="0">
-</td>
-   <td width="30%">
- <img width="60" src="../images/riding.jpg" border="0">
-</td>
-   <td width="30%">
- <img width="60" src="../images/tubu.jpg" border="0">
 </td>
 </div>
 
