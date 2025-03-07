@@ -154,11 +154,11 @@ ________________________________________________________________________________
            </table>
 </font>
 
-📚**Please visit [my google scholar profile](https://scholar.google.com.hk/citations?user=cvS1yuMAAAAJ&hl=zh-CN&oi=sra) for the full publication list.**
+**Please visit [my google scholar profile](https://scholar.google.com.hk/citations?user=cvS1yuMAAAAJ&hl=zh-CN&oi=sra) for the full publication list.**
 _______________________________________________________________________________________________________
 
 <h3>
-  <a name="services"></a> Academic Services
+  <a name="services"></a> 🥉Academic Services
 </h3>
 <div class="mini">
   <ul>
