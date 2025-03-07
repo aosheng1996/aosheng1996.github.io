@@ -80,7 +80,6 @@ ________________________________________________________________________________
                    [<a href="https://arxiv.org/abs/2411.18654">Paper</a>][<a href="https://atom-motion.github.io/">Project Page</a>]
                     </td>
                </tr>
-
            </tbody>
            </table>
 </font>
