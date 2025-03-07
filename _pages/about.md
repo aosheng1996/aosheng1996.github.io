@@ -53,8 +53,8 @@ ________________________________________________________________________________
 <div class="scroll-container">
   <div class="mini">
     <ul>
-  <li> <strong>[Feb 2025]</strong> Three paper are accepted by <strong>CVPR 2025!</strong>strong></li>
-  <li> <strong>[Jun 2025]</strong> One paper is accepted by <strong>ICRA 2025!</strong>strong></li>
+  <li> <strong>[Feb 2025]</strong> Three paper are accepted by <strong>CVPR 2025!</strong></li>
+  <li> <strong>[Jun 2025]</strong> One paper is accepted by <strong>ICRA 2025!</strong></li>
     </ul>
   </div>
 </div>
@@ -65,7 +65,7 @@ ________________________________________________________________________________
 _______________________________________________________________________________________________________
 
 <h3>
-  <a name="Publications"></a> 📚Selected Publications (1️⃣ Equal contribution, 📧 Corresponding author)
+  <a name="Publications"></a> 📚Selected Publications (1️⃣ Equal contribution, ✉️ Corresponding author)
 </h3>
 <font face="helvetica, ariel, &#39;sans serif&#39;">
         <table cellspacing="0" cellpadding="0" class="noBorder">
@@ -77,7 +77,7 @@ ________________________________________________________________________________
                     <td>
                             <b>Progressive Correspondence Regenerator for Robust 3D Registration</b>
                     <br>
-                    Guiyu Zhao1️⃣, <strong>Sheng Ao1️⃣</strong>, Ye Zhang, Kai Xu, Yulan Guo📧. 
+                    Guiyu Zhao1️⃣, <strong>Sheng Ao1️⃣</strong>, Ye Zhang, Kai Xu, Yulan Guo✉️. 
                     <br>
                     <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, 2025)</em>
                     <br>
@@ -110,7 +110,7 @@ ________________________________________________________________________________
  <img width="60" src="../images/ball.jpg" border="0">
 </td>
 </div>
-
+U+26BD
 _______________________________________________________________________________________________________
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=ve6F6SS11iG4uIguoTWVRUjvilkuBNsM2hxvFs-6aos&cl=ffffff&w=a"></script>
