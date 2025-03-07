@@ -106,11 +106,9 @@ ________________________________________________________________________________
   <a name="services"></a> ✨Hobby
 </h3>
 <div class="mini">
- <td width="30%">
- <img width="60" src="../images/ball.jpg" border="0">
-</td>
+  ⚽
 </div>
-⚽
+
 _______________________________________________________________________________________________________
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=ve6F6SS11iG4uIguoTWVRUjvilkuBNsM2hxvFs-6aos&cl=ffffff&w=a"></script>
