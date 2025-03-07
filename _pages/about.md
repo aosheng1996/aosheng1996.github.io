@@ -53,8 +53,8 @@ ________________________________________________________________________________
 <div class="scroll-container">
   <div class="mini">
     <ul>
-  <li> <strong>[Feb 2025]</strong> Three paper are accepted by CVPR 2025!</li>
-  <li> <strong>[Jun 2025]</strong> One paper is accepted by ICRA!</li>
+  <li> <strong>[Feb 2025]</strong> Three paper are accepted by <strong>CVPR 2025!</strong>strong></li>
+  <li> <strong>[Jun 2025]</strong> One paper is accepted by <strong>ICRA 2025!</strong>strong></li>
     </ul>
   </div>
 </div>
@@ -113,3 +113,4 @@ ________________________________________________________________________________
 
 _______________________________________________________________________________________________________
 
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=ve6F6SS11iG4uIguoTWVRUjvilkuBNsM2hxvFs-6aos&cl=ffffff&w=a"></script>
