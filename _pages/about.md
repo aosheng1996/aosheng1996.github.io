@@ -75,7 +75,7 @@ ________________________________________________________________________________
                     <br>
                     Guiyu Zhao1️⃣, <strong>Sheng Ao1️⃣</strong>, Ye Zhang, Kai Xu, Yulan Guo📧. 
                     <br>
-                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, 2025)</em>
+                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>strong>, 2025)</em>
                     <br>
                    [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
                     </td>
@@ -89,7 +89,7 @@ ________________________________________________________________________________
                     <br>
                     Yongshu Huang, Chen Liu, Minghang Zhu, <strong>Sheng Ao📧</strong>, Chenglu Wen, Cheng Wang📧. 
                     <br>
-                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, 2025)</em>
+                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>strong>, 2025)</em>
                     <br>
                    [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
                     </td>
@@ -103,7 +103,7 @@ ________________________________________________________________________________
                     <br>
                     Yixin Zhang1️⃣, <strong>Sheng Ao1️⃣</strong>, Ye Zhang, Zhuo Song, Qingyong Hu, Tao Chang, Yulan Guo. 
                     <br>
-                    <em>IEEE International Conference on Robotics and Automation (ICRA, 2025)</em>
+                    <em>IEEE International Conference on Robotics and Automation (<strong>ICRA</strong>strong>, 2025)</em>
                     <br>
                    [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
                     </td>
@@ -117,7 +117,7 @@ ________________________________________________________________________________
                     <br>
                     <strong>Sheng Ao</strong>, Qingyong Hu, Hanyun Wang, Kai Xu, Yulan Guo. 
                     <br>
-                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, 2023)</em>
+                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>strong>, 2023)</em>
                     <br>
                    [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
                     </td>
@@ -131,7 +131,7 @@ ________________________________________________________________________________
                     <br>
                     <strong>Sheng Ao</strong>, Yulan Guo, Qingyong Hu, Bo Yang, Andrew Markham, Zengping Chen. 
                     <br>
-                    <em>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI, 2022)</em>
+                    <em>IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>TPAMI</strong>strong>, 2022)</em>
                     <br>
                    [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
                     </td>
@@ -145,7 +145,7 @@ ________________________________________________________________________________
                     <br>
                     <strong>Sheng Ao</strong>, Qingyong Hu, Bo Yang, Andrew Markham, Yulan Guo. 
                     <br>
-                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, 2021)</em>
+                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>strong>, 2021)</em>
                     <br>
                    [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
                     </td>
