@@ -81,9 +81,85 @@ ________________________________________________________________________________
                     <br>
                     <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, 2025)</em>
                     <br>
-                   [<a href="https://arxiv.org/abs/2411.18654">Paper</a>][<a href="https://atom-motion.github.io/">Project Page</a>]
+                   [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
                     </td>
                </tr>
+
+               <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/DIFFLO.png" border="0">
+                            </td>
+                    <td>
+                            <b>DiffLO: Semantic-Aware LiDAR Odometry with Diffusion-Based Refinement</b>
+                    <br>
+                    Yongshu Huang, Chen Liu, Minghang Zhu, <strong>Sheng Ao✉️</strong>, Chenglu Wen, Cheng Wang✉️. 
+                    <br>
+                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, 2025)</em>
+                    <br>
+                   [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
+                    </td>
+               </tr>
+              
+               <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/U2Frame.png" border="0">
+                            </td>
+                    <td>
+                            <b>U^2Frame: A Unified and Unsupervised Learning Framework for LiDAR-based Loop Closing</b>
+                    <br>
+                    Yixin Zhang1️⃣, <strong>Sheng Ao1️⃣</strong>, Ye Zhang, Zhuo Song, Qingyong Hu, Tao Chang, Yulan Guo. 
+                    <br>
+                    <em>IEEE International Conference on Robotics and Automation (ICRA, 2025)</em>
+                    <br>
+                   [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
+                    </td>
+               </tr>
+
+               <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/BUFFER.png" border="0">
+                            </td>
+                    <td>
+                            <b>BUFFER: Balancing Accuracy, Efficiency, and Generalizability in Point Cloud Registration</b>
+                    <br>
+                    <strong>Sheng Ao</strong>, Qingyong Hu, Hanyun Wang, Kai Xu, Yulan Guo. 
+                    <br>
+                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, 2023)</em>
+                    <br>
+                   [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
+                    </td>
+               </tr>
+
+               <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/SpinNet-TPAMI.png" border="0">
+                            </td>
+                    <td>
+                            <b>You Only Train Once: Learning General and Distinctive 3D Local Descriptors</b>
+                    <br>
+                    <strong>Sheng Ao</strong>, Yulan Guo, Qingyong Hu, Bo Yang, Andrew Markham, Zengping Chen. 
+                    <br>
+                    <em>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI, 2022)</em>
+                    <br>
+                   [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
+                    </td>
+               </tr>
+
+               <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/SpinNet-CVPR.png" border="0">
+                            </td>
+                    <td>
+                            <b>SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration</b>
+                    <br>
+                    <strong>Sheng Ao</strong>, Qingyong Hu, Bo Yang, Andrew Markham, Yulan Guo. 
+                    <br>
+                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR, 2021)</em>
+                    <br>
+                   [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
+                    </td>
+               </tr>
+              
            </tbody>
            </table>
 </font>
