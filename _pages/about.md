@@ -119,7 +119,7 @@ ________________________________________________________________________________
                     <br>
                     <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>, 2023)</em>
                     <br>
-                   [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
+                   [<a href="https://openaccess.thecvf.com/content/CVPR2023/html/Ao_BUFFER_Balancing_Accuracy_Efficiency_and_Generalizability_in_Point_Cloud_Registration_CVPR_2023_paper.html">Paper</a>][<a href="https://github.com/SYSU-SAIL/BUFFER">Project Page</a>]
                     </td>
                </tr>
                <tr>
@@ -133,7 +133,7 @@ ________________________________________________________________________________
                     <br>
                     <em>IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>TPAMI</strong>, 2022)</em>
                     <br>
-                   [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
+                   [<a href="https://ieeexplore.ieee.org/abstract/document/9792207">Paper</a>][<a href="https://github.com/QingyongHu/SpinNet">Project Page</a>]
                     </td>
                </tr>
                <tr>
@@ -147,7 +147,7 @@ ________________________________________________________________________________
                     <br>
                     <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>, 2021)</em>
                     <br>
-                   [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
+                   [<a href="https://openaccess.thecvf.com/content/CVPR2021/html/Ao_SpinNet_Learning_a_General_Surface_Descriptor_for_3D_Point_Cloud_CVPR_2021_paper.html">Paper</a>][<a href="https://github.com/QingyongHu/SpinNet">Project Page</a>]
                     </td>
                </tr>
            </tbody>
