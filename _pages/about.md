@@ -77,7 +77,7 @@ ________________________________________________________________________________
                     <br>
                     <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>, 2025)</em>
                     <br>
-                   [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
+                   #[<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
                     </td>
                </tr>
                <tr>
@@ -91,7 +91,7 @@ ________________________________________________________________________________
                     <br>
                     <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>, 2025)</em>
                     <br>
-                   [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
+                   #[<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
                     </td>
                </tr>
                <tr>
@@ -105,7 +105,7 @@ ________________________________________________________________________________
                     <br>
                     <em>IEEE International Conference on Robotics and Automation (<strong>ICRA</strong>, 2025)</em>
                     <br>
-                   [<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
+                   #[<a href="https://github.com/aosheng1996">Paper</a>][<a href="https://github.com/aosheng1996">Project Page</a>]
                     </td>
                </tr>
                <tr>
@@ -154,7 +154,7 @@ ________________________________________________________________________________
            </table>
 </font>
 
-**Please visit [my google scholar profile](https://scholar.google.com.hk/citations?user=cvS1yuMAAAAJ&hl=zh-CN&oi=sra) for the full publication list.**
+**Please visit [my google scholar](https://scholar.google.com.hk/citations?user=cvS1yuMAAAAJ&hl=zh-CN&oi=sra) for the full publication list.**
 _______________________________________________________________________________________________________
 
 <h3>
