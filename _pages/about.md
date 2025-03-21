@@ -26,12 +26,17 @@ I plan to admit 2 master students in 2025. I am not concerned about the level of
 
 I am also recruiting several high-year undergraduate interns. The recruitment is aimed at students majoring in computer science, automation, mathematics, and related fields.
 
-🌟 **Unique Advantages**  
-1. **All-day Acadimic Support**: 7×12 rapid-response guidance.   
-2. **Full-cycle Paper Coaching**: From idea brainstorming to rebuttal strategies.  
-3. **Global Commnication**: Support for attending top conferences.  
-4. **Hardware**: RTX 3090/4090 GPU workstation for all students.
-_______________________________________________________________________________________________________
+<h3>
+  <a name="services"></a> 🌟Unique Advantages
+</h3>
+<div class="mini">
+  <ul>
+  <li> <strong>All-day Acadimic Support</strong>: 7×12 rapid-response guidance </li>
+  <li> <strong>Full-cycle Paper Coaching</strong>: From idea brainstorming to rebuttal strategies</li>
+  <li> <strong>Global Commnication</strong>: Support for attending top conferences</li>
+  <li> <strong>Hardware</strong>: RTX 3090/4090 GPU workstation for all students</li>
+  </ul>
+</div>
 
 
 <html lang="en">
@@ -71,7 +76,6 @@ ________________________________________________________________________________
 </body>
 </html>
 
-_______________________________________________________________________________________________________
 
 <h3>
   <a name="Publications"></a> 📗 Selected Publications (1️⃣ Equal contribution, 📧 Corresponding author)
@@ -162,7 +166,7 @@ ________________________________________________________________________________
 </font>
 
 **Please visit [my google scholar](https://scholar.google.com.hk/citations?user=cvS1yuMAAAAJ&hl=zh-CN&oi=sra) for the full publication list.**
-_______________________________________________________________________________________________________
+
 
 <h3>
   <a name="services"></a> 🥉Academic Services
@@ -174,7 +178,6 @@ ________________________________________________________________________________
   </ul>
 </div>
  
-_______________________________________________________________________________________________________
 
 <h3>
   <a name="services"></a> ✨Hobby
@@ -183,6 +186,5 @@ ________________________________________________________________________________
   ⚽ 🏸 🏊‍♂️
 </div>
 
-_______________________________________________________________________________________________________
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=CVIP5gbhDp6cxKGQwjlOmnvT5EWEGc1Y72AJVD5BHa8&cl=ffffff&w=a"></script>
