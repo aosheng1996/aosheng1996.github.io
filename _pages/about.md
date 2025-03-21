@@ -80,8 +80,8 @@ I am also recruiting several high-year undergraduate interns. The recruitment is
 <h3>
   <a name="Publications"></a> 📗 Selected Publications (1️⃣ Equal contribution, 📧 Corresponding author)
 </h3>
-<font face="helvetica, ariel, &#39;sans serif&#39;">
-        <table cellspacing="0" cellpadding="0" class="noBorder">
+<p style="font-family: Helvetica, Arial, sans-serif;">
+  <table cellspacing="0" cellpadding="0" class="noBorder">
            <tbody>
                <tr>
                     <td width="40%">
@@ -163,7 +163,7 @@ I am also recruiting several high-year undergraduate interns. The recruitment is
                </tr>
            </tbody>
            </table>
-</font>
+</p>
 
 **Please visit [my google scholar](https://scholar.google.com.hk/citations?user=cvS1yuMAAAAJ&hl=zh-CN&oi=sra) for the full publication list.**
 
@@ -186,5 +186,5 @@ I am also recruiting several high-year undergraduate interns. The recruitment is
   ⚽ 🏸 🏊‍♂️
 </div>
 
-
+----------------------------------------------
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=CVIP5gbhDp6cxKGQwjlOmnvT5EWEGc1Y72AJVD5BHa8&cl=ffffff&w=a"></script>
