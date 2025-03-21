@@ -23,7 +23,7 @@ I plan to admit 2 master students in 2025. I am not concerned about the level of
 - **Training Programs**   
   ✅ Guide step by step.  
   ✅ Literature review → Research design → Paper writing → Conference presentations.  
-  ✅ **Guaranteed 1+ CCF-A tier conference paper** before graduation.  
+  ✅ **Guaranteed 1+ CCF-A conference paper** before graduation.  
 
 I am also recruiting several high-year undergraduate interns. The recruitment is aimed at students majoring in computer science, automation, mathematics, and related fields.
 
