@@ -70,7 +70,7 @@ I am also recruiting several high-year undergraduate interns. The recruitment is
   <div class="mini">
     <ul>
   <li> <strong>[Feb 2025]</strong> Three paper are accepted by <strong>CVPR 2025!</strong></li>
-  <li> <strong>[Jun 2025]</strong> One paper is accepted by <strong>ICRA 2025!</strong></li>
+  <li> <strong>[Jan 2025]</strong> One paper is accepted by <strong>ICRA 2025!</strong></li>
     </ul>
   </div>
 </div>
