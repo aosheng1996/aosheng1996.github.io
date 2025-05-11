@@ -12,7 +12,7 @@ I am an Assistant Professor working with **Prof. [Cheng Wang](https://scholar.go
 ----------------------------------------------
 👨‍🎓 **I am actively recruiting self-motivated master students.** 
 
-I plan to admit 2 master students in 2025. I am not concerned about the level of your undergraduate institution.
+I plan to admit 2 master students in 2026. I am not concerned about the level of your undergraduate institution.
 
 - **Key Qualities**   
   ✅ Strong self-motivation and growth mindset.  
