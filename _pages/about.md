@@ -12,7 +12,7 @@ I am an Assistant Professor working with **Prof. [Cheng Wang](https://scholar.go
 ----------------------------------------------
 👨‍🎓 **I am actively recruiting self-motivated master students.** 
 
-I plan to admit 2 master students in 2026. I am not concerned about the level of your undergraduate institution.
+I plan to admit 2 master students in 2027. I am not concerned about the level of your undergraduate institution.
 
 - **Key Qualities**   
   ✅ Strong self-motivation and growth mindset.  
@@ -69,6 +69,9 @@ I am also recruiting several high-year undergraduate interns. The recruitment is
 <div class="scroll-container">
   <div class="mini">
     <ul>
+  <li> <strong>[Feb 2026]</strong> One paper are accepted by <strong>CVPR Highlight 2026!</strong></li>
+  <li> <strong>[Sep 2025]</strong> One paper are accepted by <strong>AAAI 2026!</strong></li>
+  <li> <strong>[Jun 2025]</strong> One paper are accepted by <strong>ICCV Highlight 2025!</strong></li>
   <li> <strong>[Feb 2025]</strong> Three paper are accepted by <strong>CVPR 2025!</strong></li>
   <li> <strong>[Jan 2025]</strong> One paper is accepted by <strong>ICRA 2025!</strong></li>
     </ul>
@@ -87,14 +90,14 @@ I am also recruiting several high-year undergraduate interns. The recruitment is
            <tbody>
                <tr>
                     <td width="40%">
-                        <img width="320" src="../images/Regor.png" border="0">
+                        <img width="320" src="../images/LEADER.png" border="0">
                             </td>
                     <td>
                             <b>LEADER: Learning Reliable Local-to-Global Correspondences for LiDAR Relocalization</b>
                     <br>
                     Jianshi Wu, Minghang Zhu, Dunqiang Liu, Wen Li, <strong>Sheng Ao📧</strong>, Siqi Shen, Chenglu Wen, Cheng Wang. 
                     <br>
-                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR highlight</strong>, 2026)</em>
+                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR Highlight</strong>, 2026)</em>
                     </td>
                </tr>
                <tr>
