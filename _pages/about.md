@@ -90,6 +90,18 @@ I am also recruiting several high-year undergraduate interns. The recruitment is
                         <img width="320" src="../images/Regor.png" border="0">
                             </td>
                     <td>
+                            <b>LEADER: Learning Reliable Local-to-Global Correspondences for LiDAR Relocalization</b>
+                    <br>
+                    Jianshi Wu, Minghang Zhu, Dunqiang Liu, Wen Li, <strong>Sheng Ao📧</strong>, Siqi Shen, Chenglu Wen, Cheng Wang. 
+                    <br>
+                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR highlight</strong>, 2026)</em>
+                    </td>
+               </tr>
+               <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/Regor.png" border="0">
+                            </td>
+                    <td>
                             <b>Progressive Correspondence Regenerator for Robust 3D Registration</b>
                     <br>
                     Guiyu Zhao1️⃣, <strong>Sheng Ao1️⃣</strong>, Ye Zhang, Kai Xu, Yulan Guo📧. 
