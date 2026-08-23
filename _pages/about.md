@@ -96,7 +96,7 @@ I am also recruiting several high-year undergraduate interns. The recruitment is
                     <td>
                             <b>Temporal-Aware Fusion for Robust Outdoor LiDAR Localization</b>
                     <br>
-                    Minghang Zhu1️⃣, Zhijing Wang1️⃣, Yuxin Guo, Chen Liu, Yongshu Huang, Wen Li,<strong>Sheng Ao📧</strong>, Cheng Wang.
+                    Minghang Zhu1️⃣, Zhijing Wang1️⃣, Yuxin Guo, Chen Liu, Yongshu Huang, Wen Li, <strong>Sheng Ao📧</strong>, Cheng Wang.
                     <br>
                     <em>ACM International Conference on Multimedia (<strong>ACMMM Oral</strong>, 2026)</em>
                     </td>
