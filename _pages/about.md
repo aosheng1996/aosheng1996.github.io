@@ -69,7 +69,7 @@ I am also recruiting several high-year undergraduate interns. The recruitment is
 <div class="scroll-container">
   <div class="mini">
     <ul>
-  <li> <strong>[Jun 2026]</strong> One paper are accepted by <strong>ACMMM Oral 2026!</strong></li>
+  <li> <strong>[Jun 2026]</strong> One paper are accepted by <strong>ACMMM 2026!</strong></li>
   <li> <strong>[Feb 2026]</strong> One paper are accepted by <strong>CVPR Highlight 2026!</strong></li>
   <li> <strong>[Sep 2025]</strong> One paper are accepted by <strong>AAAI 2026!</strong></li>
   <li> <strong>[Jun 2025]</strong> One paper are accepted by <strong>ICCV Highlight 2025!</strong></li>
@@ -98,7 +98,7 @@ I am also recruiting several high-year undergraduate interns. The recruitment is
                     <br>
                     Minghang Zhu1️⃣, Zhijing Wang1️⃣, Yuxin Guo, Chen Liu, Yongshu Huang, Wen Li, <strong>Sheng Ao📧</strong>, Cheng Wang.
                     <br>
-                    <em>ACM International Conference on Multimedia (<strong>ACMMM Oral</strong>, 2026)</em>
+                    <em>ACM International Conference on Multimedia (<strong>ACMMM</strong>, 2026)</em>
                     </td>
                </tr>
                <tr>
