@@ -99,7 +99,7 @@ I am also recruiting several high-year undergraduate interns. The recruitment is
                     <br>
                     Minghang Zhu1️⃣, Jianshi Wu1️⃣, Yuxin Guo1️⃣, Wen Li, Penghui Shang, <strong>Sheng Ao📧</strong>, Cheng Wang.
                     <br>
-                    <em>Annual Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>, 2026)</em>
+                    <em>Advances in Neural Information Processing Systems (<strong>NeurIPS</strong>, 2026)</em>
                     </td>
                </tr>
                <tr>
@@ -111,7 +111,7 @@ I am also recruiting several high-year undergraduate interns. The recruitment is
                     <br>
                     Hengyu Mu1️⃣, Jianshi Wu1️⃣, Yuxin Guo1️⃣, XianLian Lin, Qingyong Hu, <strong>Sheng Ao📧</strong>, Chenglu Wen, Cheng Wang.
                     <br>
-                    <em>Annual Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>, 2026)</em>
+                    <em>Advances in Neural Information Processing Systems (<strong>NeurIPS</strong>, 2026)</em>
                     </td>
                </tr>
                <tr>
@@ -123,7 +123,7 @@ I am also recruiting several high-year undergraduate interns. The recruitment is
                     <br>
                     Minghang Zhu1️⃣, Kaibo Jin1️⃣, Zhijing Wang, Ziwei Shi, Wen Li, <strong>Sheng Ao📧</strong>, Cheng Wang.
                     <br>
-                    <em>Annual Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>, 2026)</em>
+                    <em>Advances in Neural Information Processing Systems (<strong>NeurIPS</strong>, 2026)</em>
                     </td>
                </tr>
                <tr>
