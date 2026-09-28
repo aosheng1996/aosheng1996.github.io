@@ -69,12 +69,13 @@ I am also recruiting several high-year undergraduate interns. The recruitment is
 <div class="scroll-container">
   <div class="mini">
     <ul>
-  <li> <strong>[Jun 2026]</strong> One paper are accepted by <strong>ACMMM 2026!</strong></li>
-  <li> <strong>[Feb 2026]</strong> One paper are accepted by <strong>CVPR Highlight 2026!</strong></li>
-  <li> <strong>[Sep 2025]</strong> One paper are accepted by <strong>AAAI 2026!</strong></li>
-  <li> <strong>[Jun 2025]</strong> One paper are accepted by <strong>ICCV Highlight 2025!</strong></li>
-  <li> <strong>[Feb 2025]</strong> Three paper are accepted by <strong>CVPR 2025!</strong></li>
-  <li> <strong>[Jan 2025]</strong> One paper is accepted by <strong>ICRA 2025!</strong></li>
+  <li> <strong>[Sep 2026]</strong> Seven papers are accepted by <strong>NeurIPS 2026!</strong></li>
+  <li> <strong>[Jun 2026]</strong> One paper is accepted by <strong>ECCV 2026!</strong></li>
+  <li> <strong>[Jun 2026]</strong> One paper is accepted by <strong>ACMMM 2026!</strong></li>
+  <li> <strong>[Feb 2026]</strong> One paper is accepted by <strong>CVPR Highlight 2026!</strong></li>
+  <li> <strong>[Sep 2025]</strong> One paper is accepted by <strong>AAAI 2026!</strong></li>
+  <li> <strong>[Jun 2025]</strong> One paper is accepted by <strong>ICCV Highlight 2025!</strong></li>
+  <li> <strong>[Feb 2025]</strong> Three papers are accepted by <strong>CVPR 2025!</strong></li>
     </ul>
   </div>
 </div>
@@ -89,6 +90,42 @@ I am also recruiting several high-year undergraduate interns. The recruitment is
 <p style="font-family: Helvetica, Arial, sans-serif;">
   <table cellspacing="0" cellpadding="0" class="noBorder">
            <tbody>
+               <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/ViLo.png" border="0">
+                            </td>
+                    <td>
+                            <b>ViLo: LiDAR Localization with Vision-Language Priors</b>
+                    <br>
+                    Minghang Zhu1️⃣, Jianshi Wu1️⃣, Yuxin Guo1️⃣, Wen Li, Penghui Shang, <strong>Sheng Ao📧</strong>, Cheng Wang.
+                    <br>
+                    <em>Annual Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>, 2026)</em>
+                    </td>
+               </tr>
+               <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/SOAR.png" border="0">
+                            </td>
+                    <td>
+                            <b>SOAR: Regression-based LiDAR Relocalization for UAVs</b>
+                    <br>
+                    Hengyu Mu1️⃣, Jianshi Wu1️⃣, Yuxin Guo1️⃣, XianLian Lin, Qingyong Hu, <strong>Sheng Ao📧</strong>, Chenglu Wen, Cheng Wang.
+                    <br>
+                    <em>Annual Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>, 2026)</em>
+                    </td>
+               </tr>
+               <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/LINK.png" border="0">
+                            </td>
+                    <td>
+                            <b>LINK: Learning to Localize from Known to Unknown Scenes</b>
+                    <br>
+                    Minghang Zhu1️⃣, Kaibo Jin1️⃣, Zhijing Wang, Ziwei Shi, Wen Li, <strong>Sheng Ao📧</strong>, Cheng Wang.
+                    <br>
+                    <em>Annual Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>, 2026)</em>
+                    </td>
+               </tr>
                <tr>
                     <td width="40%">
                         <img width="320" src="../images/Temploc.png" border="0">
