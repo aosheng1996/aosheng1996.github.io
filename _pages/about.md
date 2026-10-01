@@ -9,6 +9,7 @@ redirect_from:
 
 I am an Assistant Professor working with **Prof. [Cheng Wang](https://scholar.google.com.hk/citations?user=kAnv3SkAAAAJ&hl=zh-CN&oi=ao)** at School of Informatics, **Xiamen University** in Xiamen, Fujian, China. I received the Ph.D. degree from Sun Yat-Sen University (SYSU) in 2024, supervised by **Prof. [Yulan Guo](https://scholar.google.com.hk/citations?user=WQRNvdsAAAAJ&hl=zh-CN&oi=ao)**. My research interests focus on 3D deep learning, particularly on 3D feature learning, registration and localization.
 
+<!--
 ----------------------------------------------
 👨‍🎓 **I am actively recruiting self-motivated master students.** 
 
@@ -39,7 +40,7 @@ I am also recruiting several high-year undergraduate interns. The recruitment is
   <li> <strong>Hardware</strong>: RTX 3090/4090 GPU workstation for all students</li>
   </ul>
 </div>
-
+-->
 ----------------------------------------------
 <html lang="en">
 <head>
