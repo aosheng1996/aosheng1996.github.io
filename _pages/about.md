@@ -72,7 +72,7 @@ I am also recruiting several high-year undergraduate interns. The recruitment is
     <ul>
   <li> <strong>[Sep 2026]</strong> Seven papers are accepted by <strong>NeurIPS 2026!</strong></li>
   <li> <strong>[Jun 2026]</strong> One paper is accepted by <strong>ECCV 2026!</strong></li>
-  <li> <strong>[Jun 2026]</strong> One paper is accepted by <strong>ACMMM 2026!</strong></li>
+  <li> <strong>[Jun 2026]</strong> Two papers are accepted by <strong>ACMMM 2026!</strong></li>
   <li> <strong>[Feb 2026]</strong> One paper is accepted by <strong>CVPR Highlight 2026!</strong></li>
   <li> <strong>[Sep 2025]</strong> One paper is accepted by <strong>AAAI 2026!</strong></li>
   <li> <strong>[Jun 2025]</strong> One paper is accepted by <strong>ICCV Highlight 2025!</strong></li>
