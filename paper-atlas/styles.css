@@ -8,3 +8,53 @@
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 
 .mobile-year{display:none}@media(max-width:760px){.mobile-year{display:block}.filter-selects{flex-wrap:wrap;max-width:100%}}
+
+/* Reading comes first: keep summaries and controls legible on every screen. */
+:root:not([data-theme=dark]){--muted:#566473}
+body{font-size:1.0625rem;line-height:1.75}
+.topbar{height:72px}.brand{font-size:1.125rem}.top-caption{font-size:.875rem}
+.icon-button{min-width:40px;height:40px;font-size:1.375rem}
+.repo-title h1{font-size:1.75rem}.repo-header>p{font-size:1rem;margin-bottom:20px}
+.badge{font-size:.8125rem;padding:3px 10px}.tabs{gap:4px}.tab{font-size:1rem;padding:14px 16px}.counter{font-size:.8125rem;line-height:23px;min-width:25px}
+.workspace{grid-template-columns:224px minmax(0,1fr) 264px;gap:28px;padding-top:30px}
+.sidebar-title{font-size:1rem}.tiny,.sidebar-note .tiny,.venue-group>.tiny,.reading-note .tiny{font-size:.75rem;letter-spacing:.6px}
+.category-button{font-size:1rem;padding:11px 10px;gap:8px}.category-count{font-size:.8125rem}
+.year-button{font-size:.9375rem;min-height:40px}.check-row{font-size:.9375rem;gap:8px}.check-row input{width:18px;height:18px;flex-shrink:0}
+.sidebar-note p{font-size:.9375rem}.eyebrow{font-size:.75rem;letter-spacing:.7px}
+.intro{padding-bottom:24px}.intro h2{font-size:2.125rem;line-height:1.45}.intro p{font-size:1rem;line-height:1.8}
+.stats{padding:20px 0}.stats>div{padding:0 16px}.stats b{font-size:1.75rem}.stats span{font-size:.875rem;line-height:1.6}
+.searchbox{padding:11px 14px}.searchbox input{font-size:1rem}.searchbox kbd{font-size:.8125rem;line-height:22px}
+.button{font-size:.9375rem;min-height:42px;padding:8px 14px}
+.filter-row{gap:12px;margin:18px 0}.filter-selects{flex-wrap:wrap;max-width:100%}.filter-row select{font-size:.9375rem;min-height:40px;max-width:100%;padding:7px 25px 7px 11px}
+.results-label,.text-button{font-size:.875rem}.filter-chip{font-size:.875rem;padding:5px 12px}
+.paper-card{padding:26px 26px 24px}.paper-meta{gap:9px}.venue-badge{font-size:.875rem;padding:3px 9px}.paper-year{font-size:.875rem}
+.bookmark-button{width:38px;height:38px;font-size:1.375rem}
+.paper-title{font-size:1.375rem;line-height:1.55;margin:13px 36px 10px 0;letter-spacing:0;overflow-wrap:anywhere}
+.paper-authors{font-size:.9375rem;line-height:1.8;margin-bottom:15px}
+.paper-summary{font-size:1.125rem;line-height:1.95;margin-bottom:20px;opacity:1}
+.summary-label{font-size:.875rem}.summary-pending{font-size:1rem;line-height:1.9}
+.topic-tag{font-size:.8125rem;padding:3px 8px}.paper-links,.paper-links button{font-size:.875rem}.paper-links{gap:16px}
+.paper-bottom{gap:14px}.panel{padding:20px}.panel-title{font-size:1rem}.status-line{font-size:.9375rem}.status-details{font-size:.875rem;overflow-wrap:anywhere}
+.venue-tag{font-size:.875rem;padding:5px 9px}.small{font-size:.875rem;line-height:1.85}.reading-note h3{font-size:1.625rem}.reading-note p{font-size:.9375rem}
+.status-details dt{flex-shrink:0}.status-details dd{min-width:0}
+.pagination{flex-wrap:wrap;gap:9px}.pagination button{font-size:1rem;min-height:40px;padding:6px 13px}.pagination span{font-size:.875rem}
+.empty-state h3{font-size:1.375rem}.empty-state p{font-size:1rem}
+footer{font-size:.875rem;flex-wrap:wrap}footer strong{font-size:1rem}
+dialog{width:min(900px,calc(100vw - 32px));padding:32px;max-height:90vh}.dialog-title{font-size:1.625rem;line-height:1.6;letter-spacing:0}
+.dialog-summary{font-size:1.125rem;line-height:2;padding:24px}.dialog-details{font-size:1rem}.dialog-details div{grid-template-columns:110px minmax(0,1fr);gap:16px;padding:13px 0}.dialog-abstract{font-size:1rem;line-height:1.9}.toast{font-size:1rem}
+.content-heading{font-size:1.875rem}.content-lead{font-size:1.0625rem}.info-block h3{font-size:1.1875rem}.info-block p,.info-block li{font-size:1rem;line-height:1.95}
+.coverage-card h4{font-size:1rem}.coverage-card p{font-size:.9375rem}.coverage-card .badge{font-size:.8125rem}.notice{font-size:.9375rem;line-height:1.9}
+@media(max-width:1280px){.workspace{grid-template-columns:220px minmax(0,1fr);gap:26px}.rightbar{display:none}}
+@media(max-width:900px){.workspace{grid-template-columns:200px minmax(0,1fr);gap:22px;padding-left:22px;padding-right:22px}.intro-art{width:110px}.intro h2{font-size:1.875rem}.paper-card{padding:24px 22px}.stats>div{padding:0 12px}}
+@media(max-width:760px){
+ .topbar{height:64px;padding:0 16px}.brand{font-size:1rem;gap:8px}.top-actions{gap:12px}.brand svg{width:28px}
+ .repo-header{padding:22px 16px 0}.repo-title h1{font-size:1.625rem}.repo-header>p{font-size:.9375rem;max-width:none;line-height:1.8}.tabs{gap:0}.tab{font-size:.9375rem;padding:14px 11px}
+ .workspace{padding:22px 14px 38px}.sidebar{margin-bottom:22px}.category-button{font-size:.9375rem;padding:9px 13px;min-height:42px}
+ .intro{min-height:120px;gap:12px}.intro h2{font-size:1.75rem}.intro p{font-size:1rem}.intro-art{display:none}.eyebrow{font-size:.75rem;letter-spacing:.3px}
+ .stats{padding:16px 0}.stats b{font-size:1.625rem}.stats span{font-size:.8125rem}.searchbox{padding:11px}.searchbox input{font-size:1rem}.filter-row select{font-size:1rem}.results-label{font-size:.875rem}
+ .paper-card{padding:22px 18px}.paper-title{font-size:1.3125rem;margin-right:0;line-height:1.6}.paper-authors{font-size:.9375rem}.paper-summary{font-size:1.0625rem;line-height:1.95}.badge{font-size:.8125rem}.paper-links{gap:14px}
+ .pagination button{font-size:.9375rem;padding:6px 11px}.pagination span{font-size:.875rem;padding:0 5px}
+ dialog{width:calc(100vw - 24px);padding:26px 19px}.dialog-title{font-size:1.375rem}.dialog-summary{font-size:1.0625rem;padding:18px}.dialog-details div{grid-template-columns:80px minmax(0,1fr);gap:12px}.dialog-details,.dialog-abstract{font-size:.9375rem}
+ .content-heading{font-size:1.625rem}.content-lead{font-size:1rem}.info-block{padding:20px}.coverage-grid{grid-template-columns:1fr}
+}
+@media(max-width:420px){.stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 0}.stats>div:nth-child(2){border:0}.stats>div{padding:0 18px}.stats span{font-size:.875rem}.brand{font-size:.9375rem}.repo-title{gap:9px}}
