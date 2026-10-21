@@ -49237,12 +49237,17 @@
       "source_url": "https://arxiv.org/abs/2503.10692",
       "pdf_url": "https://arxiv.org/pdf/2503.10692",
       "evidence_url": "https://api.datacite.org/dois/10.48550/arxiv.2503.10692",
-      "verified_at": "2026-10-21T17:40:26+08:00",
+      "verified_at": "2026-10-21T17:55:49+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2503.10692",
           "verified_at": "2026-10-21T17:40:26+08:00"
+        },
+        {
+          "name": "arXiv author comments and abstract, editorial verification",
+          "url": "https://arxiv.org/abs/2503.10692",
+          "verified_at": "2026-10-21T17:55:49+08:00"
         }
       ],
       "review_status": "acceptance-claimed",
@@ -49292,7 +49297,7 @@
       "author_comment": "Accepted by CVPRF 2026 (Findings of the Conference on Computer Vision and Pattern Recognition 2026)",
       "id": "paper-2850fc3bccbcf541",
       "year": 2025,
-      "summary_status": "pending",
+      "summary_status": "reviewed",
       "earliest_known_date": "2025-03",
       "accepted_venue": "CVPR",
       "accepted_year": 2026,
@@ -49304,8 +49309,10 @@
           "quote": "Accepted by CVPRF 2026 (Findings of the Conference on Computer Vision and Pattern Recognition 2026)"
         }
       ],
-      "acceptance_note": "作者在 arXiv 元数据中声明录用于 CVPR 2026；尚未独立核验官方录用记录，不视为正式出版。",
-      "summary_zh": ""
+      "acceptance_note": "作者在 arXiv 元数据中声明录用于 CVPR Findings 2026，属于 Findings 轨道，非 CVPR 主会；尚未独立核验官方录用记录，不视为正式出版。",
+      "summary_zh": "低空无人机在缺少卫星定位信号时，需要利用机载图像与地理参考地图确定位置，但大幅视角变化使现有检索和匹配方法难以稳定工作。论文构建包含一万八千幅多场景、多高度图像的基准，并提供航空摄影测量与历史卫星参考地图；通过统一框架比较定位方法组合，分析影响精度的关键因素，同时提出更贴合无人机绝对视觉定位任务的检索评价指标。",
+      "code_url": "https://github.com/UAV-AVL/Benchmark",
+      "venue_track": "Findings（作者声明，非主会）"
     },
     {
       "title": "ERUPT: Efficient Rendering with Unposed Patch Transformer",
@@ -63390,9 +63397,9 @@
     "total_papers": 1005,
     "candidate_count": 909,
     "summary_counts": {
-      "reviewed": 774,
+      "reviewed": 775,
       "generated": 52,
-      "pending": 179
+      "pending": 178
     },
     "summary_errors": [
       {
@@ -63482,7 +63489,9 @@
       "accepted": 219,
       "preprint": 1
     },
-    "preprint_count": 25
+    "preprint_count": 25,
+    "editorial_updated_at": "2026-10-21T17:55:49+08:00",
+    "editorial_update_note": "核验 arXiv 2503.10692 的 Findings 作者录用声明，修正轨道并补充中文简介；来源采集时间保持不变。"
   },
   "sources": [
     {
