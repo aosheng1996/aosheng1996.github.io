@@ -1,0 +1,78 @@
+# Install at .github/workflows/sync-paper-atlas.yml in the existing homepage repo.
+name: Sync Spatial Atlas public catalogue
+on:
+  schedule:
+    - cron: '35 0,6 * * *' # 08:35 and 14:35 Asia/Shanghai; Actions schedules use UTC.
+  workflow_dispatch:
+    inputs:
+      removal_reason:
+        description: 'Public explanation, only when intentionally removing over 20% of main IDs'
+        required: false
+        type: string
+  push:
+    branches: [master]
+    paths:
+      - '.github/workflows/sync-paper-atlas.yml'
+      - '.github/scripts/sync_public_catalogue.py'
+
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: spatial-atlas-public-mirror
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 1
+      - name: Validate and stage one public snapshot
+        env:
+          REMOVAL_REASON: ${{ inputs.removal_reason || '' }}
+        run: >-
+          python3 .github/scripts/sync_public_catalogue.py
+          --target-dir paper-atlas/data
+          --allow-removals-reason "$REMOVAL_REASON"
+      - name: Commit only mirror data
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- paper-atlas/data/papers.json paper-atlas/data/health.json paper-atlas/data/mirror.json
+          if git diff --cached --quiet; then
+            echo 'Public snapshot is unchanged; source timestamps are preserved.'
+          else
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Update Spatial Atlas public catalogue'
+            git push origin HEAD:master
+          fi
+      - name: Request and verify the existing Pages build
+        # GITHUB_TOKEN pushes do not trigger Pages automatically. The REST build
+        # endpoint accepts installation tokens with pages:write; no PAT is used.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          expected_commit=$(git rev-parse HEAD)
+          gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds" --silent
+          for attempt in $(seq 1 30); do
+            build=$(gh api "repos/$GITHUB_REPOSITORY/pages/builds/latest" --jq '.status + " " + (.commit // "")')
+            read -r status commit <<< "$build"
+            if [[ "$commit" == "$expected_commit" && "$status" == 'built' ]]; then
+              echo "Pages built the expected revision $expected_commit"
+              exit 0
+            fi
+            if [[ "$commit" == "$expected_commit" && "$status" == 'errored' ]]; then
+              echo 'Pages build failed; check the existing Pages workflow logs.' >&2
+              exit 1
+            fi
+            sleep 10
+          done
+          echo 'Pages build was requested but completion was not verified within five minutes.' >&2
+          exit 1
