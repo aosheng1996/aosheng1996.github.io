@@ -4,8 +4,8 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="从2025年起，追踪视觉定位、点云定位、位置识别、配准、处理与无人机导航的公开学术论文。官方来源、作者信息和中文导读，一处检索。">
   <meta name="color-scheme" content="light dark"><title>Spatial Atlas · 空间智能论文库</title>
-  <link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css?v=20261021-readable-ijrr2">
-  <script src="app.js?v=20261021-readable-ijrr2" defer></script>
+  <link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css?v=20261021-accepted1">
+  <script src="app.js?v=20261021-accepted1" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#paper-list">跳转到论文列表</a>
@@ -19,7 +19,7 @@
 <div class="workspace">
 <aside class="sidebar" aria-label="论文筛选">
  <div class="sidebar-title">研究方向 <span class="tiny">EXPLORE</span></div><nav id="category-nav" class="category-nav"></nav>
- <div class="side-divider"></div><div class="sidebar-title">发表年份</div><div id="year-options" class="year-options"></div>
+ <div class="side-divider"></div><div class="sidebar-title">年份</div><div id="year-options" class="year-options"></div>
  <div class="side-divider"></div><div class="sidebar-title">论文类型</div><label class="check-row"><input type="checkbox" id="published-only"> 仅正式发表</label><label class="check-row"><input type="checkbox" id="summary-only"> 已有中文导读</label>
  <div class="sidebar-note"><span class="note-icon">⌘</span><p>从 <b>2025</b> 年开始<br>追踪空间智能的下一步。</p><span class="tiny">TRACE THE IDEAS. BUILD THE NEXT.</span></div>
 </aside>
@@ -28,7 +28,7 @@
   <div class="intro"><div><div class="eyebrow"><span class="green-dot"></span> THE SPATIAL INTELLIGENCE READING ROOM</div><h2 id="view-title">读懂空间，追踪前沿。</h2><p id="view-description">跨越视觉与几何，从一篇论文开始。</p></div><div class="intro-art" aria-hidden="true"><svg viewBox="0 0 185 100"><g fill="none" stroke="currentColor" stroke-width=".7"><path d="M12 68 92 20l80 46-80 47Z M12 52l80-47 80 45-80 48Z M12 52v16M92 5v15M172 50v16M92 98v15"/><path d="m32 56 80-47m-60 59 80-47m-60 59 80-47M32 41l80 46M52 29l80 46M72 17l80 46"/></g><g fill="var(--green)"><circle cx="52" cy="68" r="3"/><circle cx="112" cy="56" r="3"/><circle cx="92" cy="20" r="3"/></g><path d="M52 68 92 20l20 36" fill="none" stroke="var(--green)" stroke-width="1.5"/></svg></div></div>
   <div class="stats" id="stats"><div><b>—</b><span>已收录论文</span></div><div><b>6</b><span>研究方向</span></div><div><b>—</b><span>会议与期刊</span></div><div><b>—</b><span>中文导读</span></div></div>
   <div class="search-row"><label class="searchbox"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" autocomplete="off" placeholder="搜索论文、作者、方法或关键词…" aria-label="搜索论文"><kbd>/</kbd></label><button id="export-button" class="button" title="导出当前筛选结果的 BibTeX">↓ <span>导出引用</span></button></div>
-  <div class="filter-row"><div class="filter-selects"><label class="sr-only" for="year-filter">发表年份</label><select id="year-filter" class="mobile-year"><option value="">全部年份</option></select><label class="sr-only" for="venue-filter">会议与期刊</label><select id="venue-filter"><option value="">全部会议 / 期刊</option></select><label class="sr-only" for="sort-select">排序</label><select id="sort-select"><option value="newest">最新发表</option><option value="oldest">最早发表</option><option value="title">标题 A–Z</option><option value="venue">按发表出处</option></select></div><button id="clear-filters" class="text-button" hidden>清除筛选</button><span id="results-label" class="results-label" aria-live="polite">正在读取论文索引…</span></div>
+  <div class="filter-row"><div class="filter-selects"><label class="sr-only" for="year-filter">年份</label><select id="year-filter" class="mobile-year"><option value="">全部年份</option></select><label class="sr-only" for="venue-filter">会议与期刊</label><select id="venue-filter"><option value="">全部会议 / 期刊</option></select><label class="sr-only" for="status-filter">出版状态</label><select id="status-filter"><option value="">全部出版状态</option><option value="accepted">已录用 / 待出版</option><option value="published">正式发表</option><option value="preprint">预印本</option></select><label class="sr-only" for="sort-select">排序</label><select id="sort-select"><option value="newest">最新公开 / 发表</option><option value="oldest">最早公开 / 发表</option><option value="title">标题 A–Z</option><option value="venue">按发表出处</option></select></div><button id="clear-filters" class="text-button" hidden>清除筛选</button><span id="results-label" class="results-label" aria-live="polite">正在读取论文索引…</span></div>
   <div id="active-filters" class="active-filters"></div><div id="paper-list" class="paper-list" aria-live="polite"><div class="empty-state"><span class="loading-spinner"></span><h3>正在打开论文库</h3><p>论文与中文导读将加载在这里。</p></div></div><div id="pagination" class="pagination"></div>
  </section>
  <section id="sources-view" hidden></section><section id="about-view" hidden></section>

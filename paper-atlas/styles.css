@@ -58,3 +58,6 @@ dialog{width:min(900px,calc(100vw - 32px));padding:32px;max-height:90vh}.dialog-
  .content-heading{font-size:1.625rem}.content-lead{font-size:1rem}.info-block{padding:20px}.coverage-grid{grid-template-columns:1fr}
 }
 @media(max-width:420px){.stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 0}.stats>div:nth-child(2){border:0}.stats>div{padding:0 18px}.stats span{font-size:.875rem}.brand{font-size:.9375rem}.repo-title{gap:9px}}
+
+/* Acceptance evidence remains readable on both desktop and mobile. */
+.badge.accepted{color:#744900;background:#fff1c2;border-color:#e5c56d}.acceptance-panel{padding:16px 18px;margin:18px 0;border:1px solid var(--border);border-radius:8px;background:var(--bg-subtle);font-size:16px;line-height:1.7}.acceptance-panel h3{margin:0 0 8px;font-size:18px}.acceptance-panel p{margin:8px 0;overflow-wrap:anywhere}.acceptance-panel q{color:var(--muted)}[data-theme="dark"] .badge.accepted{color:#f2cd78;background:#463819;border-color:#7b642c}

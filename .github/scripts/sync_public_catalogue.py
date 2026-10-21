@@ -180,8 +180,22 @@ def validate_snapshot(snapshot):
             categories = record.get("categories")
             if not isinstance(categories, list) or not categories or any(c not in CATEGORIES for c in categories):
                 raise SnapshotError("Invalid topic categories")
-            if record.get("publication_status") not in ("published", "preprint") or record.get("summary_status") not in ("reviewed", "generated", "pending"):
+            if record.get("publication_status") not in ("published", "accepted", "preprint") or record.get("summary_status") not in ("reviewed", "generated", "pending"):
                 raise SnapshotError("Invalid publication or summary status")
+            if record["publication_status"] == "accepted":
+                if record.get("acceptance_basis") not in ("official", "author_claim") or record.get("accepted_venue") != record["venue"]:
+                    raise SnapshotError("Accepted paper lacks a clear venue or evidence basis")
+                if record.get("accepted_year") is not None and (type(record["accepted_year"]) is not int or not 1900 <= record["accepted_year"] <= 2100):
+                    raise SnapshotError("Invalid acceptance venue year")
+                evidence = record.get("acceptance_evidence")
+                if not isinstance(record.get("acceptance_note"), str) or not record["acceptance_note"].strip() or not isinstance(evidence, list) or not evidence:
+                    raise SnapshotError("Accepted paper lacks an explanation or evidence")
+                for item in evidence:
+                    if not isinstance(item, dict) or any(not isinstance(item.get(k), str) or not item[k].strip() for k in ("url", "kind", "quote")):
+                        raise SnapshotError("Invalid acceptance evidence")
+                    parts = urllib.parse.urlsplit(item["url"])
+                    if parts.scheme != "https" or not parts.hostname or parts.username or parts.password:
+                        raise SnapshotError("Unsafe acceptance evidence link")
             if not isinstance(record.get("summary_zh"), str) or (record["summary_status"] != "pending" and not record["summary_zh"].strip()):
                 raise SnapshotError("Invalid Chinese summary")
             if collection == "preprints" and (record["publication_status"] != "preprint" or record.get("review_status") != "pending"):
