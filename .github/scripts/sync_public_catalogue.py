@@ -27,7 +27,7 @@ import urllib.error
 import urllib.request
 import zlib
 
-SOURCE_URL = "https://asc-d9g8a33rmaf55cf87-1505352887.tcloudbaseapp.com/paper-atlas/data/papers.json"
+SOURCE_URL = "https://asc-d9g8a33rmaf55cf87-1505352887.tcloudbaseapp.com/paper-atlas/data/papers.json.gz"
 MAX_BYTES = 20 * 1024 * 1024
 CATEGORIES = {"visual-localization", "point-localization", "place-recognition", "registration", "point-processing", "uav-navigation"}
 PRIVATE_KEYS = {"review", "reviews", "candidates", "candidate_queue", "collector_state", "tokens", "token", "access_token", "refresh_token", "session_token", "secret", "secretid", "secretkey", "secret_id", "secret_key", "api_key", "apikey", "password", "authorization", "operator_notes", "private_notes", "credentials"}
@@ -74,11 +74,28 @@ def source_url(value):
     return value
 
 
+def decompress_snapshot(body):
+    """Validate gzip magic, trailer and CRC while bounding decompressed bytes."""
+    try:
+        with gzip.GzipFile(fileobj=io.BytesIO(body)) as stream:
+            decoded = stream.read(MAX_BYTES + 1)
+    except EOFError as exc:
+        raise IncompleteTransfer("Compressed public snapshot transfer is incomplete") from exc
+    except (gzip.BadGzipFile, zlib.error) as exc:
+        raise SnapshotError("Invalid gzip public snapshot") from exc
+    if len(decoded) > MAX_BYTES:
+        raise SnapshotError("Decompressed public snapshot exceeds 20 MB")
+    return decoded
+
+
 def fetch_snapshot(url, timeout=30):
     source_url(url)
     if not 1 <= timeout <= 120:
         raise SnapshotError("Timeout must be between 1 and 120 seconds")
-    request = urllib.request.Request(url, headers={"User-Agent": "SpatialAtlasPublicMirror/1.0", "Accept": "application/json", "Accept-Encoding": "gzip"})
+    # A .gz URL names a compressed file even when HTTP Content-Encoding is
+    # absent. A transport gzip layer, if supplied, is decoded independently.
+    gzip_file = urllib.parse.urlsplit(url).path.lower().endswith(".gz")
+    request = urllib.request.Request(url, headers={"User-Agent": "SpatialAtlasPublicMirror/1.0", "Accept": "application/gzip, application/json", "Accept-Encoding": "identity"})
     deadline = time.monotonic() + timeout
     opener = urllib.request.build_opener(NoRedirect())
     # One shared wall-clock budget covers all attempts, reads, and backoff.
@@ -115,13 +132,9 @@ def fetch_snapshot(url, timeout=30):
                         raise IncompleteTransfer(f"Public snapshot transfer is incomplete (expected={expected}, received={size}, encoding={encoding})")
                     body = b"".join(chunks)
                     if encoding == "gzip":
-                        try:
-                            with gzip.GzipFile(fileobj=io.BytesIO(body)) as stream:
-                                body = stream.read(MAX_BYTES + 1)
-                        except EOFError as exc:
-                            raise IncompleteTransfer("Compressed public snapshot transfer is incomplete") from exc
-                        except (gzip.BadGzipFile, zlib.error) as exc:
-                            raise SnapshotError("Invalid gzip public snapshot") from exc
+                        body = decompress_snapshot(body)
+                    if gzip_file:
+                        body = decompress_snapshot(body)
                     if len(body) > MAX_BYTES:
                         raise SnapshotError("Decompressed public snapshot exceeds 20 MB")
                     if time.monotonic() >= deadline:
@@ -141,7 +154,8 @@ def fetch_snapshot(url, timeout=30):
                     raise TimeoutError("Public snapshot total request deadline reached") from exc
             finally:
                 print(json.dumps({"event": "snapshot_download", "attempt": attempt, "expected_bytes": expected,
-                                  "received_bytes": size, "encoding": encoding[:40], "outcome": outcome}), file=sys.stderr, flush=True)
+                                  "received_bytes": size, "encoding": encoding[:40],
+                                  "representation": "gzip" if gzip_file else "json", "outcome": outcome}), file=sys.stderr, flush=True)
             time.sleep(delay)
 
 
