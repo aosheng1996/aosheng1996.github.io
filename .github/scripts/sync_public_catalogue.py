@@ -10,17 +10,22 @@ from contextlib import contextmanager
 import datetime as dt
 import gzip
 import hashlib
+import http.client
 import io
 import json
 import os
 from pathlib import Path
 import re
 import signal
+import ssl
+import sys
 import tempfile
 import threading
 import time
 import urllib.parse
+import urllib.error
 import urllib.request
+import zlib
 
 SOURCE_URL = "https://asc-d9g8a33rmaf55cf87-1505352887.tcloudbaseapp.com/paper-atlas/data/papers.json"
 MAX_BYTES = 20 * 1024 * 1024
@@ -30,6 +35,10 @@ PRIVATE_KEYS = {"review", "reviews", "candidates", "candidate_queue", "collector
 
 class SnapshotError(ValueError):
     pass
+
+
+class IncompleteTransfer(SnapshotError):
+    """A fresh full download may recover; never reuse partial response bytes."""
 
 
 class NoRedirect(urllib.request.HTTPRedirectHandler):
@@ -71,35 +80,69 @@ def fetch_snapshot(url, timeout=30):
         raise SnapshotError("Timeout must be between 1 and 120 seconds")
     request = urllib.request.Request(url, headers={"User-Agent": "SpatialAtlasPublicMirror/1.0", "Accept": "application/json", "Accept-Encoding": "gzip"})
     deadline = time.monotonic() + timeout
-    with total_timeout(timeout), urllib.request.build_opener(NoRedirect()).open(request, timeout=timeout) as response:
-        if response.status != 200:
-            raise SnapshotError("Public snapshot did not return HTTP 200")
-        length = response.headers.get("Content-Length")
-        if length is not None and (not length.isdigit() or int(length) > MAX_BYTES):
-            raise SnapshotError("Public snapshot has an invalid or excessive Content-Length")
-        chunks, size = [], 0
-        while True:
-            if time.monotonic() >= deadline:
-                raise TimeoutError("Public snapshot request deadline reached")
-            chunk = response.read1(min(65536, MAX_BYTES + 1 - size))
-            if not chunk:
-                break
-            chunks.append(chunk)
-            size += len(chunk)
-            if size > MAX_BYTES:
-                raise SnapshotError("Public snapshot exceeds 20 MB")
-        if length is not None and size != int(length):
-            raise SnapshotError("Public snapshot transfer is incomplete")
-        body = b"".join(chunks)
-        encoding = response.headers.get("Content-Encoding", "identity").lower().strip()
-        if encoding == "gzip":
-            with gzip.GzipFile(fileobj=io.BytesIO(body)) as stream:
-                body = stream.read(MAX_BYTES + 1)
-        elif encoding not in ("", "identity"):
-            raise SnapshotError("Unsupported snapshot content encoding")
-        if len(body) > MAX_BYTES:
-            raise SnapshotError("Decompressed public snapshot exceeds 20 MB")
-        return body
+    opener = urllib.request.build_opener(NoRedirect())
+    # One shared wall-clock budget covers all attempts, reads, and backoff.
+    # A failed attempt's chunks are discarded before opening the next response.
+    with total_timeout(timeout):
+        for attempt in range(1, 4):
+            remaining = deadline - time.monotonic()
+            if remaining <= 0:
+                raise TimeoutError("Public snapshot total request deadline reached")
+            expected, size, encoding, outcome = None, 0, "unknown", "failed"
+            try:
+                with opener.open(request, timeout=min(30, remaining)) as response:
+                    if response.status != 200:
+                        raise SnapshotError("Public snapshot did not return HTTP 200")
+                    length = response.headers.get("Content-Length")
+                    encoding = response.headers.get("Content-Encoding", "identity").lower().strip()
+                    expected = int(length) if length is not None and length.isdigit() else None
+                    if length is not None and (expected is None or expected > MAX_BYTES):
+                        raise SnapshotError("Public snapshot has an invalid or excessive Content-Length")
+                    if encoding not in ("gzip", "", "identity"):
+                        raise SnapshotError("Unsupported snapshot content encoding")
+                    chunks = []
+                    while True:
+                        if time.monotonic() >= deadline:
+                            raise TimeoutError("Public snapshot total request deadline reached")
+                        chunk = response.read1(min(65536, MAX_BYTES + 1 - size))
+                        if not chunk:
+                            break
+                        chunks.append(chunk)
+                        size += len(chunk)
+                        if size > MAX_BYTES:
+                            raise SnapshotError("Public snapshot exceeds 20 MB")
+                    if expected is not None and size != expected:
+                        raise IncompleteTransfer(f"Public snapshot transfer is incomplete (expected={expected}, received={size}, encoding={encoding})")
+                    body = b"".join(chunks)
+                    if encoding == "gzip":
+                        try:
+                            with gzip.GzipFile(fileobj=io.BytesIO(body)) as stream:
+                                body = stream.read(MAX_BYTES + 1)
+                        except EOFError as exc:
+                            raise IncompleteTransfer("Compressed public snapshot transfer is incomplete") from exc
+                        except (gzip.BadGzipFile, zlib.error) as exc:
+                            raise SnapshotError("Invalid gzip public snapshot") from exc
+                    if len(body) > MAX_BYTES:
+                        raise SnapshotError("Decompressed public snapshot exceeds 20 MB")
+                    if time.monotonic() >= deadline:
+                        raise TimeoutError("Public snapshot total request deadline reached")
+                    outcome = "complete"
+                    return body
+            except (IncompleteTransfer, OSError, urllib.error.URLError, http.client.HTTPException) as exc:
+                outcome = type(exc).__name__
+                if isinstance(exc, urllib.error.HTTPError) and exc.code not in (408, 429, 500, 502, 503, 504):
+                    raise
+                reason = exc.reason if isinstance(exc, urllib.error.URLError) else exc
+                if isinstance(reason, ssl.SSLCertVerificationError) or attempt == 3:
+                    raise
+                remaining = deadline - time.monotonic()
+                delay = float(attempt)
+                if remaining <= delay:
+                    raise TimeoutError("Public snapshot total request deadline reached") from exc
+            finally:
+                print(json.dumps({"event": "snapshot_download", "attempt": attempt, "expected_bytes": expected,
+                                  "received_bytes": size, "encoding": encoding[:40], "outcome": outcome}), file=sys.stderr, flush=True)
+            time.sleep(delay)
 
 
 def decode_json(body):

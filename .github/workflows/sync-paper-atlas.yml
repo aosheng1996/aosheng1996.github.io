@@ -37,6 +37,7 @@ jobs:
         run: >-
           python3 .github/scripts/sync_public_catalogue.py
           --target-dir paper-atlas/data
+          --timeout 120
           --allow-removals-reason "$REMOVAL_REASON"
       - name: Commit only mirror data
         shell: bash
