@@ -1,7 +1,7 @@
 {
-  "source_url": "https://asc-d9g8a33rmaf55cf87-1505352887.tcloudbaseapp.com/paper-atlas/data/papers.json",
-  "source_generated_at": "2026-10-25T08:10:09+08:00",
-  "mirrored_at": "2026-10-25T05:06:52+00:00",
-  "snapshot_sha256": "5b4c13e8a8617d477bcbf477d4c9c0346385e17f69c2695b4992e72711144c17",
+  "source_url": "https://asc-d9g8a33rmaf55cf87-1505352887.tcloudbaseapp.com/paper-atlas/data/papers.json.gz",
+  "source_generated_at": "2026-10-26T14:08:43+08:00",
+  "mirrored_at": "2026-10-26T08:59:16+00:00",
+  "snapshot_sha256": "a2f5e3ade78beba033b45d0d22e916432a70d83dd8e8cbd02ccc66867eb9e1e5",
   "removed_main_ids": []
 }
