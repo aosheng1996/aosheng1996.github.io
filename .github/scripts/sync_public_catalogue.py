@@ -339,12 +339,38 @@ def stage_and_replace(directory, payloads):
             path.unlink(missing_ok=True)
 
 
-def synchronize(directory, url=SOURCE_URL, timeout=30, removal_reason="", fetcher=fetch_snapshot):
+def validate_catalogue_years(snapshot, years):
+    allowed = set(years)
+    if not allowed or any(type(year) is not int or not 1900 <= year <= 2100 for year in allowed):
+        raise SnapshotError("Catalogue years must be explicit integer years")
+    declared = snapshot["meta"].get("catalogue_years")
+    if declared is not None and (not isinstance(declared, list) or any(type(year) is not int for year in declared)
+                                 or set(declared) != allowed):
+        raise SnapshotError("Source catalogue year policy disagrees with the requested scope")
+    for record in snapshot["papers"] + snapshot["preprints"]:
+        accepted = record.get("accepted_year")
+        year = accepted if record.get("publication_status") == "accepted" and type(accepted) is int else record["year"]
+        if year not in allowed:
+            raise SnapshotError(f"Paper {record['id']} is outside the requested catalogue years: {year}")
+        if "catalogue_year" in record and (type(record["catalogue_year"]) is not int or record["catalogue_year"] != year):
+            raise SnapshotError("Catalogue year disagrees with publication or acceptance metadata")
+
+
+def synchronize(directory, url=SOURCE_URL, timeout=30, removal_reason="", fetcher=fetch_snapshot,
+                *, max_age_hours=None, catalogue_years=None):
     url = source_url(url)
     if len(removal_reason) > 500:
         raise SnapshotError("Removal explanation is too long")
     incoming = decode_json(fetcher(url, timeout))
     generated = validate_snapshot(incoming)
+    if max_age_hours is not None:
+        if type(max_age_hours) not in (int, float) or not 0 < max_age_hours <= 720:
+            raise SnapshotError("Maximum snapshot age must be between 0 and 720 hours")
+        age_hours = (dt.datetime.now(dt.timezone.utc) - generated).total_seconds() / 3600
+        if age_hours > max_age_hours:
+            raise SnapshotError(f"Source snapshot is stale: generated_at={incoming['meta']['generated_at']}, age={age_hours:.1f}h exceeds {max_age_hours}h")
+    if catalogue_years is not None:
+        validate_catalogue_years(incoming, catalogue_years)
     paper_bytes = json_bytes(incoming)
     expected_health = derived_health(incoming)
     digest = hashlib.sha256(paper_bytes).hexdigest()
@@ -386,9 +412,13 @@ def main():
     parser.add_argument("--source-url", default=SOURCE_URL)
     parser.add_argument("--timeout", type=int, default=30)
     parser.add_argument("--allow-removals-reason", default="", help="Public manual explanation permitting more than 20%% removed main IDs")
+    parser.add_argument("--max-age-hours", type=float, default=None, help="Fail rather than silently rebuilding an old source snapshot")
+    parser.add_argument("--catalogue-years", default=None, help="Comma-separated allowed publication/acceptance years")
     args = parser.parse_args()
     try:
-        print(json.dumps(synchronize(args.target_dir, args.source_url, args.timeout, args.allow_removals_reason)))
+        years = [int(value.strip()) for value in args.catalogue_years.split(",")] if args.catalogue_years else None
+        print(json.dumps(synchronize(args.target_dir, args.source_url, args.timeout, args.allow_removals_reason,
+                                     max_age_hours=args.max_age_hours, catalogue_years=years)))
     except Exception as exc:
         print("Mirror update refused: " + type(exc).__name__ + ": " + str(exc)[:240])
         return 1

@@ -1,19 +1,12 @@
 # Install at .github/workflows/sync-paper-atlas.yml in the existing homepage repo.
-name: Sync Spatial Atlas public catalogue
+name: Sync CloudBase catalogue (manual fallback)
 on:
-  schedule:
-    - cron: '35 0,6 * * *' # 08:35 and 14:35 Asia/Shanghai; Actions schedules use UTC.
   workflow_dispatch:
     inputs:
       removal_reason:
         description: 'Public explanation, only when intentionally removing over 20% of main IDs'
         required: false
         type: string
-  push:
-    branches: [master]
-    paths:
-      - '.github/workflows/sync-paper-atlas.yml'
-      - '.github/scripts/sync_public_catalogue.py'
 
 permissions:
   contents: write
@@ -38,6 +31,8 @@ jobs:
           python3 .github/scripts/sync_public_catalogue.py
           --target-dir paper-atlas/data
           --timeout 120
+          --max-age-hours 26
+          --catalogue-years 2025,2026
           --allow-removals-reason "$REMOVAL_REASON"
       - name: Commit only mirror data
         shell: bash

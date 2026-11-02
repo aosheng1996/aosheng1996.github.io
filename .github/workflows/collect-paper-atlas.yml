@@ -1,0 +1,106 @@
+# Install in the public homepage repository at .github/workflows/collect-paper-atlas.yml.
+# Runtime files: .github/atlas/{run_public_collector,update_papers,collect_ai_venues}.py
+# Validator: .github/scripts/sync_public_catalogue.py. No cloud/model secrets.
+name: Collect Spatial Atlas public sources
+on:
+  schedule:
+    - cron: '0 0,6 * * *' # 08:00 / 14:00 Asia/Shanghai; GitHub can delay runs.
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - '.github/atlas/**'
+      - '.github/scripts/sync_public_catalogue.py'
+      - '.github/workflows/collect-paper-atlas.yml'
+
+permissions:
+  contents: write
+  pages: write
+  actions: write # Delete only this workflow's obsolete progress caches.
+concurrency:
+  group: spatial-atlas-public-mirror
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    # Standard runners are free for PUBLIC repositories. Never silently migrate
+    # this workflow to billable private-repository or larger runners.
+    if: github.event.repository.private == false && github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Restore public-source pagination only
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ runner.temp }}/atlas-public-progress/collector-state.json
+          key: atlas-public-progress-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: atlas-public-progress-v1-
+      - name: Collect, validate and stage public data
+        env:
+          ATLAS_RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: >-
+          python .github/atlas/run_public_collector.py
+          --repository .
+          --cache-file "${{ runner.temp }}/atlas-public-progress/collector-state.json"
+          --run-url "$ATLAS_RUN_URL"
+          --budget-seconds 750
+      - name: Commit only the three public JSON files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- paper-atlas/data/papers.json paper-atlas/data/health.json paper-atlas/data/mirror.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Collect Spatial Atlas public sources'
+            git push origin HEAD:master
+          fi
+      - name: Save validated public progress after the catalogue commit
+        uses: actions/cache/save@v4
+        continue-on-error: true
+        with:
+          path: ${{ runner.temp }}/atlas-public-progress/collector-state.json
+          key: atlas-public-progress-v1-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Keep only the two newest public progress caches
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh api "repos/$GITHUB_REPOSITORY/actions/caches?key=atlas-public-progress-v1-&ref=refs/heads/master&per_page=100" \
+            --jq '.actions_caches | sort_by(.created_at) | reverse | .[2:] | .[].id' |
+          while read -r cache_id; do
+            gh api --method DELETE "repos/$GITHUB_REPOSITORY/actions/caches/$cache_id" --silent
+          done
+      - name: Request and verify the existing Pages build
+        # GITHUB_TOKEN pushes do not trigger the existing branch Pages build.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          expected_commit=$(git rev-parse HEAD)
+          gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds" --silent
+          for attempt in $(seq 1 30); do
+            build=$(gh api "repos/$GITHUB_REPOSITORY/pages/builds/latest" --jq '.status + " " + (.commit // "")')
+            read -r status commit <<< "$build"
+            if [[ "$commit" == "$expected_commit" && "$status" == 'built' ]]; then
+              echo "Pages built the expected revision $expected_commit"
+              exit 0
+            fi
+            if [[ "$commit" == "$expected_commit" && "$status" == 'errored' ]]; then
+              echo 'Pages build failed; inspect the existing Pages build logs.' >&2
+              exit 1
+            fi
+            sleep 10
+          done
+          echo 'Pages build requested; completion was not verified within five minutes.' >&2
+          exit 1
