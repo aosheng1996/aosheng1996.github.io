@@ -1,14 +1,9 @@
 {
-  "source_url": "https://github.com/aosheng1996/aosheng1996.github.io/actions/runs/41378736036",
-  "source_generated_at": "2026-11-02T10:41:01+08:00",
-  "mirrored_at": "2026-11-02T02:41:04+00:00",
-  "snapshot_sha256": "1dce207173bdb8411f6324e3c3ac59738f9dcdc4ac0f7eea3c5dd3e8e4d45d7e",
-  "removed_main_ids": [
-    "paper-250c3273e35cdce2",
-    "paper-311da02520ba9c79",
-    "paper-4cb2ed683ab06cf9",
-    "paper-9e4346430f491525"
-  ],
+  "source_url": "https://github.com/aosheng1996/aosheng1996.github.io/actions/runs/41458757036",
+  "source_generated_at": "2026-11-02T22:08:50+08:00",
+  "mirrored_at": "2026-11-02T14:08:54+00:00",
+  "snapshot_sha256": "9834e707ca9d1e6874f9253a32c0b3899d149c38ec67955069d25828fd678daa",
+  "removed_main_ids": [],
   "source_kind": "github-actions",
   "collector_model_calls": false
 }
