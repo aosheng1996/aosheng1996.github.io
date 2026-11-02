@@ -1,7 +1,14 @@
 {
-  "source_url": "https://asc-d9g8a33rmaf55cf87-1505352887.tcloudbaseapp.com/paper-atlas/data/papers.json.gz",
-  "source_generated_at": "2026-10-29T08:08:43+08:00",
-  "mirrored_at": "2026-10-29T06:15:48+00:00",
-  "snapshot_sha256": "937d18b68a43f2fafa15f156470a712b498c9192ecec5f1b1350a8df8e7666b8",
-  "removed_main_ids": []
+  "source_url": "https://github.com/aosheng1996/aosheng1996.github.io/actions/runs/41378736036",
+  "source_generated_at": "2026-11-02T10:41:01+08:00",
+  "mirrored_at": "2026-11-02T02:41:04+00:00",
+  "snapshot_sha256": "1dce207173bdb8411f6324e3c3ac59738f9dcdc4ac0f7eea3c5dd3e8e4d45d7e",
+  "removed_main_ids": [
+    "paper-250c3273e35cdce2",
+    "paper-311da02520ba9c79",
+    "paper-4cb2ed683ab06cf9",
+    "paper-9e4346430f491525"
+  ],
+  "source_kind": "github-actions",
+  "collector_model_calls": false
 }
