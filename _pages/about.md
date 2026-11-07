@@ -93,12 +93,12 @@ I am also recruiting several high-year undergraduate interns. The recruitment is
            <tbody>
                <tr>
                     <td width="40%">
-                        <img width="320" src="../images/ViLo.png" border="0">
+                        <img width="320" src="../images/BiLi.png" border="0">
                             </td>
                     <td>
-                            <b>ViLo: LiDAR Localization with Vision-Language Priors</b>
+                            <b>BiLi: Bridging the Last Mile in LiDAR Localization</b>
                     <br>
-                    Minghang Zhu1️⃣, Jianshi Wu1️⃣, Yuxin Guo1️⃣, Wen Li, Penghui Shang, <strong>Sheng Ao📧</strong>, Cheng Wang.
+                    Minghang Zhu1️⃣, Junchuan Lan1️⃣, Zhijing Wang, Haoze Chang, Wen Li, <strong>Sheng Ao📧</strong>, Cheng Wang.
                     <br>
                     <em>Advances in Neural Information Processing Systems (<strong>NeurIPS</strong>, 2026)</em>
                     </td>
