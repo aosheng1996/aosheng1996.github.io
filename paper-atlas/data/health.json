@@ -1,11 +1,10 @@
 {
   "status": "partial",
-  "checked_at": "2026-11-10T13:07:42+08:00",
+  "checked_at": "2026-11-10T21:57:32+08:00",
   "last_successful_update": null,
-  "papers": 2710,
-  "pending_candidates": 245,
+  "papers": 2714,
+  "pending_candidates": 239,
   "failed_sources": [
-    "arxiv",
-    "pmlr"
+    "arxiv"
   ]
 }
