@@ -1,114 +1,6 @@
 {
   "papers": [
     {
-      "title": "UGG: Unified Generative Geometry Model",
-      "authors": [
-        "Amani Kiruga",
-        "Zhiyi Li",
-        "Ruojin Cai",
-        "Hansen Lillemark",
-        "Xiaoshan Wu",
-        "Ayush Tewari",
-        "Yilun Du"
-      ],
-      "published": "2026-11-11",
-      "venue": "NeurIPS",
-      "publication_status": "accepted",
-      "categories": [
-        "visual-localization"
-      ],
-      "abstract": "Understanding 4D scenes is a core challenge in visual intelligence, requiring models to jointly capture scene geometry, appearance, and dynamics from partial observations. However, existing approaches are subdivided into feedforward models for direct geometric prediction, and generative models for visual synthesis. We introduce UGG, a unified framework for 4D scene understanding that jointly models RGB video and geometric representations such as depth and camera pose. By assigning different noise levels across modalities and time, UGG formulates visual generation and geometric prediction as conditional completion within a single generative model. This flexible formulation enables the model to learn from diverse, heterogeneous datasets with different subsets of geometric and visual annotations. Furthermore, our generative formulation enables inference-time search over multiple plausible scene hypotheses, using geometric evidence extracted from observed RGB frames to improve geometric prediction without ground truth geometry. We demonstrate UGG's effectiveness over non-unified baselines across camera-controlled video generation, depth estimation, and camera pose prediction, including in challenging sparse observation settings. Code and visualizations are available at https://ugg-model.github.io/",
-      "arxiv_id": "2611.14440",
-      "source_url": "https://arxiv.org/abs/2611.14440",
-      "pdf_url": "https://arxiv.org/pdf/2611.14440",
-      "evidence_url": "https://arxiv.org/abs/2611.14440",
-      "verified_at": "2026-11-11T21:09:01+08:00",
-      "source_records": [
-        {
-          "name": "DataCite arXiv DOI registry",
-          "url": "https://api.datacite.org/dois/10.48550/arxiv.2611.14440",
-          "verified_at": "2026-11-12T12:47:08+08:00"
-        },
-        {
-          "name": "arXiv RSS",
-          "url": "https://rss.arxiv.org/rss/cs.CV",
-          "verified_at": "2026-11-12T12:47:15+08:00"
-        },
-        {
-          "name": "arXiv RSS",
-          "url": "https://rss.arxiv.org/rss/cs.RO",
-          "verified_at": "2026-11-12T12:47:18+08:00"
-        },
-        {
-          "name": "arXiv RSS",
-          "url": "https://rss.arxiv.org/rss/cs.LG",
-          "verified_at": "2026-11-12T12:47:22+08:00"
-        },
-        {
-          "name": "arXiv",
-          "url": "https://arxiv.org/abs/2611.14440",
-          "verified_at": "2026-11-11T21:09:01+08:00"
-        }
-      ],
-      "review_status": "acceptance-claimed",
-      "rss_announce_type": "new",
-      "rss_announced_at": "2026-11-11T00:00:00-05:00",
-      "arxiv_subjects": [
-        "cs.CV",
-        "cs.LG",
-        "cs.RO"
-      ],
-      "publication_date_basis": "rss-new-announcement",
-      "publication_date_note": "arXiv首次公告日期",
-      "id": "paper-9c7881ad29331adb",
-      "year": 2026,
-      "summary_status": "pending",
-      "doi": "10.48550/arxiv.2611.14440",
-      "registry_created_at": "2026-11-11T05:29:49Z",
-      "registry_updated_at": "2026-11-11T05:29:50Z",
-      "registry_registered_at": "2026-11-11T05:29:50Z",
-      "datacite_publication_year": 2026,
-      "datacite_submitted_at": [
-        "2026-11-10T18:11:40Z"
-      ],
-      "datacite_available": [
-        "2026-11"
-      ],
-      "registry_dates": [
-        {
-          "date": "2026-11-10T18:11:40Z",
-          "dateType": "Submitted",
-          "dateInformation": "v1"
-        },
-        {
-          "date": "2026-11-11T03:40:13Z",
-          "dateType": "Updated",
-          "dateInformation": "v1"
-        },
-        {
-          "date": "2026-11",
-          "dateType": "Available",
-          "dateInformation": "v1"
-        }
-      ],
-      "author_comment": "Accepted at NeurIPS 2026. 31 pages, 7 figures, 6 tables. Project page: https://ugg-model.github.io/",
-      "arxiv_updated_at": "2026-11-10T18:11:40Z",
-      "earliest_known_date": "2026-11-10",
-      "catalogue_year": 2026,
-      "accepted_venue": "NeurIPS",
-      "accepted_year": 2026,
-      "acceptance_basis": "author_claim",
-      "acceptance_evidence": [
-        {
-          "url": "https://arxiv.org/abs/2611.14440",
-          "kind": "arxiv-author-comment",
-          "quote": "Accepted at NeurIPS 2026. 31 pages, 7 figures, 6 tables."
-        }
-      ],
-      "acceptance_note": "作者在 arXiv 元数据中声明录用于 NeurIPS 2026；尚未独立核验官方录用记录，不视为正式出版。",
-      "summary_zh": ""
-    },
-    {
       "title": "Time optimal quadrotor maneuver: From optimality analysis to trajectory planning",
       "authors": [
         "Chao Qin",
@@ -147,10 +39,118 @@
       "year": 2026,
       "summary_status": "pending",
       "publication_date_basis": "source-metadata",
-      "publication_date_note": "",
-      "summary_zh": "",
       "earliest_known_date": "2026-11-11",
-      "catalogue_year": 2026
+      "catalogue_year": 2026,
+      "publication_date_note": "",
+      "summary_zh": ""
+    },
+    {
+      "title": "UGG: Unified Generative Geometry Model",
+      "authors": [
+        "Amani Kiruga",
+        "Zhiyi Li",
+        "Ruojin Cai",
+        "Hansen Lillemark",
+        "Xiaoshan Wu",
+        "Ayush Tewari",
+        "Yilun Du"
+      ],
+      "published": "2026-11-10",
+      "venue": "NeurIPS",
+      "publication_status": "accepted",
+      "categories": [
+        "visual-localization"
+      ],
+      "abstract": "Understanding 4D scenes is a core challenge in visual intelligence, requiring models to jointly capture scene geometry, appearance, and dynamics from partial observations. However, existing approaches are subdivided into feedforward models for direct geometric prediction, and generative models for visual synthesis. We introduce UGG, a unified framework for 4D scene understanding that jointly models RGB video and geometric representations such as depth and camera pose. By assigning different noise levels across modalities and time, UGG formulates visual generation and geometric prediction as conditional completion within a single generative model. This flexible formulation enables the model to learn from diverse, heterogeneous datasets with different subsets of geometric and visual annotations. Furthermore, our generative formulation enables inference-time search over multiple plausible scene hypotheses, using geometric evidence extracted from observed RGB frames to improve geometric prediction without ground truth geometry. We demonstrate UGG's effectiveness over non-unified baselines across camera-controlled video generation, depth estimation, and camera pose prediction, including in challenging sparse observation settings. Code and visualizations are available at https://ugg-model.github.io/",
+      "arxiv_id": "2611.14440",
+      "doi": "10.48550/arxiv.2611.14440",
+      "source_url": "https://arxiv.org/abs/2611.14440",
+      "pdf_url": "https://arxiv.org/pdf/2611.14440",
+      "evidence_url": "https://arxiv.org/abs/2611.14440",
+      "verified_at": "2026-11-12T22:12:05+08:00",
+      "source_records": [
+        {
+          "name": "DataCite arXiv DOI registry",
+          "url": "https://api.datacite.org/dois/10.48550/arxiv.2611.14440",
+          "verified_at": "2026-11-12T22:11:46+08:00"
+        },
+        {
+          "name": "arXiv RSS",
+          "url": "https://rss.arxiv.org/rss/cs.CV",
+          "verified_at": "2026-11-12T12:47:15+08:00"
+        },
+        {
+          "name": "arXiv RSS",
+          "url": "https://rss.arxiv.org/rss/cs.RO",
+          "verified_at": "2026-11-12T12:47:18+08:00"
+        },
+        {
+          "name": "arXiv RSS",
+          "url": "https://rss.arxiv.org/rss/cs.LG",
+          "verified_at": "2026-11-12T12:47:22+08:00"
+        },
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2611.14440",
+          "verified_at": "2026-11-12T22:12:05+08:00"
+        }
+      ],
+      "review_status": "acceptance-claimed",
+      "publication_date_basis": "arxiv-api-published",
+      "publication_date_note": "",
+      "registry_created_at": "2026-11-11T05:29:49Z",
+      "registry_updated_at": "2026-11-11T05:29:50Z",
+      "registry_registered_at": "2026-11-11T05:29:50Z",
+      "datacite_publication_year": 2026,
+      "datacite_submitted_at": [
+        "2026-11-10T18:11:40Z"
+      ],
+      "datacite_available": [
+        "2026-11"
+      ],
+      "registry_dates": [
+        {
+          "date": "2026-11-10T18:11:40Z",
+          "dateType": "Submitted",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2026-11-11T03:40:13Z",
+          "dateType": "Updated",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2026-11",
+          "dateType": "Available",
+          "dateInformation": "v1"
+        }
+      ],
+      "author_comment": "Accepted at NeurIPS 2026. 31 pages, 7 figures, 6 tables. Project page: https://ugg-model.github.io/",
+      "id": "paper-9c7881ad29331adb",
+      "year": 2026,
+      "summary_status": "pending",
+      "rss_announce_type": "new",
+      "rss_announced_at": "2026-11-11T00:00:00-05:00",
+      "arxiv_subjects": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "arxiv_updated_at": "2026-11-10T18:11:40Z",
+      "earliest_known_date": "2026-11-10",
+      "catalogue_year": 2026,
+      "accepted_venue": "NeurIPS",
+      "accepted_year": 2026,
+      "acceptance_basis": "author_claim",
+      "acceptance_evidence": [
+        {
+          "url": "https://arxiv.org/abs/2611.14440",
+          "kind": "arxiv-author-comment",
+          "quote": "Accepted at NeurIPS 2026. 31 pages, 7 figures, 6 tables."
+        }
+      ],
+      "acceptance_note": "作者在 arXiv 元数据中声明录用于 NeurIPS 2026；尚未独立核验官方录用记录，不视为正式出版。",
+      "summary_zh": ""
     },
     {
       "title": "They Can See It but not Say It: Iterative Self Knowledge Re-expression in Visual Reasoning Relative Pose Identification",
@@ -258,7 +258,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2611.12334",
-          "verified_at": "2026-11-12T12:47:09+08:00"
+          "verified_at": "2026-11-12T22:11:47+08:00"
         },
         {
           "name": "arXiv RSS",
@@ -278,7 +278,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.12334",
-          "verified_at": "2026-11-11T21:09:01+08:00"
+          "verified_at": "2026-11-12T22:12:05+08:00"
         }
       ],
       "review_status": "acceptance-confirmed",
@@ -315,8 +315,8 @@
       "id": "paper-81864270a35f040f",
       "year": 2026,
       "summary_status": "generated",
-      "venue_track": "Main Conference",
       "arxiv_updated_at": "2026-11-09T12:54:27Z",
+      "venue_track": "Main Conference",
       "rss_announce_type": "cross",
       "rss_announced_at": "2026-11-10T00:00:00-05:00",
       "arxiv_subjects": [
@@ -362,12 +362,12 @@
       "source_url": "https://arxiv.org/abs/2611.12072",
       "pdf_url": "https://arxiv.org/pdf/2611.12072",
       "evidence_url": "https://arxiv.org/abs/2611.12072",
-      "verified_at": "2026-11-11T21:09:01+08:00",
+      "verified_at": "2026-11-12T22:12:05+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2611.12072",
-          "verified_at": "2026-11-12T12:47:09+08:00"
+          "verified_at": "2026-11-12T22:11:47+08:00"
         },
         {
           "name": "arXiv RSS",
@@ -377,7 +377,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.12072",
-          "verified_at": "2026-11-11T21:09:01+08:00"
+          "verified_at": "2026-11-12T22:12:05+08:00"
         }
       ],
       "review_status": "acceptance-claimed",
@@ -453,12 +453,12 @@
       "source_url": "https://arxiv.org/abs/2611.12011",
       "pdf_url": "https://arxiv.org/pdf/2611.12011",
       "evidence_url": "https://arxiv.org/abs/2611.12011",
-      "verified_at": "2026-11-11T21:09:01+08:00",
+      "verified_at": "2026-11-12T22:12:05+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2611.12011",
-          "verified_at": "2026-11-12T12:47:09+08:00"
+          "verified_at": "2026-11-12T22:11:47+08:00"
         },
         {
           "name": "arXiv RSS",
@@ -468,7 +468,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.12011",
-          "verified_at": "2026-11-11T21:09:01+08:00"
+          "verified_at": "2026-11-12T22:12:05+08:00"
         }
       ],
       "review_status": "acceptance-claimed",
@@ -553,7 +553,7 @@
       "source_url": "https://arxiv.org/abs/2611.11697",
       "pdf_url": "https://arxiv.org/pdf/2611.11697",
       "evidence_url": "https://arxiv.org/abs/2611.11697",
-      "verified_at": "2026-11-11T21:09:01+08:00",
+      "verified_at": "2026-11-12T22:12:05+08:00",
       "source_records": [
         {
           "name": "arXiv RSS",
@@ -568,7 +568,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.11697",
-          "verified_at": "2026-11-11T21:09:01+08:00"
+          "verified_at": "2026-11-12T22:12:05+08:00"
         }
       ],
       "review_status": "acceptance-claimed",
@@ -639,7 +639,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2611.11334",
-          "verified_at": "2026-11-12T12:47:09+08:00"
+          "verified_at": "2026-11-12T22:11:47+08:00"
         },
         {
           "name": "arXiv RSS",
@@ -649,7 +649,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.11334",
-          "verified_at": "2026-11-11T21:09:01+08:00"
+          "verified_at": "2026-11-12T22:12:05+08:00"
         }
       ],
       "review_status": "acceptance-confirmed",
@@ -686,8 +686,8 @@
       "id": "paper-2a5564c5728c058f",
       "year": 2026,
       "summary_status": "pending",
-      "venue_track": "Evaluations and Datasets",
       "arxiv_updated_at": "2026-11-08T12:18:55Z",
+      "venue_track": "Evaluations and Datasets",
       "rss_announce_type": "new",
       "rss_announced_at": "2026-11-10T00:00:00-05:00",
       "arxiv_subjects": [
@@ -759,12 +759,12 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.09170",
-          "verified_at": "2026-11-11T11:40:06+08:00"
+          "verified_at": "2026-11-12T22:12:14+08:00"
         },
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2611.09170",
-          "verified_at": "2026-11-12T12:47:10+08:00"
+          "verified_at": "2026-11-12T22:11:48+08:00"
         },
         {
           "name": "arXiv RSS",
@@ -806,8 +806,8 @@
       "id": "paper-4d88489ba51c5605",
       "year": 2026,
       "summary_status": "reviewed",
-      "venue_track": "Main Conference",
       "arxiv_updated_at": "2026-11-06T08:51:47Z",
+      "venue_track": "Main Conference",
       "rss_announce_type": "new",
       "rss_announced_at": "2026-11-09T00:00:00-05:00",
       "arxiv_subjects": [
@@ -933,12 +933,12 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.07575",
-          "verified_at": "2026-11-11T11:40:06+08:00"
+          "verified_at": "2026-11-12T22:12:30+08:00"
         },
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2611.07575",
-          "verified_at": "2026-11-12T12:47:13+08:00"
+          "verified_at": "2026-11-12T22:11:51+08:00"
         },
         {
           "name": "arXiv RSS",
@@ -980,8 +980,8 @@
       "id": "paper-9f6e6e25d1cb3503",
       "year": 2026,
       "summary_status": "reviewed",
-      "venue_track": "官方海报目录（轨道待核验）",
       "arxiv_updated_at": "2026-11-05T07:26:29Z",
+      "venue_track": "官方海报目录（轨道待核验）",
       "rss_announce_type": "new",
       "rss_announced_at": "2026-11-06T00:00:00-05:00",
       "arxiv_subjects": [
@@ -1086,22 +1086,18 @@
         "Quang-Binh Nguyen",
         "Khoi Nguyen"
       ],
-      "year": 2026,
       "published": "2026-11-05",
       "venue": "NeurIPS",
       "publication_status": "accepted",
-      "venue_track": "Main Conference",
       "categories": [
         "point-processing"
       ],
       "abstract": "Articulated 3D assets are essential for robot simulation, yet generating them from casual images remains unsolved. Existing approaches either predict URDF parameters via learned regression or language model inference -- both requiring articulation supervision and producing joints that may be geometrically inconsistent with the generated meshes -- or reconstruct from dense calibrated multi-view captures, limiting scalability. We present \\textbf{ArtCrafter}, a feed-forward generative model that takes two images of an articulated object -- one at rest, one fully open -- and produces $2N+1$ part-level meshes together with a physics-executable URDF in a single forward pass. Inspired by Slot Attention, we structure the denoising process around a $1+2N$ slot layout whose slots, forced to jointly explain two articulation states, naturally bind to kinematic parts. \\textbf{TripletAttention} enforces cross-state geometric consistency between each paired rest/open slot anchored through a shared base slot, and a repulsion loss $\\mathcal{L}_{\\mathrm{rep}}$ operating on decoded point clouds ensures inter-part disjointness throughout denoising. Because paired meshes are geometrically consistent by construction, URDF joint parameters -- type, axis, origin, and range -- are derived \\emph{analytically} from the rigid transform between each pair, requiring no learned articulation head, no language model, and no per-instance optimization. Experiments on URDF-Anything+ demonstrate consistent improvements over retrieval-based and generative baselines across part-level geometry and all four articulation metrics. ArtCrafter demonstrates a clean decomposition: a diffusion model handles geometry, and geometry handles URDF.",
-      "summary_status": "pending",
+      "arxiv_id": "2611.07658",
       "source_url": "https://neurips.cc/virtual/2026/poster/151536",
+      "pdf_url": "https://arxiv.org/pdf/2611.07658",
       "evidence_url": "https://neurips.cc/virtual/2026/poster/151536",
       "verified_at": "2026-11-05T21:43:00+08:00",
-      "review_status": "acceptance-confirmed",
-      "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -1116,7 +1112,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.07658",
-          "verified_at": "2026-11-11T21:09:01+08:00"
+          "verified_at": "2026-11-12T22:12:30+08:00"
         },
         {
           "name": "arXiv RSS",
@@ -1124,11 +1120,14 @@
           "verified_at": "2026-11-07T11:39:05+08:00"
         }
       ],
-      "id": "paper-9af7e5367a81a30e",
-      "arxiv_id": "2611.07658",
-      "pdf_url": "https://arxiv.org/pdf/2611.07658",
+      "review_status": "acceptance-confirmed",
       "author_comment": "Accepted to NeurIPS 2026",
       "arxiv_updated_at": "2026-11-05T08:40:54Z",
+      "publication_date_basis": "arxiv-api-published",
+      "id": "paper-9af7e5367a81a30e",
+      "year": 2026,
+      "summary_status": "pending",
+      "venue_track": "Main Conference",
       "rss_announce_type": "new",
       "rss_announced_at": "2026-11-06T00:00:00-05:00",
       "arxiv_subjects": [
@@ -1136,6 +1135,7 @@
       ],
       "earliest_known_date": "2026-11-05",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -1163,7 +1163,6 @@
       ],
       "abstract": "Boundary representations (B-reps) encode CAD geometry as parametric surface patches with explicit topological adjacency, forming information-rich geometric graphs. Yet existing methods encode coordinates and normals as scalars, making models rotation-sensitive, while invariant alternatives using per-face local frames discard the shared orientation reference needed to capture inter-face directional relationships. We introduce SO3brep, the first $SO(3)$-equivariant neural architecture for B-rep learning. Faces are represented by scalar, vector, and tensor irreducible representations constructed in per-face local frames, lifted to a shared global frame via Wigner $D$-matrices, and propagated through equivariant message passing. This preserves inter-face directional structure during message passing while guaranteeing $SE(3)$ invariance at the output. Across five CAD benchmarks for shape classification and per-face segmentation, SO3brep consistently outperforms prior B-rep and equivariant point-cloud methods while significantly improving data efficiency. These results demonstrate that $SO(3)$-equivariance is a powerful inductive bias for structured CAD geometry.",
       "arxiv_id": "2611.05449",
-      "doi": "10.48550/arxiv.2611.05449",
       "source_url": "https://neurips.cc/virtual/2026/poster/148985",
       "pdf_url": "https://arxiv.org/pdf/2611.05449",
       "evidence_url": "https://neurips.cc/virtual/2026/poster/148985",
@@ -1182,7 +1181,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.05449",
-          "verified_at": "2026-11-11T21:09:07+08:00"
+          "verified_at": "2026-11-12T22:12:30+08:00"
         },
         {
           "name": "DataCite arXiv DOI registry",
@@ -1196,8 +1195,13 @@
         }
       ],
       "review_status": "acceptance-confirmed",
+      "author_comment": "Accepted to NeurIPS 2026 main track",
+      "arxiv_updated_at": "2026-11-03T17:51:02Z",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
+      "id": "paper-c7d235d70ec56836",
+      "year": 2026,
+      "summary_status": "pending",
+      "doi": "10.48550/arxiv.2611.05449",
       "registry_created_at": "2026-11-05T04:47:59Z",
       "registry_updated_at": "2026-11-05T04:48:00Z",
       "registry_registered_at": "2026-11-05T04:48:00Z",
@@ -1225,12 +1229,7 @@
           "dateInformation": "v1"
         }
       ],
-      "author_comment": "Accepted to NeurIPS 2026 main track",
-      "id": "paper-c7d235d70ec56836",
-      "year": 2026,
-      "summary_status": "pending",
       "venue_track": "Main Conference",
-      "arxiv_updated_at": "2026-11-03T17:51:02Z",
       "rss_announce_type": "new",
       "rss_announced_at": "2026-11-05T00:00:00-05:00",
       "arxiv_subjects": [
@@ -1239,6 +1238,7 @@
       ],
       "earliest_known_date": "2026-11-03",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -1273,17 +1273,17 @@
       "source_url": "https://arxiv.org/abs/2611.04748",
       "pdf_url": "https://arxiv.org/pdf/2611.04748",
       "evidence_url": "https://arxiv.org/abs/2611.04748",
-      "verified_at": "2026-11-11T21:09:01+08:00",
+      "verified_at": "2026-11-12T22:12:30+08:00",
       "source_records": [
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.04748",
-          "verified_at": "2026-11-11T21:09:01+08:00"
+          "verified_at": "2026-11-12T22:12:30+08:00"
         },
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2611.04748",
-          "verified_at": "2026-11-12T12:47:15+08:00"
+          "verified_at": "2026-11-12T22:11:46+08:00"
         },
         {
           "name": "arXiv RSS",
@@ -1363,7 +1363,6 @@
       ],
       "abstract": "Estimating semantic correspondences between different object instances of similar categories in real-world images is a fundamental challenge in computer vision. While the recent progress in foundation models has significantly advanced solutions for such difficult image correspondence problems, respective methods are often insufficiently regularised. For example, common nearest-neighbour matching with foundation model features often results in noisy correspondences, which is particularly prominent when solving for dense correspondences. In this work, we tackle image matching via functional maps, which have been popularised for 3D shape matching due to their powerful spectral formalism utilising an efficient low-dimensional linear representation. However, functional maps require that domains (in our cases the rectangular image grids) are equipped with an informative and non-trivial geometry. To define a meaningful manifold structure for images, we use Galerkin's method from finite elements to derive a discrete Laplace-Beltrami operator (LBO) based on a manifold embedding of deep image features. Further, we leverage a neural adjoint map that allows to represent non-linear mappings. We demonstrate that our method sets the new state of the art among zero-shot image correspondence methods on multiple dense correspondence benchmarks of real-world images.",
       "arxiv_id": "2611.05083",
-      "doi": "10.48550/arxiv.2611.05083",
       "source_url": "https://neurips.cc/virtual/2026/poster/149523",
       "pdf_url": "https://arxiv.org/pdf/2611.05083",
       "evidence_url": "https://neurips.cc/virtual/2026/poster/149523",
@@ -1397,12 +1396,17 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.05083",
-          "verified_at": "2026-11-11T21:09:07+08:00"
+          "verified_at": "2026-11-12T22:12:30+08:00"
         }
       ],
       "review_status": "acceptance-confirmed",
+      "author_comment": "10 pages main paper, 12 pages appendix",
+      "arxiv_updated_at": "2026-11-03T15:42:20Z",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
+      "id": "paper-2464f90afcd001e3",
+      "year": 2026,
+      "summary_status": "pending",
+      "doi": "10.48550/arxiv.2611.05083",
       "registry_created_at": "2026-11-04T05:47:00Z",
       "registry_updated_at": "2026-11-04T05:47:01Z",
       "registry_registered_at": "2026-11-04T05:47:01Z",
@@ -1430,12 +1434,7 @@
           "dateInformation": "v1"
         }
       ],
-      "author_comment": "10 pages main paper, 12 pages appendix",
-      "id": "paper-2464f90afcd001e3",
-      "year": 2026,
-      "summary_status": "pending",
       "venue_track": "Main Conference",
-      "arxiv_updated_at": "2026-11-03T15:42:20Z",
       "rss_announce_type": "new",
       "rss_announced_at": "2026-11-04T00:00:00-05:00",
       "arxiv_subjects": [
@@ -1443,6 +1442,7 @@
       ],
       "earliest_known_date": "2026-11-03",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -2531,22 +2531,18 @@
         "Yangdong Liu",
         "Shuhan Shen"
       ],
-      "year": 2026,
       "published": "2026-10-30",
       "venue": "NeurIPS",
       "publication_status": "accepted",
-      "venue_track": "Main Conference",
       "categories": [
         "visual-localization"
       ],
       "abstract": "Camera localization methods are mostly multi-stage pipelines relying on dedicated and complex maps that are costly to construct, store, and maintain over time. Alternatively, well-structured maps that organize scenes with compact yet expressive primitives are often readily available, providing rich structural and semantic cues that humans can interpret. However, their potential for direct camera localization remains largely unexplored due to the significant modality gap with visual observations. This motivates a new concept for localization, which estimates camera poses by grounding query observations to map primitives . In this paper, we instantiate the concept in the context of planar primitives with PGGT , the P rimitive- G rounded G eometry T ransformer network trained to predict multiple localization targets from a single query image and a set of planar map primitives, enabling feed-forward 6-DoF camera localization that generalizes to unseen environments. Based on this flexible and scalable architecture, our method pushes the state-of-the-art localization performance on both detailed planar surface maps and minimal architectural layouts. The code and models will be made publicly available.",
-      "summary_status": "reviewed",
+      "arxiv_id": "2610.41833",
       "source_url": "https://neurips.cc/virtual/2026/poster/152738",
+      "pdf_url": "https://arxiv.org/pdf/2610.41833",
       "evidence_url": "https://neurips.cc/virtual/2026/poster/152738",
       "verified_at": "2026-10-21",
-      "review_status": "included",
-      "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -2595,14 +2591,17 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.41833",
-          "verified_at": "2026-11-11T21:10:12+08:00"
+          "verified_at": "2026-11-12T22:12:21+08:00"
         }
       ],
-      "id": "paper-3e1c2f11d5a01f1d",
-      "arxiv_id": "2610.41833",
-      "pdf_url": "https://arxiv.org/pdf/2610.41833",
+      "review_status": "included",
       "author_comment": "Accepted at NeurIPS 2026. 24 pages, 14 figures, including appendices. Code and models: https://github.com/3dv-casia/PGGT-Loc",
       "arxiv_updated_at": "2026-10-30T14:50:55Z",
+      "publication_date_basis": "arxiv-api-published",
+      "id": "paper-3e1c2f11d5a01f1d",
+      "year": 2026,
+      "summary_status": "reviewed",
+      "venue_track": "Main Conference",
       "rss_announce_type": "new",
       "rss_announced_at": "2026-11-02T00:00:00-05:00",
       "arxiv_subjects": [
@@ -2623,6 +2622,7 @@
       "curated": true,
       "earliest_known_date": "2026-09-25",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -2747,22 +2747,18 @@
         "Kaipeng Zhang",
         "Yongtao Ge"
       ],
-      "year": 2026,
       "published": "2026-10-27",
       "venue": "NeurIPS",
       "publication_status": "accepted",
-      "venue_track": "Evaluations and Datasets",
       "categories": [
         "visual-localization"
       ],
       "abstract": "Recent advances in world models have emphasized the need for learning temporally consistent and interactive representations of dynamic environments. However, existing video datasets fail to simultaneously support long-horizon dynamics, precise camera control, and structured semantic representations. To address this, we introduce GameVerse, a large-scale game video dataset for interactive world modeling. GameVerse provides minute-level continuous video sequences, covering diverse interaction behaviors, across both first- and third-person perspectives. The dataset is constructed through a unified data processing pipeline, including scene-consistent segmentation, quality filtering, camera pose estimation, and multi-granular semantic annotation. GameVerse consists of 11,092 videos, with a total duration of 4,692 hours (195.5 days) and approximately 986.6 million frames. Each video segment is augmented with temporally stable camera trajectories and structured semantic annotations. Comprehensive data analysis and experiments demonstrate that GameVerse exhibits strong advantages in terms of scale, diversity, and annotation quality, and shows promising performance for long-horizon modeling and interactive world understanding. We expect GameVerse to provide a unified data foundation for long-horizon modeling and interactive world modeling, and to facilitate future research in this area.",
-      "summary_status": "generated",
+      "arxiv_id": "2610.37257",
       "source_url": "https://neurips.cc/virtual/2026/poster/139301",
+      "pdf_url": "https://arxiv.org/pdf/2610.37257",
       "evidence_url": "https://neurips.cc/virtual/2026/poster/139301",
       "verified_at": "2026-11-05T21:42:59+08:00",
-      "review_status": "acceptance-confirmed",
-      "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -2772,7 +2768,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.37257",
-          "verified_at": "2026-11-11T21:10:10+08:00"
+          "verified_at": "2026-11-12T22:12:21+08:00"
         },
         {
           "name": "arXiv RSS",
@@ -2790,11 +2786,14 @@
           "verified_at": "2026-11-12T12:49:08+08:00"
         }
       ],
-      "id": "paper-ad244a69a750ca3f",
-      "arxiv_id": "2610.37257",
-      "pdf_url": "https://arxiv.org/pdf/2610.37257",
+      "review_status": "acceptance-confirmed",
       "author_comment": "Accepted by NeurIPS 2026",
       "arxiv_updated_at": "2026-10-31T03:43:06Z",
+      "publication_date_basis": "arxiv-api-published",
+      "id": "paper-ad244a69a750ca3f",
+      "year": 2026,
+      "summary_status": "generated",
+      "venue_track": "Evaluations and Datasets",
       "doi": "10.48550/arxiv.2610.37257",
       "registry_created_at": "2026-10-28T03:01:55Z",
       "registry_updated_at": "2026-10-28T03:01:56Z",
@@ -2833,6 +2832,7 @@
       "summary_generated_at": "2026-10-28T14:07:06+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -2956,7 +2956,6 @@
       "verified_at": "2026-10-21",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -3062,6 +3061,7 @@
       "curated": true,
       "earliest_known_date": "2026-09-25",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -3249,7 +3249,6 @@
       "verified_at": "2026-11-05T21:42:58+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "arXiv",
@@ -3277,6 +3276,7 @@
       "summary_generated_at": "2026-10-25T14:07:14+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -3381,7 +3381,6 @@
       "verified_at": "2026-10-21T17:31:08+08:00",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -3447,6 +3446,7 @@
       "curated": true,
       "earliest_known_date": "2026-09-25",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -3485,7 +3485,6 @@
       "verified_at": "2026-11-10T21:57:10+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -3513,6 +3512,7 @@
       "summary_generated_at": "2026-10-29T08:07:21+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -3547,7 +3547,6 @@
       "verified_at": "2026-11-10T21:57:10+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -3619,6 +3618,7 @@
       "summary_model": "hy3",
       "summary_generated_at": "2026-10-21T17:49:07+08:00",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -3655,7 +3655,6 @@
       "verified_at": "2026-11-10T21:57:09+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -3725,6 +3724,7 @@
       "summary_model": "hy3",
       "summary_generated_at": "2026-10-24T14:09:36+08:00",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -3766,7 +3766,6 @@
       "verified_at": "2026-10-21",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -3902,6 +3901,7 @@
       "metadata_note": "官方会议目录与 arXiv 版本的题名或作者姓名写法、顺序有所差异；已按题名及作者群核对身份，主信息采用官方会议目录，并保留 arXiv 原始题名和作者列表供核查。",
       "curated": true,
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -3940,7 +3940,6 @@
       "verified_at": "2026-10-21T17:31:08+08:00",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -4018,6 +4017,7 @@
       "arxiv_updated": "2026-10-15T03:50:42Z",
       "curated": true,
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -4062,7 +4062,6 @@
       "verified_at": "2026-10-21T17:31:08+08:00",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -4134,6 +4133,7 @@
       "arxiv_updated": "2026-10-14T08:34:37Z",
       "curated": true,
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -4410,7 +4410,6 @@
       "verified_at": "2026-11-10T21:57:10+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -4471,6 +4470,7 @@
       "summary_generated_at": "2026-10-26T08:05:55+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -5043,7 +5043,6 @@
       "verified_at": "2026-10-21",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "arXiv author metadata and abstract",
@@ -5133,6 +5132,7 @@
       },
       "curated": true,
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -5448,7 +5448,6 @@
       "verified_at": "2026-11-10T21:57:10+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -5509,6 +5508,7 @@
       "summary_generated_at": "2026-10-26T08:06:06+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -5546,7 +5546,6 @@
       "verified_at": "2026-10-21",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -5678,6 +5677,7 @@
       "curated": true,
       "earliest_known_date": "2026-10-01",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -5775,7 +5775,6 @@
       "verified_at": "2026-11-10T21:57:09+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -5833,6 +5832,7 @@
       ],
       "earliest_known_date": "2026-10-01",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -7052,7 +7052,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2609.36878",
-          "verified_at": "2026-11-11T21:08:49+08:00"
+          "verified_at": "2026-11-12T22:11:53+08:00"
         },
         {
           "name": "arXiv",
@@ -7062,6 +7062,7 @@
       ],
       "review_status": "acceptance-claimed",
       "publication_date_basis": "arxiv-api-published",
+      "publication_date_note": "",
       "registry_created_at": "2026-09-30T03:28:43Z",
       "registry_updated_at": "2026-09-30T03:28:43Z",
       "registry_registered_at": "2026-09-30T03:28:43Z",
@@ -7099,7 +7100,6 @@
       "summary_model": "hy3",
       "catalogue_year": 2026,
       "arxiv_updated_at": "2026-09-29T07:11:25Z",
-      "publication_date_note": "",
       "accepted_venue": "IROS",
       "accepted_year": 2026,
       "acceptance_basis": "author_claim",
@@ -7247,22 +7247,19 @@
         "Chanse Oh",
         "MyeongAh Cho"
       ],
-      "year": 2026,
       "published": "2026-09-28",
       "venue": "NeurIPS",
       "publication_status": "accepted",
-      "venue_track": "Main Conference",
       "categories": [
         "point-processing"
       ],
       "abstract": "3D anomaly detection (3DAD) aims to identify defective regions in point cloud data, serving as a critical component in industrial inspection systems. Existing methods are normality-centered — learning the distribution of normal samples and treating deviations as anomalies — without explicitly modeling what constitutes a defect. This leads to ambiguous decision boundaries with increased false positives and negatives, particularly in unified and cross-domain settings where diverse normal distributions further blur the boundaries. We propose a relational inconsistency modeling framework that characterizes defects as violations of geometric consistency among neighboring structures. Our approach learns category-agnostic defect cues through pseudo-anomalies designed as controlled relational violations, instantiated by two key modules: Edge-aware Graph Refinement (EGR) for encoding geometric relationships among local regions, and Cluster-Deviation Modeling (CDM) for identifying regions that are relationally incompatible within their structural peer group. Extensive experiments on Anomaly-ShapeNet and Real3D-AD demonstrate consistent improvements over prior state-of-the-art methods in both in-domain and cross-domain settings, validating the effectiveness of learning an explicit, relation-based defect criterion for 3D anomaly detection.",
-      "summary_status": "reviewed",
+      "arxiv_id": "2609.35059",
+      "doi": "10.48550/arxiv.2609.35059",
       "source_url": "https://neurips.cc/virtual/2026/poster/152419",
+      "pdf_url": "https://arxiv.org/pdf/2609.35059",
       "evidence_url": "https://neurips.cc/virtual/2026/poster/152419",
       "verified_at": "2026-10-21",
-      "review_status": "included",
-      "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -7308,7 +7305,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2609.35059",
-          "verified_at": "2026-11-11T21:08:49+08:00"
+          "verified_at": "2026-11-12T22:11:53+08:00"
         },
         {
           "name": "arXiv",
@@ -7326,10 +7323,9 @@
           "verified_at": "2026-11-12T12:49:08+08:00"
         }
       ],
-      "id": "paper-c4685f516e05bc70",
-      "arxiv_id": "2609.35059",
-      "doi": "10.48550/arxiv.2609.35059",
-      "pdf_url": "https://arxiv.org/pdf/2609.35059",
+      "review_status": "included",
+      "publication_date_basis": "arxiv-api-published",
+      "publication_date_note": "",
       "registry_created_at": "2026-09-29T06:33:35Z",
       "registry_updated_at": "2026-09-29T06:33:35Z",
       "registry_registered_at": "2026-09-29T06:33:35Z",
@@ -7358,6 +7354,10 @@
         }
       ],
       "author_comment": "Accepted by NeurIPS 2026. Code: https://github.com/VisualScienceLab-KHU/GRIM",
+      "id": "paper-c4685f516e05bc70",
+      "year": 2026,
+      "summary_status": "reviewed",
+      "venue_track": "Main Conference",
       "arxiv_updated_at": "2026-10-23T06:26:44Z",
       "abstract_source_url": "https://neurips.cc/virtual/2026/poster/152419",
       "summary_zh": "三维异常检测若只学习正常点云分布，跨类别或跨领域时容易把正常变化误判为缺陷。论文将异常定义为邻近结构之间的几何一致性遭到破坏，通过可控的关系扰动生成伪异常，学习类别无关的缺陷线索。边缘感知图细化编码局部区域关系，簇偏离模块识别与同类结构不相容的区域，在合成和真实点云数据上改善域内及跨域异常检测。",
@@ -7406,27 +7406,24 @@
         "Wentao Zhang",
         "Baochang Zhang"
       ],
-      "year": 2026,
       "published": "2026-09-28",
       "venue": "NeurIPS",
       "publication_status": "accepted",
-      "venue_track": "Main Conference",
       "categories": [
         "visual-localization"
       ],
       "abstract": "Reinforcement learning with verifiable rewards (RLVR) enhances the reasoning capabilities of large language models (LLMs), but at the expense of significant computational overhead due to compute-intensive rollout processes and frequent policy updates. Online prompt selection, a widely adopted strategy for improving training efficiency, maintains per-prompt Bayesian posteriors to predict prompt difficulty and prioritize informative prompts before committing rollout budget. However, these methods assess prompt informativeness without accounting for how reliably learning signal is extracted from sampled responses. In GRPO-based RL algorithms, the realized advantage of a response depends not only on its own outcome, but also on the randomly sampled outcomes of its peers through group normalization. Our experimental and theoretical analysis show that the resulting uncertainty in group composition induces composition noise, a non-vanishing variance component that creates an irreducible lower bound on gradient estimation error. Consequently, the standard group-relative advantage fails to faithfully characterize response-level utility, degrading gradient estimation and thereby impairing downstream prompt selection. To address this issue, we propose a unified Marginalized Posterior-Predictive framework, MaPP, for data-efficient RLVR, which first denoises response-level advantage estimation and then improves prompt selection using a shared Beta posterior. Specifically, for each response, MaPP replaces the standard group-relative advantage with a composition-invariant intrinsic advantage via closed-form Beta-Binomial marginalization. This yields a closed-form posterior-predictive advantage estimator whose error provably diminishes as the posterior concentrates. Then, building on the same posterior, MaPP derives an uncertainty-aware prompt selection score that more faithfully characterizes prompt informativeness, improving data efficiency without additional rollout cost. Experiments across mathematics, planning, and visual geometry on five model backbones show that MaPP consistently outperforms GRPO and strong selection baselines, achieving up to +2.45 average accuracy improvement over the strongest baseline under the same rollout budget, a new state-of-the-art.",
-      "summary_status": "generated",
+      "arxiv_id": "2609.34990",
+      "doi": "10.48550/arxiv.2609.34990",
       "source_url": "https://neurips.cc/virtual/2026/poster/153702",
+      "pdf_url": "https://arxiv.org/pdf/2609.34990",
       "evidence_url": "https://neurips.cc/virtual/2026/poster/153702",
       "verified_at": "2026-11-10T21:57:08+08:00",
-      "review_status": "acceptance-confirmed",
-      "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2609.34990",
-          "verified_at": "2026-11-11T21:08:49+08:00"
+          "verified_at": "2026-11-12T22:11:53+08:00"
         },
         {
           "name": "NeurIPS official accepted programme",
@@ -7444,10 +7441,9 @@
           "verified_at": "2026-11-11T21:09:28+08:00"
         }
       ],
-      "id": "paper-5f8ba0419a50369b",
-      "arxiv_id": "2609.34990",
-      "doi": "10.48550/arxiv.2609.34990",
-      "pdf_url": "https://arxiv.org/pdf/2609.34990",
+      "review_status": "acceptance-confirmed",
+      "publication_date_basis": "arxiv-api-published",
+      "publication_date_note": "",
       "registry_created_at": "2026-09-29T06:32:02Z",
       "registry_updated_at": "2026-09-29T06:32:03Z",
       "registry_registered_at": "2026-09-29T06:32:03Z",
@@ -7475,6 +7471,10 @@
           "dateInformation": "v1"
         }
       ],
+      "id": "paper-5f8ba0419a50369b",
+      "year": 2026,
+      "summary_status": "generated",
+      "venue_track": "Main Conference",
       "arxiv_updated_at": "2026-09-28T12:01:56Z",
       "earliest_known_date": "2026-09-28",
       "summary_zh": "本研究针对可验证奖励强化学习（RLVR）训练开销大、在线提示选择未考虑响应学习信号提取可靠性的问题，指出GRPO类算法中组归一化带来的组合噪声会造成梯度估计误差下界，使标准优势无法刻画响应效用。为此，论文提出统一边缘化后验预测框架MaPP，通过Beta-二项边缘化给出与组合无关的内在优势估计以去噪，并基于共享Beta后验导出感知不确定性的提示选择分数，在无需额外采样的条件下提升数据效率。",
@@ -7635,27 +7635,24 @@
         "Matthew Kim",
         "Sylvia Herbert"
       ],
-      "year": 2026,
       "published": "2026-09-27",
       "venue": "NeurIPS",
       "publication_status": "accepted",
-      "venue_track": "Main Conference",
       "categories": [
         "uav-navigation"
       ],
       "abstract": "Online safe reinforcement learning (RL) seeks policies that maximize reward while satisfying safety constraints. A popular line of research in safe RL relaxes safety to a soft expected-cost constraint and solves the resulting Constrained Markov Decision Process (CMDP) via primal-dual Lagrangian updates that only enforce safety on average. To address this limitation, hard, state-wise constraints are introduced and often imposed through Hamilton-Jacobi (HJ) reachability. Yet such constraints require solving different objectives in the feasible and infeasible regions of the state space: reward maximization in the former, recovery toward the feasible regions in the latter. The resulting target action distributions are inherently multimodal, and this structure poses a fundamental challenge for the Gaussian or deterministic actors used in existing HJ-based safe RL, which often collapse onto suboptimal modes. Diffusion policies provide the expressiveness needed to represent such distributions, and recent work on Q-score matching offers a route to training them for online RL by score regression---but has been applied only to reward maximization. Building on this framework, we propose Safe Score Matching (SSM), an off-policy actor-critic method that adapts Q-score matching to hard-constrained safe RL by gating a two-branch score target with HJ reachability: inside the feasible set, the denoising process degenerates to Q-score matching on actions classified as viable by the HJ critic, encouraging reward maximization; outside, a recovery branch biases denoising toward regions with lower worst-case violation, guided by the negative action gradient of the HJ safety value. Across high-dimensional quadrotor and fixed-wing trajectory-tracking and stabilize-and-avoid benchmarks, SSM achieves competitive performance without sacrificing safety, in contrast to primal-dual and reachability-based baselines, which tend to trade off performance for safety and are thus overly conservative.",
-      "summary_status": "generated",
+      "arxiv_id": "2609.33337",
+      "doi": "10.48550/arxiv.2609.33337",
       "source_url": "https://neurips.cc/virtual/2026/poster/148840",
+      "pdf_url": "https://arxiv.org/pdf/2609.33337",
       "evidence_url": "https://neurips.cc/virtual/2026/poster/148840",
       "verified_at": "2026-11-10T21:57:09+08:00",
-      "review_status": "acceptance-confirmed",
-      "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2609.33337",
-          "verified_at": "2026-11-11T21:08:49+08:00"
+          "verified_at": "2026-11-12T22:11:53+08:00"
         },
         {
           "name": "NeurIPS official accepted programme",
@@ -7673,10 +7670,9 @@
           "verified_at": "2026-11-11T21:09:28+08:00"
         }
       ],
-      "id": "paper-1105ba2c981bcd7b",
-      "arxiv_id": "2609.33337",
-      "doi": "10.48550/arxiv.2609.33337",
-      "pdf_url": "https://arxiv.org/pdf/2609.33337",
+      "review_status": "acceptance-confirmed",
+      "publication_date_basis": "arxiv-api-published",
+      "publication_date_note": "",
       "registry_created_at": "2026-09-29T05:52:08Z",
       "registry_updated_at": "2026-09-29T05:52:09Z",
       "registry_registered_at": "2026-09-29T05:52:09Z",
@@ -7705,6 +7701,10 @@
         }
       ],
       "author_comment": "Accepted to NeurIPS 2026. 29 pages, 4 figures. Code: https://github.com/byli888/safe-score-matching",
+      "id": "paper-1105ba2c981bcd7b",
+      "year": 2026,
+      "summary_status": "generated",
+      "venue_track": "Main Conference",
       "arxiv_updated_at": "2026-09-27T08:09:52Z",
       "summary_zh": "在线安全强化学习常用软约束仅平均保证安全，硬约束借哈密顿-雅可比可达性却因可行与不可行区目标不同致动作分布多模态，现有高斯策略易陷次优。为此提出安全分数匹配，以离策略 actor-critic 将 Q 分数匹配经可达性门控双分支：可行区退化 Q 分数匹配，不可行区偏置去噪至低违例区。",
       "earliest_known_date": "2026-09-27",
@@ -7748,7 +7748,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2609.33344",
-          "verified_at": "2026-11-11T21:08:49+08:00"
+          "verified_at": "2026-11-12T22:11:53+08:00"
         },
         {
           "name": "arXiv",
@@ -7758,6 +7758,7 @@
       ],
       "review_status": "acceptance-claimed",
       "publication_date_basis": "arxiv-api-published",
+      "publication_date_note": "",
       "registry_created_at": "2026-09-29T05:52:18Z",
       "registry_updated_at": "2026-09-29T05:52:18Z",
       "registry_registered_at": "2026-09-29T05:52:18Z",
@@ -7795,7 +7796,6 @@
       "summary_model": "hy3",
       "catalogue_year": 2026,
       "arxiv_updated_at": "2026-09-27T08:16:07Z",
-      "publication_date_note": "",
       "accepted_venue": "IROS",
       "accepted_year": 2026,
       "acceptance_basis": "author_claim",
@@ -9939,22 +9939,19 @@
         "Jaeho Choi",
         "Byung-Hoon Kim"
       ],
-      "year": 2026,
       "published": "2026-09-25",
       "venue": "NeurIPS",
       "publication_status": "accepted",
-      "venue_track": "Evaluations and Datasets",
       "categories": [
         "visual-localization"
       ],
       "abstract": "Multi-view video understanding requires integrating spatial and temporal evidence across multiple, often non-overlapping camera streams—tracking entities as they transition between viewpoints, aligning events across time, and reasoning about latent 4D continuity rather than any single visible frame. We introduce MVVBench, a benchmark for multi-view video reasoning built from real-world multi-camera datasets and curated to be monocular-ambiguous: each question is unanswerable from any single view alone but becomes uniquely solvable by jointly reasoning over multiple views. MVVBench spans diverse dynamic scenes and probes six capabilities: implicit/explicit attribute identification, implicit/explicit relative distance, relative camera pose, and compositional counting, with human-authored QA and rigorous verification. Beyond benchmarking, we provide an extensive analysis of when and why current vision-language models succeed or fail, characterizing errors due to temporal mis-localization, cross-view identity breaks, and brittle multi-hop reasoning. We then study inference-time elicitation strategies that unlock latent multi-view competence—task-specific chain-of-thought scaffolds and structured cross-view evidence aggregation—yielding substantial gains without retraining. Finally, we present preliminary evidence that reinforcement learning with verifiable rewards can elicit some latent multi-view competence in the base model, pointing to training-time approaches as a promising direction for future work. Together, MVVBench offers a rigorous evaluation of 4D multi-view reasoning and a foundation for future progress toward reliable embodied perception.",
-      "summary_status": "generated",
+      "arxiv_id": "2609.30952",
+      "doi": "10.48550/arxiv.2609.30952",
       "source_url": "https://neurips.cc/virtual/2026/poster/139519",
+      "pdf_url": "https://arxiv.org/pdf/2609.30952",
       "evidence_url": "https://neurips.cc/virtual/2026/poster/139519",
       "verified_at": "2026-11-10T21:57:10+08:00",
-      "review_status": "acceptance-confirmed",
-      "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -9969,7 +9966,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2609.30952",
-          "verified_at": "2026-11-11T21:08:49+08:00"
+          "verified_at": "2026-11-12T22:11:53+08:00"
         },
         {
           "name": "arXiv",
@@ -9977,10 +9974,9 @@
           "verified_at": "2026-11-11T21:09:28+08:00"
         }
       ],
-      "id": "paper-05e39336f9de43e5",
-      "arxiv_id": "2609.30952",
-      "doi": "10.48550/arxiv.2609.30952",
-      "pdf_url": "https://arxiv.org/pdf/2609.30952",
+      "review_status": "acceptance-confirmed",
+      "publication_date_basis": "arxiv-api-published",
+      "publication_date_note": "",
       "registry_created_at": "2026-09-28T02:14:15Z",
       "registry_updated_at": "2026-09-28T02:14:16Z",
       "registry_registered_at": "2026-09-28T02:14:16Z",
@@ -10009,6 +10005,10 @@
         }
       ],
       "author_comment": "NeurIPS 2026, 23 pages, 8 figures",
+      "id": "paper-05e39336f9de43e5",
+      "year": 2026,
+      "summary_status": "generated",
+      "venue_track": "Evaluations and Datasets",
       "arxiv_updated_at": "2026-09-25T08:02:42Z",
       "earliest_known_date": "2026-09-25",
       "summary_zh": "本研究动机在于多视角视频理解需整合跨摄像头时空证据以推理潜在4D连续性，而现有视觉语言模型在单视角模糊场景下能力不明。核心方法是构建MVVBench基准，基于真实多摄像头数据筛选仅多视角联合可答的问题，涵盖六种能力并配人工标注与验证；同时分析模型成败原因，探究推理时证据聚合与思维链脚手架策略，以及强化学习激发潜在能力，为4D多视角推理评估提供基础。",
@@ -12161,23 +12161,19 @@
         "Yuan Liu",
         "Wufan Zhao"
       ],
-      "year": 2026,
       "published": "2026-09-17",
       "venue": "NeurIPS",
       "publication_status": "accepted",
-      "venue_track": "Main Conference",
       "categories": [
         "point-localization",
         "point-processing"
       ],
       "abstract": "3D grounding aims to localize target entities in complex scenes from natural language and plays a fundamental role in embodied perception and spatial reasoning. However, existing approaches mostly rely on feature similarity or direct matching, making it difficult to connect natural-language intent with the implicit semantic and geometric structures hidden in billion-scale urban point clouds. We reformulate city-scale 3D grounding as structured constraint reasoning, where description semantics are organized into computable cross-modal constraints over open-vocabulary 3D entities, attributes, and spatial relations. We present CitySTAR, a training-free framework for reasoning-driven urban 3D grounding. CitySTAR lifts raw billion-scale urban point clouds into a query-ready scene graph of open-vocabulary 3D instances, with CodeLLM-driven tools supplying multimodal evidence for node attributes and 3D spatial relations. It then models target-context topology with paired hypergraphs and performs bidirectional topology verification for structural disambiguation. Finally, a Reflective Cross-modal Grounding module integrates topology consistency and candidate-centered 2D visual evidence to make decisions over a metric-aware 3D context graph. To further support this setting, we introduce CitySTAR-3D, an enhanced benchmark that improves semantic coverage, instance completeness, bounding-box fidelity, and spatial-relation complexity in city-scale 3D grounding. Extensive experiments show that CitySTAR consistently improves open-world urban 3D grounding while maintaining strong interpretability and generalization.",
-      "summary_status": "reviewed",
+      "arxiv_id": "2609.19911",
       "source_url": "https://neurips.cc/virtual/2026/poster/151477",
+      "pdf_url": "https://arxiv.org/pdf/2609.19911",
       "evidence_url": "https://neurips.cc/virtual/2026/poster/151477",
       "verified_at": "2026-10-21",
-      "review_status": "included",
-      "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -12239,14 +12235,17 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2609.19911",
-          "verified_at": "2026-11-11T21:09:13+08:00"
+          "verified_at": "2026-11-12T22:12:05+08:00"
         }
       ],
-      "id": "paper-b6acf730591fc61f",
-      "arxiv_id": "2609.19911",
-      "pdf_url": "https://arxiv.org/pdf/2609.19911",
+      "review_status": "included",
       "venue_claim": "NeurIPS2026",
       "arxiv_updated_at": "2026-11-09T08:18:30Z",
+      "publication_date_basis": "arxiv-api-published",
+      "id": "paper-b6acf730591fc61f",
+      "year": 2026,
+      "summary_status": "reviewed",
+      "venue_track": "Main Conference",
       "abstract_source_url": "https://neurips.cc/virtual/2026/poster/151477",
       "summary_zh": "城市级三维语言定位需要在巨量点云中理解对象属性和空间关系，单纯特征相似度难以消除歧义。论文先把原始城市点云组织成可查询的开放词汇实例图，通过工具获取多模态属性与度量空间关系；再以成对超图进行双向拓扑核验，并结合候选周围的图像证据反思匹配结果。作者提供增强的城市基准，验证结构化推理对大场景三维目标定位的帮助。",
       "summary_evidence_url": "https://neurips.cc/virtual/2026/poster/151477",
@@ -12275,6 +12274,7 @@
       "curated": true,
       "earliest_known_date": "2026-09-17",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -13595,7 +13595,6 @@
       "verified_at": "2026-11-10T21:57:09+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -13656,6 +13655,7 @@
       "summary_generated_at": "2026-10-25T14:07:19+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -15499,7 +15499,6 @@
       "verified_at": "2026-11-07T11:41:00+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -15569,6 +15568,7 @@
       "summary_generated_at": "2026-10-25T14:07:53+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -15989,12 +15989,12 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2608.12037",
-          "verified_at": "2026-11-12T12:47:09+08:00"
+          "verified_at": "2026-11-12T22:11:47+08:00"
         },
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2608.12037",
-          "verified_at": "2026-11-11T21:09:01+08:00"
+          "verified_at": "2026-11-12T22:12:05+08:00"
         }
       ],
       "review_status": "acceptance-confirmed",
@@ -16030,8 +16030,8 @@
       "id": "paper-383f20da700441b1",
       "year": 2026,
       "summary_status": "generated",
-      "venue_track": "Main Conference",
       "arxiv_updated_at": "2026-08-12T13:20:36Z",
+      "venue_track": "Main Conference",
       "earliest_known_date": "2026-08-12",
       "summary_zh": "本研究动机在于：神经网络虽能建模多模态结果分布，但随机平滑在随机多模态回归中常因模式坍塌而失效，产生无法反映底层分布的平均预测，难以满足安全关键领域对鲁棒预测的需求。核心方法上，论文提出聚类α平滑框架，先以任意聚类算法划分含噪样本，再在各簇内局部应用α平滑，最后将预测组合为混合分布；并将平滑分布解释为α平滑器的混合，推导出平滑预测落于各模态对应紧集并集的概率下界。",
       "summary_generated_at": "2026-10-25T14:08:00+08:00",
@@ -18443,7 +18443,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2607.19120",
-          "verified_at": "2026-11-12T12:47:10+08:00"
+          "verified_at": "2026-11-12T22:11:48+08:00"
         },
         {
           "name": "NeurIPS official accepted programme",
@@ -18458,7 +18458,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2607.19120",
-          "verified_at": "2026-11-11T11:40:06+08:00"
+          "verified_at": "2026-11-12T22:12:14+08:00"
         }
       ],
       "review_status": "acceptance-confirmed",
@@ -18495,8 +18495,8 @@
       "id": "paper-3f1fa194dc658210",
       "year": 2026,
       "summary_status": "generated",
-      "venue_track": "Main Conference",
       "arxiv_updated_at": "2026-07-21T14:06:04Z",
+      "venue_track": "Main Conference",
       "earliest_known_date": "2026-07-21",
       "summary_zh": "本研究动机在于：几何基础模型（如VGGT）虽能从无位姿图像提供强3D先验，但仅以前馈确定性方式运行，无法生成输入视图直接支持之外的合理几何；而3D场景生成模型又需强几何先验以从稀疏输入产生连贯输出。为桥接两范式，核心方法是在VGGT潜空间直接执行流匹配，利用其学到的3D先验且不依赖显式下游表示。因VGGT令牌位于高维超球面积空间、欧氏流匹配失效，故提出在四个超球面积流形上的黎曼流匹配框架，与多尺度编码器对齐，使生成令牌处于冻结解码头所需的合法流形上。",
       "summary_generated_at": "2026-10-28T08:05:55+08:00",
@@ -19200,7 +19200,6 @@
       "verified_at": "2026-11-07T11:41:00+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -19261,6 +19260,7 @@
       "summary_generated_at": "2026-10-25T14:08:23+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -19388,7 +19388,6 @@
       "verified_at": "2026-10-21",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -19515,6 +19514,7 @@
       "curated": true,
       "earliest_known_date": "2026-07-15",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -20754,7 +20754,6 @@
       "verified_at": "2026-10-21",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -20881,6 +20880,7 @@
       "curated": true,
       "earliest_known_date": "2026-07-10",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -21090,7 +21090,6 @@
       "verified_at": "2026-11-07T11:41:01+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -21148,6 +21147,7 @@
       ],
       "earliest_known_date": "2026-07-07",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -24036,7 +24036,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2606.30058",
-          "verified_at": "2026-11-12T12:47:10+08:00"
+          "verified_at": "2026-11-12T22:11:48+08:00"
         },
         {
           "name": "NeurIPS official accepted programme",
@@ -24051,7 +24051,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2606.30058",
-          "verified_at": "2026-11-11T11:40:06+08:00"
+          "verified_at": "2026-11-12T22:12:14+08:00"
         }
       ],
       "review_status": "acceptance-confirmed",
@@ -24088,8 +24088,8 @@
       "id": "paper-295b3196bcc95734",
       "year": 2026,
       "summary_status": "generated",
-      "venue_track": "Main Conference",
       "arxiv_updated_at": "2026-06-29T09:48:39Z",
+      "venue_track": "Main Conference",
       "summary_zh": "本研究动机在于传统建立物体共享规范坐标系的方法依赖人工标注，难以扩展到多样类别与实例。论文提出从野外物体视频中自发涌现共享规范坐标系的思路，核心方法是对无标注的以物体为中心视频进行自监督训练，仅利用运动恢复结构得到的含噪相机位姿；通过将所有训练序列经由一个无类别细节的粗规范网格这一共享几何瓶颈，学习图像像素到网格的稠密对应，并依据含噪几何估计各序列对齐，从而借助多视角一致性与特征提取器的语义先验，在无规范位姿标签下得到共享规范坐标系。",
       "earliest_known_date": "2026-06-29",
       "summary_generated_at": "2026-10-25T08:09:05+08:00",
@@ -24643,17 +24643,17 @@
       "source_url": "https://arxiv.org/abs/2606.26092",
       "pdf_url": "https://arxiv.org/pdf/2606.26092",
       "evidence_url": "https://arxiv.org/abs/2606.26092",
-      "verified_at": "2026-11-11T21:09:01+08:00",
+      "verified_at": "2026-11-12T22:12:05+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2606.26092",
-          "verified_at": "2026-11-12T12:47:09+08:00"
+          "verified_at": "2026-11-12T22:11:47+08:00"
         },
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2606.26092",
-          "verified_at": "2026-11-11T21:09:01+08:00"
+          "verified_at": "2026-11-12T22:12:05+08:00"
         }
       ],
       "review_status": "acceptance-claimed",
@@ -24869,7 +24869,6 @@
       "verified_at": "2026-10-28T08:04:08+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -24949,6 +24948,7 @@
       "summary_generated_at": "2026-10-28T08:05:57+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -25267,7 +25267,6 @@
       "verified_at": "2026-11-07T11:41:00+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -25338,6 +25337,7 @@
       "summary_generated_at": "2026-10-25T08:08:35+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -25645,23 +25645,19 @@
         "Kai Tang",
         "Yichen Guo"
       ],
-      "year": 2026,
       "published": "2026-06-16",
       "venue": "NeurIPS",
       "publication_status": "accepted",
-      "venue_track": "Main Conference",
       "categories": [
         "point-processing",
         "visual-localization"
       ],
       "abstract": "Visual Geometry Grounded Transformer (VGGT) recovers dense 3D scene structure from multi-view images in one forward pass, but quadratic cross-frame attention limits its scalability. Existing training-free accelerators reduce computation uniformly along one axis, missing layer heterogeneity. Our spectral, probing, and causal analyses reveal three regimes: shallow layers lack cross-view structure, middle layers drive cross-view alignment, and deep layers are redundant for dense geometry yet their cross-frame attention remains essential for pose. RegimeVGGT applies layer-wise U-shaped compression along two axes: Saliency-Guided Banded Merging protects geometry- and edge-salient tokens, while Selectively Protected K/V Downsampling preserves cross-frame spatial coverage and the pose-critical path through a phase-shifted spatial grid, a reference-frame anchor, and uncompressed camera/register tokens. Training-free, RegimeVGGT achieves a $6.7\\times$ speedup over VGGT* at matched reconstruction quality. Code: \\url{https://anonymous.4open.science/status/RegimeVGGT-9477}",
-      "summary_status": "reviewed",
+      "arxiv_id": "2606.18439",
       "source_url": "https://neurips.cc/virtual/2026/poster/155954",
+      "pdf_url": "https://arxiv.org/pdf/2606.18439",
       "evidence_url": "https://neurips.cc/virtual/2026/poster/155954",
       "verified_at": "2026-10-21",
-      "review_status": "included",
-      "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -25728,13 +25724,18 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2606.18439",
-          "verified_at": "2026-11-11T21:09:07+08:00"
+          "verified_at": "2026-11-12T22:12:14+08:00"
         }
       ],
+      "review_status": "included",
+      "author_comment": "9 pages, 3 figures, 7 tables. Jinhao You, Shuo Lyu, Zhuohang Lyu, Tanxuan Li, and Zibo Zhao contributed equally. Shuo Lyu is the corresponding author",
+      "arxiv_updated_at": "2026-11-03T19:15:01Z",
+      "publication_date_basis": "arxiv-api-published",
       "id": "paper-0f7a457c01112ed5",
-      "arxiv_id": "2606.18439",
+      "year": 2026,
+      "summary_status": "reviewed",
+      "venue_track": "Main Conference",
       "doi": "10.48550/arxiv.2606.18439",
-      "pdf_url": "https://arxiv.org/pdf/2606.18439",
       "registry_created_at": "2026-06-18T01:53:18Z",
       "registry_updated_at": "2026-06-18T01:53:19Z",
       "registry_registered_at": "2026-06-18T01:53:19Z",
@@ -25766,8 +25767,6 @@
           "dateType": "Issued"
         }
       ],
-      "author_comment": "9 pages, 3 figures, 7 tables. Jinhao You, Shuo Lyu, Zhuohang Lyu, Tanxuan Li, and Zibo Zhao contributed equally. Shuo Lyu is the corresponding author",
-      "arxiv_updated_at": "2026-11-03T19:15:01Z",
       "abstract_source_url": "https://neurips.cc/virtual/2026/poster/155954",
       "summary_zh": "几何变换器不同深度的层分别承担局部表示、跨视图对齐和位姿推断，统一压缩可能破坏关键路径。论文依据分层分析采用双轴的差异化压缩：显著性引导合并保留几何与边缘信息，受保护的键值降采样维持空间覆盖、参考帧和相机标记。无需训练即可减少冗余计算，在保持重建质量的同时维护深层注意力对位姿估计的重要作用。",
       "summary_evidence_url": "https://neurips.cc/virtual/2026/poster/155954",
@@ -25796,6 +25795,7 @@
       "curated": true,
       "earliest_known_date": "2026-06-16",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -26037,7 +26037,6 @@
       "verified_at": "2026-11-07T11:41:01+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -26101,6 +26100,7 @@
       "summary_generated_at": "2026-10-25T08:08:59+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -26186,7 +26186,6 @@
       "verified_at": "2026-10-21",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -26340,6 +26339,7 @@
       "curated": true,
       "earliest_known_date": "2026-06-09",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -26466,7 +26466,6 @@
       "verified_at": "2026-10-21",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -26546,6 +26545,7 @@
       "curated": true,
       "earliest_known_date": "2026-06-04",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -26678,7 +26678,6 @@
       "verified_at": "2026-11-07T11:40:59+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -26745,6 +26744,7 @@
       ],
       "earliest_known_date": "2026-06-01",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -35100,7 +35100,7 @@
         {
           "name": "CVF Open Access",
           "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Han_Image-to-Point_Cloud_Feature_Back-Projection_for_Multimodal_Training_of_3D_Semantic_CVPR_2026_paper.html",
-          "verified_at": "2026-10-21T16:25:13+08:00"
+          "verified_at": "2026-11-12T22:12:40+08:00"
         }
       ],
       "review_status": "included",
@@ -41828,7 +41828,6 @@
       "verified_at": "2026-11-02T22:08:36+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -41899,6 +41898,7 @@
       "summary_generated_at": "2026-10-28T14:07:09+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -41937,7 +41937,6 @@
       "verified_at": "2026-11-07T11:41:00+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -42013,6 +42012,7 @@
       "summary_generated_at": "2026-10-26T14:06:27+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -42333,7 +42333,7 @@
       "source_url": "https://arxiv.org/abs/2605.28048",
       "pdf_url": "https://arxiv.org/pdf/2605.28048",
       "evidence_url": "https://arxiv.org/abs/2605.28048",
-      "verified_at": "2026-11-11T21:09:07+08:00",
+      "verified_at": "2026-11-12T22:12:21+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -42343,7 +42343,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2605.28048",
-          "verified_at": "2026-11-11T21:09:07+08:00"
+          "verified_at": "2026-11-12T22:12:21+08:00"
         }
       ],
       "review_status": "acceptance-claimed",
@@ -42430,7 +42430,6 @@
       "verified_at": "2026-11-07T11:40:59+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -42454,6 +42453,7 @@
       "arxiv_updated_at": "2026-05-27T07:31:04Z",
       "earliest_known_date": "2026-05-27",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -42734,7 +42734,6 @@
       "verified_at": "2026-11-07T11:41:02+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -42759,6 +42758,7 @@
       "arxiv_updated_at": "2026-08-16T02:59:23Z",
       "earliest_known_date": "2026-05-25",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -42799,7 +42799,6 @@
       "verified_at": "2026-11-07T11:40:59+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -42860,6 +42859,7 @@
       "arxiv_updated_at": "2026-05-22T15:40:52Z",
       "earliest_known_date": "2026-05-22",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -43047,7 +43047,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2605.23892",
-          "verified_at": "2026-11-12T12:47:09+08:00"
+          "verified_at": "2026-11-12T22:11:47+08:00"
         },
         {
           "name": "NeurIPS official accepted programme",
@@ -43062,7 +43062,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2605.23892",
-          "verified_at": "2026-11-11T21:09:01+08:00"
+          "verified_at": "2026-11-12T22:12:05+08:00"
         }
       ],
       "review_status": "included",
@@ -43103,8 +43103,8 @@
       "id": "paper-0f179aee59977b66",
       "year": 2026,
       "summary_status": "reviewed",
-      "venue_track": "Main Conference",
       "arxiv_updated_at": "2026-05-22T17:55:13Z",
+      "venue_track": "Main Conference",
       "abstract_source_url": "https://neurips.cc/virtual/2026/poster/149416",
       "summary_zh": "视觉几何变换器的全局注意力随视图数量呈二次增长，限制大图像集重建。论文通过两级选择减少每个查询接触的键值标记：先按帧间多样性保留能覆盖不同场景区域的观察，再根据层级差异和注意力熵删除帧内冗余标记。该方法兼顾跨视图覆盖与局部信息需求，在大量图像重建中降低计算成本，并保持或改善原模型的几何预测质量。",
       "summary_evidence_url": "https://neurips.cc/virtual/2026/poster/149416",
@@ -43676,7 +43676,6 @@
       "verified_at": "2026-10-21",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -43810,6 +43809,7 @@
       "curated": true,
       "earliest_known_date": "2026-05-20",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -44031,7 +44031,6 @@
       "verified_at": "2026-11-07T11:40:59+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -44058,6 +44057,7 @@
       "summary_generated_at": "2026-10-28T14:08:48+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -44093,7 +44093,6 @@
       "verified_at": "2026-11-07T11:41:01+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -44158,6 +44157,7 @@
       "summary_generated_at": "2026-10-26T14:07:04+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -44290,7 +44290,6 @@
       "verified_at": "2026-11-07T11:41:00+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -44354,6 +44353,7 @@
       "summary_generated_at": "2026-10-26T14:07:22+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -44573,7 +44573,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2605.16981",
-          "verified_at": "2026-11-12T12:47:10+08:00"
+          "verified_at": "2026-11-12T22:11:48+08:00"
         },
         {
           "name": "NeurIPS official accepted programme",
@@ -44588,7 +44588,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2605.16981",
-          "verified_at": "2026-11-11T11:40:06+08:00"
+          "verified_at": "2026-11-12T22:12:14+08:00"
         }
       ],
       "review_status": "included",
@@ -44645,8 +44645,8 @@
       "id": "paper-4ce6e78fa8f39b15",
       "year": 2026,
       "summary_status": "reviewed",
-      "venue_track": "Main Conference",
       "arxiv_updated_at": "2026-09-29T08:24:28Z",
+      "venue_track": "Main Conference",
       "abstract_source_url": "https://neurips.cc/virtual/2026/poster/148467",
       "summary_zh": "循环式三维重建虽然使用固定内存，其逐点状态门控的有效记忆跨度却可能很短。论文分析这一瓶颈后，引入由相邻帧内部特征变化闭式计算的帧级更新系数，控制整帧观察对历史状态的贡献强度。该设计类似连续化的关键帧选择，无需训练、新参数或额外前向计算，在长序列相机位姿、视频深度和重建任务中缓解漂移。",
       "summary_evidence_url": "https://neurips.cc/virtual/2026/poster/148467",
@@ -44803,7 +44803,6 @@
       "verified_at": "2026-10-21",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -44964,6 +44963,7 @@
       "curated": true,
       "earliest_known_date": "2026-05-15",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -45000,7 +45000,6 @@
       "verified_at": "2026-10-21",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS 2026 official poster",
@@ -45109,6 +45108,7 @@
       "curated": true,
       "earliest_known_date": "2026-05-15",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -45264,7 +45264,6 @@
       "verified_at": "2026-11-07T11:40:59+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -45288,6 +45287,7 @@
       "arxiv_updated_at": "2026-09-27T04:23:12Z",
       "earliest_known_date": "2026-05-15",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -45326,7 +45326,6 @@
       "verified_at": "2026-10-21",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -45457,6 +45456,7 @@
       "date_evidence_url": "https://arxiv.org/abs/2605.14315",
       "curated": true,
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -45593,7 +45593,6 @@
       "verified_at": "2026-11-07T11:41:00+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -45617,6 +45616,7 @@
       "arxiv_updated_at": "2026-05-14T15:21:36Z",
       "earliest_known_date": "2026-05-14",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -45816,7 +45816,6 @@
       "verified_at": "2026-11-07T11:41:00+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -45877,6 +45876,7 @@
       "arxiv_updated_at": "2026-05-12T19:10:38Z",
       "earliest_known_date": "2026-05-12",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -45917,7 +45917,6 @@
       "verified_at": "2026-10-21",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -46017,6 +46016,7 @@
       "curated": true,
       "earliest_known_date": "2026-05-12",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -46055,7 +46055,6 @@
       "verified_at": "2026-11-07T11:41:01+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -46120,6 +46119,7 @@
       "summary_generated_at": "2026-10-28T08:06:02+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -46145,22 +46145,18 @@
         "Arnt B Salberg",
         "Robert Jenssen"
       ],
-      "year": 2026,
       "published": "2026-05-12",
       "venue": "NeurIPS",
       "publication_status": "accepted",
-      "venue_track": "Main Conference",
       "categories": [
         "point-processing"
       ],
       "abstract": "Most dimensionality reduction methods treat data as discrete point clouds, ignoring the continuous domain structure inherent to many real-world processes. To bridge this gap, we introduce Neural Operator Function Embedding (NOFE), a domain-aware framework for continuous dimensionality reduction. NOFE learns function-to-function mappings via a Graph Kernel Operator, enabling mesh-free evaluation at arbitrary query locations independent of input discretization. We establish NOFE as approximation of sheaf-to-sheaf mappings, generalizing Sheaf Neural Networks to continuous domains. We evaluate NOFE across different datasets, comparing it against PCA, t-SNE, and UMAP. Our results demonstrate that NOFE significantly outperforms baselines in local structure preservation, achieving a local Stress of 0.111 compared to 0.398 for PCA, 0.773 for t-SNE, and 0.791 for UMAP for the ERA5 climate reanalysis dataset. NOFE also exhibits robust sampling independence, reducing the Patch Stitching Error by up to $20.0\\times$ relative to UMAP (59.0 vs. 267.6 under regional normalization) and ensuring consistency across disjoint domain patches. While maintaining competitive global structure preservation (Stress-1: 0.379 vs. PCA's 0.268), NOFE resolves fine-grained structures and produces smooth, consistent embeddings that generalize across varying sample densities, addressing key limitations of discrete reduction methods.",
-      "summary_status": "pending",
+      "arxiv_id": "2605.11970",
       "source_url": "https://neurips.cc/virtual/2026/poster/149024",
+      "pdf_url": "https://arxiv.org/pdf/2605.11970",
       "evidence_url": "https://neurips.cc/virtual/2026/poster/149024",
       "verified_at": "2026-11-07T11:41:00+08:00",
-      "review_status": "acceptance-confirmed",
-      "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -46175,16 +46171,20 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2605.11970",
-          "verified_at": "2026-11-11T21:09:01+08:00"
+          "verified_at": "2026-11-12T22:12:05+08:00"
         }
       ],
-      "id": "paper-08e143db7b617ae8",
-      "arxiv_id": "2605.11970",
-      "pdf_url": "https://arxiv.org/pdf/2605.11970",
+      "review_status": "acceptance-confirmed",
       "author_comment": "21 pages, 11 figures, 12 tables",
       "arxiv_updated_at": "2026-05-16T20:05:23Z",
+      "publication_date_basis": "arxiv-api-published",
+      "id": "paper-08e143db7b617ae8",
+      "year": 2026,
+      "summary_status": "pending",
+      "venue_track": "Main Conference",
       "earliest_known_date": "2026-05-12",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -46220,7 +46220,6 @@
       "verified_at": "2026-11-07T11:41:02+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -46244,6 +46243,7 @@
       "arxiv_updated_at": "2026-05-11T21:48:59Z",
       "earliest_known_date": "2026-05-11",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -46374,7 +46374,6 @@
       "verified_at": "2026-11-07T11:41:02+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -46454,6 +46453,7 @@
       "summary_generated_at": "2026-10-25T08:09:28+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -46490,7 +46490,6 @@
       "verified_at": "2026-10-21",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -46585,6 +46584,7 @@
       "curated": true,
       "earliest_known_date": "2026-05-10",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -46607,22 +46607,18 @@
         "Tuur Stuyck",
         "Wojciech Matusik"
       ],
-      "year": 2026,
       "published": "2026-05-09",
       "venue": "NeurIPS",
       "publication_status": "accepted",
-      "venue_track": "Main Conference",
       "categories": [
         "point-processing"
       ],
       "abstract": "Learning-based simulation of multi-object rigid-body dynamics remains difficult because contact is discontinuous and errors compound over long horizons. Most existing methods remain tied to mesh connectivity and vertex-level message passing, which limits their applicability to mesh-free inputs such as point clouds and leads to high computational cost. Efficiently modeling high-fidelity rigid-body dynamics from mesh-free representations, therefore, remains challenging. We introduce RigidFormer, an object-centric Transformer-based model that learns mesh-free rigid-body dynamics with controllable integration step sizes. RigidFormer reasons at the object level and advances each object through compact anchors; Anchor-Vertex Pooling enriches these anchors with local vertex features, retaining contact-relevant geometry without dense vertex-level interaction. We propose Anchor-based RoPE to inject anchor geometry into attention while respecting the unordered nature of objects and anchors: object-token processing is permutation-equivariant, and the mean-pooled anchor descriptor is invariant to anchor reindexing while preserving shape extent. RigidFormer further enforces rigidity by projecting updates onto the rigid-body manifold using differentiable Kabsch alignment. On standard benchmarks, RigidFormer outperforms or matches mesh-based baselines using point inputs, runs faster, generalizes to unseen point resolutions and across datasets, and scales to 200+ objects; we also show a preliminary extension to command-conditioned articulated bodies by treating body parts as interacting object-level components. Code will be released upon publication.",
-      "summary_status": "pending",
+      "arxiv_id": "2605.09196",
       "source_url": "https://neurips.cc/virtual/2026/poster/152768",
+      "pdf_url": "https://arxiv.org/pdf/2605.09196",
       "evidence_url": "https://neurips.cc/virtual/2026/poster/152768",
       "verified_at": "2026-11-07T11:40:59+08:00",
-      "review_status": "acceptance-confirmed",
-      "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -46637,16 +46633,20 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2605.09196",
-          "verified_at": "2026-11-11T11:40:06+08:00"
+          "verified_at": "2026-11-12T22:12:14+08:00"
         }
       ],
-      "id": "paper-2ad50d008f2d4e00",
-      "arxiv_id": "2605.09196",
-      "pdf_url": "https://arxiv.org/pdf/2605.09196",
+      "review_status": "acceptance-confirmed",
       "author_comment": "Project Page: https://people.csail.mit.edu/frankzydou/projects/RigidFormer/index.html",
       "arxiv_updated_at": "2026-05-09T22:31:09Z",
+      "publication_date_basis": "arxiv-api-published",
+      "id": "paper-2ad50d008f2d4e00",
+      "year": 2026,
+      "summary_status": "pending",
+      "venue_track": "Main Conference",
       "earliest_known_date": "2026-05-09",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -46688,7 +46688,6 @@
       "verified_at": "2026-11-07T11:41:02+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -46712,6 +46711,7 @@
       "arxiv_updated_at": "2026-05-09T07:11:26Z",
       "earliest_known_date": "2026-05-09",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -46945,7 +46945,6 @@
       "verified_at": "2026-10-21",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -47058,6 +47057,7 @@
       "curated": true,
       "earliest_known_date": "2026-05-08",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -47187,7 +47187,6 @@
       "verified_at": "2026-10-25T08:04:57+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -47252,6 +47251,7 @@
       "summary_generated_at": "2026-10-26T14:07:13+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -47287,7 +47287,6 @@
       "verified_at": "2026-10-21",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -47401,6 +47400,7 @@
       "curated": true,
       "earliest_known_date": "2026-05-08",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -47436,7 +47436,6 @@
       "verified_at": "2026-11-07T11:41:01+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -47501,6 +47500,7 @@
       "summary_generated_at": "2026-10-26T14:07:36+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -47806,22 +47806,18 @@
         "Jihua Zhu",
         "Ajmal Mian"
       ],
-      "year": 2026,
       "published": "2026-05-05",
       "venue": "NeurIPS",
       "publication_status": "accepted",
-      "venue_track": "Main Conference",
       "categories": [
         "point-processing"
       ],
       "abstract": "Dynamic point cloud pretraining is still dominated by masked reconstruction objectives. However, these objectives inherit two key limitations. Existing methods inject ground-truth tube centers as decoder positional embeddings, causing spatio-temporal positional leakage. Moreover, they supervise inter-frame motion with deterministic proxy targets that systematically discard distributional structure by collapsing multimodal trajectory uncertainty into conditional means. To address these limitations, we propose Diffusion Masked Pretraining (DiMP), a unified self-supervised framework for dynamic point clouds. DiMP introduces diffusion modeling into both positional inference and motion learning. It first applies forward diffusion noise only to masked tube centers, then predicts clean centers from visible spatio-temporal context. This removes positional leakage while preserving visible coordinates as clean temporal anchors. DiMP also reformulates point-wise inter-frame displacement supervision as a DDPM noise-prediction objective conditioned on decoded representations. This design drives the encoder to target the full conditional distribution of plausible motions under a variational surrogate, rather than collapsing to a single deterministic estimate. Extensive experiments demonstrate that DiMP consistently improves downstream accuracy over the backbone alone, with absolute gains of 11.21% on offline action segmentation and 13.65% under causally constrained online inference.",
-      "summary_status": "reviewed",
+      "arxiv_id": "2605.03639",
       "source_url": "https://neurips.cc/virtual/2026/poster/148526",
+      "pdf_url": "https://arxiv.org/pdf/2605.03639",
       "evidence_url": "https://neurips.cc/virtual/2026/poster/148526",
       "verified_at": "2026-10-21",
-      "review_status": "included",
-      "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS 2026 official poster",
@@ -47864,7 +47860,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2605.03639",
-          "verified_at": "2026-11-11T21:09:07+08:00"
+          "verified_at": "2026-11-12T22:12:21+08:00"
         },
         {
           "name": "NeurIPS official accepted programme",
@@ -47882,11 +47878,14 @@
           "verified_at": "2026-11-12T12:49:06+08:00"
         }
       ],
-      "id": "paper-0ae889a097d88297",
-      "arxiv_id": "2605.03639",
-      "pdf_url": "https://arxiv.org/pdf/2605.03639",
+      "review_status": "included",
       "author_comment": "Accepted to NeurIPS 2026",
       "arxiv_updated_at": "2026-11-02T16:19:28Z",
+      "publication_date_basis": "arxiv-api-published",
+      "id": "paper-0ae889a097d88297",
+      "year": 2026,
+      "summary_status": "reviewed",
+      "venue_track": "Main Conference",
       "doi": "10.48550/arxiv.2605.03639",
       "registry_created_at": "2026-05-06T01:59:21Z",
       "registry_updated_at": "2026-10-14T08:32:25Z",
@@ -47959,6 +47958,7 @@
       "curated": true,
       "earliest_known_date": "2026-05-05",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -48096,7 +48096,6 @@
       "verified_at": "2026-10-21",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -48201,6 +48200,7 @@
       "curated": true,
       "earliest_known_date": "2026-05-04",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -48233,7 +48233,6 @@
       "verified_at": "2026-11-07T11:41:00+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -48304,6 +48303,7 @@
       "summary_generated_at": "2026-10-26T14:07:34+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -52018,7 +52018,6 @@
       "verified_at": "2026-10-21T17:31:08+08:00",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -52102,6 +52101,7 @@
       "curated": true,
       "earliest_known_date": "2026-04-01",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -54556,7 +54556,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2603.24749",
-          "verified_at": "2026-11-12T12:47:13+08:00"
+          "verified_at": "2026-11-12T22:11:51+08:00"
         },
         {
           "name": "arXiv",
@@ -55361,7 +55361,6 @@
       "verified_at": "2026-11-05T21:42:58+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -55425,6 +55424,7 @@
       "summary_generated_at": "2026-10-28T08:07:11+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -67636,7 +67636,6 @@
       "verified_at": "2026-10-21",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -67772,6 +67771,7 @@
       "curated": true,
       "earliest_known_date": "2026-03-08",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -70912,7 +70912,6 @@
       "verified_at": "2026-11-05T21:43:00+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -70989,6 +70988,7 @@
       "arxiv_updated_at": "2026-09-16T05:20:54Z",
       "earliest_known_date": "2026-02-28",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -72593,7 +72593,6 @@
       "verified_at": "2026-10-21",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -72703,6 +72702,7 @@
       "curated": true,
       "earliest_known_date": "2026-02-10",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -72842,7 +72842,6 @@
       "verified_at": "2026-10-21",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -72940,6 +72939,7 @@
       "curated": true,
       "earliest_known_date": "2026-02-08",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -73125,7 +73125,6 @@
       "verified_at": "2026-10-21T17:31:08+08:00",
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -73222,6 +73221,7 @@
       "curated": true,
       "earliest_known_date": "2026-02-04",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -74733,7 +74733,6 @@
       "verified_at": "2026-11-05T21:42:58+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -74814,6 +74813,7 @@
       "summary_generated_at": "2026-10-24T08:09:16+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -89800,7 +89800,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2609.36644",
-          "verified_at": "2026-11-11T21:08:49+08:00"
+          "verified_at": "2026-11-12T22:11:53+08:00"
         },
         {
           "name": "arXiv",
@@ -89810,6 +89810,7 @@
       ],
       "review_status": "source-confirmed",
       "publication_date_basis": "source-metadata",
+      "publication_date_note": "",
       "registry_created_at": "2026-09-30T03:23:15Z",
       "registry_updated_at": "2026-09-30T03:23:16Z",
       "registry_registered_at": "2026-09-30T03:23:16Z",
@@ -89852,7 +89853,17 @@
       "summary_generated_at": "2026-10-29T08:07:51+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
-      "publication_date_note": ""
+      "accepted_venue": "ECCV",
+      "accepted_year": null,
+      "acceptance_basis": "author_claim",
+      "acceptance_evidence": [
+        {
+          "url": "https://api.datacite.org/dois/10.48550/arxiv.2609.36644",
+          "kind": "datacite-arxiv-author-metadata",
+          "quote": "Accepted to ECCV'26"
+        }
+      ],
+      "acceptance_note": "作者在 arXiv 元数据中声明录用于 ECCV（录用年份未注明）；尚未独立核验官方录用记录，不视为正式出版。"
     },
     {
       "title": "NoiseSDF2NoiseSDF: Learning Clean Neural Fields from Noisy Supervision",
@@ -91071,7 +91082,7 @@
       "source_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_MVGGT_Multimodal_Visual_Geometry_Grounded_Transformer_for_Multiview_3D_Referring_CVPR_2026_paper.html",
       "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_MVGGT_Multimodal_Visual_Geometry_Grounded_Transformer_for_Multiview_3D_Referring_CVPR_2026_paper.pdf",
       "evidence_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_MVGGT_Multimodal_Visual_Geometry_Grounded_Transformer_for_Multiview_3D_Referring_CVPR_2026_paper.html",
-      "verified_at": "2026-10-27T08:02:21+08:00",
+      "verified_at": "2026-11-12T22:12:37+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -91081,7 +91092,7 @@
         {
           "name": "CVF Open Access",
           "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_MVGGT_Multimodal_Visual_Geometry_Grounded_Transformer_for_Multiview_3D_Referring_CVPR_2026_paper.html",
-          "verified_at": "2026-10-27T08:02:21+08:00"
+          "verified_at": "2026-11-12T22:12:37+08:00"
         },
         {
           "name": "arXiv",
@@ -96083,10 +96094,10 @@
       "year": 2026,
       "summary_status": "pending",
       "publication_date_basis": "source-metadata",
-      "publication_date_note": "",
-      "summary_zh": "",
       "earliest_known_date": "2026",
-      "catalogue_year": 2026
+      "catalogue_year": 2026,
+      "publication_date_note": "",
+      "summary_zh": ""
     },
     {
       "title": "Fusion of Depth and Semantics for Probabilistic Floorplan Localization",
@@ -96471,12 +96482,12 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2608.00635",
-          "verified_at": "2026-11-12T12:47:09+08:00"
+          "verified_at": "2026-11-12T22:11:47+08:00"
         },
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2608.00635",
-          "verified_at": "2026-11-11T21:09:01+08:00"
+          "verified_at": "2026-11-12T22:12:05+08:00"
         },
         {
           "name": "Crossref",
@@ -96528,9 +96539,9 @@
       "id": "paper-d3953dd4688c174d",
       "year": 2026,
       "summary_status": "pending",
+      "arxiv_updated_at": "2026-11-08T06:44:54Z",
       "earliest_known_date": "2026",
       "catalogue_year": 2026,
-      "arxiv_updated_at": "2026-11-08T06:44:54Z",
       "venue_full": "IEEE Robotics and Automation Letters",
       "venue_issns": [
         "2377-3766",
@@ -97980,7 +97991,7 @@
       "source_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Peng_Expanding_mmWave_Datasets_for_Human_Pose_Estimation_with_Unlabeled_Data_CVPR_2026_paper.html",
       "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Peng_Expanding_mmWave_Datasets_for_Human_Pose_Estimation_with_Unlabeled_Data_CVPR_2026_paper.pdf",
       "evidence_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Peng_Expanding_mmWave_Datasets_for_Human_Pose_Estimation_with_Unlabeled_Data_CVPR_2026_paper.html",
-      "verified_at": "2026-10-27T08:02:18+08:00",
+      "verified_at": "2026-11-12T22:12:33+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -97990,7 +98001,7 @@
         {
           "name": "CVF Open Access",
           "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Peng_Expanding_mmWave_Datasets_for_Human_Pose_Estimation_with_Unlabeled_Data_CVPR_2026_paper.html",
-          "verified_at": "2026-10-27T08:02:18+08:00"
+          "verified_at": "2026-11-12T22:12:33+08:00"
         },
         {
           "name": "arXiv",
@@ -101149,10 +101160,10 @@
       "year": 2026,
       "summary_status": "pending",
       "publication_date_basis": "source-metadata",
-      "publication_date_note": "",
-      "summary_zh": "",
       "earliest_known_date": "2026",
-      "catalogue_year": 2026
+      "catalogue_year": 2026,
+      "publication_date_note": "",
+      "summary_zh": ""
     },
     {
       "title": "Convex Distance Operator Transport: A Convex and Geometry-Preserving Formulation",
@@ -101250,10 +101261,10 @@
       "year": 2026,
       "summary_status": "pending",
       "publication_date_basis": "source-metadata",
-      "publication_date_note": "",
-      "summary_zh": "",
       "earliest_known_date": "2026",
-      "catalogue_year": 2026
+      "catalogue_year": 2026,
+      "publication_date_note": "",
+      "summary_zh": ""
     },
     {
       "title": "Contact-guided Real2Sim from Monocular Video with Planar Scene Primitives",
@@ -105124,22 +105135,18 @@
         "Benjamin Fefferman",
         "Sahand Hormoz"
       ],
-      "year": 2025,
       "published": "2025-12-18",
       "venue": "NeurIPS",
       "publication_status": "accepted",
-      "venue_track": "Main Conference",
       "categories": [
         "point-processing"
       ],
       "abstract": "Biological systems can form complex three-dimensional structures through the collective behavior of agents that share a common update rule and operate without central control. How such distributed control gives rise to precise global patterns remains a central question not only in developmental biology but also in distributed robotics, programmable matter, and multi-agent learning. Here, we introduce DiffeoMorph, an end-to-end differentiable framework for learning a morphogenesis protocol that guides a population of agents to morph into a target 3D shape. Each agent updates its position and internal state using an SE(3)-equivariant graph neural network, based on its own internal state and signals received from other agents. To train this system, we introduce a new shape-matching loss based on 3D Zernike polynomials, which compares the predicted and target shapes as continuous spatial distributions, not as discrete point clouds, and is invariant to agent ordering, number of agents, and global orientation. To achieve rotation invariance while preserving reflection sensitivity, we include an alignment step that optimally rotates the predicted Zernike spectrum to match the target before computing the loss. We perform benchmarking to establish the advantages of our shape-matching loss over other standard distance metrics for shape comparison tasks. We then demonstrate that DiffeoMorph can form a range of complex shapes from minimally patterned initial conditions. DiffeoMorph provides a general framework for learning distributed control strategies for morphogenesis, swarm robotics, and programmable self-assembly.",
-      "summary_status": "pending",
+      "arxiv_id": "2512.17129",
       "source_url": "https://neurips.cc/virtual/2026/poster/155314",
+      "pdf_url": "https://arxiv.org/pdf/2512.17129",
       "evidence_url": "https://neurips.cc/virtual/2026/poster/155314",
       "verified_at": "2026-11-05T21:42:58+08:00",
-      "review_status": "acceptance-confirmed",
-      "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -105154,15 +105161,19 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2512.17129",
-          "verified_at": "2026-11-11T21:09:01+08:00"
+          "verified_at": "2026-11-12T22:12:05+08:00"
         }
       ],
-      "id": "paper-bc5ff978fb482b5c",
-      "arxiv_id": "2512.17129",
-      "pdf_url": "https://arxiv.org/pdf/2512.17129",
+      "review_status": "acceptance-confirmed",
       "arxiv_updated_at": "2026-05-07T21:52:23Z",
+      "publication_date_basis": "arxiv-api-published",
+      "id": "paper-bc5ff978fb482b5c",
+      "year": 2025,
+      "summary_status": "pending",
+      "venue_track": "Main Conference",
       "earliest_known_date": "2025-12-18",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -107680,7 +107691,6 @@
       "verified_at": "2026-11-05T21:43:00+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -107771,6 +107781,7 @@
       ],
       "earliest_known_date": "2025-11-24",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -109761,7 +109772,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2504.17410",
-          "verified_at": "2026-11-12T12:47:09+08:00"
+          "verified_at": "2026-11-12T22:11:47+08:00"
         },
         {
           "name": "Crossref",
@@ -109771,7 +109782,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2504.17410",
-          "verified_at": "2026-11-11T21:09:01+08:00"
+          "verified_at": "2026-11-12T22:12:05+08:00"
         }
       ],
       "review_status": "source-confirmed",
@@ -115756,58 +115767,6 @@
       "publication_date_note": ""
     },
     {
-      "title": "GAP: Gaussianize Any Point Clouds with Text Guidance",
-      "authors": [
-        "Weiqi Zhang",
-        "Junsheng Zhou",
-        "Haotian Geng",
-        "Wenyuan Zhang",
-        "Yu-Shen Liu"
-      ],
-      "published": "2025-10-19",
-      "venue": "ICCV",
-      "publication_status": "published",
-      "categories": [
-        "point-processing"
-      ],
-      "abstract": "3D Gaussian Splatting (3DGS) has demonstrated its advantages in achieving fast and high-quality rendering. As point clouds serve as a widely-used and easily accessible form of 3D representation, bridging the gap between point clouds and Gaussians becomes increasingly important. Recent studies have explored how to convert the colored points into Gaussians, but directly generating Gaussians from colorless 3D point clouds remains an unsolved challenge. In this paper, we propose GAP, a novel approach that gaussianizes raw point clouds into high-fidelity 3D Gaussians with text guidance. Our key idea is to design a multi-view optimization framework that leverages a depth-aware image diffusion model to synthesize consistent appearances across different viewpoints. To ensure geometric accuracy, we introduce a surface-anchoring mechanism that effectively constrains Gaussians to lie on the surfaces of 3D shapes during optimization. Furthermore, GAP incorporates a diffuse-based inpainting strategy that specifically targets at completing hard-to-observe regions. We evaluate GAP on the Point-to-Gaussian generation task across varying complexity levels, from synthetic point clouds to challenging real-world scans, and even large-scale scenes. Project Page: https://weiqi-zhang.github.io/GAP.",
-      "arxiv_id": "2508.05631",
-      "source_url": "https://doi.org/10.1109/iccv51701.2025.02377",
-      "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_GAP_Gaussianize_Any_Point_Clouds_with_Text_Guidance_ICCV_2025_paper.pdf",
-      "evidence_url": "https://api.crossref.org/works/10.1109%2Ficcv51701.2025.02377",
-      "verified_at": "2026-11-05T21:42:32+08:00",
-      "source_records": [
-        {
-          "name": "Crossref",
-          "url": "https://doi.org/10.1109/iccv51701.2025.02377",
-          "verified_at": "2026-11-05T21:42:32+08:00"
-        },
-        {
-          "name": "CVF Open Access",
-          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_GAP_Gaussianize_Any_Point_Clouds_with_Text_Guidance_ICCV_2025_paper.html",
-          "verified_at": "2026-10-27T14:02:55+08:00"
-        },
-        {
-          "name": "arXiv",
-          "url": "https://arxiv.org/abs/2508.05631",
-          "verified_at": "2026-11-04T21:27:44+08:00"
-        }
-      ],
-      "review_status": "source-confirmed",
-      "author_comment": "ICCV 2025. Project page: https://weiqi-zhang.github.io/GAP",
-      "arxiv_updated_at": "2025-08-07T17:59:27Z",
-      "publication_date_basis": "source-metadata",
-      "id": "paper-864ea686c28f1e7d",
-      "year": 2025,
-      "summary_status": "pending",
-      "venue_full": "2025 IEEE/CVF International Conference on Computer Vision (ICCV)",
-      "doi": "10.1109/iccv51701.2025.02377",
-      "earliest_known_date": "2025",
-      "catalogue_year": 2025,
-      "publication_date_note": "",
-      "summary_zh": ""
-    },
-    {
       "title": "Fusion Scene Context: Robust and Efficient LiDAR Place Recognition Across Season",
       "authors": [
         "Fengkui Cao",
@@ -119252,10 +119211,10 @@
       "publisher_record_date": "2025-10-06",
       "publication_date_basis": "Official conference edition; publisher HTML deposit date retained separately",
       "id": "paper-9e4a38915d6b6f1b",
-      "publication_date_note": "",
-      "summary_zh": "",
       "earliest_known_date": "2025-10-06",
-      "catalogue_year": 2025
+      "catalogue_year": 2025,
+      "publication_date_note": "",
+      "summary_zh": ""
     },
     {
       "title": "Generative Point Cloud Registration",
@@ -121738,13 +121697,14 @@
       ],
       "published": "2025-10",
       "venue": "ICCV",
-      "venue_full": "2025 IEEE/CVF International Conference on Computer Vision (ICCV)",
       "publication_status": "published",
       "categories": [
         "visual-localization"
       ],
-      "doi": "10.48550/arxiv.2506.22069",
+      "abstract": "We propose a novel approach for estimating the relative pose between rolling shutter cameras using the intersections of line projections with a single scanline per image. This allows pose estimation without explicitly modeling camera motion. Alternatively, scanlines can be selected within a single image, enabling single-view relative pose estimation for scanlines of rolling shutter cameras. Our approach is designed as a foundational building block for rolling shutter structure-from-motion (SfM), where no motion model is required, and each scanline's pose can be computed independently.We classify minimal solvers for this problem in both generic and specialized settings, including cases with parallel lines and known gravity direction. Furthermore, we develop minimal solvers for the parallel-lines scenario, both with and without gravity priors, by leveraging connections between this problem and the estimation of 2D structure from 1D cameras.Experiments on rolling shutter images from the Fastec dataset demonstrate the feasibility of our approach for initializing rolling shutter SfM, highlighting its potential for further development.The code will be made publicly available.",
       "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Hruby_Single-Scanline_Relative_Pose_Estimation_for_Rolling_Shutter_Cameras_ICCV_2025_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Hruby_Single-Scanline_Relative_Pose_Estimation_for_Rolling_Shutter_Cameras_ICCV_2025_paper.pdf",
+      "arxiv_id": "2506.22069",
       "evidence_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Hruby_Single-Scanline_Relative_Pose_Estimation_for_Rolling_Shutter_Cameras_ICCV_2025_paper.html",
       "verified_at": "2026-10-21",
       "source_records": [
@@ -121775,7 +121735,7 @@
         {
           "name": "CVF Open Access",
           "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Hruby_Single-Scanline_Relative_Pose_Estimation_for_Rolling_Shutter_Cameras_ICCV_2025_paper.html",
-          "verified_at": "2026-10-27T14:02:51+08:00"
+          "verified_at": "2026-11-12T22:12:39+08:00"
         },
         {
           "name": "arXiv",
@@ -121787,9 +121747,8 @@
       "id": "iccv-2025-single-scanline-relative-pose-estimation-for-rolling-shutter-cameras",
       "year": 2025,
       "summary_status": "reviewed",
-      "abstract": "We propose a novel approach for estimating the relative pose between rolling shutter cameras using the intersections of line projections with a single scanline per image. This allows pose estimation without explicitly modeling camera motion. Alternatively, scanlines can be selected within a single image, enabling single-view relative pose estimation for scanlines of rolling shutter cameras. Our approach is designed as a foundational building block for rolling shutter structure-from-motion (SfM), where no motion model is required, and each scanline's pose can be computed independently.We classify minimal solvers for this problem in both generic and specialized settings, including cases with parallel lines and known gravity direction. Furthermore, we develop minimal solvers for the parallel-lines scenario, both with and without gravity priors, by leveraging connections between this problem and the estimation of 2D structure from 1D cameras.Experiments on rolling shutter images from the Fastec dataset demonstrate the feasibility of our approach for initializing rolling shutter SfM, highlighting its potential for further development.The code will be made publicly available.",
-      "arxiv_id": "2506.22069",
-      "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Hruby_Single-Scanline_Relative_Pose_Estimation_for_Rolling_Shutter_Cameras_ICCV_2025_paper.pdf",
+      "venue_full": "2025 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "doi": "10.48550/arxiv.2506.22069",
       "author_comment": "ICCV 2025, 15 pages, 5 figures, 12 tables",
       "arxiv_updated_at": "2025-06-27T10:00:21Z",
       "publication_date_basis": "source-metadata",
@@ -126043,14 +126002,14 @@
       ],
       "published": "2025-10",
       "venue": "ICCV",
-      "venue_full": "2025 IEEE/CVF International Conference on Computer Vision (ICCV)",
       "publication_status": "published",
       "categories": [
         "place-recognition",
         "visual-localization"
       ],
-      "doi": "10.48550/arxiv.2508.00152",
+      "abstract": "Active Geo-localization (AGL) is the task of localizing a goal, represented in various modalities (e.g., aerial images, ground-level images, or text), within a predefined search area. Current methods approach AGL as a goal-reaching reinforcement learning (RL) problem with a distance-based reward. They localize the goal by implicitly learning to minimize the relative distance from it. However, when distance estimation becomes challenging or when encountering unseen targets and environments, the agent exhibits reduced robustness and generalization ability due to the less reliable exploration strategy learned during training. In this paper, we propose GeoExplorer, an AGL agent that incorporates curiosity-driven exploration through intrinsic rewards. Unlike distance-based rewards, our curiosity-driven reward is goal-agnostic, enabling robust, diverse, and contextually relevant exploration based on effective environment modeling. These capabilities have been proven through extensive experiments across four AGL benchmarks, demonstrating the effectiveness and generalization ability of GeoExplorer in diverse settings, particularly in localizing unfamiliar targets and environments.",
       "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Mi_GeoExplorer_Active_Geo-localization_with_Curiosity-Driven_Exploration_ICCV_2025_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Mi_GeoExplorer_Active_Geo-localization_with_Curiosity-Driven_Exploration_ICCV_2025_paper.pdf",
       "evidence_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Mi_GeoExplorer_Active_Geo-localization_with_Curiosity-Driven_Exploration_ICCV_2025_paper.html",
       "verified_at": "2026-10-21",
       "source_records": [
@@ -126084,7 +126043,7 @@
         {
           "name": "CVF Open Access",
           "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Mi_GeoExplorer_Active_Geo-localization_with_Curiosity-Driven_Exploration_ICCV_2025_paper.html",
-          "verified_at": "2026-10-27T14:03:01+08:00"
+          "verified_at": "2026-11-12T22:12:45+08:00"
         },
         {
           "name": "arXiv",
@@ -126096,9 +126055,9 @@
       "id": "iccv-2025-geoexplorer-active-geo-localization-with-curiosity-driven-exploration",
       "year": 2025,
       "summary_status": "reviewed",
-      "abstract": "Active Geo-localization (AGL) is the task of localizing a goal, represented in various modalities (e.g., aerial images, ground-level images, or text), within a predefined search area. Current methods approach AGL as a goal-reaching reinforcement learning (RL) problem with a distance-based reward. They localize the goal by implicitly learning to minimize the relative distance from it. However, when distance estimation becomes challenging or when encountering unseen targets and environments, the agent exhibits reduced robustness and generalization ability due to the less reliable exploration strategy learned during training. In this paper, we propose GeoExplorer, an AGL agent that incorporates curiosity-driven exploration through intrinsic rewards. Unlike distance-based rewards, our curiosity-driven reward is goal-agnostic, enabling robust, diverse, and contextually relevant exploration based on effective environment modeling. These capabilities have been proven through extensive experiments across four AGL benchmarks, demonstrating the effectiveness and generalization ability of GeoExplorer in diverse settings, particularly in localizing unfamiliar targets and environments.",
+      "venue_full": "2025 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "doi": "10.48550/arxiv.2508.00152",
       "arxiv_id": "2508.00152",
-      "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Mi_GeoExplorer_Active_Geo-localization_with_Curiosity-Driven_Exploration_ICCV_2025_paper.pdf",
       "author_comment": "ICCV 2025. Project page at https://limirs.github.io/GeoExplorer/",
       "arxiv_updated_at": "2025-07-31T20:23:25Z",
       "publication_date_basis": "source-metadata",
@@ -135077,61 +135036,6 @@
         }
       ],
       "acceptance_note": "作者在 arXiv 元数据中声明录用于 ICCV 2025；尚未独立核验官方录用记录，不视为正式出版。"
-    },
-    {
-      "title": "CosmoBench: A Multiscale, Multiview, Multitask Cosmology Benchmark for Geometric Deep Learning",
-      "authors": [
-        "Ningyuan Huang",
-        "Richard Stiskalek",
-        "Jun-Young Lee",
-        "Adrian E. Bayer",
-        "Charles C. Margossian",
-        "Christian Kragh Jespersen",
-        "Lucia A. Perez",
-        "Lawrence K. Saul",
-        "Francisco Villaescusa-Navarro"
-      ],
-      "published": "2025-07-04",
-      "venue": "NeurIPS",
-      "publication_status": "accepted",
-      "categories": [
-        "point-processing"
-      ],
-      "abstract": "Cosmological simulations provide a wealth of data in the form of point clouds and directed trees. A crucial goal is to extract insights from this data that shed light on the nature and composition of the Universe. In this paper we introduce CosmoBench, a benchmark dataset curated from state-of-the-art cosmological simulations whose runs required more than 41 million core-hours and generated over two petabytes of data. CosmoBench is the largest dataset of its kind: it contains 34 thousand point clouds from simulations of dark matter halos and galaxies at three different length scales, as well as 25 thousand directed trees that record the formation history of halos on two different time scales. The data in CosmoBench can be used for multiple tasks -- to predict cosmological parameters from point clouds and merger trees, to predict the velocities of individual halos and galaxies from their collective positions, and to reconstruct merger trees on finer time scales from those on coarser time scales. We provide several baselines on these tasks, some based on established approaches from cosmological modeling and others rooted in machine learning. For the latter, we study different approaches -- from simple linear models that are minimally constrained by symmetries to much larger and more computationally-demanding models in deep learning, such as graph neural networks. We find that least-squares fits with a handful of invariant features sometimes outperform deep architectures with many more parameters and far longer training time. Still there remains tremendous potential to improve these baselines by combining machine learning and cosmology to fully exploit the data. CosmoBench sets the stage for bridging cosmology and geometric deep learning at scale. We invite the community to push the frontier of scientific discovery by engaging with this dataset, available at https://cosmobench.streamlit.app",
-      "arxiv_id": "2507.03707",
-      "source_url": "https://arxiv.org/abs/2507.03707",
-      "pdf_url": "https://arxiv.org/pdf/2507.03707",
-      "evidence_url": "https://arxiv.org/abs/2507.03707",
-      "verified_at": "2026-11-04T21:27:16+08:00",
-      "source_records": [
-        {
-          "name": "arXiv",
-          "url": "https://arxiv.org/abs/2507.03707",
-          "verified_at": "2026-11-04T21:27:16+08:00"
-        }
-      ],
-      "review_status": "acceptance-claimed",
-      "author_comment": "Accepted at NeurIPS 2025",
-      "arxiv_updated_at": "2025-11-03T18:09:02Z",
-      "publication_date_basis": "arxiv-api-published",
-      "id": "paper-b84b36e2a10999e0",
-      "year": 2025,
-      "summary_status": "pending",
-      "earliest_known_date": "2025-07-04",
-      "catalogue_year": 2025,
-      "publication_date_note": "",
-      "accepted_venue": "NeurIPS",
-      "accepted_year": 2025,
-      "acceptance_basis": "author_claim",
-      "acceptance_evidence": [
-        {
-          "url": "https://arxiv.org/abs/2507.03707",
-          "kind": "arxiv-author-comment",
-          "quote": "Accepted at NeurIPS 2025"
-        }
-      ],
-      "acceptance_note": "作者在 arXiv 元数据中声明录用于 NeurIPS 2025；尚未独立核验官方录用记录，不视为正式出版。",
-      "summary_zh": ""
     },
     {
       "title": "PointFM: Point Cloud Understanding by Flow Matching",
@@ -146140,7 +146044,7 @@
         {
           "name": "CVF Open Access",
           "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_D3CTTA_Domain-Dependent_Decorrelation_for_Continual_Test-Time_Adaption_of_3D_LiDAR_CVPR_2025_paper.html",
-          "verified_at": "2026-10-27T14:02:54+08:00"
+          "verified_at": "2026-11-12T22:12:44+08:00"
         }
       ],
       "review_status": "included",
@@ -147264,14 +147168,14 @@
       ],
       "published": "2025-06",
       "venue": "CVPR",
-      "venue_full": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "publication_status": "published",
       "categories": [
         "point-processing",
         "visual-localization"
       ],
-      "doi": "10.1109/cvpr52734.2025.01554",
+      "abstract": "Current learning-based Structure-from-Motion (SfM) methods struggle with videos of dynamic scenes from wide-angle cameras. We present AnyMap, a differentiable SfM framework that jointly addresses image distortion and motion estimation. By learning a general implicit camera model without predefined parameters, AnyMap effectively handles lens distortion, estimating multi-view consistent 3D geometry, camera poses, and (un)projection functions. To resolve the ambiguity where motion estimation can compensate for undistortion errors and vice versa, we introduce a low-dimensional motion representation consisting of a set of learnable basis trajectories, interpolated to produce regularized motion estimates. Experimental results show that our method produces accurate camera poses, excels in camera calibration and image rectification, and enables high-quality novel view synthesis. Our low-dimensional motion representation effectively disentangles undistortion with motion estimation, outperforming existing methods.",
       "source_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Dal_Cin_AnyMap_Learning_a_General_Camera_Model_for_Structure-from-Motion_with_Unknown_CVPR_2025_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Dal_Cin_AnyMap_Learning_a_General_Camera_Model_for_Structure-from-Motion_with_Unknown_CVPR_2025_paper.pdf",
       "evidence_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Dal_Cin_AnyMap_Learning_a_General_Camera_Model_for_Structure-from-Motion_with_Unknown_CVPR_2025_paper.html",
       "verified_at": "2026-10-21",
       "source_records": [
@@ -147299,15 +147203,15 @@
         {
           "name": "CVF Open Access",
           "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Dal_Cin_AnyMap_Learning_a_General_Camera_Model_for_Structure-from-Motion_with_Unknown_CVPR_2025_paper.html",
-          "verified_at": "2026-10-27T14:02:49+08:00"
+          "verified_at": "2026-11-12T22:12:41+08:00"
         }
       ],
       "review_status": "included",
       "id": "cvpr-2025-anymap-learning-a-general-camera-model-for-structure-from-motion-with-unknown-distortion-in-dynamic-scenes",
       "year": 2025,
       "summary_status": "reviewed",
-      "abstract": "Current learning-based Structure-from-Motion (SfM) methods struggle with videos of dynamic scenes from wide-angle cameras. We present AnyMap, a differentiable SfM framework that jointly addresses image distortion and motion estimation. By learning a general implicit camera model without predefined parameters, AnyMap effectively handles lens distortion, estimating multi-view consistent 3D geometry, camera poses, and (un)projection functions. To resolve the ambiguity where motion estimation can compensate for undistortion errors and vice versa, we introduce a low-dimensional motion representation consisting of a set of learnable basis trajectories, interpolated to produce regularized motion estimates. Experimental results show that our method produces accurate camera poses, excels in camera calibration and image rectification, and enables high-quality novel view synthesis. Our low-dimensional motion representation effectively disentangles undistortion with motion estimation, outperforming existing methods.",
-      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Dal_Cin_AnyMap_Learning_a_General_Camera_Model_for_Structure-from-Motion_with_Unknown_CVPR_2025_paper.pdf",
+      "venue_full": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "doi": "10.1109/cvpr52734.2025.01554",
       "summary_zh": "宽角相机拍摄动态场景时，镜头畸变与运动误差可能相互补偿，导致SfM无法稳定分离两者。AnyMap学习无预设参数的隐式通用相机模型，联合估计多视图几何、相机位姿及投影与反投影函数。方法以少量可学习基轨迹构造低维运动表示，通过插值限制运动自由度，从而解除畸变和运动的耦合，并在相机标定、图像校正及新视角合成中检验结果。",
       "metadata_provenance": "CVF官方主会目录和论文页交叉核验标题、作者、摘要及BibTeX发表年月",
       "summary_evidence_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Dal_Cin_AnyMap_Learning_a_General_Camera_Model_for_Structure-from-Motion_with_Unknown_CVPR_2025_paper.html",
@@ -147870,7 +147774,6 @@
       "verified_at": "2026-11-02T22:08:36+08:00",
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -147951,6 +147854,7 @@
       "summary_generated_at": "2026-10-22T08:06:42+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -154808,6 +154712,45 @@
       "earliest_known_date": "2025",
       "catalogue_year": 2025,
       "publication_date_note": ""
+    },
+    {
+      "title": "Learning to Discretize Denoising Diffusion ODEs",
+      "authors": [
+        "Vinh Tong",
+        "Trung-Dung Hoang",
+        "Anji Liu",
+        "Guy Van den Broeck",
+        "Mathias Niepert"
+      ],
+      "year": 2025,
+      "published": "2025-05-01",
+      "venue": "ICLR",
+      "venue_full": "International Conference on Learning Representations",
+      "publication_status": "published",
+      "categories": [
+        "point-processing"
+      ],
+      "abstract": "Diffusion Probabilistic Models (DPMs) are generative models showing competitive performance in various domains, including image synthesis and 3D point cloud generation. Sampling from pre-trained DPMs involves multiple neural function evaluations (NFEs) to transform Gaussian noise samples into images, resulting in higher computational costs compared to single-step generative models such as GANs or VAEs. Therefore, reducing the number of NFEs while preserving generation quality is crucial. To address this, we propose LD3, a lightweight framework designed to learn the optimal time discretization for sampling. LD3 can be combined with various samplers and consistently improves generation quality without having to retrain resource-intensive neural networks. We demonstrate analytically and empirically that LD3 improves sampling efficiency with much less computational overhead. We evaluate our method with extensive experiments on 7 pre-trained models, covering unconditional and conditional sampling in both pixel-space and latent-space DPMs. We achieve FIDs of 2.38 (10 NFE), and 2.27 (10 NFE) on unconditional CIFAR10 and AFHQv2 in 5-10 minutes of training. LD3 offers an efficient approach to sampling from pre-trained diffusion models. Code is available at https://github.com/vinhsuhi/LD3.",
+      "summary_status": "pending",
+      "source_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/750046157471c56235a781f2eff6e226-Abstract-Conference.html",
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/750046157471c56235a781f2eff6e226-Abstract-Conference.html",
+      "verified_at": "2026-11-12T22:13:20+08:00",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/750046157471c56235a781f2eff6e226-Paper-Conference.pdf",
+      "source_records": [
+        {
+          "name": "ICLR official proceedings",
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/750046157471c56235a781f2eff6e226-Abstract-Conference.html",
+          "verified_at": "2026-11-12T22:13:20+08:00"
+        }
+      ],
+      "review_status": "source-confirmed",
+      "publisher_record_date": "2025-05-01",
+      "publication_date_basis": "Official conference edition; publisher HTML deposit date retained separately",
+      "id": "paper-413768653b5a536d",
+      "publication_date_note": "",
+      "summary_zh": "",
+      "earliest_known_date": "2025-05-01",
+      "catalogue_year": 2025
     },
     {
       "title": "GS-LiDAR: Generating Realistic LiDAR Point Clouds with Panoramic Gaussian Splatting",
@@ -184924,12 +184867,12 @@
       "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Yang_Improving_Gaussian_Splatting_with_Localized_Points_Management_CVPR_2025_paper.pdf",
       "arxiv_id": "2406.04251",
       "evidence_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Improving_Gaussian_Splatting_with_Localized_Points_Management_CVPR_2025_paper.html",
-      "verified_at": "2026-10-27T08:02:22+08:00",
+      "verified_at": "2026-11-12T22:12:38+08:00",
       "source_records": [
         {
           "name": "CVF Open Access",
           "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Improving_Gaussian_Splatting_with_Localized_Points_Management_CVPR_2025_paper.html",
-          "verified_at": "2026-10-27T08:02:22+08:00"
+          "verified_at": "2026-11-12T22:12:38+08:00"
         }
       ],
       "review_status": "source-confirmed",
@@ -186894,6 +186837,58 @@
       "abstract_source_url": "https://icml.cc/static/virtual/data/icml-2025-orals-posters.json",
       "catalogue_year": 2025,
       "publication_date_note": ""
+    },
+    {
+      "title": "GAP: Gaussianize Any Point Clouds with Text Guidance",
+      "authors": [
+        "Zhang, Weiqi",
+        "Zhou, Junsheng",
+        "Geng, Haotian",
+        "Zhang, Wenyuan",
+        "Liu, Yu-Shen"
+      ],
+      "published": "2025",
+      "venue": "ICCV",
+      "publication_status": "published",
+      "categories": [
+        "point-processing"
+      ],
+      "abstract": "3D Gaussian Splatting (3DGS) has demonstrated its advantages in achieving fast and high-quality rendering. As point clouds serve as a widely-used and easily accessible form of 3D representation, bridging the gap between point clouds and Gaussians becomes increasingly important. Recent studies have explored how to convert the colored points into Gaussians, but directly generating Gaussians from colorless 3D point clouds remains an unsolved challenge. In this paper, we propose GAP, a novel approach that gaussianizes raw point clouds into high-fidelity 3D Gaussians with text guidance. Our key idea is to design a multi-view optimization framework that leverages a depth-aware image diffusion model to synthesize consistent appearances across different viewpoints. To ensure geometric accuracy, we introduce a surface-anchoring mechanism that effectively constrains Gaussians to lie on the surfaces of 3D shapes during optimization. Furthermore, GAP incorporates a diffuse-based inpainting strategy that specifically targets at completing hard-to-observe regions. We evaluate GAP on the Point-to-Gaussian generation task across varying complexity levels, from synthetic point clouds to challenging real-world scans, and even large-scale scenes. Project Page: https://weiqi-zhang.github.io/GAP.",
+      "arxiv_id": "2508.05631",
+      "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_GAP_Gaussianize_Any_Point_Clouds_with_Text_Guidance_ICCV_2025_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_GAP_Gaussianize_Any_Point_Clouds_with_Text_Guidance_ICCV_2025_paper.pdf",
+      "evidence_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_GAP_Gaussianize_Any_Point_Clouds_with_Text_Guidance_ICCV_2025_paper.html",
+      "verified_at": "2026-11-12T22:12:42+08:00",
+      "source_records": [
+        {
+          "name": "Crossref",
+          "url": "https://doi.org/10.1109/iccv51701.2025.02377",
+          "verified_at": "2026-11-05T21:42:32+08:00"
+        },
+        {
+          "name": "CVF Open Access",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_GAP_Gaussianize_Any_Point_Clouds_with_Text_Guidance_ICCV_2025_paper.html",
+          "verified_at": "2026-11-12T22:12:42+08:00"
+        },
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2508.05631",
+          "verified_at": "2026-11-04T21:27:44+08:00"
+        }
+      ],
+      "review_status": "source-confirmed",
+      "author_comment": "ICCV 2025. Project page: https://weiqi-zhang.github.io/GAP",
+      "arxiv_updated_at": "2025-08-07T17:59:27Z",
+      "publication_date_basis": "source-metadata",
+      "id": "paper-864ea686c28f1e7d",
+      "year": 2025,
+      "summary_status": "pending",
+      "venue_full": "2025 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "doi": "10.1109/iccv51701.2025.02377",
+      "earliest_known_date": "2025",
+      "catalogue_year": 2025,
+      "publication_date_note": "",
+      "summary_zh": ""
     },
     {
       "title": "Fully Dynamic Algorithms for Chamfer Distance",
@@ -189173,6 +189168,70 @@
       "earliest_known_date": "2025",
       "catalogue_year": 2025,
       "publication_date_note": "",
+      "summary_zh": ""
+    },
+    {
+      "title": "CosmoBench: A Multiscale, Multiview, Multitask Cosmology Benchmark for Geometric Deep Learning",
+      "authors": [
+        "Teresa Huang",
+        "Richard Stiskalek",
+        "Jun-Young Lee",
+        "Adrian Bayer",
+        "Charles Margossian",
+        "Christian Kragh Jespersen",
+        "Lucia Perez",
+        "Lawrence Saul",
+        "Francisco Villaescusa"
+      ],
+      "published": "2025",
+      "venue": "NeurIPS",
+      "publication_status": "published",
+      "categories": [
+        "point-processing"
+      ],
+      "abstract": "Cosmological simulations provide a wealth of data in the form of point clouds and directed trees. A crucial goal is to extract insights from this data that shed light on the nature and composition of the Universe. In this paper we introduce CosmoBench, a benchmark dataset curated from state-of-the-art cosmological simulations whose runs required more than 41 million core-hours and generated over two petabytes of data. CosmoBench is the largest dataset of its kind: it contains 34 thousand point clouds from simulations of dark matter halos and galaxies at three different length scales, as well as 25 thousand directed trees that record the formation history of halos on two different time scales. The data in CosmoBench can be used for multiple tasks---to predict cosmological parameters from point clouds and merger trees, to predict the velocities of individual halos and galaxies from their collective positions, and to reconstruct merger trees on finer time scales from those on coarser time scales. We provide multiple baselines on these tasks, some based on established approaches from cosmological modeling and others rooted in machine learning. For the latter, we study different approaches---from simple linear models that are minimally constrained by symmetries to much larger and more computationally-demanding models in deep learning, such as graph neural networks. We find that least-squares fits with a handful of invariant features sometimes outperform deep architectures with many more parameters and far longer training times. Still there remains tremendous potential to improve these baselines by combining machine learning and cosmological modeling in a more principled way, one that fully exploits the structure in the data. CosmoBench sets the stage for bridging cosmology and geometric deep learning at scale. We invite the community to push the frontier of scientific discovery by engaging with this challenging, high-impact dataset. The data and code are available at this URL .",
+      "arxiv_id": "2507.03707",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/977f2451cb616e89dbb819434a932e7e-Abstract-Datasets_and_Benchmarks_Track.html",
+      "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/977f2451cb616e89dbb819434a932e7e-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/977f2451cb616e89dbb819434a932e7e-Abstract-Datasets_and_Benchmarks_Track.html",
+      "verified_at": "2026-11-12T22:13:06+08:00",
+      "source_records": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2507.03707",
+          "verified_at": "2026-11-04T21:27:16+08:00"
+        },
+        {
+          "name": "NeurIPS official proceedings",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/977f2451cb616e89dbb819434a932e7e-Abstract-Datasets_and_Benchmarks_Track.html",
+          "verified_at": "2026-11-12T22:13:06+08:00"
+        }
+      ],
+      "review_status": "source-confirmed",
+      "author_comment": "Accepted at NeurIPS 2025",
+      "arxiv_updated_at": "2025-11-03T18:09:02Z",
+      "publication_date_basis": "Official conference edition; publisher HTML deposit date retained separately",
+      "id": "paper-b84b36e2a10999e0",
+      "year": 2025,
+      "summary_status": "pending",
+      "earliest_known_date": "2025",
+      "catalogue_year": 2025,
+      "venue_full": "Advances in Neural Information Processing Systems",
+      "doi": "10.52202/085713-3515",
+      "publisher_record_date": "2026-04-23",
+      "track": "Datasets and Benchmarks",
+      "publication_date_note": "",
+      "accepted_venue": "NeurIPS",
+      "accepted_year": 2025,
+      "acceptance_basis": "author_claim",
+      "acceptance_evidence": [
+        {
+          "url": "https://arxiv.org/abs/2507.03707",
+          "kind": "arxiv-author-comment",
+          "quote": "Accepted at NeurIPS 2025"
+        }
+      ],
+      "acceptance_note": "作者在 arXiv 元数据中声明录用于 NeurIPS 2025；尚未独立核验官方录用记录，不视为正式出版。",
       "summary_zh": ""
     },
     {
@@ -193018,7 +193077,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.37217",
-      "verified_at": "2026-11-11T21:10:10+08:00",
+      "verified_at": "2026-11-12T22:12:14+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -194056,7 +194115,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.27616",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-12T22:12:14+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -195655,19 +195714,19 @@
   ],
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-11-12T12:49:37+08:00",
+    "generated_at": "2026-11-12T22:13:21+08:00",
     "last_successful_update": null,
     "coverage_start": "2025-01-01",
     "coverage_end": "2026-11-12",
     "collection_status": "partial",
     "coverage_complete": false,
     "coverage_note": "关键词检索、元数据缺失及来源可用性会影响召回；本库不承诺穷尽所有相关论文。主题匹配且有录用证据的论文可收录为已录用，分别标注官方确认或作者声明；未录用 arXiv 候选仍须审阅。",
-    "total_papers": 2723,
-    "candidate_count": 214,
+    "total_papers": 2724,
+    "candidate_count": 303,
     "summary_counts": {
       "reviewed": 775,
       "generated": 821,
-      "pending": 1127
+      "pending": 1128
     },
     "summary_errors": [],
     "schedule": {
@@ -195727,8 +195786,8 @@
       "screening_reserved_seconds": 0
     },
     "publication_counts": {
-      "published": 2079,
-      "accepted": 643,
+      "published": 2081,
+      "accepted": 642,
       "preprint": 1
     },
     "catalogue_years": [
@@ -195744,14 +195803,14 @@
     {
       "name": "datacite",
       "status": "ok",
-      "last_attempt": "2026-11-12T12:47:06+08:00",
-      "last_success": "2026-11-12T12:47:15+08:00",
+      "last_attempt": "2026-11-12T22:11:44+08:00",
+      "last_success": "2026-11-12T22:11:53+08:00",
       "coverage_start": "2025-01-01",
       "coverage_end": "2026-11-12",
-      "query_start": "2026-09-27",
-      "records_found": 159,
+      "query_start": "2026-09-28",
+      "records_found": 152,
       "query_changed": false,
-      "pages_fetched": 9,
+      "pages_fetched": 8,
       "backfill_complete": true,
       "coverage_scope": "arxiv-registered-doi-metadata-keyword-search",
       "history_supported": true,
@@ -195761,12 +195820,12 @@
     {
       "name": "arxiv-rss",
       "status": "ok",
-      "last_attempt": "2026-11-12T12:47:15+08:00",
-      "last_success": "2026-11-12T12:47:22+08:00",
-      "coverage_start": "2026-11-11",
-      "coverage_end": "2026-11-11",
+      "last_attempt": "2026-11-12T22:11:53+08:00",
+      "last_success": "2026-11-12T22:11:59+08:00",
+      "coverage_start": "2026-11-12",
+      "coverage_end": "2026-11-12",
       "query_start": "2025-01-01",
-      "records_found": 15,
+      "records_found": 0,
       "query_changed": false,
       "pages_fetched": 3,
       "backfill_complete": false,
@@ -195776,86 +195835,86 @@
         {
           "feed": "cs.CV",
           "source_url": "https://rss.arxiv.org/rss/cs.CV",
-          "last_attempt": "2026-11-12T12:47:15+08:00",
-          "last_success": "2026-11-12T12:47:15+08:00",
-          "feed_date": "2026-11-11",
-          "last_build_date": "Wed, 11 Nov 2026 05:00:11 +0000",
-          "entries": 239,
-          "new": 117,
-          "cross": 32,
-          "ignored_updates": 90,
+          "last_attempt": "2026-11-12T22:11:53+08:00",
+          "last_success": "2026-11-12T22:11:53+08:00",
+          "feed_date": "2026-11-12",
+          "last_build_date": "Thu, 12 Nov 2026 05:00:02 +0000",
+          "entries": 0,
+          "new": 0,
+          "cross": 0,
+          "ignored_updates": 0,
           "invalid_entries": 0,
           "status": "ok",
-          "records_found": 8
+          "records_found": 0
         },
         {
           "feed": "cs.RO",
           "source_url": "https://rss.arxiv.org/rss/cs.RO",
-          "last_attempt": "2026-11-12T12:47:15+08:00",
-          "last_success": "2026-11-12T12:47:18+08:00",
-          "feed_date": "2026-11-11",
-          "last_build_date": "Wed, 11 Nov 2026 05:00:06 +0000",
-          "entries": 111,
-          "new": 57,
-          "cross": 12,
-          "ignored_updates": 42,
+          "last_attempt": "2026-11-12T22:11:53+08:00",
+          "last_success": "2026-11-12T22:11:56+08:00",
+          "feed_date": "2026-11-12",
+          "last_build_date": "Thu, 12 Nov 2026 05:00:02 +0000",
+          "entries": 0,
+          "new": 0,
+          "cross": 0,
+          "ignored_updates": 0,
           "invalid_entries": 0,
           "status": "ok",
-          "records_found": 5
+          "records_found": 0
         },
         {
           "feed": "cs.LG",
           "source_url": "https://rss.arxiv.org/rss/cs.LG",
-          "last_attempt": "2026-11-12T12:47:18+08:00",
-          "last_success": "2026-11-12T12:47:22+08:00",
-          "feed_date": "2026-11-11",
-          "last_build_date": "Wed, 11 Nov 2026 05:00:04 +0000",
-          "entries": 383,
-          "new": 134,
-          "cross": 101,
-          "ignored_updates": 148,
+          "last_attempt": "2026-11-12T22:11:56+08:00",
+          "last_success": "2026-11-12T22:11:59+08:00",
+          "feed_date": "2026-11-12",
+          "last_build_date": "Thu, 12 Nov 2026 05:00:01 +0000",
+          "entries": 0,
+          "new": 0,
+          "cross": 0,
+          "ignored_updates": 0,
           "invalid_entries": 0,
           "status": "ok",
-          "records_found": 2
+          "records_found": 0
         }
       ],
       "message": "Official RSS latest announcements only; historical coverage remains the arXiv API's responsibility."
     },
     {
       "name": "arxiv",
-      "status": "error",
-      "last_attempt": "2026-11-12T12:47:22+08:00",
-      "last_success": null,
+      "status": "ok",
+      "last_attempt": "2026-11-12T22:11:59+08:00",
+      "last_success": "2026-11-12T22:12:32+08:00",
       "coverage_start": "2025-01-01",
-      "coverage_end": "2025-01-01",
+      "coverage_end": "2026-11-12",
       "query_start": "2025-01-01",
-      "records_found": 0,
+      "records_found": 276,
       "query_changed": false,
-      "error": "TimeoutError: HTTP request total time budget reached",
-      "backfill_complete": false
+      "pages_fetched": 5,
+      "backfill_complete": true
     },
     {
       "name": "crossref",
       "status": "ok",
-      "last_attempt": "2026-11-12T12:48:14+08:00",
-      "last_success": "2026-11-12T12:48:24+08:00",
+      "last_attempt": "2026-11-12T22:12:32+08:00",
+      "last_success": "2026-11-12T22:12:33+08:00",
       "coverage_start": "2025-01-01",
       "coverage_end": "2026-11-12",
-      "query_start": "2026-09-27",
-      "records_found": 66,
+      "query_start": "2026-09-28",
+      "records_found": 0,
       "query_changed": false,
-      "pages_fetched": 10,
+      "pages_fetched": 1,
       "backfill_complete": true
     },
     {
       "name": "cvf",
       "status": "incomplete",
-      "last_attempt": "2026-11-12T12:48:24+08:00",
+      "last_attempt": "2026-11-12T22:12:33+08:00",
       "last_success": null,
       "coverage_start": "2025-01-01",
       "coverage_end": "2025-01-01",
       "query_start": "2025-01-01",
-      "records_found": 10,
+      "records_found": 9,
       "query_changed": false,
       "pages_fetched": 12,
       "backfill_complete": false,
@@ -195863,20 +195922,14 @@
     },
     {
       "name": "pmlr",
-      "status": "error",
-      "last_attempt": "2026-11-12T12:48:39+08:00",
+      "status": "incomplete",
+      "last_attempt": "2026-11-12T22:12:45+08:00",
       "last_success": null,
       "coverage_start": "2025-01-01",
       "coverage_end": "2025-01-01",
       "query_start": "2025-01-01",
-      "records_found": 1,
+      "records_found": 0,
       "query_changed": false,
-      "errors": [
-        {
-          "url": "https://proceedings.mlr.press/v267/ma25k.html",
-          "error": "ValueError: Missing or mismatched official publication metadata: https://proceedings.mlr.press/v267/ma25k.html"
-        }
-      ],
       "pages_fetched": 12,
       "backfill_complete": false,
       "message": "Page budget reached; saved cursors will resume on the next run."
@@ -195884,12 +195937,12 @@
     {
       "name": "neurips",
       "status": "incomplete",
-      "last_attempt": "2026-11-12T12:48:55+08:00",
+      "last_attempt": "2026-11-12T22:12:57+08:00",
       "last_success": null,
       "coverage_start": "2025-01-01",
       "coverage_end": "2025-01-01",
       "query_start": "2025-01-01",
-      "records_found": 191,
+      "records_found": 1,
       "query_changed": false,
       "pages_fetched": 12,
       "backfill_complete": false,
@@ -195898,12 +195951,12 @@
     {
       "name": "iclr",
       "status": "incomplete",
-      "last_attempt": "2026-11-12T12:49:18+08:00",
+      "last_attempt": "2026-11-12T22:13:09+08:00",
       "last_success": null,
       "coverage_start": "2025-01-01",
       "coverage_end": "2025-01-01",
       "query_start": "2025-01-01",
-      "records_found": 0,
+      "records_found": 1,
       "query_changed": false,
       "pages_fetched": 12,
       "backfill_complete": false,
