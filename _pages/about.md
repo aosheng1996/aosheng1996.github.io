@@ -70,9 +70,10 @@ I am also recruiting several high-year undergraduate interns. The recruitment is
 <div class="scroll-container">
   <div class="mini">
     <ul>
+  <li> <strong>[Nov 2026]</strong> One paper is awarded the <strong>ACM MM Outstanding Paper Award! </strong></li>
   <li> <strong>[Sep 2026]</strong> Seven papers are accepted by <strong>NeurIPS 2026!</strong></li>
   <li> <strong>[Jun 2026]</strong> One paper is accepted by <strong>ECCV 2026!</strong></li>
-  <li> <strong>[Jun 2026]</strong> Two papers are accepted by <strong>ACMMM 2026!</strong></li>
+  <li> <strong>[Jun 2026]</strong> Two papers are accepted by <strong>ACM MM 2026!</strong></li>
   <li> <strong>[Feb 2026]</strong> One paper is accepted by <strong>CVPR Highlight 2026!</strong></li>
   <li> <strong>[Sep 2025]</strong> One paper is accepted by <strong>AAAI 2026!</strong></li>
   <li> <strong>[Jun 2025]</strong> One paper is accepted by <strong>ICCV Highlight 2025!</strong></li>
@@ -136,7 +137,7 @@ I am also recruiting several high-year undergraduate interns. The recruitment is
                     <br>
                     Minghang Zhu1️⃣, Zhijing Wang1️⃣, Yuxin Guo, Chen Liu, Yongshu Huang, Wen Li, <strong>Sheng Ao📧</strong>, Cheng Wang.
                     <br>
-                    <em>ACM International Conference on Multimedia (<strong>ACMMM</strong>, 2026)</em>
+                    <em>ACM International Conference on Multimedia (<strong>ACMMM Outstanding Paper</strong>, 2026)</em>
                     </td>
                </tr>
                <tr>
