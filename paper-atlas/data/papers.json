@@ -34,18 +34,28 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.23754",
-          "verified_at": "2026-11-19T12:56:13+08:00"
+          "verified_at": "2026-11-19T22:53:15+08:00"
+        },
+        {
+          "name": "arXiv RSS",
+          "url": "https://rss.arxiv.org/rss/cs.CV",
+          "verified_at": "2026-11-19T22:53:02+08:00"
         }
       ],
       "review_status": "acceptance-confirmed",
-      "author_comment": "Accepted at NeurIPS 2026",
-      "arxiv_updated_at": "2026-11-18T03:09:04Z",
+      "rss_announce_type": "new",
+      "rss_announced_at": "2026-11-19T00:00:00-05:00",
+      "arxiv_subjects": [
+        "cs.CV"
+      ],
       "publication_date_basis": "arxiv-api-published",
+      "publication_date_note": "",
       "id": "paper-411e56111d525b65",
       "year": 2026,
       "summary_status": "pending",
+      "author_comment": "Accepted at NeurIPS 2026",
+      "arxiv_updated_at": "2026-11-18T03:09:04Z",
       "venue_track": "Main Conference",
-      "publication_date_note": "",
       "earliest_known_date": "2026-11-18",
       "catalogue_year": 2026,
       "accepted_venue": "NeurIPS",
@@ -186,7 +196,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2611.17330",
-          "verified_at": "2026-11-19T12:55:56+08:00"
+          "verified_at": "2026-11-19T22:52:52+08:00"
         },
         {
           "name": "arXiv RSS",
@@ -201,7 +211,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.17330",
-          "verified_at": "2026-11-19T12:57:02+08:00"
+          "verified_at": "2026-11-19T22:53:24+08:00"
         }
       ],
       "review_status": "included",
@@ -307,7 +317,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.15287",
-          "verified_at": "2026-11-19T12:56:58+08:00"
+          "verified_at": "2026-11-19T22:53:30+08:00"
         },
         {
           "name": "arXiv RSS",
@@ -372,12 +382,12 @@
       "source_url": "https://doi.org/10.1177/02783649261480153",
       "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/02783649261480153",
       "evidence_url": "https://api.crossref.org/works/10.1177%2F02783649261480153",
-      "verified_at": "2026-11-19T12:57:11+08:00",
+      "verified_at": "2026-11-19T22:54:06+08:00",
       "source_records": [
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1177/02783649261480153",
-          "verified_at": "2026-11-19T12:57:11+08:00"
+          "verified_at": "2026-11-19T22:54:06+08:00"
         }
       ],
       "review_status": "source-confirmed",
@@ -413,7 +423,7 @@
       "source_url": "https://arxiv.org/abs/2611.14440",
       "pdf_url": "https://arxiv.org/pdf/2611.14440",
       "evidence_url": "https://arxiv.org/abs/2611.14440",
-      "verified_at": "2026-11-19T12:56:58+08:00",
+      "verified_at": "2026-11-19T22:53:30+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -438,12 +448,11 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.14440",
-          "verified_at": "2026-11-19T12:56:58+08:00"
+          "verified_at": "2026-11-19T22:53:30+08:00"
         }
       ],
       "review_status": "acceptance-claimed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "registry_created_at": "2026-11-11T05:29:49Z",
       "registry_updated_at": "2026-11-11T05:29:50Z",
       "registry_registered_at": "2026-11-11T05:29:50Z",
@@ -485,6 +494,7 @@
       "arxiv_updated_at": "2026-11-10T18:11:40Z",
       "earliest_known_date": "2026-11-10",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "author_claim",
@@ -599,12 +609,12 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.14838",
-          "verified_at": "2026-11-19T12:56:58+08:00"
+          "verified_at": "2026-11-19T22:53:30+08:00"
         },
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2611.14838",
-          "verified_at": "2026-11-19T12:55:56+08:00"
+          "verified_at": "2026-11-19T22:52:52+08:00"
         },
         {
           "name": "arXiv RSS",
@@ -694,7 +704,6 @@
       ],
       "abstract": "Raw radar spectra are widely viewed as significantly cluttered and noisy to support direct representation learning. This has led to handcrafted reductions, sparse point clouds, or compact Doppler descriptors as the default preprocessing step in radar perception. In this work, we challenge this assumption and argue that the main limitation is not the raw spectral representation itself, but rather the absence of a learning objective capable of separating the structured signal from noise. Handcrafted reductions partially address this problem, but they impose rigid assumptions about what counts as signal, discarding weak but informative structure while retaining artifacts that match the reduction model. Once such information is removed, supervised learning cannot recover it or question what was preserved. We propose a principled alternative: structure is the component of the radar spectrum that remains reconstructable under localized corruption, while noise is the component that does not. This perspective makes self-supervised masked modeling a natural and assumption-free learning paradigm for dense radar spectra. We instantiate it with Leakage-aware Spectral MAE, a masked autoencoding framework for raw radar cubes that incorporates a spectral-leakage-aware corruption strategy to model physically realistic energy spreading. We also show that Doppler organization is crucial: treating Doppler as a primary spatial dimension, using an x-y-D representation with height encoded as features, substantially outperforms naive channel stacking and is essential for exploiting dense 4D spectra. Without any handcrafted reductions, our approach consistently outperforms state-of-the-art radar-based detectors and point-cloud-based self-supervised learning (SSL) counterparts. These results establish raw radar spectra as a highly effective representation for 3D perception when paired with an appropriate pretraining objective.",
       "arxiv_id": "2611.12334",
-      "doi": "10.48550/arxiv.2611.12334",
       "source_url": "https://neurips.cc/virtual/2026/poster/154355",
       "pdf_url": "https://arxiv.org/pdf/2611.12334",
       "evidence_url": "https://neurips.cc/virtual/2026/poster/154355",
@@ -733,12 +742,17 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.12334",
-          "verified_at": "2026-11-19T12:56:58+08:00"
+          "verified_at": "2026-11-19T22:53:30+08:00"
         }
       ],
       "review_status": "acceptance-confirmed",
+      "author_comment": "19 pages, 5 figures, 18 tables. Accepted at NeurIPS 2026. Miao Zhang and Mohamed Abdelsamad contributed equally",
+      "arxiv_updated_at": "2026-11-09T12:54:27Z",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
+      "id": "paper-81864270a35f040f",
+      "year": 2026,
+      "summary_status": "generated",
+      "doi": "10.48550/arxiv.2611.12334",
       "registry_created_at": "2026-11-10T09:37:01Z",
       "registry_updated_at": "2026-11-10T09:37:02Z",
       "registry_registered_at": "2026-11-10T09:37:02Z",
@@ -766,11 +780,6 @@
           "dateInformation": "v1"
         }
       ],
-      "author_comment": "19 pages, 5 figures, 18 tables. Accepted at NeurIPS 2026. Miao Zhang and Mohamed Abdelsamad contributed equally",
-      "id": "paper-81864270a35f040f",
-      "year": 2026,
-      "summary_status": "generated",
-      "arxiv_updated_at": "2026-11-09T12:54:27Z",
       "venue_track": "Main Conference",
       "rss_announce_type": "cross",
       "rss_announced_at": "2026-11-10T00:00:00-05:00",
@@ -785,6 +794,7 @@
       "summary_generated_at": "2026-10-28T14:09:22+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -817,7 +827,7 @@
       "source_url": "https://arxiv.org/abs/2611.12072",
       "pdf_url": "https://arxiv.org/pdf/2611.12072",
       "evidence_url": "https://arxiv.org/abs/2611.12072",
-      "verified_at": "2026-11-19T12:56:58+08:00",
+      "verified_at": "2026-11-19T22:53:30+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -832,12 +842,11 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.12072",
-          "verified_at": "2026-11-19T12:56:58+08:00"
+          "verified_at": "2026-11-19T22:53:30+08:00"
         }
       ],
       "review_status": "acceptance-claimed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "registry_created_at": "2026-11-10T09:30:17Z",
       "registry_updated_at": "2026-11-10T09:30:18Z",
       "registry_registered_at": "2026-11-10T09:30:18Z",
@@ -877,6 +886,7 @@
       "earliest_known_date": "2026-11-09",
       "catalogue_year": 2026,
       "arxiv_updated_at": "2026-11-09T08:44:36Z",
+      "publication_date_note": "",
       "accepted_venue": "IROS",
       "accepted_year": 2026,
       "acceptance_basis": "author_claim",
@@ -908,7 +918,7 @@
       "source_url": "https://arxiv.org/abs/2611.12011",
       "pdf_url": "https://arxiv.org/pdf/2611.12011",
       "evidence_url": "https://arxiv.org/abs/2611.12011",
-      "verified_at": "2026-11-19T12:56:58+08:00",
+      "verified_at": "2026-11-19T22:53:30+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -923,12 +933,11 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.12011",
-          "verified_at": "2026-11-19T12:56:58+08:00"
+          "verified_at": "2026-11-19T22:53:30+08:00"
         }
       ],
       "review_status": "acceptance-claimed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "registry_created_at": "2026-11-10T09:28:39Z",
       "registry_updated_at": "2026-11-10T09:28:40Z",
       "registry_registered_at": "2026-11-10T09:28:40Z",
@@ -968,6 +977,7 @@
       "earliest_known_date": "2026-11-09",
       "catalogue_year": 2026,
       "arxiv_updated_at": "2026-11-09T07:50:03Z",
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "author_claim",
@@ -1008,7 +1018,7 @@
       "source_url": "https://arxiv.org/abs/2611.11697",
       "pdf_url": "https://arxiv.org/pdf/2611.11697",
       "evidence_url": "https://arxiv.org/abs/2611.11697",
-      "verified_at": "2026-11-19T12:56:58+08:00",
+      "verified_at": "2026-11-19T22:53:30+08:00",
       "source_records": [
         {
           "name": "arXiv RSS",
@@ -1023,7 +1033,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.11697",
-          "verified_at": "2026-11-19T12:56:58+08:00"
+          "verified_at": "2026-11-19T22:53:30+08:00"
         }
       ],
       "review_status": "acceptance-claimed",
@@ -1075,7 +1085,6 @@
       ],
       "abstract": "3D visual grounding (3DVG) localizes language-referred objects in 3D scenes, with broad applicability in both indoor and outdoor environments. However, existing 3DVG research focuses on static indoor objects, limiting its use in dynamic outdoor autonomous driving. Motion descriptions, which capture the temporal dynamics of moving objects, offer a promising way to address this challenge. We therefore introduce MoT3DVG, a large-scale dataset for dynamic-aware outdoor 3DVG with temporally evolving motion descriptions. It contains 850 scenarios with 31,128 frames from nuScenes dataset, and provides 144,568 language prompts with motion-aware descriptions for dynamic objects across time. We further propose DynaVG, a novel framework that effectively leverages temporal cues for outdoor 3DVG. In addition to the standard modality-specific encoders, DynaVG introduces a Short-Long Integrated Dynamic Encoding (SLIDE) module before the language-point cloud alignment. SLIDE models both local motion cues and global temporal context via short-term window encoding and long-term window shifting. Extensive experiments demonstrate its state-of-the-art performance on MoT3DVG, validating the effectiveness of motion-aware encoding. Our work reveals open challenges and promising directions for future research in outdoor 3DVG.",
       "arxiv_id": "2611.11334",
-      "doi": "10.48550/arxiv.2611.11334",
       "source_url": "https://neurips.cc/virtual/2026/poster/139417",
       "pdf_url": "https://arxiv.org/pdf/2611.11334",
       "evidence_url": "https://neurips.cc/virtual/2026/poster/139417",
@@ -1104,12 +1113,17 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.11334",
-          "verified_at": "2026-11-19T12:56:58+08:00"
+          "verified_at": "2026-11-19T22:53:30+08:00"
         }
       ],
       "review_status": "acceptance-confirmed",
+      "author_comment": "NeurIPS 2026 Evaluations and Datasets",
+      "arxiv_updated_at": "2026-11-08T12:18:55Z",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
+      "id": "paper-2a5564c5728c058f",
+      "year": 2026,
+      "summary_status": "pending",
+      "doi": "10.48550/arxiv.2611.11334",
       "registry_created_at": "2026-11-10T09:11:22Z",
       "registry_updated_at": "2026-11-10T09:11:22Z",
       "registry_registered_at": "2026-11-10T09:11:22Z",
@@ -1137,11 +1151,6 @@
           "dateInformation": "v1"
         }
       ],
-      "author_comment": "NeurIPS 2026 Evaluations and Datasets",
-      "id": "paper-2a5564c5728c058f",
-      "year": 2026,
-      "summary_status": "pending",
-      "arxiv_updated_at": "2026-11-08T12:18:55Z",
       "venue_track": "Evaluations and Datasets",
       "rss_announce_type": "new",
       "rss_announced_at": "2026-11-10T00:00:00-05:00",
@@ -1151,6 +1160,7 @@
       ],
       "earliest_known_date": "2026-11-08",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -1229,7 +1239,6 @@
       ],
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "registry_created_at": "2026-11-09T05:00:57Z",
       "registry_updated_at": "2026-11-09T05:00:58Z",
       "registry_registered_at": "2026-11-09T05:00:58Z",
@@ -1281,6 +1290,7 @@
       "curated": true,
       "earliest_known_date": "2026-09-25",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -1403,7 +1413,6 @@
       ],
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "registry_created_at": "2026-11-06T05:12:30Z",
       "registry_updated_at": "2026-11-06T05:12:31Z",
       "registry_registered_at": "2026-11-06T05:12:31Z",
@@ -1456,6 +1465,7 @@
       "curated": true,
       "earliest_known_date": "2026-09-25",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -1567,7 +1577,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.07658",
-          "verified_at": "2026-11-19T12:56:52+08:00"
+          "verified_at": "2026-11-19T22:53:30+08:00"
         },
         {
           "name": "arXiv RSS",
@@ -1652,7 +1662,6 @@
       ],
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "registry_created_at": "2026-11-05T04:47:59Z",
       "registry_updated_at": "2026-11-05T04:48:00Z",
       "registry_registered_at": "2026-11-05T04:48:00Z",
@@ -1694,6 +1703,7 @@
       ],
       "earliest_known_date": "2026-11-03",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -1728,12 +1738,12 @@
       "source_url": "https://arxiv.org/abs/2611.04748",
       "pdf_url": "https://arxiv.org/pdf/2611.04748",
       "evidence_url": "https://arxiv.org/abs/2611.04748",
-      "verified_at": "2026-11-19T12:56:52+08:00",
+      "verified_at": "2026-11-19T22:53:30+08:00",
       "source_records": [
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.04748",
-          "verified_at": "2026-11-19T12:56:52+08:00"
+          "verified_at": "2026-11-19T22:53:30+08:00"
         },
         {
           "name": "DataCite arXiv DOI registry",
@@ -1748,7 +1758,6 @@
       ],
       "review_status": "acceptance-claimed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "registry_created_at": "2026-11-04T05:38:35Z",
       "registry_updated_at": "2026-11-04T05:38:36Z",
       "registry_registered_at": "2026-11-04T05:38:36Z",
@@ -1790,6 +1799,7 @@
       "arxiv_updated_at": "2026-11-10T04:03:48Z",
       "earliest_known_date": "2026-11-03",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "RA-L",
       "accepted_year": null,
       "acceptance_basis": "author_claim",
@@ -1857,7 +1867,6 @@
       ],
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
-      "publication_date_note": "",
       "registry_created_at": "2026-11-04T05:47:00Z",
       "registry_updated_at": "2026-11-04T05:47:01Z",
       "registry_registered_at": "2026-11-04T05:47:01Z",
@@ -1898,6 +1907,7 @@
       ],
       "earliest_known_date": "2026-11-03",
       "catalogue_year": 2026,
+      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -2006,16 +2016,17 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2610.23635",
-          "verified_at": "2026-11-18T13:00:34+08:00"
+          "verified_at": "2026-11-19T22:52:59+08:00"
         },
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.23635",
-          "verified_at": "2026-11-11T21:09:54+08:00"
+          "verified_at": "2026-11-19T22:53:50+08:00"
         }
       ],
       "review_status": "source-confirmed",
       "publication_date_basis": "source-metadata",
+      "publication_date_note": "",
       "registry_created_at": "2026-10-19T02:45:36Z",
       "registry_updated_at": "2026-10-19T02:45:36Z",
       "registry_registered_at": "2026-10-19T02:45:36Z",
@@ -2063,8 +2074,7 @@
       "venue_issns": [
         "2377-3766",
         "2377-3774"
-      ],
-      "publication_date_note": ""
+      ]
     },
     {
       "title": "Toward Zero-Shot Point Cloud Registration Across Diverse Scales, Scenes, and Sensor Setups",
@@ -2986,21 +2996,18 @@
         "Yangdong Liu",
         "Shuhan Shen"
       ],
-      "year": 2026,
       "published": "2026-10-30",
       "venue": "NeurIPS",
       "publication_status": "accepted",
-      "venue_track": "Main Conference",
       "categories": [
         "visual-localization"
       ],
       "abstract": "Camera localization methods are mostly multi-stage pipelines relying on dedicated and complex maps that are costly to construct, store, and maintain over time. Alternatively, well-structured maps that organize scenes with compact yet expressive primitives are often readily available, providing rich structural and semantic cues that humans can interpret. However, their potential for direct camera localization remains largely unexplored due to the significant modality gap with visual observations. This motivates a new concept for localization, which estimates camera poses by grounding query observations to map primitives . In this paper, we instantiate the concept in the context of planar primitives with PGGT , the P rimitive- G rounded G eometry T ransformer network trained to predict multiple localization targets from a single query image and a set of planar map primitives, enabling feed-forward 6-DoF camera localization that generalizes to unseen environments. Based on this flexible and scalable architecture, our method pushes the state-of-the-art localization performance on both detailed planar surface maps and minimal architectural layouts. The code and models will be made publicly available.",
-      "summary_status": "reviewed",
+      "arxiv_id": "2610.41833",
       "source_url": "https://neurips.cc/virtual/2026/poster/152738",
+      "pdf_url": "https://arxiv.org/pdf/2610.41833",
       "evidence_url": "https://neurips.cc/virtual/2026/poster/152738",
       "verified_at": "2026-10-21",
-      "review_status": "included",
-      "publication_date_basis": "arxiv-api-published",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -3049,14 +3056,17 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.41833",
-          "verified_at": "2026-11-12T22:12:21+08:00"
+          "verified_at": "2026-11-19T22:54:03+08:00"
         }
       ],
-      "id": "paper-3e1c2f11d5a01f1d",
-      "arxiv_id": "2610.41833",
-      "pdf_url": "https://arxiv.org/pdf/2610.41833",
+      "review_status": "included",
       "author_comment": "Accepted at NeurIPS 2026. 24 pages, 14 figures, including appendices. Code and models: https://github.com/3dv-casia/PGGT-Loc",
       "arxiv_updated_at": "2026-10-30T14:50:55Z",
+      "publication_date_basis": "arxiv-api-published",
+      "id": "paper-3e1c2f11d5a01f1d",
+      "year": 2026,
+      "summary_status": "reviewed",
+      "venue_track": "Main Conference",
       "rss_announce_type": "new",
       "rss_announced_at": "2026-11-02T00:00:00-05:00",
       "arxiv_subjects": [
@@ -3113,17 +3123,17 @@
       "source_url": "https://arxiv.org/abs/2610.36454",
       "pdf_url": "https://arxiv.org/pdf/2610.36454",
       "evidence_url": "https://arxiv.org/abs/2610.36454",
-      "verified_at": "2026-11-11T21:10:10+08:00",
+      "verified_at": "2026-11-19T22:53:56+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2610.36454",
-          "verified_at": "2026-11-18T13:00:36+08:00"
+          "verified_at": "2026-11-19T22:53:01+08:00"
         },
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.36454",
-          "verified_at": "2026-11-11T21:10:10+08:00"
+          "verified_at": "2026-11-19T22:53:56+08:00"
         },
         {
           "name": "arXiv RSS",
@@ -3133,6 +3143,7 @@
       ],
       "review_status": "acceptance-claimed",
       "publication_date_basis": "arxiv-api-published",
+      "publication_date_note": "",
       "registry_created_at": "2026-10-28T02:43:47Z",
       "registry_updated_at": "2026-10-28T02:43:48Z",
       "registry_registered_at": "2026-10-28T02:43:48Z",
@@ -3175,7 +3186,6 @@
       "summary_generated_at": "2026-10-28T14:07:04+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
-      "publication_date_note": "",
       "accepted_venue": "IROS",
       "accepted_year": 2026,
       "acceptance_basis": "author_claim",
@@ -3219,12 +3229,12 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2610.37257",
-          "verified_at": "2026-11-18T13:00:36+08:00"
+          "verified_at": "2026-11-19T22:53:01+08:00"
         },
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.37257",
-          "verified_at": "2026-11-12T22:12:21+08:00"
+          "verified_at": "2026-11-19T22:54:03+08:00"
         },
         {
           "name": "arXiv RSS",
@@ -3244,6 +3254,7 @@
       ],
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
+      "publication_date_note": "",
       "registry_created_at": "2026-10-28T03:01:55Z",
       "registry_updated_at": "2026-10-28T03:01:56Z",
       "registry_registered_at": "2026-10-28T03:01:56Z",
@@ -3275,8 +3286,8 @@
       "id": "paper-ad244a69a750ca3f",
       "year": 2026,
       "summary_status": "generated",
-      "venue_track": "Evaluations and Datasets",
       "arxiv_updated_at": "2026-10-31T03:43:06Z",
+      "venue_track": "Evaluations and Datasets",
       "rss_announce_type": "new",
       "rss_announced_at": "2026-10-28T00:00:00-04:00",
       "arxiv_subjects": [
@@ -3287,7 +3298,6 @@
       "summary_generated_at": "2026-10-28T14:07:06+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
-      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -3319,21 +3329,22 @@
       "source_url": "https://arxiv.org/abs/2610.35630",
       "pdf_url": "https://arxiv.org/pdf/2610.35630",
       "evidence_url": "https://arxiv.org/abs/2610.35630",
-      "verified_at": "2026-11-11T21:10:10+08:00",
+      "verified_at": "2026-11-19T22:53:56+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2610.35630",
-          "verified_at": "2026-11-18T13:00:36+08:00"
+          "verified_at": "2026-11-19T22:53:01+08:00"
         },
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.35630",
-          "verified_at": "2026-11-11T21:10:10+08:00"
+          "verified_at": "2026-11-19T22:53:56+08:00"
         }
       ],
       "review_status": "acceptance-claimed",
       "publication_date_basis": "arxiv-api-published",
+      "publication_date_note": "",
       "registry_created_at": "2026-10-27T04:53:35Z",
       "registry_updated_at": "2026-10-27T04:53:36Z",
       "registry_registered_at": "2026-10-27T04:53:36Z",
@@ -3371,7 +3382,6 @@
       "summary_model": "hy3",
       "arxiv_updated_at": "2026-10-26T15:41:35Z",
       "catalogue_year": 2026,
-      "publication_date_note": "",
       "accepted_venue": "IROS",
       "accepted_year": null,
       "acceptance_basis": "author_claim",
@@ -3438,7 +3448,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2610.35522",
-          "verified_at": "2026-11-18T13:00:36+08:00"
+          "verified_at": "2026-11-19T22:53:01+08:00"
         },
         {
           "name": "arXiv RSS",
@@ -3458,11 +3468,12 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.35522",
-          "verified_at": "2026-11-11T21:10:10+08:00"
+          "verified_at": "2026-11-19T22:53:56+08:00"
         }
       ],
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
+      "publication_date_note": "",
       "registry_created_at": "2026-10-27T04:51:11Z",
       "registry_updated_at": "2026-10-27T04:51:11Z",
       "registry_registered_at": "2026-10-27T04:51:11Z",
@@ -3494,8 +3505,8 @@
       "id": "paper-fd98b1ce99fbec3e",
       "year": 2026,
       "summary_status": "reviewed",
-      "venue_track": "Main Conference",
       "arxiv_updated_at": "2026-10-26T14:40:40Z",
+      "venue_track": "Main Conference",
       "rss_announce_type": "new",
       "rss_announced_at": "2026-10-27T00:00:00-04:00",
       "arxiv_subjects": [
@@ -3516,7 +3527,6 @@
       "curated": true,
       "earliest_known_date": "2026-09-25",
       "catalogue_year": 2026,
-      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -3689,26 +3699,23 @@
         "Xiangyang Xue",
         "Yanwei Fu"
       ],
-      "year": 2026,
       "published": "2026-10-22",
       "venue": "NeurIPS",
       "publication_status": "accepted",
-      "venue_track": "Main Conference",
       "categories": [
         "point-processing"
       ],
       "abstract": "This paper studies category-level RGB-D object pose estimation, which recovers an object's 3D rotation and translation without instance-specific CAD models or reference views. This task is highly ambiguous due to intra-class variations, symmetries, and partial observations. Current solutions struggle to balance reliability and efficiency: deterministic methods are prone to error propagation from intermediate structures, while diffusion models suffer from high inference latency and complex post-hoc candidate extraction. To address this, we present F2G-Pose, a real-time direct, single-pass framework that predicts category-level pose, metric size, and camera-frame completed shape from a single RGB-D observation in one feed-forward pass. F2G-Pose lifts dense visual foundation features to partial point clouds, encodes local geometry with DGCNN tokenization, and integrates object-level structure with a Mixture-of-Experts Transformer. Joint size prediction and camera-frame shape completion encourage metric consistency through dense geometric supervision. Trained only on synthetic SOPE data, F2G-Pose achieves state-of-the-art accuracy on SOPE and ROPE while running at 28 FPS, and further demonstrates strong camera-frame geometry on HouseCat6D and real-object transfer on HANDAL. Analyses of latency, robustness, stability, shape completion, and GenPose++ candidate behavior further demonstrate the efficiency and reliability of F2G-Pose, with real-world manipulation experiments demonstrating deployment potential under segmented RGB-D inputs.",
-      "summary_status": "generated",
+      "arxiv_id": "2610.31623",
       "source_url": "https://neurips.cc/virtual/2026/poster/150550",
+      "pdf_url": "https://arxiv.org/pdf/2610.31623",
       "evidence_url": "https://neurips.cc/virtual/2026/poster/150550",
       "verified_at": "2026-11-05T21:42:58+08:00",
-      "review_status": "acceptance-confirmed",
-      "publication_date_basis": "arxiv-api-published",
       "source_records": [
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.31623",
-          "verified_at": "2026-11-11T21:10:01+08:00"
+          "verified_at": "2026-11-19T22:53:55+08:00"
         },
         {
           "name": "NeurIPS official accepted programme",
@@ -3721,11 +3728,14 @@
           "verified_at": "2026-11-18T13:02:21+08:00"
         }
       ],
-      "id": "paper-5ac783c1861e490b",
-      "arxiv_id": "2610.31623",
-      "pdf_url": "https://arxiv.org/pdf/2610.31623",
+      "review_status": "acceptance-confirmed",
       "author_comment": "Accepted at NeurIPS 2026. 22 pages, including the complete technical appendix",
       "arxiv_updated_at": "2026-10-22T17:43:34Z",
+      "publication_date_basis": "arxiv-api-published",
+      "id": "paper-5ac783c1861e490b",
+      "year": 2026,
+      "summary_status": "generated",
+      "venue_track": "Main Conference",
       "summary_zh": "本研究针对类别级RGB-D物体位姿估计中因类内差异、对称性和部分观测导致的高模糊性，以及现有方法在可靠性与效率间难以兼顾的问题（如中间结构易误差传播、扩散模型延迟高），提出F2G-Pose直接估计框架。其核心方法是将稠密视觉基础特征提升至部分点云，用DGCNN令牌化编码局部几何，并通过专家混合Transformer整合物体级结构，在单次前向传播中预测位姿、尺寸与形状，借助联合尺寸预测与形状补全实现几何一致性监督。",
       "earliest_known_date": "2026-10-22",
       "summary_generated_at": "2026-10-25T14:07:14+08:00",
@@ -3843,7 +3853,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2610.28821",
-          "verified_at": "2026-11-18T13:00:35+08:00"
+          "verified_at": "2026-11-19T22:52:59+08:00"
         },
         {
           "name": "NeurIPS official accepted programme",
@@ -3858,11 +3868,12 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.28821",
-          "verified_at": "2026-11-11T21:10:01+08:00"
+          "verified_at": "2026-11-19T22:53:55+08:00"
         }
       ],
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
+      "publication_date_note": "",
       "registry_created_at": "2026-10-22T02:26:58Z",
       "registry_updated_at": "2026-10-22T02:26:59Z",
       "registry_registered_at": "2026-10-22T02:26:59Z",
@@ -3894,14 +3905,13 @@
       "id": "paper-84f0fdbb9505de86",
       "year": 2026,
       "summary_status": "reviewed",
-      "venue_track": "官方海报目录（轨道待核验）",
       "arxiv_updated_at": "2026-10-20T18:40:50Z",
+      "venue_track": "官方海报目录（轨道待核验）",
       "summary_zh": "现有点云配准模型往往针对单一传感器或场景调参，跨域时容易受到尺度、噪声和密度差异影响。RAM利用室内、室外与物体数据联合训练统一模型，先依据几何属性自适应体素化和归一化，在标准化分辨率的同时保留关键局部结构。随后采用由粗到细的配准流程，以高效几何变换器约束局部一致性，减轻离散化噪声并降低计算量，增强跨场景六自由度变换估计能力。",
       "quality_note": "依据官方完整摘要整理中文导读；未进行全文质量评审。",
       "curated": true,
       "earliest_known_date": "2026-09-25",
       "catalogue_year": 2026,
-      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -3925,21 +3935,18 @@
         "Nan Xue",
         "Yinghao Xu"
       ],
-      "year": 2026,
       "published": "2026-10-16",
       "venue": "NeurIPS",
       "publication_status": "accepted",
-      "venue_track": "Main Conference",
       "categories": [
         "point-processing"
       ],
       "abstract": "Video world models that generate and explore environments at scale need a persistent 3D memory of what they have produced. Plane primitives offer a natural candidate: a compact set of oriented planes captures the dominant structural elements (*e.g.,* walls, floors, facades) of indoor and outdoor scenes, while requiring only 7 parameters per primitive. We present **PPMem**, a video world model that adopts plane primitives as its persistent 3D memory. PPMem augments a video diffusion transformer with a planar prediction head and a Depth Token Fusion (DTF) module: each autoregressive chunk jointly produces RGB video and planar geometry, which merges into a persistent plane memory that conditions subsequent chunks via rendered depth. The resulting memory is three orders of magnitude more compact than per-pixel point clouds (${\\sim}$100K primitives, ${\\sim}$5MB for a full scene), geometrically explicit (metric depth, normals, exportable surfaces), cross-view consistent (jointly predicted by the shared backbone), and adaptive (refined by the merging procedure as generation proceeds). On DL3DV and RealEstate10K, PPMem outperforms prior 3D-grounded world models in video quality while jointly producing metric-scale depth, surface normals, and exportable planar geometry, sustaining coherence across hundreds of frames under large viewpoint changes.",
-      "summary_status": "generated",
+      "arxiv_id": "2610.23795",
       "source_url": "https://neurips.cc/virtual/2026/poster/150672",
+      "pdf_url": "https://arxiv.org/pdf/2610.23795",
       "evidence_url": "https://neurips.cc/virtual/2026/poster/150672",
       "verified_at": "2026-11-10T21:57:10+08:00",
-      "review_status": "acceptance-confirmed",
-      "publication_date_basis": "arxiv-api-published",
       "source_records": [
         {
           "name": "NeurIPS official accepted programme",
@@ -3954,14 +3961,17 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.23795",
-          "verified_at": "2026-11-11T21:09:54+08:00"
+          "verified_at": "2026-11-19T22:53:50+08:00"
         }
       ],
-      "id": "paper-7444ef3d462dddad",
-      "arxiv_id": "2610.23795",
-      "pdf_url": "https://arxiv.org/pdf/2610.23795",
+      "review_status": "acceptance-confirmed",
       "author_comment": "20 pages, 9 figures. Accepted by NeurIPS 2026",
       "arxiv_updated_at": "2026-10-16T17:21:54Z",
+      "publication_date_basis": "arxiv-api-published",
+      "id": "paper-7444ef3d462dddad",
+      "year": 2026,
+      "summary_status": "generated",
+      "venue_track": "Main Conference",
       "earliest_known_date": "2026-10-16",
       "summary_zh": "本研究动机在于大规模视频世界模型在生成与探索环境时需要持久的三维记忆来记录已生成内容，而平面基元能以极少参数刻画场景主要结构，是合适的记忆载体。核心方法是提出PPMem模型，将平面基元作为持久三维记忆，在视频扩散Transformer上增加平面预测头与深度令牌融合模块；模型以自回归方式逐段联合生成RGB视频与平面几何，并将其合并入持久平面记忆，通过渲染深度条件化后续生成。",
       "summary_generated_at": "2026-10-29T08:07:21+08:00",
@@ -4004,7 +4014,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2610.21087",
-          "verified_at": "2026-11-18T13:00:34+08:00"
+          "verified_at": "2026-11-19T22:52:59+08:00"
         },
         {
           "name": "NeurIPS official accepted programme",
@@ -4019,11 +4029,12 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.21087",
-          "verified_at": "2026-11-11T21:09:54+08:00"
+          "verified_at": "2026-11-19T22:53:43+08:00"
         }
       ],
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
+      "publication_date_note": "",
       "registry_created_at": "2026-10-16T02:43:29Z",
       "registry_updated_at": "2026-10-16T02:43:29Z",
       "registry_registered_at": "2026-10-16T02:43:29Z",
@@ -4055,8 +4066,8 @@
       "id": "paper-dc8a48144b8d357d",
       "year": 2026,
       "summary_status": "generated",
-      "venue_track": "Main Conference",
       "arxiv_updated_at": "2026-10-15T01:42:50Z",
+      "venue_track": "Main Conference",
       "earliest_known_date": "2026-10-15",
       "summary_zh": "本文指出3D点云掩码自编码与SE(3)等变网络存在理论不兼容，标准掩码会引发拓扑坍缩使模型在无参考系下幻觉朝向。为此提出SIEVE框架，将点的几何压缩为不变标量嵌入，其核心球形投影掩码在保留全局位姿的同时混淆局部语义以规避该问题。实验表明SIEVE可避免预测的坍缩，且在下游点云任务上优于基于坐标的基线和手工几何描述子，在泛化到未见形状类别时提升明显。",
       "screening": {
@@ -4073,7 +4084,6 @@
       "summary_model": "hy3",
       "summary_generated_at": "2026-10-21T17:49:07+08:00",
       "catalogue_year": 2026,
-      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -4112,7 +4122,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2610.22720",
-          "verified_at": "2026-11-18T13:00:34+08:00"
+          "verified_at": "2026-11-19T22:52:59+08:00"
         },
         {
           "name": "NeurIPS official accepted programme",
@@ -4127,11 +4137,12 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.22720",
-          "verified_at": "2026-11-11T21:09:54+08:00"
+          "verified_at": "2026-11-19T22:53:50+08:00"
         }
       ],
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
+      "publication_date_note": "",
       "registry_created_at": "2026-10-19T02:25:24Z",
       "registry_updated_at": "2026-10-19T02:25:25Z",
       "registry_registered_at": "2026-10-19T02:25:25Z",
@@ -4162,8 +4173,8 @@
       "id": "paper-d60517394a834bb1",
       "year": 2026,
       "summary_status": "generated",
-      "venue_track": "Main Conference",
       "arxiv_updated_at": "2026-10-15T22:45:52Z",
+      "venue_track": "Main Conference",
       "earliest_known_date": "2026-10-15",
       "summary_zh": "本文提出HilbertGen-3D，一种基于希尔伯特-多重分形条件化（HMC）的拓扑感知条件扩散框架，用于点云生成。HMC计算多尺度体素测度，经3D希尔伯特曲线序列化以暴露空间依赖，并从尺度相关配分函数估计广义分形维数，编码为全局嵌入与多尺度令牌注入扩散去噪器。在ShapeNet的椅子、飞机和汽车类上，相比TopoDiT-3D，其两种条件变体使1-NNA绝对偏差最多降低8.90个百分点，覆盖率提升最多5.88个百分点。",
       "screening": {
@@ -4179,7 +4190,6 @@
       "summary_model": "hy3",
       "summary_generated_at": "2026-10-24T14:09:36+08:00",
       "catalogue_year": 2026,
-      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -4223,7 +4233,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2610.21297",
-          "verified_at": "2026-11-18T13:00:34+08:00"
+          "verified_at": "2026-11-19T22:52:59+08:00"
         },
         {
           "name": "NeurIPS official accepted programme",
@@ -4289,11 +4299,12 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.21297",
-          "verified_at": "2026-11-11T21:09:54+08:00"
+          "verified_at": "2026-11-19T22:53:50+08:00"
         }
       ],
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
+      "publication_date_note": "",
       "registry_created_at": "2026-10-16T02:48:10Z",
       "registry_updated_at": "2026-10-16T02:48:10Z",
       "registry_registered_at": "2026-10-16T02:48:11Z",
@@ -4324,8 +4335,8 @@
       "id": "paper-273ab682148f42b5",
       "year": 2026,
       "summary_status": "reviewed",
-      "venue_track": "Main Conference",
       "arxiv_updated_at": "2026-10-15T05:42:59Z",
+      "venue_track": "Main Conference",
       "earliest_known_date": "2026-10-15",
       "abstract_source_url": "https://neurips.cc/virtual/2026/poster/151984",
       "summary_zh": "将全景图拆成透视视图能缓解球面畸变，却可能丢失完整场景的空间一致性。论文设计几何感知注意力聚合器，以全局信息约束多视图交互，减少局部看似相似但几何不一致的匹配。训练时同时使用透视空间的局部点云损失和全景空间均匀采样的全局点云损失，使细节与统一坐标下的整体结构共同受约束，改善单全景图三维恢复质量。",
@@ -4356,7 +4367,6 @@
       "metadata_note": "官方会议目录与 arXiv 版本的题名或作者姓名写法、顺序有所差异；已按题名及作者群核对身份，主信息采用官方会议目录，并保留 arXiv 原始题名和作者列表供核查。",
       "curated": true,
       "catalogue_year": 2026,
-      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -4397,7 +4407,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2610.21190",
-          "verified_at": "2026-11-18T13:00:34+08:00"
+          "verified_at": "2026-11-19T22:52:59+08:00"
         },
         {
           "name": "NeurIPS official accepted programme",
@@ -4427,11 +4437,12 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.21190",
-          "verified_at": "2026-11-11T21:09:54+08:00"
+          "verified_at": "2026-11-19T22:53:43+08:00"
         }
       ],
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
+      "publication_date_note": "",
       "registry_created_at": "2026-10-16T02:45:46Z",
       "registry_updated_at": "2026-10-16T02:45:47Z",
       "registry_registered_at": "2026-10-16T02:45:47Z",
@@ -4463,8 +4474,8 @@
       "id": "paper-bf21d4d22d3d8f68",
       "year": 2026,
       "summary_status": "reviewed",
-      "venue_track": "Main Conference",
       "arxiv_updated_at": "2026-10-15T03:50:42Z",
+      "venue_track": "Main Conference",
       "earliest_known_date": "2026-10-15",
       "summary_zh": "稀疏点云上采样存在几何歧义，多视角图像虽能补充信息，却会增加部署条件。ControlFlow3D在训练时把视觉基础模型的知识蒸馏到轻量生成网络，在冻结三维编码器的潜在空间执行条件流匹配。方法将图像与点云标记聚为共享原型，用原型控制流速度并进行一致性对齐，再由高效几何解码器生成密集点。推理阶段仅需点云，同时提供新的多模态上采样数据集。",
       "quality_note": "依据官方完整摘要整理中文导读；未进行全文质量评审。",
@@ -4472,7 +4483,6 @@
       "arxiv_updated": "2026-10-15T03:50:42Z",
       "curated": true,
       "catalogue_year": 2026,
-      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -4519,7 +4529,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2610.19786",
-          "verified_at": "2026-11-18T13:00:33+08:00"
+          "verified_at": "2026-11-19T22:52:57+08:00"
         },
         {
           "name": "NeurIPS official accepted programme",
@@ -4544,11 +4554,12 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.19786",
-          "verified_at": "2026-11-11T21:09:54+08:00"
+          "verified_at": "2026-11-19T22:53:43+08:00"
         }
       ],
       "review_status": "included",
       "publication_date_basis": "arxiv-api-published",
+      "publication_date_note": "",
       "registry_created_at": "2026-10-15T02:46:17Z",
       "registry_updated_at": "2026-10-15T02:46:17Z",
       "registry_registered_at": "2026-10-15T02:46:17Z",
@@ -4580,15 +4591,14 @@
       "id": "paper-63aadbc3c223bee5",
       "year": 2026,
       "summary_status": "reviewed",
-      "venue_track": "Main Conference",
       "arxiv_updated_at": "2026-10-14T08:34:37Z",
+      "venue_track": "Main Conference",
       "earliest_known_date": "2026-10-14",
       "summary_zh": "从多视角图像生成激光雷达点云可服务数据合成与跨模态仿真，但仅依赖图像语义难以还原精确几何。LiFi通过几何和语义两条分支共同引导潜在扩散：几何分支结合深度先验、反向采样及不确定性感知编码，语义分支建模跨视角关联。双分支平衡的无分类器引导协调两类条件，在保留独立控制能力的同时提升生成点云与真实场景的几何和视觉一致性。",
       "quality_note": "依据官方完整摘要整理中文导读；未进行全文质量评审。",
       "arxiv_updated": "2026-10-14T08:34:37Z",
       "curated": true,
       "catalogue_year": 2026,
-      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -4877,16 +4887,17 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2610.16977",
-          "verified_at": "2026-11-18T13:00:33+08:00"
+          "verified_at": "2026-11-19T22:52:57+08:00"
         },
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.16977",
-          "verified_at": "2026-11-11T21:09:54+08:00"
+          "verified_at": "2026-11-19T22:53:43+08:00"
         }
       ],
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
+      "publication_date_note": "",
       "registry_created_at": "2026-10-14T07:21:17Z",
       "registry_updated_at": "2026-10-14T07:21:18Z",
       "registry_registered_at": "2026-10-14T07:21:18Z",
@@ -4918,14 +4929,13 @@
       "id": "paper-c279bb54c34aa098",
       "year": 2026,
       "summary_status": "generated",
-      "venue_track": "Main Conference",
       "arxiv_updated_at": "2026-10-12T15:38:27Z",
+      "venue_track": "Main Conference",
       "earliest_known_date": "2026-10-12",
       "summary_zh": "本研究动机在于，现有视觉上下文学习方法依赖多阶段流水线筛选反事实示例，过程繁琐且依赖外部属性工程。作者观察到模型自身的预测错误天然构成了反映其失败模式的反事实演示，据此提出SMILE方法。其核心方法是离线记录目标视觉语言模型自己的错误，构建模型专属的困难负样本池；测试时以当前预测为方向信号，在语义嵌入空间中检索最易复现的过往错误作为上下文示例，统一支持分类与视觉问答任务，无需任务特定设计。",
       "summary_generated_at": "2026-10-26T08:05:55+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
-      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -5522,7 +5532,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2610.12624",
-          "verified_at": "2026-11-19T12:55:52+08:00"
+          "verified_at": "2026-11-19T22:52:57+08:00"
         },
         {
           "name": "NeurIPS official abstract dataset",
@@ -5532,7 +5542,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.12624",
-          "verified_at": "2026-11-19T12:56:13+08:00"
+          "verified_at": "2026-11-19T22:53:37+08:00"
         }
       ],
       "review_status": "included",
@@ -5811,21 +5821,22 @@
       "source_url": "https://arxiv.org/abs/2610.10305",
       "pdf_url": "https://arxiv.org/pdf/2610.10305",
       "evidence_url": "https://arxiv.org/abs/2610.10305",
-      "verified_at": "2026-11-11T21:09:48+08:00",
+      "verified_at": "2026-11-19T22:53:37+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2610.10305",
-          "verified_at": "2026-11-18T13:00:32+08:00"
+          "verified_at": "2026-11-19T22:52:55+08:00"
         },
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.10305",
-          "verified_at": "2026-11-11T21:09:48+08:00"
+          "verified_at": "2026-11-19T22:53:37+08:00"
         }
       ],
       "review_status": "acceptance-claimed",
       "publication_date_basis": "arxiv-api-published",
+      "publication_date_note": "",
       "registry_created_at": "2026-10-08T02:54:11Z",
       "registry_updated_at": "2026-10-08T02:54:12Z",
       "registry_registered_at": "2026-10-08T02:54:12Z",
@@ -5863,7 +5874,6 @@
       "summary_model": "hy3",
       "catalogue_year": 2026,
       "arxiv_updated_at": "2026-10-07T16:01:51Z",
-      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "author_claim",
@@ -5905,7 +5915,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2610.03717",
-          "verified_at": "2026-11-18T13:00:32+08:00"
+          "verified_at": "2026-11-19T22:52:55+08:00"
         },
         {
           "name": "NeurIPS official accepted programme",
@@ -5925,6 +5935,7 @@
       ],
       "review_status": "acceptance-confirmed",
       "publication_date_basis": "arxiv-api-published",
+      "publication_date_note": "",
       "registry_created_at": "2026-10-05T02:40:15Z",
       "registry_updated_at": "2026-10-05T02:40:15Z",
       "registry_registered_at": "2026-10-05T02:40:15Z",
@@ -5963,7 +5974,6 @@
       "summary_generated_at": "2026-10-26T08:06:06+08:00",
       "summary_model": "hy3",
       "catalogue_year": 2026,
-      "publication_date_note": "",
       "accepted_venue": "NeurIPS",
       "accepted_year": 2026,
       "acceptance_basis": "official",
@@ -12413,7 +12423,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.38443",
-          "verified_at": "2026-11-11T21:10:10+08:00"
+          "verified_at": "2026-11-19T22:54:03+08:00"
         }
       ],
       "review_status": "source-confirmed",
@@ -12607,7 +12617,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2609.19911",
-          "verified_at": "2026-11-19T12:56:39+08:00"
+          "verified_at": "2026-11-19T22:53:30+08:00"
         }
       ],
       "review_status": "included",
@@ -12808,17 +12818,17 @@
       "source_url": "https://arxiv.org/abs/2609.12557",
       "pdf_url": "https://arxiv.org/pdf/2609.12557",
       "evidence_url": "https://arxiv.org/abs/2609.12557",
-      "verified_at": "2026-11-19T12:56:39+08:00",
+      "verified_at": "2026-11-19T22:53:30+08:00",
       "source_records": [
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2609.12557",
-          "verified_at": "2026-11-19T12:56:39+08:00"
+          "verified_at": "2026-11-19T22:53:30+08:00"
         },
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2609.12557",
-          "verified_at": "2026-11-19T12:55:56+08:00"
+          "verified_at": "2026-11-19T22:52:52+08:00"
         }
       ],
       "review_status": "acceptance-claimed",
@@ -16456,7 +16466,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2608.12037",
-          "verified_at": "2026-11-19T12:56:39+08:00"
+          "verified_at": "2026-11-19T22:53:30+08:00"
         }
       ],
       "review_status": "acceptance-confirmed",
@@ -22390,12 +22400,12 @@
       "source_url": "https://arxiv.org/abs/2607.02018",
       "pdf_url": "https://arxiv.org/pdf/2607.02018",
       "evidence_url": "https://arxiv.org/abs/2607.02018",
-      "verified_at": "2026-11-19T12:56:33+08:00",
+      "verified_at": "2026-11-19T22:53:24+08:00",
       "source_records": [
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2607.02018",
-          "verified_at": "2026-11-19T12:56:33+08:00"
+          "verified_at": "2026-11-19T22:53:24+08:00"
         }
       ],
       "review_status": "acceptance-claimed",
@@ -25106,7 +25116,7 @@
       "source_url": "https://arxiv.org/abs/2606.26092",
       "pdf_url": "https://arxiv.org/pdf/2606.26092",
       "evidence_url": "https://arxiv.org/abs/2606.26092",
-      "verified_at": "2026-11-19T12:56:39+08:00",
+      "verified_at": "2026-11-19T22:53:30+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -25116,7 +25126,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2606.26092",
-          "verified_at": "2026-11-19T12:56:39+08:00"
+          "verified_at": "2026-11-19T22:53:30+08:00"
         }
       ],
       "review_status": "acceptance-claimed",
@@ -28708,7 +28718,6 @@
       "summary_zh": ""
     },
     {
-      "id": "cvpr-2026-topology-aware-feature-propagation-for-unsupervised-non-rigid-point-cloud-correspondence",
       "title": "Topology-aware Feature Propagation for Unsupervised Non-rigid Point Cloud Correspondence",
       "authors": [
         "Haozhe Chen",
@@ -28720,35 +28729,36 @@
         "Xuan Ouyang",
         "Jiaqi Yang"
       ],
-      "year": 2026,
-      "venue": "CVPR",
-      "source_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Topology-aware_Feature_Propagation_for_Unsupervised_Non-rigid_Point_Cloud_Correspondence_CVPR_2026_paper.html",
-      "abstract": "Unsupervised non-rigid point cloud correspondence aims to predict point-to-point correspondences without annotations. Existing methods leverage the spatial-relation-based feature propagation strategy that includes non-physical connections, which are sensitive to non-rigid deformation. To address this issue, we advocate to learn shape topology robust to non-rigid deformation, and propose the topology-aware feature propagation module integrated into a coarse-to-fine propagation and optimization pipeline. To extract point features robust to non-rigid deformation, we estimate keypoints as superpoints and encode superpoint features with topology weights, which learns reasonable topologies under non-rigid deformation. The vector quantization codebook is leveraged to enhance the original superpoint features with stored representative features across the dataset, improving feature robustness against shape variance. Robust point-wise correspondence is yielded after coarse-to-fine feature fusion and efficient test-time optimization. Extensive experiments on multiple benchmarks demonstrate the state-of-the-art performance of our method.",
-      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_Topology-aware_Feature_Propagation_for_Unsupervised_Non-rigid_Point_Cloud_Correspondence_CVPR_2026_paper.pdf",
       "published": "2026-06",
+      "venue": "CVPR",
       "publication_status": "published",
-      "evidence_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Topology-aware_Feature_Propagation_for_Unsupervised_Non-rigid_Point_Cloud_Correspondence_CVPR_2026_paper.html",
-      "verified_at": "2026-10-21T16:25:13+08:00",
-      "summary_zh": "无监督非刚性点云对应通常按空间邻近传播特征，但形变后这些连接可能不符合真实拓扑。本文先将关键点作为超点，通过拓扑权重学习对非刚性变形稳定的结构关系，再利用向量量化码本引入跨样本的代表性特征。由粗到细的特征融合结合测试时优化，最终恢复逐点对应，减少局部形变与形状变化对匹配结果的影响。",
       "categories": [
         "point-processing",
         "registration"
       ],
-      "summary_status": "reviewed",
-      "summary_evidence_type": "official_abstract",
-      "summary_source_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Topology-aware_Feature_Propagation_for_Unsupervised_Non-rigid_Point_Cloud_Correspondence_CVPR_2026_paper.html",
-      "quality_note": "CVPR 2026 正式论文集；按 CVF 官方摘要核验研究主题并撰写中文简介。",
-      "publication_date_basis": "CVF official proceedings BibTeX year and month",
+      "abstract": "Unsupervised non-rigid point cloud correspondence aims to predict point-to-point correspondences without annotations. Existing methods leverage the spatial-relation-based feature propagation strategy that includes non-physical connections, which are sensitive to non-rigid deformation. To address this issue, we advocate to learn shape topology robust to non-rigid deformation, and propose the topology-aware feature propagation module integrated into a coarse-to-fine propagation and optimization pipeline. To extract point features robust to non-rigid deformation, we estimate keypoints as superpoints and encode superpoint features with topology weights, which learns reasonable topologies under non-rigid deformation. The vector quantization codebook is leveraged to enhance the original superpoint features with stored representative features across the dataset, improving feature robustness against shape variance. Robust point-wise correspondence is yielded after coarse-to-fine feature fusion and efficient test-time optimization. Extensive experiments on multiple benchmarks demonstrate the state-of-the-art performance of our method.",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Topology-aware_Feature_Propagation_for_Unsupervised_Non-rigid_Point_Cloud_Correspondence_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_Topology-aware_Feature_Propagation_for_Unsupervised_Non-rigid_Point_Cloud_Correspondence_CVPR_2026_paper.pdf",
+      "evidence_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Topology-aware_Feature_Propagation_for_Unsupervised_Non-rigid_Point_Cloud_Correspondence_CVPR_2026_paper.html",
+      "verified_at": "2026-10-21T16:25:13+08:00",
       "source_records": [
         {
           "name": "CVF Open Access",
           "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Topology-aware_Feature_Propagation_for_Unsupervised_Non-rigid_Point_Cloud_Correspondence_CVPR_2026_paper.html",
-          "verified_at": "2026-10-21T16:25:13+08:00"
+          "verified_at": "2026-11-19T22:54:17+08:00"
         }
       ],
       "review_status": "included",
+      "id": "cvpr-2026-topology-aware-feature-propagation-for-unsupervised-non-rigid-point-cloud-correspondence",
+      "year": 2026,
+      "summary_status": "reviewed",
+      "summary_zh": "无监督非刚性点云对应通常按空间邻近传播特征，但形变后这些连接可能不符合真实拓扑。本文先将关键点作为超点，通过拓扑权重学习对非刚性变形稳定的结构关系，再利用向量量化码本引入跨样本的代表性特征。由粗到细的特征融合结合测试时优化，最终恢复逐点对应，减少局部形变与形状变化对匹配结果的影响。",
+      "summary_evidence_type": "official_abstract",
+      "summary_source_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Topology-aware_Feature_Propagation_for_Unsupervised_Non-rigid_Point_Cloud_Correspondence_CVPR_2026_paper.html",
+      "quality_note": "CVPR 2026 正式论文集；按 CVF 官方摘要核验研究主题并撰写中文简介。",
+      "publication_date_basis": "CVF official proceedings BibTeX year and month",
       "curated": true,
-      "earliest_known_date": "2026-06",
+      "earliest_known_date": "2026",
       "catalogue_year": 2026,
       "publication_date_note": ""
     },
@@ -28923,7 +28933,6 @@
       "publication_date_note": ""
     },
     {
-      "id": "cvpr-2026-taco-task-aware-contrastive-learning-for-joint-lidar-localization-and-3d-object-detection",
       "title": "TACO: Task-Aware Contrastive Learning for Joint LiDAR Localization and 3D Object Detection",
       "authors": [
         "Leyuan Xing",
@@ -28936,28 +28945,35 @@
         "Chenglu Wen",
         "Cheng Wang"
       ],
-      "year": 2026,
-      "venue": "CVPR",
-      "source_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xing_TACO_Task-Aware_Contrastive_Learning_for_Joint_LiDAR_Localization_and_3D_CVPR_2026_paper.html",
-      "abstract": "Reliable navigation and decision-making of autonomous vehicles require both accurate localization and object detection. Traditionally, these two tasks are handled separately, leading to redundant computation and limited cross-task knowledge transfer. This paper proposes TACO, the first Task-Aware COntrastive learning framework, which performs joint LiDAR localization and 3D object detection within a single, unified network. TACO leverages contrastive learning to explicitly decouple and align static geographic features for localization and object-centric features for detection. This bidirectional mutual supervision not only enhances localization robustness in dynamic environments by filtering dynamic noise but also boosts detection accuracy via effective spatial context. Additionally, we propose OxfoLD, the first dataset that provides multi-traversal LiDAR localization ground truth with rich 3D object annotations, thereby supporting task validation across various times and weather conditions. Experimental results demonstrate that TACO achieves state-of-the-art localization accuracy while maintaining competitive detection performance. The code and dataset will be released.",
-      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xing_TACO_Task-Aware_Contrastive_Learning_for_Joint_LiDAR_Localization_and_3D_CVPR_2026_paper.pdf",
       "published": "2026-06",
+      "venue": "CVPR",
       "publication_status": "published",
-      "evidence_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xing_TACO_Task-Aware_Contrastive_Learning_for_Joint_LiDAR_Localization_and_3D_CVPR_2026_paper.html",
-      "verified_at": "2026-10-21",
       "categories": [
         "point-localization",
         "point-processing"
       ],
-      "summary_zh": "激光定位与三维检测通常分开运行，造成重复计算，也未充分共享场景知识。TACO 通过任务感知对比学习区分并对齐用于定位的静态地理特征和用于检测的物体特征，以双向监督减少动态干扰并增强空间上下文。论文同时构建包含多次轨迹定位真值和丰富物体标签的 OxfoLD，支持跨时段与天气联合评估。",
-      "summary_status": "reviewed",
+      "abstract": "Reliable navigation and decision-making of autonomous vehicles require both accurate localization and object detection. Traditionally, these two tasks are handled separately, leading to redundant computation and limited cross-task knowledge transfer. This paper proposes TACO, the first Task-Aware COntrastive learning framework, which performs joint LiDAR localization and 3D object detection within a single, unified network. TACO leverages contrastive learning to explicitly decouple and align static geographic features for localization and object-centric features for detection. This bidirectional mutual supervision not only enhances localization robustness in dynamic environments by filtering dynamic noise but also boosts detection accuracy via effective spatial context. Additionally, we propose OxfoLD, the first dataset that provides multi-traversal LiDAR localization ground truth with rich 3D object annotations, thereby supporting task validation across various times and weather conditions. Experimental results demonstrate that TACO achieves state-of-the-art localization accuracy while maintaining competitive detection performance. The code and dataset will be released.",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xing_TACO_Task-Aware_Contrastive_Learning_for_Joint_LiDAR_Localization_and_3D_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xing_TACO_Task-Aware_Contrastive_Learning_for_Joint_LiDAR_Localization_and_3D_CVPR_2026_paper.pdf",
+      "evidence_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xing_TACO_Task-Aware_Contrastive_Learning_for_Joint_LiDAR_Localization_and_3D_CVPR_2026_paper.html",
+      "verified_at": "2026-10-21",
+      "source_records": [
+        {
+          "name": "CVF Open Access",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xing_TACO_Task-Aware_Contrastive_Learning_for_Joint_LiDAR_Localization_and_3D_CVPR_2026_paper.html",
+          "verified_at": "2026-11-19T22:54:10+08:00"
+        }
+      ],
       "review_status": "included",
+      "id": "cvpr-2026-taco-task-aware-contrastive-learning-for-joint-lidar-localization-and-3d-object-detection",
+      "year": 2026,
+      "summary_status": "reviewed",
+      "summary_zh": "激光定位与三维检测通常分开运行，造成重复计算，也未充分共享场景知识。TACO 通过任务感知对比学习区分并对齐用于定位的静态地理特征和用于检测的物体特征，以双向监督减少动态干扰并增强空间上下文。论文同时构建包含多次轨迹定位真值和丰富物体标签的 OxfoLD，支持跨时段与天气联合评估。",
       "curated": true,
       "publication_date_basis": "source-metadata",
-      "earliest_known_date": "2026-06",
+      "earliest_known_date": "2026",
       "catalogue_year": 2026,
-      "publication_date_note": "",
-      "source_records": []
+      "publication_date_note": ""
     },
     {
       "title": "T <sup>2</sup> -Nav: Algebraic-Topology-Aware Temporal Graph Memory and Loop Detection for Zero-Shot Visual Navigation",
@@ -34792,7 +34808,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2610.35501",
-          "verified_at": "2026-11-18T13:00:36+08:00"
+          "verified_at": "2026-11-19T22:53:01+08:00"
         },
         {
           "name": "arXiv RSS",
@@ -34802,7 +34818,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.35501",
-          "verified_at": "2026-11-11T21:10:10+08:00"
+          "verified_at": "2026-11-19T22:53:56+08:00"
         },
         {
           "name": "CVF Open Access",
@@ -34812,6 +34828,7 @@
       ],
       "review_status": "included",
       "publication_date_basis": "source-metadata",
+      "publication_date_note": "",
       "registry_created_at": "2026-10-27T04:50:42Z",
       "registry_updated_at": "2026-10-27T04:50:43Z",
       "registry_registered_at": "2026-10-27T04:50:43Z",
@@ -34853,7 +34870,17 @@
       "curated": true,
       "earliest_known_date": "2026",
       "catalogue_year": 2026,
-      "publication_date_note": ""
+      "accepted_venue": "CVPR",
+      "accepted_year": 2026,
+      "acceptance_basis": "author_claim",
+      "acceptance_evidence": [
+        {
+          "url": "https://arxiv.org/abs/2610.35501",
+          "kind": "arxiv-author-comment",
+          "quote": "Accepted to CVPR 2026 (Highlight)."
+        }
+      ],
+      "acceptance_note": "作者在 arXiv 元数据中声明录用于 CVPR 2026；尚未独立核验官方录用记录，不视为正式出版。"
     },
     {
       "title": "Learning Coordinate-based Convolutional Kernels for Continuous SE(3) Equivariant and Efficient Point Cloud Analysis",
@@ -38225,9 +38252,9 @@
       ],
       "abstract": "Visual place recognition (VPR) faces critical challenges in handling extreme environmental variations while meeting the computational constraints of practical applications. Current methods predominantly address these challenges by either scaling up model capacity or employing computationally intensive reranking stages, creating a significant efficiency bottleneck. To overcome this limitation, we propose EfficientVPR, a lightweight one-stage framework that achieves speed-accuracy trade-offs through two key innovations: i) a scene-aware visual prompt tuning method which adapts pretrained features with less parameters while dynamically adjusting to sample-specific characteristics, and ii) an instance-dependent key local feature enhancement module that further reinforces discriminative regions. Comprehensive evaluations on Pitts250k, MSLS, Eynsham, AmsterTime and SVOX demonstrate that our method establishes a new SOTA for DINOv2-small models by outperforming all same-scale competitors, and delivers a 73x speedup with 60% lower-dimensional features while maintaining competitive (within 2.5% average R@1 gap) against the SOTA DINOv2-large-based two-stage method. Our code will be available at https://github.com/WiniTang/EfficientVPR.",
       "arxiv_id": "2611.22506",
+      "doi": "10.48550/arxiv.2611.22506",
       "source_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Tang_EfficientVPR_Toward_Efficient_Visual_Place_Recognition_via_Scene-Aware_Prompt_Tuning_CVPR_2026_paper.html",
       "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Tang_EfficientVPR_Toward_Efficient_Visual_Place_Recognition_via_Scene-Aware_Prompt_Tuning_CVPR_2026_paper.pdf",
-      "venue_claim": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026, pp. 33738-33748",
       "evidence_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Tang_EfficientVPR_Toward_Efficient_Visual_Place_Recognition_via_Scene-Aware_Prompt_Tuning_CVPR_2026_paper.html",
       "verified_at": "2026-10-21",
       "source_records": [
@@ -38239,26 +38266,17 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2611.22506",
-          "verified_at": "2026-11-19T12:55:51+08:00"
+          "verified_at": "2026-11-19T22:52:45+08:00"
         },
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.22506",
-          "verified_at": "2026-11-19T12:56:13+08:00"
+          "verified_at": "2026-11-19T22:53:15+08:00"
         }
       ],
       "review_status": "included",
-      "rss_announce_type": "new",
-      "rss_announced_at": "2026-11-18T00:00:00-05:00",
-      "arxiv_subjects": [
-        "cs.CV"
-      ],
       "publication_date_basis": "source-metadata",
       "publication_date_note": "",
-      "id": "cvpr-2026-efficientvpr-toward-efficient-visual-place-recognition-via-scene-aware-prompt-tuning-and-adaptive-feature-enhancement",
-      "year": 2026,
-      "summary_status": "reviewed",
-      "doi": "10.48550/arxiv.2611.22506",
       "registry_created_at": "2026-11-18T05:25:03Z",
       "registry_updated_at": "2026-11-18T05:25:03Z",
       "registry_registered_at": "2026-11-18T05:25:03Z",
@@ -38287,7 +38305,16 @@
         }
       ],
       "author_comment": "18 pages, 11 figures, accepted at CVPR 2026",
+      "id": "cvpr-2026-efficientvpr-toward-efficient-visual-place-recognition-via-scene-aware-prompt-tuning-and-adaptive-feature-enhancement",
+      "year": 2026,
+      "summary_status": "reviewed",
+      "venue_claim": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026, pp. 33738-33748",
       "arxiv_updated_at": "2026-11-17T10:01:56Z",
+      "rss_announce_type": "new",
+      "rss_announced_at": "2026-11-18T00:00:00-05:00",
+      "arxiv_subjects": [
+        "cs.CV"
+      ],
       "code_url": "https://github.com/WiniTang/EfficientVPR",
       "summary_zh": "实际视觉位置识别既需应对环境变化，也受算力限制，大模型和重排序可能带来高延迟。EfficientVPR 采用单阶段轻量框架，用场景感知视觉提示调整预训练特征，并根据具体图像增强关键局部区域。论文在多个检索基准比较同规模模型及大型两阶段方法，分析准确率、描述子维度和推理速度间的取舍。",
       "curated": true,
@@ -43598,7 +43625,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2605.23892",
-          "verified_at": "2026-11-19T12:56:39+08:00"
+          "verified_at": "2026-11-19T22:53:30+08:00"
         }
       ],
       "review_status": "included",
@@ -43715,7 +43742,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2605.22809",
-          "verified_at": "2026-11-19T12:55:52+08:00"
+          "verified_at": "2026-11-19T22:52:48+08:00"
         },
         {
           "name": "arXiv",
@@ -46472,7 +46499,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2605.11654",
-          "verified_at": "2026-11-19T12:55:51+08:00"
+          "verified_at": "2026-11-19T22:52:45+08:00"
         },
         {
           "name": "NeurIPS official accepted programme",
@@ -46487,7 +46514,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2605.11654",
-          "verified_at": "2026-11-19T12:56:13+08:00"
+          "verified_at": "2026-11-19T22:53:15+08:00"
         }
       ],
       "review_status": "included",
@@ -46708,7 +46735,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2605.11970",
-          "verified_at": "2026-11-19T12:56:39+08:00"
+          "verified_at": "2026-11-19T22:53:30+08:00"
         }
       ],
       "review_status": "acceptance-confirmed",
@@ -47857,7 +47884,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2605.07351",
-          "verified_at": "2026-11-19T12:55:56+08:00"
+          "verified_at": "2026-11-19T22:52:52+08:00"
         },
         {
           "name": "NeurIPS official accepted programme",
@@ -47872,7 +47899,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2605.07351",
-          "verified_at": "2026-11-19T12:56:33+08:00"
+          "verified_at": "2026-11-19T22:53:24+08:00"
         }
       ],
       "review_status": "included",
@@ -62364,7 +62391,7 @@
       "source_url": "https://doi.org/10.1609/aaai.v40i4.37213",
       "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/37213/41175",
       "evidence_url": "https://api.crossref.org/works/10.1609%2Faaai.v40i4.37213",
-      "verified_at": "2026-11-16T22:14:44+08:00",
+      "verified_at": "2026-11-19T22:54:06+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -62374,7 +62401,7 @@
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1609/aaai.v40i4.37213",
-          "verified_at": "2026-11-16T22:14:44+08:00"
+          "verified_at": "2026-11-19T22:54:06+08:00"
         },
         {
           "name": "arXiv",
@@ -66330,7 +66357,7 @@
       "source_url": "https://doi.org/10.1609/aaai.v40i15.38238",
       "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/38238/42200",
       "evidence_url": "https://api.crossref.org/works/10.1609%2Faaai.v40i15.38238",
-      "verified_at": "2026-11-17T23:08:07+08:00",
+      "verified_at": "2026-11-19T22:54:05+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -66340,7 +66367,7 @@
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1609/aaai.v40i15.38238",
-          "verified_at": "2026-11-17T23:08:07+08:00"
+          "verified_at": "2026-11-19T22:54:05+08:00"
         },
         {
           "name": "arXiv",
@@ -66526,12 +66553,12 @@
       "source_url": "https://doi.org/10.1609/aaai.v40i48.42356",
       "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/42356/46317",
       "evidence_url": "https://api.crossref.org/works/10.1609%2Faaai.v40i48.42356",
-      "verified_at": "2026-11-16T22:14:44+08:00",
+      "verified_at": "2026-11-19T22:54:06+08:00",
       "source_records": [
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1609/aaai.v40i48.42356",
-          "verified_at": "2026-11-16T22:14:44+08:00"
+          "verified_at": "2026-11-19T22:54:06+08:00"
         }
       ],
       "review_status": "source-confirmed",
@@ -67636,7 +67663,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2603.12791",
-          "verified_at": "2026-11-19T12:55:56+08:00"
+          "verified_at": "2026-11-19T22:52:52+08:00"
         },
         {
           "name": "arXiv",
@@ -68017,7 +68044,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2603.08860",
-          "verified_at": "2026-11-19T12:55:52+08:00"
+          "verified_at": "2026-11-19T22:52:48+08:00"
         },
         {
           "name": "arXiv",
@@ -78195,7 +78222,7 @@
       "source_url": "https://doi.org/10.1007/978-3-032-37252-9_25",
       "pdf_url": "https://arxiv.org/pdf/2509.13907",
       "evidence_url": "https://api.crossref.org/works/10.1007%2F978-3-032-37252-9_25",
-      "verified_at": "2026-11-17T23:08:01+08:00",
+      "verified_at": "2026-11-19T22:54:04+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -78205,7 +78232,7 @@
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1007/978-3-032-37252-9_25",
-          "verified_at": "2026-11-17T23:08:01+08:00"
+          "verified_at": "2026-11-19T22:54:04+08:00"
         },
         {
           "name": "arXiv",
@@ -78956,12 +78983,12 @@
       "source_url": "https://doi.org/10.1007/978-3-032-36969-7_28",
       "pdf_url": "https://arxiv.org/pdf/2608.20740",
       "evidence_url": "https://api.crossref.org/works/10.1007%2F978-3-032-36969-7_28",
-      "verified_at": "2026-11-17T23:08:01+08:00",
+      "verified_at": "2026-11-19T22:54:04+08:00",
       "source_records": [
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1007/978-3-032-36969-7_28",
-          "verified_at": "2026-11-17T23:08:01+08:00"
+          "verified_at": "2026-11-19T22:54:04+08:00"
         },
         {
           "name": "DataCite arXiv DOI registry",
@@ -79050,12 +79077,12 @@
       "source_url": "https://doi.org/10.1007/978-3-032-37032-7_31",
       "pdf_url": "https://arxiv.org/pdf/2607.27194",
       "evidence_url": "https://api.crossref.org/works/10.1007%2F978-3-032-37032-7_31",
-      "verified_at": "2026-11-17T23:08:07+08:00",
+      "verified_at": "2026-11-19T22:54:05+08:00",
       "source_records": [
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1007/978-3-032-37032-7_31",
-          "verified_at": "2026-11-17T23:08:07+08:00"
+          "verified_at": "2026-11-19T22:54:05+08:00"
         },
         {
           "name": "DataCite arXiv DOI registry",
@@ -79277,7 +79304,7 @@
       "source_url": "https://doi.org/10.1007/978-3-032-37261-1_19",
       "pdf_url": "https://arxiv.org/pdf/2512.02293",
       "evidence_url": "https://api.crossref.org/works/10.1007%2F978-3-032-37261-1_19",
-      "verified_at": "2026-11-17T23:08:01+08:00",
+      "verified_at": "2026-11-19T22:54:04+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -79287,7 +79314,7 @@
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1007/978-3-032-37261-1_19",
-          "verified_at": "2026-11-17T23:08:01+08:00"
+          "verified_at": "2026-11-19T22:54:04+08:00"
         },
         {
           "name": "arXiv",
@@ -80927,12 +80954,12 @@
       "source_url": "https://doi.org/10.1007/978-3-032-37152-2_4",
       "pdf_url": "https://arxiv.org/pdf/2607.15491",
       "evidence_url": "https://api.crossref.org/works/10.1007%2F978-3-032-37152-2_4",
-      "verified_at": "2026-11-17T23:08:03+08:00",
+      "verified_at": "2026-11-19T22:54:05+08:00",
       "source_records": [
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1007/978-3-032-37152-2_4",
-          "verified_at": "2026-11-17T23:08:03+08:00"
+          "verified_at": "2026-11-19T22:54:05+08:00"
         },
         {
           "name": "DataCite arXiv DOI registry",
@@ -84183,12 +84210,12 @@
       "source_url": "https://doi.org/10.1007/978-3-032-37138-6_1",
       "pdf_url": "https://arxiv.org/pdf/2609.04201",
       "evidence_url": "https://api.crossref.org/works/10.1007%2F978-3-032-37138-6_1",
-      "verified_at": "2026-11-17T23:08:03+08:00",
+      "verified_at": "2026-11-19T22:54:05+08:00",
       "source_records": [
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1007/978-3-032-37138-6_1",
-          "verified_at": "2026-11-17T23:08:03+08:00"
+          "verified_at": "2026-11-19T22:54:05+08:00"
         },
         {
           "name": "DataCite arXiv DOI registry",
@@ -85015,12 +85042,12 @@
       "doi": "10.1007/978-3-032-37196-6_16",
       "source_url": "https://doi.org/10.1007/978-3-032-37196-6_16",
       "evidence_url": "https://api.crossref.org/works/10.1007%2F978-3-032-37196-6_16",
-      "verified_at": "2026-11-17T23:08:01+08:00",
+      "verified_at": "2026-11-19T22:54:04+08:00",
       "source_records": [
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1007/978-3-032-37196-6_16",
-          "verified_at": "2026-11-17T23:08:01+08:00"
+          "verified_at": "2026-11-19T22:54:04+08:00"
         }
       ],
       "review_status": "source-confirmed",
@@ -86256,7 +86283,7 @@
       "source_url": "https://doi.org/10.1007/978-3-032-37490-5_35",
       "pdf_url": "https://arxiv.org/pdf/2512.17897",
       "evidence_url": "https://api.crossref.org/works/10.1007%2F978-3-032-37490-5_35",
-      "verified_at": "2026-11-17T23:08:03+08:00",
+      "verified_at": "2026-11-19T22:54:05+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -86266,7 +86293,7 @@
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1007/978-3-032-37490-5_35",
-          "verified_at": "2026-11-17T23:08:03+08:00"
+          "verified_at": "2026-11-19T22:54:05+08:00"
         },
         {
           "name": "arXiv",
@@ -86667,11 +86694,12 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2610.11531",
-          "verified_at": "2026-11-18T13:00:32+08:00"
+          "verified_at": "2026-11-19T22:52:55+08:00"
         }
       ],
       "review_status": "source-confirmed",
       "publication_date_basis": "source-metadata",
+      "publication_date_note": "",
       "registry_created_at": "2026-10-09T02:49:44Z",
       "registry_updated_at": "2026-10-09T02:49:45Z",
       "registry_registered_at": "2026-10-09T02:49:45Z",
@@ -86722,8 +86750,7 @@
       },
       "summary_generated_at": "2026-10-22T08:06:20+08:00",
       "summary_model": "hy3",
-      "catalogue_year": 2026,
-      "publication_date_note": ""
+      "catalogue_year": 2026
     },
     {
       "title": "Quartet of Diffusions: Structure-Aware Point Cloud Generation through Part and Symmetry Guidance",
@@ -87746,7 +87773,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2610.11342",
-          "verified_at": "2026-11-18T13:00:32+08:00"
+          "verified_at": "2026-11-19T22:52:55+08:00"
         },
         {
           "name": "ICLR official proceedings",
@@ -87766,11 +87793,12 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.11342",
-          "verified_at": "2026-11-11T21:09:48+08:00"
+          "verified_at": "2026-11-19T22:53:37+08:00"
         }
       ],
       "review_status": "source-confirmed",
       "publication_date_basis": "Official conference edition; exact publication date not present in bulk metadata",
+      "publication_date_note": "",
       "registry_created_at": "2026-10-09T02:45:37Z",
       "registry_updated_at": "2026-10-09T02:45:38Z",
       "registry_registered_at": "2026-10-09T02:45:38Z",
@@ -87809,7 +87837,17 @@
       "summary_model": "hy3",
       "catalogue_year": 2026,
       "abstract_source_url": "https://iclr.cc/static/virtual/data/iclr-2026-abstracts.json",
-      "publication_date_note": ""
+      "accepted_venue": "ICLR",
+      "accepted_year": null,
+      "acceptance_basis": "author_claim",
+      "acceptance_evidence": [
+        {
+          "url": "https://arxiv.org/abs/2610.11342",
+          "kind": "arxiv-author-comment",
+          "quote": "Accepted by ICLR'26"
+        }
+      ],
+      "acceptance_note": "作者在 arXiv 元数据中声明录用于 ICLR（录用年份未注明）；尚未独立核验官方录用记录，不视为正式出版。"
     },
     {
       "title": "Point Ladder Tuning: Parameter-Efficient Hierarchical Adaptation for 3D Point Cloud Understanding",
@@ -92523,12 +92561,12 @@
       "source_url": "https://doi.org/10.1007/978-3-032-37035-8_2",
       "pdf_url": "https://arxiv.org/pdf/2607.28855",
       "evidence_url": "https://api.crossref.org/works/10.1007%2F978-3-032-37035-8_2",
-      "verified_at": "2026-11-17T23:08:01+08:00",
+      "verified_at": "2026-11-19T22:54:04+08:00",
       "source_records": [
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1007/978-3-032-37035-8_2",
-          "verified_at": "2026-11-17T23:08:01+08:00"
+          "verified_at": "2026-11-19T22:54:04+08:00"
         },
         {
           "name": "arXiv",
@@ -97279,7 +97317,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2608.00635",
-          "verified_at": "2026-11-19T12:56:39+08:00"
+          "verified_at": "2026-11-19T22:53:30+08:00"
         },
         {
           "name": "Crossref",
@@ -100796,12 +100834,12 @@
       "source_url": "https://doi.org/10.1007/978-3-032-37432-5_33",
       "pdf_url": "https://arxiv.org/pdf/2604.02497",
       "evidence_url": "https://api.crossref.org/works/10.1007%2F978-3-032-37432-5_33",
-      "verified_at": "2026-11-17T23:08:03+08:00",
+      "verified_at": "2026-11-19T22:54:04+08:00",
       "source_records": [
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1007/978-3-032-37432-5_33",
-          "verified_at": "2026-11-17T23:08:03+08:00"
+          "verified_at": "2026-11-19T22:54:04+08:00"
         },
         {
           "name": "DataCite arXiv DOI registry",
@@ -101528,12 +101566,12 @@
       "doi": "10.1007/978-3-032-37041-9_9",
       "source_url": "https://doi.org/10.1007/978-3-032-37041-9_9",
       "evidence_url": "https://api.crossref.org/works/10.1007%2F978-3-032-37041-9_9",
-      "verified_at": "2026-11-17T23:08:01+08:00",
+      "verified_at": "2026-11-19T22:54:04+08:00",
       "source_records": [
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1007/978-3-032-37041-9_9",
-          "verified_at": "2026-11-17T23:08:01+08:00"
+          "verified_at": "2026-11-19T22:54:04+08:00"
         }
       ],
       "review_status": "source-confirmed",
@@ -102459,12 +102497,12 @@
       "doi": "10.1007/978-3-032-37041-9_28",
       "source_url": "https://doi.org/10.1007/978-3-032-37041-9_28",
       "evidence_url": "https://api.crossref.org/works/10.1007%2F978-3-032-37041-9_28",
-      "verified_at": "2026-11-17T23:08:01+08:00",
+      "verified_at": "2026-11-19T22:54:04+08:00",
       "source_records": [
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1007/978-3-032-37041-9_28",
-          "verified_at": "2026-11-17T23:08:01+08:00"
+          "verified_at": "2026-11-19T22:54:04+08:00"
         }
       ],
       "review_status": "source-confirmed",
@@ -105942,7 +105980,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2512.17129",
-          "verified_at": "2026-11-19T12:56:39+08:00"
+          "verified_at": "2026-11-19T22:53:30+08:00"
         }
       ],
       "review_status": "acceptance-confirmed",
@@ -106758,12 +106796,12 @@
       "doi": "10.1109/tpami.2025.3598630",
       "source_url": "https://doi.org/10.1109/tpami.2025.3598630",
       "evidence_url": "https://api.crossref.org/works/10.1109%2Ftpami.2025.3598630",
-      "verified_at": "2026-11-16T22:14:44+08:00",
+      "verified_at": "2026-11-19T22:54:06+08:00",
       "source_records": [
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1109/tpami.2025.3598630",
-          "verified_at": "2026-11-16T22:14:44+08:00"
+          "verified_at": "2026-11-19T22:54:06+08:00"
         }
       ],
       "review_status": "source-confirmed",
@@ -110563,7 +110601,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2504.17410",
-          "verified_at": "2026-11-19T12:56:39+08:00"
+          "verified_at": "2026-11-19T22:53:30+08:00"
         }
       ],
       "review_status": "source-confirmed",
@@ -115077,7 +115115,7 @@
       "source_url": "https://doi.org/10.1109/iros60139.2025.11246613",
       "pdf_url": "https://arxiv.org/pdf/2503.12660",
       "evidence_url": "https://api.crossref.org/works/10.1109%2Firos60139.2025.11246613",
-      "verified_at": "2026-11-16T22:14:44+08:00",
+      "verified_at": "2026-11-19T22:54:06+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -115087,7 +115125,7 @@
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1109/iros60139.2025.11246613",
-          "verified_at": "2026-11-16T22:14:44+08:00"
+          "verified_at": "2026-11-19T22:54:06+08:00"
         },
         {
           "name": "arXiv",
@@ -122271,13 +122309,13 @@
       ],
       "published": "2025-10",
       "venue": "ICCV",
-      "venue_full": "2025 IEEE/CVF International Conference on Computer Vision (ICCV)",
       "publication_status": "published",
       "categories": [
         "visual-localization"
       ],
-      "doi": "10.1109/iccv51701.2025.02378",
+      "abstract": "This work presents a novel framework for Visual Localization (VL), that is, regressing camera rays from query images to derive camera poses. As an overparameterized representation of the camera pose, camera rays possess superior robustness in optimization.Of particular importance, Camera Ray Regression (CRR) is privacy-preserving, rendering it a viable VL approach for real-world applications. Thus, we introduce DINO-based Multi-Mappers, coined DIMM, to achieve VL by CRR.DIMM utilizes DINO as a scene-agnostic encoder to obtain powerful features from images. To mitigate ambiguity, the features integrate both local and global perception, as well as potential geometric constraint. Then, a scene-specific mapper head regresses camera rays from these features. It incorporates a semantic attention module for soft fusion of multiple mappers, utilizing the rich semantic information in DINO features. In extensive experiments on both indoor and outdoor datasets, our methods showcase impressive performance, revealing a promising direction for advancements in VL.",
       "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_Semantic-guided_Camera_Ray_Regression_for_Visual_Localization_ICCV_2025_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_Semantic-guided_Camera_Ray_Regression_for_Visual_Localization_ICCV_2025_paper.pdf",
       "evidence_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_Semantic-guided_Camera_Ray_Regression_for_Visual_Localization_ICCV_2025_paper.html",
       "verified_at": "2026-10-21",
       "source_records": [
@@ -122285,18 +122323,23 @@
           "name": "Crossref",
           "url": "https://doi.org/10.1109/iccv51701.2025.02378",
           "verified_at": "2026-11-06T21:26:55+08:00"
+        },
+        {
+          "name": "CVF Open Access",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_Semantic-guided_Camera_Ray_Regression_for_Visual_Localization_ICCV_2025_paper.html",
+          "verified_at": "2026-11-19T22:54:19+08:00"
         }
       ],
       "review_status": "included",
       "id": "iccv-2025-semantic-guided-camera-ray-regression-for-visual-localization",
       "year": 2025,
       "summary_status": "reviewed",
-      "abstract": "This work presents a novel framework for Visual Localization (VL), that is, regressing camera rays from query images to derive camera poses. As an overparameterized representation of the camera pose, camera rays possess superior robustness in optimization.Of particular importance, Camera Ray Regression (CRR) is privacy-preserving, rendering it a viable VL approach for real-world applications. Thus, we introduce DINO-based Multi-Mappers, coined DIMM, to achieve VL by CRR.DIMM utilizes DINO as a scene-agnostic encoder to obtain powerful features from images. To mitigate ambiguity, the features integrate both local and global perception, as well as potential geometric constraint. Then, a scene-specific mapper head regresses camera rays from these features. It incorporates a semantic attention module for soft fusion of multiple mappers, utilizing the rich semantic information in DINO features. In extensive experiments on both indoor and outdoor datasets, our methods showcase impressive performance, revealing a promising direction for advancements in VL.",
-      "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_Semantic-guided_Camera_Ray_Regression_for_Visual_Localization_ICCV_2025_paper.pdf",
+      "venue_full": "2025 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "doi": "10.1109/iccv51701.2025.02378",
       "summary_zh": "论文将相机位姿估计转化为相机射线回归，以过参数化表示提高优化鲁棒性，并探索隐私保护定位。DIMM 使用 DINO 提取场景无关的局部与全局特征，结合几何线索缓解歧义，再由场景专属映射头预测射线。语义注意力软融合多个映射器，在室内外基准评估最终相机定位效果。",
       "curated": true,
       "publication_date_basis": "source-metadata",
-      "earliest_known_date": "2025-10",
+      "earliest_known_date": "2025",
       "catalogue_year": 2025,
       "publication_date_note": ""
     },
@@ -123826,13 +123869,14 @@
       ],
       "published": "2025-10",
       "venue": "ICCV",
-      "venue_full": "2025 IEEE/CVF International Conference on Computer Vision (ICCV)",
       "publication_status": "published",
       "categories": [
         "point-processing"
       ],
-      "doi": "10.1109/iccv51701.2025.02564",
+      "abstract": "Recently, multi-modal masked autoencoders (MAE) has been introduced in 3D self-supervised learning, offering enhanced feature learning by leveraging both 2D and 3D data to capture richer cross-modal representations. However, these approaches have two limitations: (1) they inefficiently require both 2D and 3D modalities as inputs, even though the inherent multi-view properties of 3D point clouds already contain 2D modality. (2) input 2D modality causes the reconstruction learning to unnecessarily rely on visible 2D information, hindering 3D geometric representation learning. To address these challenges, we propose a 3D to Multi-View Learner (Multi-View ML) that only utilizes 3D modalities as inputs and effectively capture rich spatial information in 3D point clouds. Specifically, we first project 3D point clouds to multi-view 2D images at the feature level based on 3D-based pose. Then, we introduce two components: (1) a 3D to multi-view autoencoder that reconstructs point clouds and multi-view images from 3D and projected 2D features; (2) a multi-scale multi-head (MSMH) attention mechanism that facilitates local-global information interactions in each decoder transformer block through attention heads at various scales. Additionally, a novel two-stage self-training strategy is proposed to align 2D and 3D representations. Our method outperforms state-of-the-art counterparts across various downstream tasks, including 3D classification, part segmentation, and object detection.",
       "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Chen_Point_Cloud_Self-supervised_Learning_via_3D_to_Multi-view_Masked_Learner_ICCV_2025_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_Point_Cloud_Self-supervised_Learning_via_3D_to_Multi-view_Masked_Learner_ICCV_2025_paper.pdf",
+      "arxiv_id": "2311.10887",
       "evidence_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Chen_Point_Cloud_Self-supervised_Learning_via_3D_to_Multi-view_Masked_Learner_ICCV_2025_paper.html",
       "verified_at": "2026-10-21",
       "source_records": [
@@ -123859,15 +123903,19 @@
           "name": "Crossref",
           "url": "https://doi.org/10.1109/iccv51701.2025.02564",
           "verified_at": "2026-11-06T21:26:59+08:00"
+        },
+        {
+          "name": "CVF Open Access",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Chen_Point_Cloud_Self-supervised_Learning_via_3D_to_Multi-view_Masked_Learner_ICCV_2025_paper.html",
+          "verified_at": "2026-11-19T22:54:15+08:00"
         }
       ],
       "review_status": "included",
       "id": "iccv-2025-point-cloud-self-supervised-learning-via-3d-to-multi-view-masked-learner",
       "year": 2025,
       "summary_status": "reviewed",
-      "abstract": "Recently, multi-modal masked autoencoders (MAE) has been introduced in 3D self-supervised learning, offering enhanced feature learning by leveraging both 2D and 3D data to capture richer cross-modal representations. However, these approaches have two limitations: (1) they inefficiently require both 2D and 3D modalities as inputs, even though the inherent multi-view properties of 3D point clouds already contain 2D modality. (2) input 2D modality causes the reconstruction learning to unnecessarily rely on visible 2D information, hindering 3D geometric representation learning. To address these challenges, we propose a 3D to Multi-View Learner (Multi-View ML) that only utilizes 3D modalities as inputs and effectively capture rich spatial information in 3D point clouds. Specifically, we first project 3D point clouds to multi-view 2D images at the feature level based on 3D-based pose. Then, we introduce two components: (1) a 3D to multi-view autoencoder that reconstructs point clouds and multi-view images from 3D and projected 2D features; (2) a multi-scale multi-head (MSMH) attention mechanism that facilitates local-global information interactions in each decoder transformer block through attention heads at various scales. Additionally, a novel two-stage self-training strategy is proposed to align 2D and 3D representations. Our method outperforms state-of-the-art counterparts across various downstream tasks, including 3D classification, part segmentation, and object detection.",
-      "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_Point_Cloud_Self-supervised_Learning_via_3D_to_Multi-view_Masked_Learner_ICCV_2025_paper.pdf",
-      "arxiv_id": "2311.10887",
+      "venue_full": "2025 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "doi": "10.1109/iccv51701.2025.02564",
       "summary_zh": "多模态点云预训练同时输入图像和三维数据，既增加成本，也可能让模型过度依赖可见图像而忽略几何。论文只输入点云，在特征层投影生成多个二维视角，利用自编码器联合重建点云与多视图表示，并以多尺度多头注意力交换局部和全局信息。两阶段自训练进一步对齐二维与三维特征，在分类、部件分割及目标检测任务中验证学习到的空间表示。",
       "curated": true,
       "summary_source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Chen_Point_Cloud_Self-supervised_Learning_via_3D_to_Multi-view_Masked_Learner_ICCV_2025_paper.html",
@@ -123878,7 +123926,7 @@
         "verified_at": "2026-10-21"
       },
       "publication_date_basis": "source-metadata",
-      "earliest_known_date": "2025-10",
+      "earliest_known_date": "2025",
       "catalogue_year": 2025,
       "publication_date_note": ""
     },
@@ -129490,13 +129538,14 @@
       ],
       "published": "2025-10",
       "venue": "ICCV",
-      "venue_full": "2025 IEEE/CVF International Conference on Computer Vision (ICCV)",
       "publication_status": "published",
       "categories": [
         "point-processing"
       ],
-      "doi": "10.48550/arxiv.2507.05211",
+      "abstract": "Unified segmentation of 3D point clouds is crucial for scene understanding, but is hindered by its sparse structure, limited annotations, and the challenge of distinguishing fine-grained object classes in complex environments. Existing methods often struggle to capture rich semantic and contextual information due to limited supervision and a lack of diverse multimodal cues, leading to suboptimal differentiation of classes and instances. To address these challenges, we propose VDG-Uni3DSeg, a novel framework that integrates pre-trained vision-language models (e.g., CLIP) and large language models (LLMs) to enhance 3D segmentation. By leveraging LLM-generated textual descriptions and reference images from the internet, our method incorporates rich multimodal cues, facilitating fine-grained class and instance separation. We further design a Semantic-Visual Contrastive Loss to align point features with multimodal queries and a Spatial Enhanced Module to model scene-wide relationships efficiently. Operating within a closed-set paradigm that utilizes multimodal knowledge generated offline, VDG-Uni3DSeg achieves state-of-the-art results in semantic, instance, and panoptic segmentation, offering a scalable and practical solution for 3D understanding.Our code is available at https://github.com/Hanzy1996/VDG-Uni3DSeg.",
       "source_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Han_All_in_One_Visual-Description-Guided_Unified_Point_Cloud_Segmentation_ICCV_2025_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Han_All_in_One_Visual-Description-Guided_Unified_Point_Cloud_Segmentation_ICCV_2025_paper.pdf",
+      "arxiv_id": "2507.05211",
       "evidence_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Han_All_in_One_Visual-Description-Guided_Unified_Point_Cloud_Segmentation_ICCV_2025_paper.html",
       "verified_at": "2026-10-21",
       "source_records": [
@@ -129531,15 +129580,19 @@
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2507.05211",
           "verified_at": "2026-11-04T21:27:16+08:00"
+        },
+        {
+          "name": "CVF Open Access",
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Han_All_in_One_Visual-Description-Guided_Unified_Point_Cloud_Segmentation_ICCV_2025_paper.html",
+          "verified_at": "2026-11-19T22:54:12+08:00"
         }
       ],
       "review_status": "included",
       "id": "iccv-2025-all-in-one-visual-description-guided-unified-point-cloud-segmentation",
       "year": 2025,
       "summary_status": "reviewed",
-      "abstract": "Unified segmentation of 3D point clouds is crucial for scene understanding, but is hindered by its sparse structure, limited annotations, and the challenge of distinguishing fine-grained object classes in complex environments. Existing methods often struggle to capture rich semantic and contextual information due to limited supervision and a lack of diverse multimodal cues, leading to suboptimal differentiation of classes and instances. To address these challenges, we propose VDG-Uni3DSeg, a novel framework that integrates pre-trained vision-language models (e.g., CLIP) and large language models (LLMs) to enhance 3D segmentation. By leveraging LLM-generated textual descriptions and reference images from the internet, our method incorporates rich multimodal cues, facilitating fine-grained class and instance separation. We further design a Semantic-Visual Contrastive Loss to align point features with multimodal queries and a Spatial Enhanced Module to model scene-wide relationships efficiently. Operating within a closed-set paradigm that utilizes multimodal knowledge generated offline, VDG-Uni3DSeg achieves state-of-the-art results in semantic, instance, and panoptic segmentation, offering a scalable and practical solution for 3D understanding.Our code is available at https://github.com/Hanzy1996/VDG-Uni3DSeg.",
-      "arxiv_id": "2507.05211",
-      "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Han_All_in_One_Visual-Description-Guided_Unified_Point_Cloud_Segmentation_ICCV_2025_paper.pdf",
+      "venue_full": "2025 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "doi": "10.48550/arxiv.2507.05211",
       "author_comment": "Accepted by ICCV2025",
       "arxiv_updated_at": "2025-07-25T14:03:22Z",
       "publication_date_basis": "source-metadata",
@@ -129594,7 +129647,7 @@
         "identity_basis": "official-proceedings-exact-title-authors",
         "verified_at": "2026-10-21"
       },
-      "earliest_known_date": "2025-07",
+      "earliest_known_date": "2025",
       "catalogue_year": 2025,
       "publication_date_note": ""
     },
@@ -138420,17 +138473,17 @@
       "source_url": "https://arxiv.org/abs/2506.02849",
       "pdf_url": "https://arxiv.org/pdf/2506.02849",
       "evidence_url": "https://arxiv.org/abs/2506.02849",
-      "verified_at": "2026-11-19T12:56:33+08:00",
+      "verified_at": "2026-11-19T22:53:24+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2506.02849",
-          "verified_at": "2026-11-19T12:55:52+08:00"
+          "verified_at": "2026-11-19T22:52:48+08:00"
         },
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2506.02849",
-          "verified_at": "2026-11-19T12:56:33+08:00"
+          "verified_at": "2026-11-19T22:53:24+08:00"
         }
       ],
       "review_status": "acceptance-claimed",
@@ -139443,7 +139496,7 @@
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1109/cvpr52734.2025.00105",
-          "verified_at": "2026-11-16T22:14:44+08:00"
+          "verified_at": "2026-11-19T22:54:06+08:00"
         }
       ],
       "review_status": "included",
@@ -140201,13 +140254,13 @@
       ],
       "published": "2025-06",
       "venue": "CVPR",
-      "venue_full": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "publication_status": "published",
       "categories": [
         "point-processing"
       ],
-      "doi": "10.1109/cvpr52734.2025.02538",
+      "abstract": "Extracting geometric edges from unstructured point clouds remains a significant challenge, particularly in thin-walled structures that are commonly found in everyday objects. Traditional geometric methods and recent learning-based approaches frequently struggle with these structures, as both rely heavily on sufficient contextual information from local point neighborhoods. However, 3D measurement data of thin-walled structures often lack the accurate, dense, and regular neighborhood sampling required for reliable edge extraction, resulting in degraded performance. In this work, we introduce STAR-Edge, a novel approach designed for detecting and refining edge points in thin-walled structures. Our method leverages a unique representation, the local spherical curve, to create structure-aware neighborhoods that emphasize co-planar points while reducing interference from close-by, non-co-planar surfaces. This representation is transformed into a rotation-invariant descriptor, which, combined with a lightweight multi-layer perceptron, enables robust edge point classification even in the presence of noise and sparse or irregular sampling. Besides, we also use the local spherical curve representation to estimate more precise normals and introduce an optimization function to project initially identified edge points exactly on the true edges. Experiments conducted on the ABC dataset and thin-walled structure-specific datasets demonstrate that STAR-Edge outperforms existing edge detection methods, showcasing better robustness under various challenging conditions. The source code is available at https://github.com/Miraclelzk/STAR-Edge.",
       "source_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_STAR-Edge_Structure-aware_Local_Spherical_Curve_Representation_for_Thin-walled_Edge_Extraction_CVPR_2025_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_STAR-Edge_Structure-aware_Local_Spherical_Curve_Representation_for_Thin-walled_Edge_Extraction_CVPR_2025_paper.pdf",
       "evidence_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_STAR-Edge_Structure-aware_Local_Spherical_Curve_Representation_for_Thin-walled_Edge_Extraction_CVPR_2025_paper.html",
       "verified_at": "2026-10-21",
       "source_records": [
@@ -140238,15 +140291,20 @@
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2503.00801",
           "verified_at": "2026-11-02T10:38:30+08:00"
+        },
+        {
+          "name": "CVF Open Access",
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_STAR-Edge_Structure-aware_Local_Spherical_Curve_Representation_for_Thin-walled_Edge_Extraction_CVPR_2025_paper.html",
+          "verified_at": "2026-11-19T22:54:11+08:00"
         }
       ],
       "review_status": "included",
       "id": "cvpr-2025-star-edge-structure-aware-local-spherical-curve-representation-for-thin-walled-edge-extraction-from-unstructured-point-clouds",
       "year": 2025,
       "summary_status": "reviewed",
-      "abstract": "Extracting geometric edges from unstructured point clouds remains a significant challenge, particularly in thin-walled structures that are commonly found in everyday objects. Traditional geometric methods and recent learning-based approaches frequently struggle with these structures, as both rely heavily on sufficient contextual information from local point neighborhoods. However, 3D measurement data of thin-walled structures often lack the accurate, dense, and regular neighborhood sampling required for reliable edge extraction, resulting in degraded performance. In this work, we introduce STAR-Edge, a novel approach designed for detecting and refining edge points in thin-walled structures. Our method leverages a unique representation, the local spherical curve, to create structure-aware neighborhoods that emphasize co-planar points while reducing interference from close-by, non-co-planar surfaces. This representation is transformed into a rotation-invariant descriptor, which, combined with a lightweight multi-layer perceptron, enables robust edge point classification even in the presence of noise and sparse or irregular sampling. Besides, we also use the local spherical curve representation to estimate more precise normals and introduce an optimization function to project initially identified edge points exactly on the true edges. Experiments conducted on the ABC dataset and thin-walled structure-specific datasets demonstrate that STAR-Edge outperforms existing edge detection methods, showcasing better robustness under various challenging conditions. The source code is available at https://github.com/Miraclelzk/STAR-Edge.",
+      "venue_full": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "doi": "10.1109/cvpr52734.2025.02538",
       "arxiv_id": "2503.00801",
-      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_STAR-Edge_Structure-aware_Local_Spherical_Curve_Representation_for_Thin-walled_Edge_Extraction_CVPR_2025_paper.pdf",
       "author_comment": "Accepted at CVPR 2025",
       "arxiv_updated_at": "2025-03-02T08:51:13Z",
       "publication_date_basis": "source-metadata",
@@ -140255,7 +140313,7 @@
       "metadata_provenance": "CVF官方主会目录和论文页交叉核验标题、作者、摘要及BibTeX发表年月",
       "summary_evidence_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_STAR-Edge_Structure-aware_Local_Spherical_Curve_Representation_for_Thin-walled_Edge_Extraction_CVPR_2025_paper.html",
       "curated": true,
-      "earliest_known_date": "2025-03-02",
+      "earliest_known_date": "2025",
       "catalogue_year": 2025,
       "publication_date_note": ""
     },
@@ -144020,7 +144078,6 @@
       ],
       "published": "2025-06",
       "venue": "CVPR",
-      "venue_full": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "publication_status": "published",
       "categories": [
         "point-localization",
@@ -144028,8 +144085,9 @@
         "registration",
         "visual-localization"
       ],
-      "doi": "10.1109/cvpr52734.2025.01577",
+      "abstract": "Image-to-point cloud registration aims to estimate the camera pose of a given image within a 3D scene point cloud. In this area, matching-based methods have achieved leading performance by first detecting the overlapping region, then matching point and pixel features learned by neural networks and finally using the PnP-RANSAC algorithm to estimate camera pose. However, achieving accurate image-to-point cloud registration remains challenging because the overlapping region detection is unreliable merely relying on point-wise classification, direct alignment of cross-modal data is difficult and indirect optimization objective leads to unstable registration results. To address these challenges, we propose a novel implicit correspondence learning method, including a Geometric Prior-guided overlapping region Detection Module (GPDM), an Implicit Correspondence Learning Module (ICLM), and a Pose Regression Module (PRM). The proposed method enjoys several merits. First, the proposed GPDM can precisely detect the overlapping region. Second, the ICLM can generate robust cross-modality correspondences. Third, the PRM can enable end-to-end optimization. Extensive experimental results on KITTI and nuScenes datasets demonstrate that the proposed model sets a new state-of-the-art performance in registration accuracy.",
       "source_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_Implicit_Correspondence_Learning_for_Image-to-Point_Cloud_Registration_CVPR_2025_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_Implicit_Correspondence_Learning_for_Image-to-Point_Cloud_Registration_CVPR_2025_paper.pdf",
       "evidence_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_Implicit_Correspondence_Learning_for_Image-to-Point_Cloud_Registration_CVPR_2025_paper.html",
       "verified_at": "2026-10-21",
       "source_records": [
@@ -144037,18 +144095,23 @@
           "name": "Crossref",
           "url": "https://doi.org/10.1109/cvpr52734.2025.01577",
           "verified_at": "2026-11-05T12:06:50+08:00"
+        },
+        {
+          "name": "CVF Open Access",
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_Implicit_Correspondence_Learning_for_Image-to-Point_Cloud_Registration_CVPR_2025_paper.html",
+          "verified_at": "2026-11-19T22:54:21+08:00"
         }
       ],
       "review_status": "included",
       "id": "cvpr-2025-implicit-correspondence-learning-for-image-to-point-cloud-registration",
       "year": 2025,
       "summary_status": "reviewed",
-      "abstract": "Image-to-point cloud registration aims to estimate the camera pose of a given image within a 3D scene point cloud. In this area, matching-based methods have achieved leading performance by first detecting the overlapping region, then matching point and pixel features learned by neural networks and finally using the PnP-RANSAC algorithm to estimate camera pose. However, achieving accurate image-to-point cloud registration remains challenging because the overlapping region detection is unreliable merely relying on point-wise classification, direct alignment of cross-modal data is difficult and indirect optimization objective leads to unstable registration results. To address these challenges, we propose a novel implicit correspondence learning method, including a Geometric Prior-guided overlapping region Detection Module (GPDM), an Implicit Correspondence Learning Module (ICLM), and a Pose Regression Module (PRM). The proposed method enjoys several merits. First, the proposed GPDM can precisely detect the overlapping region. Second, the ICLM can generate robust cross-modality correspondences. Third, the PRM can enable end-to-end optimization. Extensive experimental results on KITTI and nuScenes datasets demonstrate that the proposed model sets a new state-of-the-art performance in registration accuracy.",
-      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_Implicit_Correspondence_Learning_for_Image-to-Point_Cloud_Registration_CVPR_2025_paper.pdf",
+      "venue_full": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "doi": "10.1109/cvpr52734.2025.01577",
       "summary_zh": "图像到点云配准中的重叠区域检测不稳、模态差异大，以及间接优化目标，都会影响最终位姿。论文提出几何先验引导的重叠检测、隐式对应学习和位姿回归三个模块，先筛选可匹配区域，再学习稳健跨模态对应，并实现端到端位姿优化。方法在 KITTI 和 nuScenes 上评估配准精度与稳定性。",
       "curated": true,
       "publication_date_basis": "source-metadata",
-      "earliest_known_date": "2025-06",
+      "earliest_known_date": "2025",
       "catalogue_year": 2025,
       "publication_date_note": ""
     },
@@ -146295,14 +146358,16 @@
       ],
       "published": "2025-06",
       "venue": "CVPR",
-      "venue_full": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "publication_status": "published",
       "categories": [
         "point-localization",
-        "registration"
+        "point-processing",
+        "registration",
+        "visual-localization"
       ],
-      "doi": "10.1109/cvpr52734.2025.01589",
+      "abstract": "LiDAR odometry is a critical module in autonomous driving systems, responsible for accurate localization by estimating the relative pose transformation between consecutive point cloud frames. However, existing studies frequently encounter challenges with unreliable pose estimation, due to the lack of in-depth understanding of scenario and the presence of noise interference. To address this challenge, we propose DiffLO, a semantic-aware LiDAR odometry network with diffusion-based refinement. To mitigate the impact of challenging cases such as dynamic, repetitive patterns, and low textures, we introduce a semantic distillation method that integrates semantic information into the odometry task. This allows the network to gain a semantic understanding of the scene, enabling it to focus more on the objects that are beneficial for pose estimation. Additionally, to enhance the robustness, we propose a diffusion-based refinement method. This method uses pose-related features as conditional constraints for generative diversity, iteratively refining the pose estimation to achieve greater accuracy. Comparative experiments on the KITTI odometry dataset demonstrate that the proposed method achieves state-of-the-art performance among existing learning-based approaches. Furthermore, the proposed DiffLO method outperforms the classic A-LOAM on most evaluation sequences.",
       "source_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Huang_DiffLO_Semantic-Aware_LiDAR_Odometry_with_Diffusion-Based_Refinement_CVPR_2025_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Huang_DiffLO_Semantic-Aware_LiDAR_Odometry_with_Diffusion-Based_Refinement_CVPR_2025_paper.pdf",
       "evidence_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Huang_DiffLO_Semantic-Aware_LiDAR_Odometry_with_Diffusion-Based_Refinement_CVPR_2025_paper.html",
       "verified_at": "2026-10-21",
       "source_records": [
@@ -146310,18 +146375,23 @@
           "name": "Crossref",
           "url": "https://doi.org/10.1109/cvpr52734.2025.01589",
           "verified_at": "2026-11-09T11:34:15+08:00"
+        },
+        {
+          "name": "CVF Open Access",
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Huang_DiffLO_Semantic-Aware_LiDAR_Odometry_with_Diffusion-Based_Refinement_CVPR_2025_paper.html",
+          "verified_at": "2026-11-19T22:54:15+08:00"
         }
       ],
       "review_status": "included",
       "id": "cvpr-2025-difflo-semantic-aware-lidar-odometry-with-diffusion-based-refinement",
       "year": 2025,
       "summary_status": "reviewed",
-      "abstract": "LiDAR odometry is a critical module in autonomous driving systems, responsible for accurate localization by estimating the relative pose transformation between consecutive point cloud frames. However, existing studies frequently encounter challenges with unreliable pose estimation, due to the lack of in-depth understanding of scenario and the presence of noise interference. To address this challenge, we propose DiffLO, a semantic-aware LiDAR odometry network with diffusion-based refinement. To mitigate the impact of challenging cases such as dynamic, repetitive patterns, and low textures, we introduce a semantic distillation method that integrates semantic information into the odometry task. This allows the network to gain a semantic understanding of the scene, enabling it to focus more on the objects that are beneficial for pose estimation. Additionally, to enhance the robustness, we propose a diffusion-based refinement method. This method uses pose-related features as conditional constraints for generative diversity, iteratively refining the pose estimation to achieve greater accuracy. Comparative experiments on the KITTI odometry dataset demonstrate that the proposed method achieves state-of-the-art performance among existing learning-based approaches. Furthermore, the proposed DiffLO method outperforms the classic A-LOAM on most evaluation sequences.",
-      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Huang_DiffLO_Semantic-Aware_LiDAR_Odometry_with_Diffusion-Based_Refinement_CVPR_2025_paper.pdf",
+      "venue_full": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "doi": "10.1109/cvpr52734.2025.01589",
       "summary_zh": "动态物体、重复结构与噪声会降低相邻激光扫描的相对位姿估计可靠性。DiffLO 通过语义蒸馏引入场景理解，使里程计更关注有助于定位的物体，再以位姿相关特征为条件进行扩散式迭代细化。论文在 KITTI 里程计数据集比较学习方法和传统 A-LOAM，验证语义信息与生成式位姿修正的协同效果。",
       "curated": true,
       "publication_date_basis": "source-metadata",
-      "earliest_known_date": "2025-06",
+      "earliest_known_date": "2025",
       "catalogue_year": 2025,
       "publication_date_note": ""
     },
@@ -146610,7 +146680,12 @@
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1109/cvpr52734.2025.02539",
-          "verified_at": "2026-11-16T22:14:44+08:00"
+          "verified_at": "2026-11-19T22:54:06+08:00"
+        },
+        {
+          "name": "CVF Open Access",
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_DV-Matcher_Deformation-based_Non-rigid_Point_Cloud_Matching_Guided_by_Pre-trained_Visual_CVPR_2025_paper.html",
+          "verified_at": "2026-11-19T22:54:17+08:00"
         }
       ],
       "review_status": "included",
@@ -146625,7 +146700,7 @@
       "summary_evidence_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_DV-Matcher_Deformation-based_Non-rigid_Point_Cloud_Matching_Guided_by_Pre-trained_Visual_CVPR_2025_paper.html",
       "curated": true,
       "publication_date_basis": "source-metadata",
-      "earliest_known_date": "2025-06",
+      "earliest_known_date": "2025",
       "catalogue_year": 2025,
       "publication_date_note": ""
     },
@@ -150384,7 +150459,7 @@
       "source_url": "https://doi.org/10.1109/icra55743.2025.11128143",
       "pdf_url": "https://arxiv.org/pdf/2504.19716",
       "evidence_url": "https://api.crossref.org/works/10.1109%2Ficra55743.2025.11128143",
-      "verified_at": "2026-11-16T22:14:44+08:00",
+      "verified_at": "2026-11-19T22:54:06+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
@@ -150394,7 +150469,7 @@
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1109/icra55743.2025.11128143",
-          "verified_at": "2026-11-16T22:14:44+08:00"
+          "verified_at": "2026-11-19T22:54:06+08:00"
         },
         {
           "name": "arXiv",
@@ -159251,12 +159326,12 @@
       "source_url": "https://doi.org/10.1609/aaai.v39i3.32278",
       "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/32278/34433",
       "evidence_url": "https://api.crossref.org/works/10.1609%2Faaai.v39i3.32278",
-      "verified_at": "2026-11-16T22:14:44+08:00",
+      "verified_at": "2026-11-19T22:54:06+08:00",
       "source_records": [
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1609/aaai.v39i3.32278",
-          "verified_at": "2026-11-16T22:14:44+08:00"
+          "verified_at": "2026-11-19T22:54:06+08:00"
         }
       ],
       "review_status": "source-confirmed",
@@ -166803,7 +166878,7 @@
         {
           "name": "Crossref",
           "url": "https://doi.org/10.1007/s11263-025-02400-y",
-          "verified_at": "2026-11-16T22:14:44+08:00"
+          "verified_at": "2026-11-19T22:54:06+08:00"
         },
         {
           "name": "Springer official abstract",
@@ -193926,7 +194001,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.37218",
-      "verified_at": "2026-11-11T21:10:10+08:00",
+      "verified_at": "2026-11-19T22:54:03+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -193969,7 +194044,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.36658",
-      "verified_at": "2026-11-11T21:10:10+08:00",
+      "verified_at": "2026-11-19T22:54:03+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -194010,7 +194085,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.37111",
-      "verified_at": "2026-11-11T21:10:10+08:00",
+      "verified_at": "2026-11-19T22:54:03+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -194049,7 +194124,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.37557",
-      "verified_at": "2026-11-11T21:10:10+08:00",
+      "verified_at": "2026-11-19T22:54:03+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -194086,7 +194161,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.37217",
-      "verified_at": "2026-11-19T12:56:45+08:00",
+      "verified_at": "2026-11-19T22:54:03+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -194124,7 +194199,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.37350",
-      "verified_at": "2026-11-11T21:10:10+08:00",
+      "verified_at": "2026-11-19T22:54:03+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -194162,7 +194237,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.37000",
-      "verified_at": "2026-11-11T21:10:10+08:00",
+      "verified_at": "2026-11-19T22:54:03+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -194200,7 +194275,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.35642",
-      "verified_at": "2026-11-11T21:10:10+08:00",
+      "verified_at": "2026-11-19T22:53:56+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "cross",
@@ -194318,7 +194393,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.34850",
-      "verified_at": "2026-11-11T21:10:10+08:00",
+      "verified_at": "2026-11-19T22:53:56+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -194357,7 +194432,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.34271",
-      "verified_at": "2026-11-11T21:10:10+08:00",
+      "verified_at": "2026-11-19T22:53:56+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -194394,7 +194469,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.32645",
-      "verified_at": "2026-11-11T21:10:10+08:00",
+      "verified_at": "2026-11-19T22:53:55+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -194433,7 +194508,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.32976",
-      "verified_at": "2026-11-11T21:10:10+08:00",
+      "verified_at": "2026-11-19T22:53:56+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -194471,7 +194546,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.31797",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-19T22:53:55+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -194509,7 +194584,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.31455",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-19T22:53:55+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -194550,7 +194625,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.31321",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-19T22:53:55+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -194589,7 +194664,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.30609",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-19T22:53:55+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -194671,7 +194746,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.29647",
-      "verified_at": "2026-11-19T12:56:39+08:00",
+      "verified_at": "2026-11-19T22:53:55+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -194713,7 +194788,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.29845",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-19T22:53:55+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -194791,7 +194866,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.30053",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-19T22:53:55+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -194832,7 +194907,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.29257",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-19T22:53:55+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -194874,7 +194949,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.29454",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-19T22:53:55+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -194914,7 +194989,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.27410",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -194952,7 +195027,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.28701",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -194994,7 +195069,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.27617",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -195039,7 +195114,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.27522",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -195080,7 +195155,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.28098",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -195124,7 +195199,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.27616",
-      "verified_at": "2026-11-19T12:56:45+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -195161,7 +195236,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.25637",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -195210,7 +195285,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.26729",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -195252,7 +195327,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.27110",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -195293,7 +195368,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.26508",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -195331,7 +195406,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.27352",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -195367,7 +195442,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.26210",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -195406,7 +195481,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.25068",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -195444,7 +195519,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.25358",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -195489,7 +195564,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.25261",
-      "verified_at": "2026-11-11T21:10:01+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -195531,7 +195606,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.23019",
-      "verified_at": "2026-11-11T21:09:54+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -195571,7 +195646,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.24218",
-      "verified_at": "2026-11-11T21:09:54+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -195612,7 +195687,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.22878",
-      "verified_at": "2026-11-11T21:09:54+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -195649,7 +195724,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.23496",
-      "verified_at": "2026-11-11T21:09:54+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -195694,7 +195769,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.23595",
-      "verified_at": "2026-11-11T21:09:54+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -195733,7 +195808,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.23590",
-      "verified_at": "2026-11-11T21:09:54+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -195771,7 +195846,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.23001",
-      "verified_at": "2026-11-11T21:09:54+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -195811,7 +195886,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.21222",
-      "verified_at": "2026-11-11T21:09:54+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -195849,7 +195924,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.21367",
-      "verified_at": "2026-11-11T21:09:54+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -195888,7 +195963,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.22092",
-      "verified_at": "2026-11-11T21:09:54+08:00",
+      "verified_at": "2026-11-19T22:53:50+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -195927,7 +196002,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.21199",
-      "verified_at": "2026-11-11T21:09:54+08:00",
+      "verified_at": "2026-11-19T22:53:43+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -195970,7 +196045,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.20226",
-      "verified_at": "2026-11-11T21:09:54+08:00",
+      "verified_at": "2026-11-19T22:53:43+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -196008,7 +196083,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.19674",
-      "verified_at": "2026-11-11T21:09:54+08:00",
+      "verified_at": "2026-11-19T22:53:43+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -196046,7 +196121,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.19530",
-      "verified_at": "2026-11-11T21:09:54+08:00",
+      "verified_at": "2026-11-19T22:53:43+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -196088,7 +196163,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.20958",
-      "verified_at": "2026-11-11T21:09:54+08:00",
+      "verified_at": "2026-11-19T22:53:43+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -196128,7 +196203,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.18846",
-      "verified_at": "2026-11-11T21:09:54+08:00",
+      "verified_at": "2026-11-19T22:53:43+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -196169,7 +196244,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.19044",
-      "verified_at": "2026-11-11T21:09:54+08:00",
+      "verified_at": "2026-11-19T22:53:43+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -196210,7 +196285,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.19201",
-      "verified_at": "2026-11-11T21:09:54+08:00",
+      "verified_at": "2026-11-19T22:53:43+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -196259,7 +196334,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.16146",
-      "verified_at": "2026-11-11T21:09:54+08:00",
+      "verified_at": "2026-11-19T22:53:43+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -196302,7 +196377,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.16945",
-      "verified_at": "2026-11-11T21:09:54+08:00",
+      "verified_at": "2026-11-19T22:53:43+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -196341,7 +196416,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.13788",
-      "verified_at": "2026-11-11T21:09:48+08:00",
+      "verified_at": "2026-11-19T22:53:43+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -196383,7 +196458,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.12835",
-      "verified_at": "2026-11-11T21:09:48+08:00",
+      "verified_at": "2026-11-19T22:53:37+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -196422,7 +196497,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.11241",
-      "verified_at": "2026-11-11T21:09:48+08:00",
+      "verified_at": "2026-11-19T22:53:37+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -196463,7 +196538,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.11049",
-      "verified_at": "2026-11-11T21:09:48+08:00",
+      "verified_at": "2026-11-19T22:53:37+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -196510,7 +196585,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.12568",
-      "verified_at": "2026-11-11T21:09:48+08:00",
+      "verified_at": "2026-11-19T22:53:37+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -196551,7 +196626,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.08526",
-      "verified_at": "2026-11-11T21:09:40+08:00",
+      "verified_at": "2026-11-19T22:53:37+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -196589,7 +196664,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.07269",
-      "verified_at": "2026-11-11T21:09:40+08:00",
+      "verified_at": "2026-11-19T22:53:37+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -196628,7 +196703,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.06594",
-      "verified_at": "2026-11-11T21:09:40+08:00",
+      "verified_at": "2026-11-19T22:53:37+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "",
@@ -196723,7 +196798,7 @@
   ],
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-11-19T12:58:11+08:00",
+    "generated_at": "2026-11-19T22:54:53+08:00",
     "last_successful_update": null,
     "coverage_start": "2025-01-01",
     "coverage_end": "2026-11-19",
@@ -196731,7 +196806,7 @@
     "coverage_complete": false,
     "coverage_note": "关键词检索、元数据缺失及来源可用性会影响召回；本库不承诺穷尽所有相关论文。主题匹配且有录用证据的论文可收录为已录用，分别标注官方确认或作者声明；未录用 arXiv 候选仍须审阅。",
     "total_papers": 2737,
-    "candidate_count": 377,
+    "candidate_count": 553,
     "summary_counts": {
       "reviewed": 775,
       "generated": 821,
@@ -196812,14 +196887,14 @@
     {
       "name": "datacite",
       "status": "ok",
-      "last_attempt": "2026-11-19T12:55:49+08:00",
-      "last_success": "2026-11-19T12:55:59+08:00",
+      "last_attempt": "2026-11-19T22:52:43+08:00",
+      "last_success": "2026-11-19T22:53:02+08:00",
       "coverage_start": "2025-01-01",
       "coverage_end": "2026-11-19",
-      "query_start": "2026-10-03",
-      "records_found": 253,
+      "query_start": "2026-10-05",
+      "records_found": 449,
       "query_changed": false,
-      "pages_fetched": 9,
+      "pages_fetched": 12,
       "backfill_complete": true,
       "coverage_scope": "arxiv-registered-doi-metadata-keyword-search",
       "history_supported": true,
@@ -196829,12 +196904,12 @@
     {
       "name": "arxiv-rss",
       "status": "ok",
-      "last_attempt": "2026-11-19T12:55:59+08:00",
-      "last_success": "2026-11-19T12:56:05+08:00",
-      "coverage_start": "2026-11-18",
-      "coverage_end": "2026-11-18",
+      "last_attempt": "2026-11-19T22:53:02+08:00",
+      "last_success": "2026-11-19T22:53:08+08:00",
+      "coverage_start": "2026-11-19",
+      "coverage_end": "2026-11-19",
       "query_start": "2025-01-01",
-      "records_found": 16,
+      "records_found": 23,
       "query_changed": false,
       "pages_fetched": 3,
       "backfill_complete": false,
@@ -196844,47 +196919,47 @@
         {
           "feed": "cs.CV",
           "source_url": "https://rss.arxiv.org/rss/cs.CV",
-          "last_attempt": "2026-11-19T12:55:59+08:00",
-          "last_success": "2026-11-19T12:55:59+08:00",
-          "feed_date": "2026-11-18",
-          "last_build_date": "Wed, 18 Nov 2026 05:02:30 +0000",
-          "entries": 322,
-          "new": 175,
-          "cross": 32,
-          "ignored_updates": 115,
+          "last_attempt": "2026-11-19T22:53:02+08:00",
+          "last_success": "2026-11-19T22:53:02+08:00",
+          "feed_date": "2026-11-19",
+          "last_build_date": "Thu, 19 Nov 2026 05:00:04 +0000",
+          "entries": 340,
+          "new": 185,
+          "cross": 38,
+          "ignored_updates": 117,
           "invalid_entries": 0,
           "status": "ok",
-          "records_found": 10
+          "records_found": 14
         },
         {
           "feed": "cs.RO",
           "source_url": "https://rss.arxiv.org/rss/cs.RO",
-          "last_attempt": "2026-11-19T12:55:59+08:00",
-          "last_success": "2026-11-19T12:56:02+08:00",
-          "feed_date": "2026-11-18",
-          "last_build_date": "Wed, 18 Nov 2026 05:02:32 +0000",
-          "entries": 133,
-          "new": 65,
-          "cross": 24,
-          "ignored_updates": 44,
+          "last_attempt": "2026-11-19T22:53:02+08:00",
+          "last_success": "2026-11-19T22:53:05+08:00",
+          "feed_date": "2026-11-19",
+          "last_build_date": "Thu, 19 Nov 2026 05:00:11 +0000",
+          "entries": 140,
+          "new": 85,
+          "cross": 19,
+          "ignored_updates": 36,
           "invalid_entries": 0,
           "status": "ok",
-          "records_found": 5
+          "records_found": 6
         },
         {
           "feed": "cs.LG",
           "source_url": "https://rss.arxiv.org/rss/cs.LG",
-          "last_attempt": "2026-11-19T12:56:02+08:00",
-          "last_success": "2026-11-19T12:56:05+08:00",
-          "feed_date": "2026-11-18",
-          "last_build_date": "Wed, 18 Nov 2026 05:02:31 +0000",
-          "entries": 358,
-          "new": 107,
-          "cross": 104,
-          "ignored_updates": 147,
+          "last_attempt": "2026-11-19T22:53:05+08:00",
+          "last_success": "2026-11-19T22:53:08+08:00",
+          "feed_date": "2026-11-19",
+          "last_build_date": "Thu, 19 Nov 2026 05:00:01 +0000",
+          "entries": 370,
+          "new": 118,
+          "cross": 100,
+          "ignored_updates": 152,
           "invalid_entries": 0,
           "status": "ok",
-          "records_found": 1
+          "records_found": 3
         }
       ],
       "message": "Official RSS latest announcements only; historical coverage remains the arXiv API's responsibility."
@@ -196892,39 +196967,38 @@
     {
       "name": "arxiv",
       "status": "ok",
-      "last_attempt": "2026-11-19T12:56:05+08:00",
-      "last_success": "2026-11-19T12:57:02+08:00",
+      "last_attempt": "2026-11-19T22:53:08+08:00",
+      "last_success": "2026-11-19T22:54:03+08:00",
+      "coverage_start": "2025-01-01",
+      "coverage_end": "2026-11-19",
+      "query_start": "2026-10-05",
+      "records_found": 560,
+      "query_changed": false,
+      "pages_fetched": 8,
+      "backfill_complete": true
+    },
+    {
+      "name": "crossref",
+      "status": "ok",
+      "last_attempt": "2026-11-19T22:54:03+08:00",
+      "last_success": "2026-11-19T22:54:10+08:00",
       "coverage_start": "2025-01-01",
       "coverage_end": "2026-11-19",
       "query_start": "2026-10-01",
-      "records_found": 439,
+      "records_found": 23,
       "query_changed": false,
       "pages_fetched": 7,
       "backfill_complete": true
     },
     {
-      "name": "crossref",
-      "status": "incomplete",
-      "last_attempt": "2026-11-19T12:57:02+08:00",
-      "last_success": "2026-11-15T21:07:47+08:00",
-      "coverage_start": "2025-01-01",
-      "coverage_end": "2026-11-15",
-      "query_start": "2026-10-01",
-      "records_found": 72,
-      "query_changed": false,
-      "pages_fetched": 9,
-      "backfill_complete": true,
-      "message": "Page budget reached; saved cursors will resume on the next run."
-    },
-    {
       "name": "cvf",
       "status": "incomplete",
-      "last_attempt": "2026-11-19T12:57:11+08:00",
+      "last_attempt": "2026-11-19T22:54:10+08:00",
       "last_success": null,
       "coverage_start": "2025-01-01",
       "coverage_end": "2025-01-01",
       "query_start": "2025-01-01",
-      "records_found": 7,
+      "records_found": 9,
       "query_changed": false,
       "pages_fetched": 12,
       "backfill_complete": false,
@@ -196932,20 +197006,14 @@
     },
     {
       "name": "pmlr",
-      "status": "error",
-      "last_attempt": "2026-11-19T12:57:26+08:00",
+      "status": "incomplete",
+      "last_attempt": "2026-11-19T22:54:22+08:00",
       "last_success": null,
       "coverage_start": "2025-01-01",
       "coverage_end": "2025-01-01",
       "query_start": "2025-01-01",
       "records_found": 0,
       "query_changed": false,
-      "errors": [
-        {
-          "url": "https://proceedings.mlr.press/v267/ma25k.html",
-          "error": "ValueError: Missing or mismatched official publication metadata: https://proceedings.mlr.press/v267/ma25k.html"
-        }
-      ],
       "pages_fetched": 12,
       "backfill_complete": false,
       "message": "Page budget reached; saved cursors will resume on the next run."
@@ -196953,7 +197021,7 @@
     {
       "name": "neurips",
       "status": "incomplete",
-      "last_attempt": "2026-11-19T12:57:40+08:00",
+      "last_attempt": "2026-11-19T22:54:33+08:00",
       "last_success": null,
       "coverage_start": "2025-01-01",
       "coverage_end": "2025-01-01",
@@ -196967,7 +197035,7 @@
     {
       "name": "iclr",
       "status": "incomplete",
-      "last_attempt": "2026-11-19T12:57:53+08:00",
+      "last_attempt": "2026-11-19T22:54:40+08:00",
       "last_success": null,
       "coverage_start": "2025-01-01",
       "coverage_end": "2025-01-01",
