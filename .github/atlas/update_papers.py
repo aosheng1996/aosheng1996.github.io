@@ -322,8 +322,50 @@ def normalize_paper(record: dict, curated: bool = False) -> dict:
     return p
 
 
+def neurips_poster_identity(url) -> str:
+    """Only an individual official poster is an identity, never a directory."""
+    if not isinstance(url, str) or re.search(r"\s", url):
+        return ""
+    try:
+        parts = urllib.parse.urlsplit(url)
+        if (parts.scheme != "https" or parts.hostname != "neurips.cc" or parts.port is not None
+                or parts.username or parts.password or parts.query or parts.fragment):
+            return ""
+    except ValueError:
+        return ""
+    match = re.fullmatch(r"/virtual/(2025|2026)/poster/([1-9][0-9]*)/?", parts.path)
+    return f"neurips-poster:{match[1]}:{match[2]}" if match else ""
+
+
+def official_poster_keys(p: dict) -> list[str]:
+    urls = [p.get("source_url"), p.get("evidence_url")]
+    for field in ("source_records", "acceptance_evidence"):
+        entries = p.get(field)
+        if isinstance(entries, list):
+            urls.extend(entry.get("url") for entry in entries if isinstance(entry, dict))
+    return sorted({key for url in urls if (key := neurips_poster_identity(url))})
+
+
+def first_observed(p: dict):
+    # These are observation timestamps, not publication dates. Preserve the
+    # earliest known observation when refreshes replace verified_at later.
+    values = [p.get(field) for field in ("identity_first_seen_at", "verified_at", "summary_generated_at")]
+    values.extend(entry.get("verified_at") for entry in p.get("source_records", []) if isinstance(entry, dict))
+    valid = []
+    for value in values:
+        if not isinstance(value, str) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}(?:T.+)?", value):
+            continue
+        try:
+            parsed = dt.datetime.fromisoformat(value.replace("Z", "+00:00"))
+            parsed = parsed.replace(tzinfo=SHANGHAI) if parsed.tzinfo is None else parsed
+            valid.append((parsed.timestamp(), value))
+        except ValueError:
+            continue
+    return min(valid, default=(float("inf"), ""))
+
+
 def identity_keys(p: dict) -> list[str]:
-    return [prefix + value for prefix, value in (("doi:", clean_doi(p.get("doi"))), ("arxiv:", clean_arxiv(p.get("arxiv_id"))), ("title:", normalized(p["title"])) ) if value]
+    return [prefix + value for prefix, value in (("doi:", clean_doi(p.get("doi"))), ("arxiv:", clean_arxiv(p.get("arxiv_id"))), ("title:", normalized(p["title"])) ) if value] + official_poster_keys(p)
 
 
 def merge_records(records: list[dict]) -> list[dict]:
@@ -357,6 +399,19 @@ def merge_records(records: list[dict]) -> list[dict]:
         result = {}
         for p in ranked:
             result.update({k: v for k, v in p.items() if v not in (None, "", [], {})})
+        poster_keys = {key for p in group for key in official_poster_keys(p)}
+        if poster_keys:
+            # Curated summaries remain authoritative below, while a renamed
+            # official paper can refresh its title and abstract at the same
+            # publication/acceptance level. Lower-status metadata cannot win.
+            official = [p for p in group if status_rank(p) == status_rank(ranked[-1])
+                        and (p.get("publication_status") == "published" or (p.get("publication_status") == "accepted" and p.get("acceptance_basis") == "official"))
+                        and any(neurips_poster_identity(p.get(field)) for field in ("source_url", "evidence_url"))]
+            if official:
+                latest = max(official, key=lambda p: p.get("verified_at", ""))
+                for field in ("title", "abstract", "verified_at"):
+                    if latest.get(field):
+                        result[field] = latest[field]
         result["publication_date_basis"] = ranked[-1].get("publication_date_basis", "source-metadata")
         result["publication_date_note"] = ranked[-1].get("publication_date_note", "")
         acceptance = next((p for p in reversed(ranked) if valid_acceptance(p)), None)
@@ -380,7 +435,10 @@ def merge_records(records: list[dict]) -> list[dict]:
                 result.update({field: date_record[field] for field in ("published", "year")})
                 result["publication_date_basis"] = date_record.get("publication_date_basis", "source-metadata")
                 result["publication_date_note"] = date_record.get("publication_date_note", "")
-        result["id"] = group[0]["id"]
+        canonical = min(group, key=first_observed) if poster_keys and all(first_observed(p)[1] for p in group) else group[0]
+        result["id"] = canonical["id"]
+        if poster_keys and first_observed(canonical)[1]:
+            result["identity_first_seen_at"] = first_observed(canonical)[1]
         result["categories"] = sorted({c for p in group for c in p.get("categories", [])})
         summary_rank = {"pending": 0, "generated": 1, "reviewed": 2}
         _, summary = max(enumerate(group), key=lambda entry: (summary_rank.get(entry[1].get("summary_status", "pending"), 0), bool(entry[1].get("curated")), entry[1].get("verified_at", ""), entry[0]))
