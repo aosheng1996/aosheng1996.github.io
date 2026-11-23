@@ -81,7 +81,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.26516",
-          "verified_at": "2026-11-23T16:09:04+08:00"
+          "verified_at": "2026-11-23T16:17:33+08:00"
         }
       ],
       "review_status": "acceptance-confirmed",
@@ -148,7 +148,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.23754",
-          "verified_at": "2026-11-23T16:09:05+08:00"
+          "verified_at": "2026-11-23T16:17:33+08:00"
         },
         {
           "name": "arXiv RSS",
@@ -326,7 +326,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.17330",
-          "verified_at": "2026-11-23T16:09:32+08:00"
+          "verified_at": "2026-11-23T16:17:39+08:00"
         }
       ],
       "review_status": "included",
@@ -434,7 +434,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.15287",
-          "verified_at": "2026-11-23T16:09:32+08:00"
+          "verified_at": "2026-11-23T16:17:39+08:00"
         },
         {
           "name": "arXiv RSS",
@@ -565,7 +565,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.14440",
-          "verified_at": "2026-11-23T16:09:32+08:00"
+          "verified_at": "2026-11-23T16:17:39+08:00"
         },
         {
           "name": "NeurIPS official accepted programme",
@@ -741,7 +741,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.14838",
-          "verified_at": "2026-11-23T16:09:32+08:00"
+          "verified_at": "2026-11-23T16:17:39+08:00"
         },
         {
           "name": "DataCite arXiv DOI registry",
@@ -2017,12 +2017,12 @@
       "source_url": "https://arxiv.org/abs/2611.04748",
       "pdf_url": "https://arxiv.org/pdf/2611.04748",
       "evidence_url": "https://arxiv.org/abs/2611.04748",
-      "verified_at": "2026-11-23T16:09:32+08:00",
+      "verified_at": "2026-11-23T16:17:39+08:00",
       "source_records": [
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.04748",
-          "verified_at": "2026-11-23T16:09:32+08:00"
+          "verified_at": "2026-11-23T16:17:39+08:00"
         },
         {
           "name": "DataCite arXiv DOI registry",
@@ -5831,7 +5831,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2610.12624",
-          "verified_at": "2026-11-23T16:08:48+08:00"
+          "verified_at": "2026-11-23T16:17:26+08:00"
         },
         {
           "name": "NeurIPS official abstract dataset",
@@ -5841,7 +5841,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.12624",
-          "verified_at": "2026-11-23T16:09:14+08:00"
+          "verified_at": "2026-11-23T16:17:36+08:00"
         }
       ],
       "review_status": "included",
@@ -13032,12 +13032,12 @@
       "source_url": "https://arxiv.org/abs/2609.12557",
       "pdf_url": "https://arxiv.org/pdf/2609.12557",
       "evidence_url": "https://arxiv.org/abs/2609.12557",
-      "verified_at": "2026-11-23T16:09:32+08:00",
+      "verified_at": "2026-11-23T16:17:39+08:00",
       "source_records": [
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2609.12557",
-          "verified_at": "2026-11-23T16:09:32+08:00"
+          "verified_at": "2026-11-23T16:17:39+08:00"
         },
         {
           "name": "DataCite arXiv DOI registry",
@@ -22624,12 +22624,12 @@
       "source_url": "https://arxiv.org/abs/2607.02018",
       "pdf_url": "https://arxiv.org/pdf/2607.02018",
       "evidence_url": "https://arxiv.org/abs/2607.02018",
-      "verified_at": "2026-11-23T16:09:14+08:00",
+      "verified_at": "2026-11-23T16:17:36+08:00",
       "source_records": [
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2607.02018",
-          "verified_at": "2026-11-23T16:09:14+08:00"
+          "verified_at": "2026-11-23T16:17:36+08:00"
         }
       ],
       "review_status": "acceptance-claimed",
@@ -35134,18 +35134,7 @@
       "curated": true,
       "earliest_known_date": "2026",
       "catalogue_year": 2026,
-      "publication_date_note": "",
-      "accepted_venue": "CVPR",
-      "accepted_year": 2026,
-      "acceptance_basis": "author_claim",
-      "acceptance_evidence": [
-        {
-          "url": "https://arxiv.org/abs/2610.35501",
-          "kind": "arxiv-author-comment",
-          "quote": "Accepted to CVPR 2026 (Highlight)."
-        }
-      ],
-      "acceptance_note": "作者在 arXiv 元数据中声明录用于 CVPR 2026；尚未独立核验官方录用记录，不视为正式出版。"
+      "publication_date_note": ""
     },
     {
       "title": "Learning Coordinate-based Convolutional Kernels for Continuous SE(3) Equivariant and Efficient Point Cloud Analysis",
@@ -38548,12 +38537,12 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2611.22506",
-          "verified_at": "2026-11-23T16:08:46+08:00"
+          "verified_at": "2026-11-23T16:17:23+08:00"
         },
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2611.22506",
-          "verified_at": "2026-11-23T16:09:14+08:00"
+          "verified_at": "2026-11-23T16:17:36+08:00"
         },
         {
           "name": "CVF Open Access",
@@ -39511,8 +39500,6 @@
         "visual-localization"
       ],
       "abstract": "Inspired by how humans communicate spatial information, language-guided geo-localization has gained significant traction for its intuitive and practical value. Despite this progress, most methods still rely on a static, one-shot retrieval paradigm, which fails to handle the ambiguity and incompleteness inherent in real-world natural language descriptions. We propose a paradigm shift to reasoning retrieval and introduce Dialogue Place Recognition (DlgPR), which casts localization as an interactive, dialogue-driven reasoning process. To support this new task, we present DlgQuest-Cities, the first large-scale dialogue-based benchmark for place recognition, and a unified reasoning framework that couples a cross-modal multi-level retriever with an intelligent questioner, DQ-pilot. DQ-pilot is trained in a curriculum: supervised fine-tuning on a curated DQ-cities-20k subset followed by reinforcement refinement on a harder DQ-cities-10k split via GRPO. Two task-aligned metrics guide learning: a Discriminative Difficulty Index (DDI) for curriculum sampling and a Positional Retrieval Gain (PRG) reward that directly measures retrieval improvement induced by a question. Experiments show this reasoning-based approach significantly outperforms baselines. The code will be made publicly available upon acceptance.",
-      "arxiv_id": "2607.14115",
-      "doi": "10.48550/arxiv.2607.14115",
       "source_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Song_DialogueVPR_Towards_Conversational_Visual_Place_Recognition_CVPR_2026_paper.html",
       "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Song_DialogueVPR_Towards_Conversational_Visual_Place_Recognition_CVPR_2026_paper.pdf",
       "evidence_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Song_DialogueVPR_Towards_Conversational_Visual_Place_Recognition_CVPR_2026_paper.html",
@@ -39527,9 +39514,19 @@
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2607.14115",
           "verified_at": "2026-11-07T20:04:13+08:00"
+        },
+        {
+          "name": "CVF Open Access",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Song_DialogueVPR_Towards_Conversational_Visual_Place_Recognition_CVPR_2026_paper.html",
+          "verified_at": "2026-11-23T16:17:45+08:00"
         }
       ],
       "review_status": "included",
+      "id": "cvpr-2026-dialoguevpr-towards-conversational-visual-place-recognition",
+      "year": 2026,
+      "summary_status": "reviewed",
+      "arxiv_id": "2607.14115",
+      "doi": "10.48550/arxiv.2607.14115",
       "publication_date_basis": "source-metadata",
       "registry_created_at": "2026-07-17T02:05:07Z",
       "registry_updated_at": "2026-07-17T02:05:08Z",
@@ -39559,13 +39556,10 @@
         }
       ],
       "author_comment": "Accepted to CVPR 2026",
-      "id": "cvpr-2026-dialoguevpr-towards-conversational-visual-place-recognition",
-      "year": 2026,
-      "summary_status": "reviewed",
       "arxiv_updated_at": "2026-05-08T12:04:43Z",
       "summary_zh": "单次文本检索难以消除自然语言位置描述中的模糊与遗漏。DialogueVPR 将位置识别设计为交互式对话推理，结合跨模态多级检索器与主动提问模型，通过监督训练和强化优化选择能够提高位置检索结果的问题。论文构建 DlgQuest-Cities 基准，并以难度指标和位置检索增益度量对话对定位的帮助。",
       "curated": true,
-      "earliest_known_date": "2026-05-08",
+      "earliest_known_date": "2026",
       "catalogue_year": 2026,
       "publication_date_note": ""
     },
@@ -43942,7 +43936,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2605.22809",
-          "verified_at": "2026-11-23T16:08:48+08:00"
+          "verified_at": "2026-11-23T16:17:26+08:00"
         },
         {
           "name": "arXiv",
@@ -46714,7 +46708,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2605.11654",
-          "verified_at": "2026-11-23T16:08:46+08:00"
+          "verified_at": "2026-11-23T16:17:23+08:00"
         },
         {
           "name": "NeurIPS official accepted programme",
@@ -46729,7 +46723,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2605.11654",
-          "verified_at": "2026-11-23T16:09:14+08:00"
+          "verified_at": "2026-11-23T16:17:36+08:00"
         }
       ],
       "review_status": "included",
@@ -47605,108 +47599,6 @@
       "publication_date_note": ""
     },
     {
-      "title": "VIMCAN: Visual-Inertial 3D Human Pose Estimation with Hybrid Mamba-Cross-Attention Network",
-      "authors": [
-        "Zepeng Yang",
-        "Junxuan Bai",
-        "Hao Li",
-        "Ju Dai",
-        "Junjun Pan",
-        "Yongfeng Yin",
-        "Bin Li"
-      ],
-      "published": "2026-05-08",
-      "venue": "CVPR",
-      "publication_status": "accepted",
-      "categories": [
-        "visual-localization"
-      ],
-      "abstract": "The rapid advances in deep learning have significantly enhanced the accuracy of multimodal 3D human pose estimation (HPE). However, the state-of-the-art (SOTA) HPE pipelines still rely on Transformers, whose quadratic complexity makes real-time processing for long sequences impractical. Mamba addresses this issue through selective state-space modeling, enabling efficient sequence processing without sacrificing representational power. Nevertheless, it struggles to capture complex spatial dependencies in multimodal settings. To bridge this gap, we propose VIMCAN, a hybrid architecture that combines the efficient sequence modeling of Mamba with the spatial reasoning of Cross-Attention, and performs robust visual-inertial fusion and human pose estimation between RGB keypoints and wearable IMU data. By leveraging Mamba's dynamic parameterization for temporal modeling and Attention for spatial dependency extraction, VIMCAN achieves superior accuracy, with mean per-joint position errors (MPJPE) of 17.2 mm on TotalCapture and 45.3 mm on 3DPW. VIMCAN outperforms prior Transformer-based and other SOTA approaches while supporting real-time inference at over 60 frames per second on consumer-grade hardware. The source code is available at \\href{https://github.com/Eddieyzp/VIMCAN}{this GitHub repository}.",
-      "arxiv_id": "2605.07552",
-      "doi": "10.48550/arxiv.2605.07552",
-      "source_url": "https://arxiv.org/abs/2605.07552",
-      "pdf_url": "https://arxiv.org/pdf/2605.07552",
-      "evidence_url": "https://arxiv.org/abs/2605.07552",
-      "verified_at": "2026-11-07T20:04:03+08:00",
-      "source_records": [
-        {
-          "name": "DataCite arXiv DOI registry",
-          "url": "https://api.datacite.org/dois/10.48550/arxiv.2605.07552",
-          "verified_at": "2026-11-07T20:02:53+08:00"
-        },
-        {
-          "name": "arXiv",
-          "url": "https://arxiv.org/abs/2605.07552",
-          "verified_at": "2026-11-07T20:04:03+08:00"
-        }
-      ],
-      "review_status": "acceptance-claimed",
-      "publication_date_basis": "arxiv-api-published",
-      "registry_created_at": "2026-05-11T02:22:39Z",
-      "registry_updated_at": "2026-05-13T03:05:44Z",
-      "registry_registered_at": "2026-05-11T02:22:40Z",
-      "datacite_publication_year": 2026,
-      "datacite_submitted_at": [
-        "2026-05-08T10:28:05Z"
-      ],
-      "datacite_available": [
-        "2026-05"
-      ],
-      "registry_dates": [
-        {
-          "date": "2026-05-08T10:28:05Z",
-          "dateType": "Submitted",
-          "dateInformation": "v1"
-        },
-        {
-          "date": "2026-05-11T00:51:31Z",
-          "dateType": "Updated",
-          "dateInformation": "v1"
-        },
-        {
-          "date": "2026-05-12T08:12:04Z",
-          "dateType": "Submitted",
-          "dateInformation": "v2"
-        },
-        {
-          "date": "2026-05-13T00:46:00Z",
-          "dateType": "Updated",
-          "dateInformation": "v2"
-        },
-        {
-          "date": "2026-05",
-          "dateType": "Available",
-          "dateInformation": "v1"
-        },
-        {
-          "date": "2026",
-          "dateType": "Issued"
-        }
-      ],
-      "author_comment": "Accepted in CVPR 2026",
-      "id": "paper-efcc96673d7adfbe",
-      "year": 2026,
-      "summary_status": "generated",
-      "summary_zh": "本研究动机在于现有多模态三维人体姿态估计方法多依赖Transformer，其二次复杂度难以满足长序列实时处理需求，而Mamba虽能高效建模序列却弱于捕捉多模态空间依赖。为此，论文提出VIMCAN，一种结合Mamba与交叉注意力机制的混合网络，利用Mamba动态参数化进行时间建模，借助交叉注意力提取空间依赖，并在RGB关键点与可穿戴IMU数据间实现视觉-惯性融合与姿态估计。",
-      "earliest_known_date": "2026-05-08",
-      "summary_generated_at": "2026-10-25T08:09:33+08:00",
-      "summary_model": "hy3",
-      "catalogue_year": 2026,
-      "arxiv_updated_at": "2026-05-12T08:12:04Z",
-      "publication_date_note": "",
-      "accepted_venue": "CVPR",
-      "accepted_year": 2026,
-      "acceptance_basis": "author_claim",
-      "acceptance_evidence": [
-        {
-          "url": "https://arxiv.org/abs/2605.07552",
-          "kind": "arxiv-author-comment",
-          "quote": "Accepted in CVPR 2026"
-        }
-      ],
-      "acceptance_note": "作者在 arXiv 元数据中声明录用于 CVPR 2026；尚未独立核验官方录用记录，不视为正式出版。"
-    },
-    {
       "title": "Seeing Across Skies and Streets: Feedforward 3D Reconstruction from Satellite, Drone, and Ground Images",
       "authors": [
         "Qiwei Wang",
@@ -48123,7 +48015,7 @@
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2605.07351",
-          "verified_at": "2026-11-23T16:09:32+08:00"
+          "verified_at": "2026-11-23T16:17:39+08:00"
         }
       ],
       "review_status": "included",
@@ -50541,45 +50433,6 @@
       "acceptance_note": "作者在 arXiv 元数据中声明录用于 CVPR 2026；尚未独立核验官方录用记录，不视为正式出版。"
     },
     {
-      "title": "The Shape of Adversarial Influence: Characterizing LLM Latent Spaces with Persistent Homology",
-      "authors": [
-        "Aideen Fay",
-        "Inés García-Redondo",
-        "Qiquan Wang",
-        "Haim Dubossarsky",
-        "Anthea Monod"
-      ],
-      "year": 2026,
-      "published": "2026-04-20",
-      "venue": "ICLR",
-      "venue_full": "International Conference on Learning Representations",
-      "publication_status": "published",
-      "categories": [
-        "point-processing"
-      ],
-      "abstract": "Existing interpretability methods for Large Language Models (LLMs) predominantly capture linear directions or isolated features. This overlooks the high-dimensional, relational, and nonlinear geometry of model representations. We apply persistent homology (PH) to characterize how adversarial inputs reshape the geometry and topology of internal representation spaces of LLMs. This phenomenon, especially when considered across operationally different attack modes, remains poorly understood. We analyze six models (3.8B to 70B parameters) under two distinct attacks, indirect prompt injection and backdoor fine-tuning, and show that a consistent topological signature persists throughout. Adversarial inputs induce topological compression, where the latent space becomes structurally simpler, collapsing the latent space from varied, compact, small-scale features into fewer, dominant, large-scale ones. This signature is architecture-agnostic, emerges early in the network, and is highly discriminative across layers. By quantifying the shape of activation point clouds and neuron-level information flow, our framework reveals geometric invariants of representational change that complement existing linear interpretability methods.",
-      "summary_status": "pending",
-      "source_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/ec1ba7d8051b740b3ea54eb0c98efdbc-Abstract-Conference.html",
-      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/ec1ba7d8051b740b3ea54eb0c98efdbc-Abstract-Conference.html",
-      "verified_at": "2026-11-23T16:10:51+08:00",
-      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/ec1ba7d8051b740b3ea54eb0c98efdbc-Paper-Conference.pdf",
-      "source_records": [
-        {
-          "name": "ICLR official proceedings",
-          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/ec1ba7d8051b740b3ea54eb0c98efdbc-Abstract-Conference.html",
-          "verified_at": "2026-11-23T16:10:51+08:00"
-        }
-      ],
-      "review_status": "source-confirmed",
-      "publisher_record_date": "2026-04-20",
-      "publication_date_basis": "Official conference edition; publisher HTML deposit date retained separately",
-      "id": "paper-a67901647892bc4d",
-      "publication_date_note": "",
-      "summary_zh": "",
-      "earliest_known_date": "2026-04-20",
-      "catalogue_year": 2026
-    },
-    {
       "title": "Text-to-3D by Stitching a Multi-view Reconstruction Network to a Video Generator",
       "authors": [
         "Hyojun Go",
@@ -50614,10 +50467,10 @@
       "publisher_record_date": "2026-04-20",
       "publication_date_basis": "Official conference edition; publisher HTML deposit date retained separately",
       "id": "paper-7cc10de5e16de9c0",
-      "publication_date_note": "",
-      "summary_zh": "",
       "earliest_known_date": "2026-04-20",
-      "catalogue_year": 2026
+      "catalogue_year": 2026,
+      "publication_date_note": "",
+      "summary_zh": ""
     },
     {
       "title": "SAGE: Spatial-visual Adaptive Graph Exploration for Efficient Visual Place Recognition",
@@ -68221,7 +68074,7 @@
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2603.08860",
-          "verified_at": "2026-11-23T16:08:48+08:00"
+          "verified_at": "2026-11-23T16:17:26+08:00"
         },
         {
           "name": "arXiv",
@@ -79486,6 +79339,113 @@
       "acceptance_note": "NeurIPS 2026 官方会议目录确认录用（Main Conference）；本次未取得该届正式论文集记录，出版状态待后续核验。"
     },
     {
+      "title": "VIMCAN: Visual-Inertial 3D Human Pose Estimation with Hybrid Mamba-Cross-Attention Network",
+      "authors": [
+        "Yang, Zepeng",
+        "Bai, Junxuan",
+        "Li, Hao",
+        "Dai, Ju",
+        "Pan, Junjun",
+        "Yin, Yongfeng",
+        "Li, Bin"
+      ],
+      "published": "2026",
+      "venue": "CVPR",
+      "publication_status": "published",
+      "categories": [
+        "visual-localization"
+      ],
+      "abstract": "The rapid advances in deep learning have significantly enhanced the accuracy of multimodal 3D human pose estimation (HPE). However, the state-of-the-art (SOTA) HPE pipelines still rely on Transformers, whose quadratic complexity makes real-time processing for long sequences impractical. Mamba addresses this issue through selective state-space modeling, enabling efficient sequence processing without sacrificing representational power. Nevertheless, it struggles to capture complex spatial dependencies in multimodal settings. To bridge this gap, we propose VIMCAN, a hybrid architecture that combines the efficient sequence modeling of Mamba with the spatial reasoning of Cross-Attention, and performs robust visual-inertial fusion and human pose estimation between RGB keypoints and wearable IMU data. By leveraging Mamba's dynamic parameterization for temporal modeling and Attention for spatial dependency extraction, VIMCAN achieves superior accuracy, with mean per-joint position errors (MPJPE) of 17.2 mm on TotalCapture and 45.3 mm on 3DPW. VIMCAN outperforms prior Transformer-based and other SOTA approaches while supporting real-time inference at over 60 frames per second on consumer-grade hardware. The source code will be available on GitHub.",
+      "arxiv_id": "2605.07552",
+      "doi": "10.48550/arxiv.2605.07552",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_VIMCAN_Visual-Inertial_3D_Human_Pose_Estimation_with_Hybrid_Mamba-Cross-Attention_Network_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Yang_VIMCAN_Visual-Inertial_3D_Human_Pose_Estimation_with_Hybrid_Mamba-Cross-Attention_Network_CVPR_2026_paper.pdf",
+      "evidence_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_VIMCAN_Visual-Inertial_3D_Human_Pose_Estimation_with_Hybrid_Mamba-Cross-Attention_Network_CVPR_2026_paper.html",
+      "verified_at": "2026-11-23T16:17:49+08:00",
+      "source_records": [
+        {
+          "name": "DataCite arXiv DOI registry",
+          "url": "https://api.datacite.org/dois/10.48550/arxiv.2605.07552",
+          "verified_at": "2026-11-07T20:02:53+08:00"
+        },
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2605.07552",
+          "verified_at": "2026-11-07T20:04:03+08:00"
+        },
+        {
+          "name": "CVF Open Access",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_VIMCAN_Visual-Inertial_3D_Human_Pose_Estimation_with_Hybrid_Mamba-Cross-Attention_Network_CVPR_2026_paper.html",
+          "verified_at": "2026-11-23T16:17:49+08:00"
+        }
+      ],
+      "review_status": "source-confirmed",
+      "publication_date_basis": "source-metadata",
+      "registry_created_at": "2026-05-11T02:22:39Z",
+      "registry_updated_at": "2026-05-13T03:05:44Z",
+      "registry_registered_at": "2026-05-11T02:22:40Z",
+      "datacite_publication_year": 2026,
+      "datacite_submitted_at": [
+        "2026-05-08T10:28:05Z"
+      ],
+      "datacite_available": [
+        "2026-05"
+      ],
+      "registry_dates": [
+        {
+          "date": "2026-05-08T10:28:05Z",
+          "dateType": "Submitted",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2026-05-11T00:51:31Z",
+          "dateType": "Updated",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2026-05-12T08:12:04Z",
+          "dateType": "Submitted",
+          "dateInformation": "v2"
+        },
+        {
+          "date": "2026-05-13T00:46:00Z",
+          "dateType": "Updated",
+          "dateInformation": "v2"
+        },
+        {
+          "date": "2026-05",
+          "dateType": "Available",
+          "dateInformation": "v1"
+        },
+        {
+          "date": "2026",
+          "dateType": "Issued"
+        }
+      ],
+      "author_comment": "Accepted in CVPR 2026",
+      "id": "paper-efcc96673d7adfbe",
+      "year": 2026,
+      "summary_status": "generated",
+      "summary_zh": "本研究动机在于现有多模态三维人体姿态估计方法多依赖Transformer，其二次复杂度难以满足长序列实时处理需求，而Mamba虽能高效建模序列却弱于捕捉多模态空间依赖。为此，论文提出VIMCAN，一种结合Mamba与交叉注意力机制的混合网络，利用Mamba动态参数化进行时间建模，借助交叉注意力提取空间依赖，并在RGB关键点与可穿戴IMU数据间实现视觉-惯性融合与姿态估计。",
+      "earliest_known_date": "2026",
+      "summary_generated_at": "2026-10-25T08:09:33+08:00",
+      "summary_model": "hy3",
+      "catalogue_year": 2026,
+      "arxiv_updated_at": "2026-05-12T08:12:04Z",
+      "publication_date_note": "",
+      "accepted_venue": "CVPR",
+      "accepted_year": 2026,
+      "acceptance_basis": "author_claim",
+      "acceptance_evidence": [
+        {
+          "url": "https://arxiv.org/abs/2605.07552",
+          "kind": "arxiv-author-comment",
+          "quote": "Accepted in CVPR 2026"
+        }
+      ],
+      "acceptance_note": "作者在 arXiv 元数据中声明录用于 CVPR 2026；尚未独立核验官方录用记录，不视为正式出版。"
+    },
+    {
       "title": "VIGS-SLAM: Visual Inertial Gaussian Splatting SLAM",
       "authors": [
         "Zihan Zhu",
@@ -84283,18 +84243,7 @@
       "summary_model": "hy3",
       "catalogue_year": 2026,
       "arxiv_updated_at": "2026-04-13T14:57:52Z",
-      "publication_date_note": "",
-      "accepted_venue": "CVPR",
-      "accepted_year": 2026,
-      "acceptance_basis": "author_claim",
-      "acceptance_evidence": [
-        {
-          "url": "https://arxiv.org/abs/2604.11579",
-          "kind": "arxiv-author-comment",
-          "quote": "CVPR 2026."
-        }
-      ],
-      "acceptance_note": "作者在 arXiv 元数据中声明录用于 CVPR 2026；尚未独立核验官方录用记录，不视为正式出版。"
+      "publication_date_note": ""
     },
     {
       "title": "Sector-Level Cross-View Geo-Localization with Implicit Orientation via Azimuthal Scanning",
@@ -138319,13 +138268,14 @@
       ],
       "published": "2025-06-10",
       "venue": "CVPR",
-      "venue_full": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "publication_status": "published",
       "categories": [
         "point-processing"
       ],
-      "doi": "10.1109/cvpr52734.2025.01584",
+      "abstract": "Generalized few-shot 3D point cloud segmentation (GFS-PCS) adapts models to new classes with few support samples while retaining base class segmentation. Existing GFS-PCS methods enhance prototypes via interacting with support or query features but remain limited by sparse knowledge from few-shot samples. Meanwhile, 3D vision-language models (3D VLMs), generalizing across open-world novel classes, contain rich but noisy novel class knowledge. In this work, we introduce a GFS-PCS framework that synergizes dense but noisy pseudo-labels from 3D VLMs with precise yet sparse few-shot samples to maximize the strengths of both, named GFS-VL. Specifically, we present a prototype-guided pseudo-label selection to filter low-quality regions, followed by an adaptive infilling strategy that combines knowledge from pseudo-label contexts and few-shot samples to adaptively label the filtered, unlabeled areas. Additionally, we design a novel-base mix strategy to embed few-shot samples into training scenes, preserving essential context for improved novel class learning. Moreover, recognizing the limited diversity in current GFS-PCS benchmarks, we introduce two challenging benchmarks with diverse novel classes for comprehensive generalization evaluation. Experiments validate the effectiveness of our framework across models and datasets. Our approach and benchmarks provide a solid foundation for advancing GFS-PCS in the real world. The code is at here.",
       "source_url": "https://doi.org/10.1109/cvpr52734.2025.01584",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/An_Generalized_Few-shot_3D_Point_Cloud_Segmentation_with_Vision-Language_Model_CVPR_2025_paper.pdf",
+      "arxiv_id": "2503.16282",
       "evidence_url": "https://api.crossref.org/works/10.1109%2Fcvpr52734.2025.01584",
       "verified_at": "2026-10-21",
       "source_records": [
@@ -138348,15 +138298,19 @@
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2503.16282",
           "verified_at": "2026-11-02T10:38:52+08:00"
+        },
+        {
+          "name": "CVF Open Access",
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/html/An_Generalized_Few-shot_3D_Point_Cloud_Segmentation_with_Vision-Language_Model_CVPR_2025_paper.html",
+          "verified_at": "2026-11-23T16:17:43+08:00"
         }
       ],
       "review_status": "included",
       "id": "paper-5eae716ba6cd38bf",
       "year": 2025,
       "summary_status": "reviewed",
-      "abstract": "Generalized few-shot 3D point cloud segmentation (GFS-PCS) adapts models to new classes with few support samples while retaining base class segmentation. Existing GFS-PCS methods enhance prototypes via interacting with support or query features but remain limited by sparse knowledge from few-shot samples. Meanwhile, 3D vision-language models (3D VLMs), generalizing across open-world novel classes, contain rich but noisy novel class knowledge. In this work, we introduce a GFS-PCS framework that synergizes dense but noisy pseudo-labels from 3D VLMs with precise yet sparse few-shot samples to maximize the strengths of both, named GFS-VL. Specifically, we present a prototype-guided pseudo-label selection to filter low-quality regions, followed by an adaptive infilling strategy that combines knowledge from pseudo-label contexts and few-shot samples to adaptively label the filtered, unlabeled areas. Additionally, we design a novel-base mix strategy to embed few-shot samples into training scenes, preserving essential context for improved novel class learning. Moreover, recognizing the limited diversity in current GFS-PCS benchmarks, we introduce two challenging benchmarks with diverse novel classes for comprehensive generalization evaluation. Experiments validate the effectiveness of our framework across models and datasets. Our approach and benchmarks provide a solid foundation for advancing GFS-PCS in the real world. The code is at here.",
-      "arxiv_id": "2503.16282",
-      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/An_Generalized_Few-shot_3D_Point_Cloud_Segmentation_with_Vision-Language_Model_CVPR_2025_paper.pdf",
+      "venue_full": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "doi": "10.1109/cvpr52734.2025.01584",
       "publication_date_basis": "source-metadata",
       "registry_created_at": "2025-03-21T02:12:54Z",
       "registry_updated_at": "2025-05-21T02:33:44Z",
@@ -138405,7 +138359,7 @@
       "abstract_source_url": "https://openaccess.thecvf.com/content/CVPR2025/html/An_Generalized_Few-shot_3D_Point_Cloud_Segmentation_with_Vision-Language_Model_CVPR_2025_paper.html",
       "summary_evidence_url": "https://openaccess.thecvf.com/content/CVPR2025/html/An_Generalized_Few-shot_3D_Point_Cloud_Segmentation_with_Vision-Language_Model_CVPR_2025_paper.html",
       "curated": true,
-      "earliest_known_date": "2025-03",
+      "earliest_known_date": "2025",
       "catalogue_year": 2025,
       "publication_date_note": ""
     },
@@ -138824,17 +138778,17 @@
       "source_url": "https://arxiv.org/abs/2506.02849",
       "pdf_url": "https://arxiv.org/pdf/2506.02849",
       "evidence_url": "https://arxiv.org/abs/2506.02849",
-      "verified_at": "2026-11-23T16:09:14+08:00",
+      "verified_at": "2026-11-23T16:17:36+08:00",
       "source_records": [
         {
           "name": "DataCite arXiv DOI registry",
           "url": "https://api.datacite.org/dois/10.48550/arxiv.2506.02849",
-          "verified_at": "2026-11-23T16:08:48+08:00"
+          "verified_at": "2026-11-23T16:17:26+08:00"
         },
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2506.02849",
-          "verified_at": "2026-11-23T16:09:14+08:00"
+          "verified_at": "2026-11-23T16:17:36+08:00"
         }
       ],
       "review_status": "acceptance-claimed",
@@ -195642,7 +195596,7 @@
       "publication_status": "preprint",
       "review_status": "pending",
       "evidence_url": "https://arxiv.org/abs/2610.29647",
-      "verified_at": "2026-11-23T16:09:56+08:00",
+      "verified_at": "2026-11-23T16:17:39+08:00",
       "publication_date_basis": "arxiv-api-published",
       "publication_date_note": "",
       "rss_announce_type": "new",
@@ -197694,19 +197648,19 @@
   ],
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-11-23T16:10:55+08:00",
+    "generated_at": "2026-11-23T16:18:26+08:00",
     "last_successful_update": null,
     "coverage_start": "2025-01-01",
     "coverage_end": "2026-11-23",
     "collection_status": "partial",
     "coverage_complete": false,
     "coverage_note": "关键词检索、元数据缺失及来源可用性会影响召回；本库不承诺穷尽所有相关论文。主题匹配且有录用证据的论文可收录为已录用，分别标注官方确认或作者声明；未录用 arXiv 候选仍须审阅。",
-    "total_papers": 2746,
-    "candidate_count": 483,
+    "total_papers": 2745,
+    "candidate_count": 286,
     "summary_counts": {
       "reviewed": 775,
       "generated": 820,
-      "pending": 1151
+      "pending": 1150
     },
     "summary_errors": [],
     "schedule": {
@@ -197767,7 +197721,7 @@
     },
     "publication_counts": {
       "published": 2113,
-      "accepted": 632,
+      "accepted": 631,
       "preprint": 1
     },
     "catalogue_years": [
@@ -197783,8 +197737,8 @@
     {
       "name": "datacite",
       "status": "ok",
-      "last_attempt": "2026-11-23T16:08:39+08:00",
-      "last_success": "2026-11-23T16:08:48+08:00",
+      "last_attempt": "2026-11-23T16:16:39+08:00",
+      "last_success": "2026-11-23T16:17:26+08:00",
       "coverage_start": "2025-01-01",
       "coverage_end": "2026-11-23",
       "query_start": "2026-10-09",
@@ -197800,8 +197754,8 @@
     {
       "name": "arxiv-rss",
       "status": "ok",
-      "last_attempt": "2026-11-23T16:08:48+08:00",
-      "last_success": "2026-11-23T16:08:55+08:00",
+      "last_attempt": "2026-11-23T16:17:26+08:00",
+      "last_success": "2026-11-23T16:17:32+08:00",
       "coverage_start": "2026-11-23",
       "coverage_end": "2026-11-23",
       "query_start": "2025-01-01",
@@ -197815,8 +197769,8 @@
         {
           "feed": "cs.CV",
           "source_url": "https://rss.arxiv.org/rss/cs.CV",
-          "last_attempt": "2026-11-23T16:08:48+08:00",
-          "last_success": "2026-11-23T16:08:49+08:00",
+          "last_attempt": "2026-11-23T16:17:26+08:00",
+          "last_success": "2026-11-23T16:17:26+08:00",
           "feed_date": "2026-11-23",
           "last_build_date": "Mon, 23 Nov 2026 05:00:03 +0000",
           "entries": 271,
@@ -197830,8 +197784,8 @@
         {
           "feed": "cs.RO",
           "source_url": "https://rss.arxiv.org/rss/cs.RO",
-          "last_attempt": "2026-11-23T16:08:49+08:00",
-          "last_success": "2026-11-23T16:08:52+08:00",
+          "last_attempt": "2026-11-23T16:17:26+08:00",
+          "last_success": "2026-11-23T16:17:29+08:00",
           "feed_date": "2026-11-23",
           "last_build_date": "Mon, 23 Nov 2026 05:00:08 +0000",
           "entries": 125,
@@ -197845,8 +197799,8 @@
         {
           "feed": "cs.LG",
           "source_url": "https://rss.arxiv.org/rss/cs.LG",
-          "last_attempt": "2026-11-23T16:08:52+08:00",
-          "last_success": "2026-11-23T16:08:55+08:00",
+          "last_attempt": "2026-11-23T16:17:29+08:00",
+          "last_success": "2026-11-23T16:17:32+08:00",
           "feed_date": "2026-11-23",
           "last_build_date": "Mon, 23 Nov 2026 05:00:02 +0000",
           "entries": 304,
@@ -197863,21 +197817,21 @@
     {
       "name": "arxiv",
       "status": "ok",
-      "last_attempt": "2026-11-23T16:08:55+08:00",
-      "last_success": "2026-11-23T16:10:06+08:00",
+      "last_attempt": "2026-11-23T16:17:32+08:00",
+      "last_success": "2026-11-23T16:17:39+08:00",
       "coverage_start": "2025-01-01",
       "coverage_end": "2026-11-23",
       "query_start": "2026-10-09",
-      "records_found": 499,
+      "records_found": 219,
       "query_changed": false,
-      "pages_fetched": 7,
+      "pages_fetched": 3,
       "backfill_complete": true
     },
     {
       "name": "crossref",
       "status": "ok",
-      "last_attempt": "2026-11-23T16:10:06+08:00",
-      "last_success": "2026-11-23T16:10:06+08:00",
+      "last_attempt": "2026-11-23T16:17:39+08:00",
+      "last_success": "2026-11-23T16:17:39+08:00",
       "coverage_start": "2025-01-01",
       "coverage_end": "2026-11-23",
       "query_start": "2026-10-09",
@@ -197889,12 +197843,12 @@
     {
       "name": "cvf",
       "status": "incomplete",
-      "last_attempt": "2026-11-23T16:10:06+08:00",
+      "last_attempt": "2026-11-23T16:17:39+08:00",
       "last_success": null,
       "coverage_start": "2025-01-01",
       "coverage_end": "2025-01-01",
       "query_start": "2025-01-01",
-      "records_found": 6,
+      "records_found": 3,
       "query_changed": false,
       "pages_fetched": 12,
       "backfill_complete": false,
@@ -197903,7 +197857,7 @@
     {
       "name": "pmlr",
       "status": "incomplete",
-      "last_attempt": "2026-11-23T16:10:18+08:00",
+      "last_attempt": "2026-11-23T16:17:51+08:00",
       "last_success": null,
       "coverage_start": "2025-01-01",
       "coverage_end": "2025-01-01",
@@ -197917,7 +197871,7 @@
     {
       "name": "neurips",
       "status": "incomplete",
-      "last_attempt": "2026-11-23T16:10:29+08:00",
+      "last_attempt": "2026-11-23T16:18:02+08:00",
       "last_success": null,
       "coverage_start": "2025-01-01",
       "coverage_end": "2025-01-01",
@@ -197931,12 +197885,12 @@
     {
       "name": "iclr",
       "status": "incomplete",
-      "last_attempt": "2026-11-23T16:10:41+08:00",
+      "last_attempt": "2026-11-23T16:18:14+08:00",
       "last_success": null,
       "coverage_start": "2025-01-01",
       "coverage_end": "2025-01-01",
       "query_start": "2025-01-01",
-      "records_found": 2,
+      "records_found": 0,
       "query_changed": false,
       "pages_fetched": 12,
       "backfill_complete": false,
